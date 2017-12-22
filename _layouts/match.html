@@ -15,11 +15,10 @@
     <![endif]-->
   </head>
   <body>
-	{% assign match = site.data.matches[page.matchid] %}
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
 	<div style="clear: both">
-        <h1 style="float: left">{{ match.TeamA.Name | default: "Team A" }} vs. {{ match.TeamB.Name | default: "Team B" }}</h1>
+        <h1 style="float: left">{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }}</h1>
 		<h3 style="float: right"><a href="{{page.demourl}}">GOTV Demo</a></h3>
 	</div>
 	<br/>
@@ -30,9 +29,9 @@
       </header>
       <section>
 	  
-	  {% assign rounds = match.TotalRounds %}
-	  {% include teamstattable.html totalRounds=rounds players=match.Players teamIDs=match.TeamA.SteamIDs teamname=match.TeamA.Name %}
-	  {% include teamstattable.html totalRounds=rounds players=match.Players teamIDs=match.TeamB.SteamIDs teamname=match.TeamB.Name %}
+	  {% assign rounds = page.TotalRounds %}
+	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
+	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
       {{ content }}
 

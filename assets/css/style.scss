@@ -39,6 +39,23 @@
   border-collapse:collapse;
 }
 
+.matchtable {
+  border: 2px solid #ddd;
+  background: #f3f3f3;
+  width:100%;
+  border-collapse:collapse;
+}
+
+tr.spacer {
+	background-color: #dedede;
+	padding: 0px;
+	height: 2px;
+}
+
+tr.spacer > th {
+	padding: 0px;
+}
+
 .accordion {
     background-color: #eee;
     color: #444;

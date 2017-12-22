@@ -10,6 +10,15 @@ github_username:  mecwerks
 theme: jekyll-theme-modernist
 google_analytics: UA-111346607-1
 show_downloads: false
-
+page_gen:
+    - data: 'players'
+      template: 'player'
+      name: 'SteamID'
+      dir: 'players'
+    - data: 'matches'
+      template: 'match'
+      name: 'UID'
+      dir: 'matches'
+      
 # Build settings
 markdown: kramdown

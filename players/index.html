@@ -1,4 +1,0 @@
----
-layout: players
-permalink: players
----
