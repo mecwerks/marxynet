@@ -1,0 +1,27 @@
+{% assign currentName = "None" %}
+{% assign currentSteamID = "" %}
+{% assign currentCount = 0 %}
+{% assign currentMathNumber = 0 %}
+
+{% for player in site.data.players %}
+	{% assign steamid = player.SteamID | downcase %}
+	{% assign count = player[include.Field] %}
+	{% assign currentMathNumber = player[include.DivideByField] %}
+	{% unless include.DivideByField.blank == "" or include.DivideByField == nill %}
+		{% assign count = count | times: 1.0 %}
+		{% if player[include.DivideByField] != 0 %}
+			{% if include.NonPercent == true %}
+				{% assign count = count | divided_by: currentMathNumber | round: 2 %}
+			{% else %}
+				{% assign count = count | divided_by: currentMathNumber | times: 100 | round: 2 %}
+			{% endif %}
+		{% endif %}
+	{% endunless %}
+	{% if count > currentCount %}
+		{% assign currentName = player.Name %}
+		{% assign currentSteamID = steamid %}
+		{% assign currentCount = count %}
+	{% endif %}
+{% endfor %}
+
+<a href="/players/{{currentSteamID}}.html">{{currentName}}</a> ({{currentCount}}{{include.ValueAppend}})

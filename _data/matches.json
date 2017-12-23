@@ -105,19 +105,19 @@
         "Value": 9.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198065111042,
+        "Name": "Reihn",
+        "Value": 4.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198065111042,
+        "Name": "Reihn",
+        "Value": 8.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198042795726,
+        "Name": "♕ Luck ღ",
+        "Value": 6.0
       }
     },
     "Players": {
@@ -129,8 +129,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 6,
         "TeamKills": 1,
         "AWPKills": 3,
         "DamageDealt": 2251,
@@ -141,6 +141,8 @@
         "Headshots": 3,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -168,8 +170,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 6,
         "DamageDealt": 2412,
@@ -180,12 +182,14 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -207,8 +211,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 8,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 6359,
@@ -219,12 +223,14 @@
         "Headshots": 22,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -246,8 +252,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 6,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 1568,
@@ -258,6 +264,8 @@
         "Headshots": 2,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": true,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -286,7 +294,7 @@
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 951,
@@ -297,6 +305,8 @@
         "Headshots": 3,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": true,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -324,8 +334,8 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 1,
         "TeamKills": 1,
         "AWPKills": 5,
         "DamageDealt": 2150,
@@ -336,12 +346,14 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -363,8 +375,8 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 6,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2457,
@@ -375,13 +387,15 @@
         "Headshots": 3,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -402,8 +416,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 8,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3216,
@@ -414,14 +428,16 @@
         "Headshots": 12,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": true,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
-          "3": 0,
+          "1": 1,
+          "2": 2,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -442,7 +458,7 @@
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2366,
@@ -453,6 +469,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -480,8 +498,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 2,
         "DamageDealt": 4048,
@@ -492,6 +510,8 @@
         "Headshots": 17,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -519,7 +539,7 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
+        "TradeKills": 4,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -531,6 +551,8 @@
         "Headshots": 11,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 27,
+        "RoundsWon": 11,
         "Disconnected": false,
         "Matches": [
           "pug_cs_office_2017-12-03_18"
@@ -653,19 +675,19 @@
         "Value": 7.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198081203263,
+        "Name": "Yui Hirasawa",
+        "Value": 1.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198081203263,
+        "Name": "Yui Hirasawa",
+        "Value": 7.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198081203263,
+        "Name": "Yui Hirasawa",
+        "Value": 4.0
       }
     },
     "Players": {
@@ -677,8 +699,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3190,
@@ -689,6 +711,8 @@
         "Headshots": 10,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
@@ -716,8 +740,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 3835,
@@ -728,6 +752,8 @@
         "Headshots": 14,
         "Defuses": 0,
         "Plants": 5,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
@@ -755,8 +781,8 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 7,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2241,
@@ -767,12 +793,14 @@
         "Headshots": 4,
         "Defuses": 1,
         "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -795,7 +823,7 @@
         "FlashAssists": 0,
         "MVPs": 3,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2752,
@@ -806,6 +834,8 @@
         "Headshots": 9,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
@@ -833,8 +863,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3324,
@@ -845,12 +875,14 @@
         "Headshots": 13,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -872,8 +904,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 7,
         "DamageDealt": 2192,
@@ -884,12 +916,14 @@
         "Headshots": 6,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -911,8 +945,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 1,
         "TeamKills": 1,
         "AWPKills": 0,
         "DamageDealt": 2455,
@@ -923,12 +957,14 @@
         "Headshots": 7,
         "Defuses": 1,
         "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -950,8 +986,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2486,
@@ -962,6 +998,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
@@ -990,7 +1028,7 @@
         "FlashAssists": 0,
         "MVPs": 0,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 844,
@@ -1001,6 +1039,8 @@
         "Headshots": 0,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": true,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
@@ -1028,8 +1068,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1392,
@@ -1040,12 +1080,14 @@
         "Headshots": 2,
         "Defuses": 0,
         "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -1162,19 +1204,19 @@
         "Value": 6.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 2.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198256748178,
+        "Name": "Wormy",
+        "Value": 7.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198071477737,
+        "Name": "K csgoboss.com",
+        "Value": 5.0
       }
     },
     "Players": {
@@ -1186,8 +1228,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2268,
@@ -1198,12 +1240,14 @@
         "Headshots": 6,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -1225,8 +1269,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1259,
@@ -1237,6 +1281,8 @@
         "Headshots": 4,
         "Defuses": 1,
         "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1264,8 +1310,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 2,
         "DamageDealt": 3159,
@@ -1276,6 +1322,8 @@
         "Headshots": 7,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1303,8 +1351,8 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 2053,
@@ -1315,6 +1363,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1342,8 +1392,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2427,
@@ -1354,12 +1404,14 @@
         "Headshots": 10,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": true,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 2,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -1381,8 +1433,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 7,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 6,
         "DamageDealt": 3738,
@@ -1393,6 +1445,8 @@
         "Headshots": 9,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1420,8 +1474,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 2961,
@@ -1432,12 +1486,14 @@
         "Headshots": 6,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 2,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -1459,8 +1515,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1494,
@@ -1471,6 +1527,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1498,7 +1556,7 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
+        "TradeKills": 3,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -1510,13 +1568,15 @@
         "Headshots": 9,
         "Defuses": 0,
         "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -1537,8 +1597,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 2749,
@@ -1549,6 +1609,8 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 4,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_cache_2017-08-19_00"
@@ -1667,19 +1729,19 @@
         "Value": 21.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 5.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 1.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 2.0
       }
     },
     "Players": {
@@ -1691,8 +1753,8 @@
         "Assists": 0,
         "FlashAssists": 0,
         "MVPs": 15,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 3805,
@@ -1703,6 +1765,8 @@
         "Headshots": 11,
         "Defuses": 1,
         "Plants": 2,
+        "TotalRounds": 34,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_dust2_2017-12-15_22"
@@ -1742,12 +1806,14 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 34,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_dust2_2017-12-15_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 5,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -1769,7 +1835,7 @@
         "Assists": 0,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
+        "TradeKills": 1,
         "TimesTraded": 0,
         "TeamKills": 2,
         "AWPKills": 5,
@@ -1781,6 +1847,8 @@
         "Headshots": 2,
         "Defuses": 0,
         "Plants": 4,
+        "TotalRounds": 34,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_dust2_2017-12-15_22"
@@ -1909,19 +1977,19 @@
         "Value": 6.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198072042202,
+        "Name": "Ant-iwnl-",
+        "Value": 3.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 6.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198079742537,
+        "Name": "Catnip",
+        "Value": 5.0
       }
     },
     "Players": {
@@ -1933,8 +2001,8 @@
         "Assists": 10,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 3,
         "TeamKills": 1,
         "AWPKills": 3,
         "DamageDealt": 4165,
@@ -1945,6 +2013,8 @@
         "Headshots": 10,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -1972,8 +2042,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2334,
@@ -1984,12 +2054,14 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -2011,8 +2083,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 4,
         "DamageDealt": 3583,
@@ -2023,6 +2095,8 @@
         "Headshots": 7,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -2050,8 +2124,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3170,
@@ -2062,13 +2136,15 @@
         "Headshots": 10,
         "Defuses": 0,
         "Plants": 4,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -2089,8 +2165,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 2,
         "DamageDealt": 2732,
@@ -2101,6 +2177,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -2128,8 +2206,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 4,
         "DamageDealt": 2221,
@@ -2140,6 +2218,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
         "Disconnected": true,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -2167,8 +2247,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 2,
         "TeamKills": 1,
         "AWPKills": 3,
         "DamageDealt": 1810,
@@ -2179,6 +2259,8 @@
         "Headshots": 4,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
         "Disconnected": true,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -2206,7 +2288,7 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
+        "TradeKills": 6,
         "TimesTraded": 0,
         "TeamKills": 1,
         "AWPKills": 5,
@@ -2218,6 +2300,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
@@ -2245,8 +2329,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2028,
@@ -2257,12 +2341,14 @@
         "Headshots": 5,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -2284,8 +2370,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 3,
         "TeamKills": 1,
         "AWPKills": 5,
         "DamageDealt": 3129,
@@ -2296,13 +2382,15 @@
         "Headshots": 15,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 2,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -2453,19 +2541,19 @@
         "Value": 10.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 5.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198072042202,
+        "Name": "Ant-iwnl-",
+        "Value": 15.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 13.0
       }
     },
     "Players": {
@@ -2477,8 +2565,8 @@
         "Assists": 11,
         "FlashAssists": 0,
         "MVPs": 11,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 15,
+        "TimesTraded": 5,
         "TeamKills": 1,
         "AWPKills": 11,
         "DamageDealt": 9823,
@@ -2489,13 +2577,15 @@
         "Headshots": 15,
         "Defuses": 2,
         "Plants": 3,
+        "TotalRounds": 59,
+        "RoundsWon": 35,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -2516,8 +2606,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 12,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 9,
+        "TimesTraded": 4,
         "TeamKills": 1,
         "AWPKills": 13,
         "DamageDealt": 9910,
@@ -2528,13 +2618,15 @@
         "Headshots": 36,
         "Defuses": 3,
         "Plants": 3,
+        "TotalRounds": 59,
+        "RoundsWon": 24,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 3,
+          "2": 2,
           "3": 0,
           "4": 0,
           "5": 0
@@ -2555,8 +2647,8 @@
         "Assists": 12,
         "FlashAssists": 0,
         "MVPs": 8,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 10,
         "TeamKills": 0,
         "AWPKills": 3,
         "DamageDealt": 5295,
@@ -2567,12 +2659,14 @@
         "Headshots": 11,
         "Defuses": 1,
         "Plants": 4,
+        "TotalRounds": 59,
+        "RoundsWon": 24,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -2594,8 +2688,8 @@
         "Assists": 12,
         "FlashAssists": 0,
         "MVPs": 8,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 9,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 7259,
@@ -2606,6 +2700,8 @@
         "Headshots": 25,
         "Defuses": 1,
         "Plants": 4,
+        "TotalRounds": 59,
+        "RoundsWon": 35,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
@@ -2633,8 +2729,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 8,
+        "TimesTraded": 8,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2863,
@@ -2645,14 +2741,16 @@
         "Headshots": 14,
         "Defuses": 1,
         "Plants": 2,
+        "TotalRounds": 59,
+        "RoundsWon": 24,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
-          "3": 0,
+          "2": 1,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -2672,8 +2770,8 @@
         "Assists": 11,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 7,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3953,
@@ -2684,6 +2782,8 @@
         "Headshots": 5,
         "Defuses": 2,
         "Plants": 2,
+        "TotalRounds": 59,
+        "RoundsWon": 35,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
@@ -2711,8 +2811,8 @@
         "Assists": 11,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 5,
         "TeamKills": 1,
         "AWPKills": 1,
         "DamageDealt": 4792,
@@ -2723,6 +2823,8 @@
         "Headshots": 14,
         "Defuses": 0,
         "Plants": 6,
+        "TotalRounds": 59,
+        "RoundsWon": 24,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
@@ -2750,8 +2852,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 13,
         "TeamKills": 0,
         "AWPKills": 6,
         "DamageDealt": 5937,
@@ -2762,13 +2864,15 @@
         "Headshots": 13,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 59,
+        "RoundsWon": 35,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -2789,8 +2893,8 @@
         "Assists": 14,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 11,
+        "TimesTraded": 7,
         "TeamKills": 1,
         "AWPKills": 0,
         "DamageDealt": 7494,
@@ -2801,6 +2905,8 @@
         "Headshots": 21,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 59,
+        "RoundsWon": 24,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
@@ -2828,8 +2934,8 @@
         "Assists": 13,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 5342,
@@ -2840,6 +2946,8 @@
         "Headshots": 10,
         "Defuses": 0,
         "Plants": 4,
+        "TotalRounds": 59,
+        "RoundsWon": 35,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
@@ -2980,19 +3088,19 @@
         "Value": 11.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198072042202,
+        "Name": "Ant-iwnl-",
+        "Value": 2.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198072042202,
+        "Name": "Ant-iwnl-",
+        "Value": 7.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 7.0
       }
     },
     "Players": {
@@ -3004,8 +3112,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 8,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 7,
         "TeamKills": 0,
         "AWPKills": 8,
         "DamageDealt": 6555,
@@ -3016,6 +3124,8 @@
         "Headshots": 18,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 41,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3043,8 +3153,8 @@
         "Assists": 10,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 7,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 5020,
@@ -3055,13 +3165,15 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 2,
           "3": 0,
           "4": 0,
           "5": 0
@@ -3082,8 +3194,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 20,
         "DamageDealt": 4762,
@@ -3094,6 +3206,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3121,8 +3235,8 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 3997,
@@ -3133,6 +3247,8 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 41,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3160,8 +3276,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 9,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 3,
         "DamageDealt": 5299,
@@ -3172,6 +3288,8 @@
         "Headshots": 15,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3179,7 +3297,7 @@
         "Clutches": {
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -3199,8 +3317,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 3861,
@@ -3211,6 +3329,8 @@
         "Headshots": 11,
         "Defuses": 0,
         "Plants": 8,
+        "TotalRounds": 41,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3239,7 +3359,7 @@
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 6,
         "TeamKills": 1,
         "AWPKills": 1,
         "DamageDealt": 2269,
@@ -3250,6 +3370,8 @@
         "Headshots": 0,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3277,8 +3399,8 @@
         "Assists": 8,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 7,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 4385,
@@ -3289,12 +3411,14 @@
         "Headshots": 13,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 41,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -3316,8 +3440,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 6,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2545,
@@ -3328,12 +3452,14 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 3,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -3355,8 +3481,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 3,
         "TeamKills": 1,
         "AWPKills": 6,
         "DamageDealt": 3033,
@@ -3367,6 +3493,8 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 41,
+        "RoundsWon": 18,
         "Disconnected": false,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3406,6 +3534,8 @@
         "Headshots": 0,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 41,
+        "RoundsWon": 23,
         "Disconnected": true,
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
@@ -3529,19 +3659,19 @@
         "Value": 6.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198117966816,
+        "Name": "rî§К",
+        "Value": 2.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198104649119,
+        "Name": "M",
+        "Value": 6.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198084911409,
+        "Name": "Fenton | powered by depression",
+        "Value": 6.0
       }
     },
     "Players": {
@@ -3553,7 +3683,7 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
+        "TradeKills": 2,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -3565,13 +3695,15 @@
         "Headshots": 8,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -3592,8 +3724,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 7,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 3278,
@@ -3604,12 +3736,14 @@
         "Headshots": 9,
         "Defuses": 3,
         "Plants": 5,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 2,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -3632,7 +3766,7 @@
         "FlashAssists": 0,
         "MVPs": 2,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 7,
         "DamageDealt": 3536,
@@ -3643,6 +3777,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3670,8 +3806,8 @@
         "Assists": 10,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 3,
         "DamageDealt": 3179,
@@ -3682,6 +3818,8 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3709,8 +3847,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 6,
+        "TimesTraded": 5,
         "TeamKills": 2,
         "AWPKills": 0,
         "DamageDealt": 4071,
@@ -3721,6 +3859,8 @@
         "Headshots": 14,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3748,8 +3888,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 6,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2890,
@@ -3760,6 +3900,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3787,8 +3929,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 2359,
@@ -3799,6 +3941,8 @@
         "Headshots": 4,
         "Defuses": 1,
         "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3806,7 +3950,7 @@
         "Clutches": {
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -3826,8 +3970,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 3141,
@@ -3838,6 +3982,8 @@
         "Headshots": 10,
         "Defuses": 1,
         "Plants": 0,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -3865,8 +4011,8 @@
         "Assists": 0,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1544,
@@ -3877,12 +4023,14 @@
         "Headshots": 4,
         "Defuses": 1,
         "Plants": 4,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -3905,7 +4053,7 @@
         "FlashAssists": 0,
         "MVPs": 0,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 672,
@@ -3916,6 +4064,8 @@
         "Headshots": 0,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
@@ -4028,19 +4178,19 @@
         "Value": 9.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 3.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 2.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198071477737,
+        "Name": "K",
+        "Value": 2.0
       }
     },
     "Players": {
@@ -4053,7 +4203,7 @@
         "FlashAssists": 0,
         "MVPs": 2,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 1459,
@@ -4064,6 +4214,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 22,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
@@ -4091,7 +4243,7 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 9,
-        "TradeKills": 0,
+        "TradeKills": 1,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -4103,13 +4255,15 @@
         "Headshots": 4,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 22,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -4130,8 +4284,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 2,
         "TeamKills": 1,
         "AWPKills": 0,
         "DamageDealt": 1855,
@@ -4142,6 +4296,8 @@
         "Headshots": 4,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 22,
+        "RoundsWon": 6,
         "Disconnected": false,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
@@ -4181,6 +4337,8 @@
         "Headshots": 0,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 22,
+        "RoundsWon": 6,
         "Disconnected": true,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
@@ -4208,8 +4366,8 @@
         "Assists": 0,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 1,
         "TeamKills": 2,
         "AWPKills": 0,
         "DamageDealt": 2133,
@@ -4220,13 +4378,15 @@
         "Headshots": 8,
         "Defuses": 0,
         "Plants": 4,
+        "TotalRounds": 22,
+        "RoundsWon": 6,
         "Disconnected": false,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 2,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -4259,13 +4419,15 @@
         "Headshots": 3,
         "Defuses": 3,
         "Plants": 1,
+        "TotalRounds": 22,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_nache_2017-12-16_00"
         ],
         "Clutches": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -4380,19 +4542,19 @@
         "Value": 9.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198256748178,
+        "Name": "Mike Nolan",
+        "Value": 2.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198072042202,
+        "Name": "Ant-iwnl-",
+        "Value": 4.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 4.0
       }
     },
     "Players": {
@@ -4404,8 +4566,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 5,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2331,
@@ -4416,6 +4578,8 @@
         "Headshots": 4,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4443,8 +4607,8 @@
         "Assists": 4,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 3,
         "DamageDealt": 3240,
@@ -4455,6 +4619,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4482,8 +4648,8 @@
         "Assists": 6,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 4,
         "TeamKills": 1,
         "AWPKills": 5,
         "DamageDealt": 2360,
@@ -4494,6 +4660,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": true,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4522,7 +4690,7 @@
         "FlashAssists": 0,
         "MVPs": 3,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 2947,
@@ -4533,6 +4701,8 @@
         "Headshots": 9,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4560,8 +4730,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 2,
         "DamageDealt": 1280,
@@ -4572,12 +4742,14 @@
         "Headshots": 1,
         "Defuses": 0,
         "Plants": 3,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -4600,7 +4772,7 @@
         "FlashAssists": 0,
         "MVPs": 0,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1643,
@@ -4611,6 +4783,8 @@
         "Headshots": 1,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4638,7 +4812,7 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
+        "TradeKills": 3,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -4650,12 +4824,14 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -4677,8 +4853,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 4,
         "DamageDealt": 2202,
@@ -4689,14 +4865,16 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -4716,8 +4894,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 1639,
@@ -4728,6 +4906,8 @@
         "Headshots": 4,
         "Defuses": 0,
         "Plants": 3,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4755,8 +4935,8 @@
         "Assists": 7,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 4,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 5,
         "DamageDealt": 3750,
@@ -4767,6 +4947,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
@@ -4888,19 +5070,19 @@
         "Value": 4.0
       },
       "ClutchMaster": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 2.0
       },
       "TradeCraft": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561198067076932,
+        "Name": "[IFN] Police Academy [M]",
+        "Value": 5.0
       },
       "FragBait": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
+        "SteamID": 76561197972321876,
+        "Name": "the innocent hostage",
+        "Value": 4.0
       }
     },
     "Players": {
@@ -4912,8 +5094,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 3,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 3,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2700,
@@ -4924,6 +5106,8 @@
         "Headshots": 6,
         "Defuses": 0,
         "Plants": 2,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -4952,7 +5136,7 @@
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 886,
@@ -4963,6 +5147,8 @@
         "Headshots": 2,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": true,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -4990,7 +5176,7 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
+        "TradeKills": 1,
         "TimesTraded": 0,
         "TeamKills": 0,
         "AWPKills": 0,
@@ -5002,13 +5188,15 @@
         "Headshots": 6,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
         "Clutches": {
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -5029,8 +5217,8 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 1,
         "TeamKills": 2,
         "AWPKills": 2,
         "DamageDealt": 2655,
@@ -5041,6 +5229,8 @@
         "Headshots": 13,
         "Defuses": 1,
         "Plants": 3,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -5068,8 +5258,8 @@
         "Assists": 5,
         "FlashAssists": 0,
         "MVPs": 6,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 10,
         "DamageDealt": 3268,
@@ -5080,12 +5270,14 @@
         "Headshots": 9,
         "Defuses": 1,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -5107,8 +5299,8 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 3,
+        "TimesTraded": 1,
         "TeamKills": 0,
         "AWPKills": 4,
         "DamageDealt": 3150,
@@ -5119,6 +5311,8 @@
         "Headshots": 12,
         "Defuses": 1,
         "Plants": 2,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -5126,7 +5320,7 @@
         "Clutches": {
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -5146,7 +5340,7 @@
         "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
+        "TradeKills": 1,
         "TimesTraded": 0,
         "TeamKills": 2,
         "AWPKills": 0,
@@ -5158,6 +5352,8 @@
         "Headshots": 3,
         "Defuses": 2,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -5185,8 +5381,8 @@
         "Assists": 1,
         "FlashAssists": 0,
         "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 2,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 2720,
@@ -5197,12 +5393,14 @@
         "Headshots": 7,
         "Defuses": 0,
         "Plants": 5,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": true,
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -5225,7 +5423,7 @@
         "FlashAssists": 0,
         "MVPs": 2,
         "TradeKills": 0,
-        "TimesTraded": 0,
+        "TimesTraded": 2,
         "TeamKills": 0,
         "AWPKills": 0,
         "DamageDealt": 2100,
@@ -5236,6 +5434,8 @@
         "Headshots": 7,
         "Defuses": 0,
         "Plants": 0,
+        "TotalRounds": 23,
+        "RoundsWon": 7,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
@@ -5243,7 +5443,7 @@
         "Clutches": {
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -5263,8 +5463,8 @@
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 1,
+        "TimesTraded": 4,
         "TeamKills": 0,
         "AWPKills": 1,
         "DamageDealt": 1178,
@@ -5275,12 +5475,14 @@
         "Headshots": 5,
         "Defuses": 0,
         "Plants": 1,
+        "TotalRounds": 23,
+        "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
