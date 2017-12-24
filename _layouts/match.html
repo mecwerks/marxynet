@@ -29,6 +29,7 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
       </header>
+      {% include navbar.html %}
       <section>
 	  
 	  {% assign rounds = page.TotalRounds %}
