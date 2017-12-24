@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <title>{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }} ({{ page.TeamA.RoundsWon }}-{{ page.TeamB.RoundsWon }})</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -10,6 +11,7 @@
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
+    {% include favicon.html %}
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,7 +20,7 @@
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
 	<div style="clear: both">
-        <h1 style="float: left">{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }}</h1>
+        <h1 style="float: left">{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }} ({{ page.TeamA.RoundsWon }}-{{ page.TeamB.RoundsWon }})</h1>
 		<h3 style="float: right"><a href="{{page.demourl}}">GOTV Demo</a></h3>
 	</div>
 	<br/>
@@ -33,6 +35,8 @@
 	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
 	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
+    <table id="matchWinGraph">
+    </table>    
       {{ content }}
 
       </section>

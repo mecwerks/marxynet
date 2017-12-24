@@ -33,6 +33,14 @@
   border-collapse:collapse;
 }
 
+#clickable tr:hover {
+    background-color: #ccc;
+}
+
+#clickable td:hover {
+    cursor: url(hand.cur), pointer;
+}
+
 .fullTable {
   background: #f3f3f3;
   width:100%;

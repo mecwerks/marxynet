@@ -9,6 +9,7 @@
    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
    <script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
+  {% include favicon.html %}
    <!--[if lt IE 9]>
    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
    <![endif]-->
@@ -22,43 +23,26 @@
       <br/>
       <br/>
       {% if site.description or site.github.project_tagline %}
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
       {% endif %}
       </header>
       <section>
          {{ content }}
-         <div align="center" class="matchresult">
-            <table class="matchtable">
-               {% for matchArr in site.data.matches %}
-               {% assign match = matchArr[1] %}
-               {% if match.TeamA.RoundsWon > match.TeamB.RoundsWon %}
-               {% assign scoreAClass = "scoreWinner" %}
-               {% assign scoreBClass = "scoreLoser" %}
-               {% elsif match.TeamA.RoundsWon < match.TeamB.RoundsWon%}
-               {% assign scoreAClass = "scoreLoser" %}
-               {% assign scoreBClass = "scoreWinner" %}
-               {% else %}
-               {% assign scoreAClass = "scoreTie" %}
-               {% assign scoreBClass = "scoreTie" %}
-               {% endif %}		
-               <tr class='clickable-row' href='/matches/{{match.UID}}.html'>
-                  <td style="text-align: right">
-                     {{match.TeamA.Name}} 
-                  </td>
-                  <td style="text-align: center">
-                     <span class="{{scoreAClass}}">{{match.TeamA.RoundsWon}}</span>
-                     -
-                     <span class="{{scoreBClass}}">{{match.TeamB.RoundsWon}}</span>
-                  </td>
-                  <td>
-                     {{match.TeamB.Name}}
-                  </td>
-                  <td>
-                     {{match.MapName}} 
-                  </td>
-               </tr>
-               {% endfor %}
-            </table>
+         <div align="center" class="playerlist">
+         <table id="clickable" class="halfTable">
+              {% assign playerids = "" | split: "," %}
+              {% for match in site.data.matches %}
+                {% for playerid in match.SteamIDs %}
+                  {% assign playerid = palyerid | downcase %}
+                  {% unless playerids contains playerid %}
+                    {% assign playerids = playerids | push: playerid %}
+                    <tr class="clickablerow" href="/players/{{playerid}}.html">
+                      <th style="text-align: center">{{match.Players[playerid].Name}}</th>
+                    </tr>
+                  {% endunless %}
+                {% endfor %}
+              {% endfor %}
+          </table>
          </div>
       </section>
    </div>
@@ -69,13 +53,13 @@
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
    </footer>
    <script>
-      var acc = document.getElementsByClassName("clickable-row");
+      var acc = document.getElementsByClassName("clickablerow");
       
       var i;
       
       for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-      window.location = this.getAttribute("href");
+        acc[i].addEventListener("click", function() {
+        window.location = this.getAttribute("href");
       });
       }
    </script>
