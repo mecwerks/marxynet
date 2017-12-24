@@ -3,6 +3,7 @@
     "UID": "pug_cs_office_2017-12-03_18",
     "MapName": "cs_office",
     "TotalRounds": 27,
+    "UnixTime": 1512342000.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -578,6 +579,7 @@
     "UID": "pug_cs_office_2017-12-23_22",
     "MapName": "cs_office",
     "TotalRounds": 23,
+    "UnixTime": 1514084400.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -1106,6 +1108,7 @@
     "UID": "pug_de_cache_2017-08-08_01",
     "MapName": "de_cache",
     "TotalRounds": 24,
+    "UnixTime": 1502172000.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -1635,6 +1638,7 @@
     "UID": "pug_de_cache_2017-08-19_00",
     "MapName": "de_cache",
     "TotalRounds": 24,
+    "UnixTime": 1503118800.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -2164,6 +2168,7 @@
     "UID": "pug_de_cache_2017-12-18_22",
     "MapName": "de_cache",
     "TotalRounds": 24,
+    "UnixTime": 1513652400.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -2693,6 +2698,7 @@
     "UID": "pug_de_dust2_2017-12-23_23",
     "MapName": "de_dust2",
     "TotalRounds": 23,
+    "UnixTime": 1514088000.0,
     "TeamA": {
       "Name": "No, this is Patrick",
       "SteamIDs": [
@@ -3221,6 +3227,7 @@
     "UID": "pug_de_inferno_2017-12-10_23",
     "MapName": "de_inferno",
     "TotalRounds": 30,
+    "UnixTime": 1512964800.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -3756,6 +3763,7 @@
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "MapName": "workshop/822144441/de_inferno_old",
     "TotalRounds": 59,
+    "UnixTime": 1513483200.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -4320,6 +4328,7 @@
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "MapName": "workshop/822144441/de_inferno_old",
     "TotalRounds": 41,
+    "UnixTime": 1513566000.0,
     "TeamA": {
       "Name": "No, this is Patrick",
       "SteamIDs": [
@@ -4908,6 +4917,7 @@
     "UID": "pug_de_mirage_2017-08-07_22",
     "MapName": "de_mirage",
     "TotalRounds": 25,
+    "UnixTime": 1502161200.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -5438,6 +5448,7 @@
     "UID": "pug_de_mirage_2017-12-20_18",
     "MapName": "de_mirage",
     "TotalRounds": 28,
+    "UnixTime": 1513810800.0,
     "TeamA": {
       "Name": "No, this is Patrick",
       "SteamIDs": [
@@ -6014,6 +6025,7 @@
     "UID": "pug_de_mirage_2017-12-21_23",
     "MapName": "de_mirage",
     "TotalRounds": 25,
+    "UnixTime": 1513915200.0,
     "TeamA": {
       "Name": "No, this is Patrick",
       "SteamIDs": [
@@ -6544,6 +6556,7 @@
     "UID": "pug_de_overpass_2017-08-08_22",
     "MapName": "de_overpass",
     "TotalRounds": 23,
+    "UnixTime": 1502247600.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -7072,6 +7085,7 @@
     "UID": "pug_de_overpass_2017-12-21_21",
     "MapName": "de_overpass",
     "TotalRounds": 30,
+    "UnixTime": 1513908000.0,
     "TeamA": {
       "Name": "PSU HBG > UP",
       "SteamIDs": [
@@ -7607,6 +7621,7 @@
     "UID": "pug_de_season_2017-12-15_00",
     "MapName": "workshop/322837144/de_season",
     "TotalRounds": 23,
+    "UnixTime": 1513314000.0,
     "TeamA": {
       "Name": "Team 1",
       "SteamIDs": [
@@ -8135,6 +8150,7 @@
     "UID": "pug_de_train_2017-12-22_00",
     "MapName": "de_train",
     "TotalRounds": 24,
+    "UnixTime": 1513918800.0,
     "TeamA": {
       "Name": "No, this is Patrick",
       "SteamIDs": [
