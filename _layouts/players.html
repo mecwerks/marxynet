@@ -30,20 +30,16 @@
          {{ content }}
          <div align="center" class="playerlist">
          <table id="clickable" class="halfTable, sortable">
-              <tr>
-                <th style="text-align: center">Players</th>
-              </tr>
+              {% assign players = site.data.players | sort_natural: 'Name' %}
               {% assign playerids = "" | split: "," %}
-              {% for match in site.data.matches %}
-                {% for playerid in match.SteamIDs %}
-                  {% assign playerid = palyerid | downcase %}
-                  {% unless playerids contains playerid %}
-                    {% assign playerids = playerids | push: playerid %}
-                    <tr class="clickablerow" href="/players/{{playerid}}.html">
-                      <th style="text-align: center">{{match.Players[playerid].Name}}</th>
-                    </tr>
-                  {% endunless %}
-                {% endfor %}
+              {% for player in players %}
+                {% assign playerid = player.SteamID | downcase %}
+                {% unless playerids contains playerid %}
+                  {% assign playerids = playerids | push: playerid %}
+                  <tr class="clickablerow" href="/players/{{playerid}}.html">
+                    <th style="text-align: center">{{player.Name}}</th>
+                  </tr>
+                {% endunless %}
               {% endfor %}
           </table>
          </div>
