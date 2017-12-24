@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  {% include ads.html %}
   <div class="wrapper">
     <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
       <div style="clear: both">
@@ -29,9 +30,9 @@
     <section>
       {{ content }}
       <div align="center" class="matchresult">
-          {% assign currentMonth = 0 %}
+          {% assign currentMonth = 13 %}
           {% assign newMonth = false %}
-          {% assign matches = site.data.matches | sort: "UnixTime" %}
+          {% assign matches = site.data.matches | sort: "UnixTime" | reverse %}
           {% for match in matches %} 
             {% if match.TeamA.RoundsWon > match.TeamB.RoundsWon %} 
               {% assign scoreAClass = "scoreWinner"%} 
@@ -45,8 +46,8 @@
             {% endif %} 
 
             {% assign monthString = match.Year | append: "-" | append: match.Month | append: "-" | append: match.Day | append: "T" | append: match.Hour | append: ":00:00" %}
-            {% if match.Month > currentMonth %}
-              {% unless currentMonth == 0 %}
+            {% if match.Month < currentMonth %}
+              {% unless currentMonth == 13 %}
                 </table>
               {% endunless %}
               <table class="matchtable">

@@ -26,6 +26,13 @@
  color:#4286f4;
 }
 
+.adsbygoogle {
+  right: 0px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+}
+
 .halfTable {
   background: #f3f3f3;
   border: 2px solid #ddd;
@@ -33,12 +40,12 @@
   border-collapse:collapse;
 }
 
-#clickable tr:hover {
+tr:hover {
     background-color: #ccc;
 }
 
-#clickable td:hover {
-    cursor: url(hand.cur), pointer;
+td:hover {
+    cursor: pointer;
 }
 
 .fullTable {
