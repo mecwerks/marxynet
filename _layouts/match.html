@@ -35,8 +35,86 @@
 	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
 	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
-    <table id="matchWinGraph">
-    </table>    
+    <div align="center">
+      <table class="fullTable">
+        <thead>
+      		<tr class="header">
+            <th></th>
+            {% for teamBPlayer in page.TeamB.SteamIDs %}
+              {% assign teamBPlayerID = teamBPlayer | downcase %}
+              <th style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for teamAPlayer in page.TeamA.SteamIDs %}
+            {% assign teamAPlayerID = teamAPlayer | downcase %}
+            <tr>
+              <th style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
+              <td style="text-align: center">0</td>
+              <td style="text-align: center">0</td>
+              <td style="text-align: center">0</td>
+              <td style="text-align: center">0</td>
+              <td style="text-align: center">0</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      </div>
+      <div>
+      <table>
+        <tr>
+            <th style="text-align: center">Execute Order 66</th>
+            {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">The Kendoll</th>
+            {% assign steamid = page.Awards.TheKendoll.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">Terminator</th>
+            {% assign steamid = page.Awards.Terminator.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">The Proffesional</th>
+            {% assign steamid = page.Awards.TheProffesional.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">Lending Hand</th>
+            {% assign steamid = page.Awards.LendingHand.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">The Assasin</th>
+            {% assign steamid = page.Awards.TheAssasin.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">The Entry</th>
+            {% assign steamid = page.Awards.TheEntry.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">Clutch Master</th>
+            {% assign steamid = page.Awards.ClutchMaster.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">Trade Craft</th>
+            {% assign steamid = page.Awards.TradeCraft.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+        <tr>
+            <th style="text-align: center">Frag Bait</th>
+            {% assign steamid = page.Awards.FragBait.SteamID | downcase %}
+            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+        </tr>
+      </table>
+    </div> 
       {{ content }}
 
       </section>
