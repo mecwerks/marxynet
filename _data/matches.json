@@ -288,9 +288,9 @@
       "76561198001808454": {
         "Name": "ｉｓｍ",
         "SteamID": 76561198001808454,
-        "Kills": 0,
-        "Deaths": 0,
-        "Assists": 0,
+        "Kills": 6,
+        "Deaths": 12,
+        "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
@@ -1626,6 +1626,535 @@
           "1": 10,
           "2": 2,
           "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      }
+    }
+  },
+  {
+    "UID": "pug_de_cache_2017-12-18_22",
+    "MapName": "de_cache",
+    "TotalRounds": 24,
+    "TeamA": {
+      "Name": "Team 1",
+      "SteamIDs": [
+        "76561198001808454",
+        "76561198148070517",
+        "76561198071477737",
+        "76561198055295222",
+        "76561198100421553"
+      ],
+      "RoundsWon": 8
+    },
+    "TeamB": {
+      "Name": "No, this is Patrick",
+      "SteamIDs": [
+        "76561198072042202",
+        "76561198393693567",
+        "76561198257100849",
+        "76561198271442417",
+        "76561198137565812"
+      ],
+      "RoundsWon": 16
+    },
+    "SteamIDs": [
+      "76561198001808454",
+      "76561198148070517",
+      "76561198072042202",
+      "76561198071477737",
+      "76561198055295222",
+      "76561198393693567",
+      "76561198257100849",
+      "76561198100421553",
+      "76561198271442417",
+      "76561198137565812"
+    ],
+    "RoundWinReasons": [
+      "TerroristWin",
+      "TargetBombed",
+      "TargetBombed",
+      "BombDefused",
+      "TargetBombed",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "TerroristWin",
+      "BombDefused",
+      "CTWin",
+      "CTWin",
+      "BombDefused",
+      "CTWin",
+      "BombDefused",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "BombDefused",
+      "TerroristWin",
+      "TargetBombed",
+      "TargetBombed",
+      "TargetBombed",
+      "TerroristWin"
+    ],
+    "Awards": {
+      "ExecuteOrder66": {
+        "SteamID": 76561198055295222,
+        "Name": "Froztbitten",
+        "Value": 1.0
+      },
+      "TheKendoll": {
+        "SteamID": 76561198055295222,
+        "Name": "Froztbitten",
+        "Value": 11.0
+      },
+      "Terminator": {
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 30.0
+      },
+      "TheProffesional": {
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 5242.0
+      },
+      "LendingHand": {
+        "SteamID": 76561198137565812,
+        "Name": "✪ WAZZI",
+        "Value": 7.0
+      },
+      "TheAssasin": {
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 13.0
+      },
+      "TheEntry": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 5.0
+      },
+      "ClutchMaster": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 1.0
+      },
+      "TradeCraft": {
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 9.0
+      },
+      "FragBait": {
+        "SteamID": 76561198071477737,
+        "Name": "K",
+        "Value": 6.0
+      }
+    },
+    "Players": {
+      "76561198001808454": {
+        "Name": "ISM",
+        "SteamID": 76561198001808454,
+        "Kills": 15,
+        "Deaths": 19,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 1,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 4,
+        "DamageDealt": 2146,
+        "ArmorDamageDealt": 232,
+        "FirstKills": 5,
+        "FirstDeaths": 10,
+        "KASTRounds": 14,
+        "Headshots": 4,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 5,
+          "2": 5,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198148070517": {
+        "Name": "Devyn",
+        "SteamID": 76561198148070517,
+        "Kills": 21,
+        "Deaths": 18,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 7,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2972,
+        "ArmorDamageDealt": 396,
+        "FirstKills": 4,
+        "FirstDeaths": 0,
+        "KASTRounds": 15,
+        "Headshots": 16,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 4,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198072042202": {
+        "Name": "A",
+        "SteamID": 76561198072042202,
+        "Kills": 18,
+        "Deaths": 13,
+        "Assists": 1,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 2,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 2,
+        "DamageDealt": 2344,
+        "ArmorDamageDealt": 342,
+        "FirstKills": 2,
+        "FirstDeaths": 1,
+        "KASTRounds": 14,
+        "Headshots": 5,
+        "Defuses": 1,
+        "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198071477737": {
+        "Name": "K",
+        "SteamID": 76561198071477737,
+        "Kills": 10,
+        "Deaths": 19,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 3,
+        "TimesTraded": 6,
+        "TeamKills": 0,
+        "AWPKills": 1,
+        "DamageDealt": 1637,
+        "ArmorDamageDealt": 184,
+        "FirstKills": 1,
+        "FirstDeaths": 2,
+        "KASTRounds": 15,
+        "Headshots": 5,
+        "Defuses": 0,
+        "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 9,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198055295222": {
+        "Name": "Froztbitten",
+        "SteamID": 76561198055295222,
+        "Kills": 10,
+        "Deaths": 17,
+        "Assists": 0,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 2,
+        "TimesTraded": 2,
+        "TeamKills": 1,
+        "AWPKills": 2,
+        "DamageDealt": 1815,
+        "ArmorDamageDealt": 207,
+        "FirstKills": 0,
+        "FirstDeaths": 0,
+        "KASTRounds": 11,
+        "Headshots": 6,
+        "Defuses": 1,
+        "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198393693567": {
+        "Name": "Vash the Stampede",
+        "SteamID": 76561198393693567,
+        "Kills": 30,
+        "Deaths": 11,
+        "Assists": 6,
+        "FlashAssists": 0,
+        "MVPs": 5,
+        "TradeKills": 9,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 13,
+        "DamageDealt": 5242,
+        "ArmorDamageDealt": 282,
+        "FirstKills": 3,
+        "FirstDeaths": 1,
+        "KASTRounds": 21,
+        "Headshots": 13,
+        "Defuses": 2,
+        "Plants": 3,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 9,
+          "2": 7,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198257100849": {
+        "Name": "imReedy",
+        "SteamID": 76561198257100849,
+        "Kills": 13,
+        "Deaths": 17,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 5,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 1625,
+        "ArmorDamageDealt": 208,
+        "FirstKills": 2,
+        "FirstDeaths": 7,
+        "KASTRounds": 14,
+        "Headshots": 6,
+        "Defuses": 1,
+        "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 9,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198100421553": {
+        "Name": "Cam",
+        "SteamID": 76561198100421553,
+        "Kills": 17,
+        "Deaths": 21,
+        "Assists": 2,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 3,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 8,
+        "DamageDealt": 2910,
+        "ArmorDamageDealt": 131,
+        "FirstKills": 2,
+        "FirstDeaths": 0,
+        "KASTRounds": 14,
+        "Headshots": 7,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198271442417": {
+        "Name": "flipNDipp",
+        "SteamID": 76561198271442417,
+        "Kills": 15,
+        "Deaths": 18,
+        "Assists": 1,
+        "FlashAssists": 0,
+        "MVPs": 5,
+        "TradeKills": 2,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 2,
+        "DamageDealt": 2422,
+        "ArmorDamageDealt": 170,
+        "FirstKills": 3,
+        "FirstDeaths": 2,
+        "KASTRounds": 12,
+        "Headshots": 6,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 5,
+          "2": 5,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198137565812": {
+        "Name": "✪ WAZZI",
+        "SteamID": 76561198137565812,
+        "Kills": 17,
+        "Deaths": 15,
+        "Assists": 7,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 4,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 1,
+        "DamageDealt": 2511,
+        "ArmorDamageDealt": 357,
+        "FirstKills": 2,
+        "FirstDeaths": 1,
+        "KASTRounds": 18,
+        "Headshots": 11,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_cache_2017-12-18_22"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 3,
+          "3": 0,
           "4": 0,
           "5": 0
         }
@@ -3850,137 +4379,563 @@
     }
   },
   {
-    "UID": "pug_de_nache_2017-12-16_00",
-    "MapName": "workshop/861824983/de_nache",
-    "TotalRounds": 22,
+    "UID": "pug_de_mirage_2017-12-20_18",
+    "MapName": "de_mirage",
+    "TotalRounds": 28,
     "TeamA": {
-      "Name": "Team 1",
+      "Name": "No, this is Patrick",
       "SteamIDs": [
-        "76561198071477737",
-        "76561198072042202",
-        "76561198148070517"
+        "76561198117966816",
+        "76561198084911409",
+        "76561198393693567",
+        "76561198081203263",
+        "76561198148070517",
+        "76561198071477737"
       ],
-      "RoundsWon": 6
+      "RoundsWon": 12
     },
     "TeamB": {
-      "Name": "Team 2",
+      "Name": "PSU HBG > UP",
       "SteamIDs": [
-        "76561198393693567",
-        "76561198038963123",
-        "76561198081203263"
+        "76561198072042202",
+        "76561198001808454",
+        "76561198055295222",
+        "76561198256748178",
+        "76561198118562612"
       ],
       "RoundsWon": 16
     },
     "SteamIDs": [
-      "76561198393693567",
-      "76561198038963123",
-      "76561198071477737",
       "76561198072042202",
+      "76561198001808454",
+      "76561198055295222",
+      "76561198117966816",
+      "76561198084911409",
+      "76561198393693567",
+      "76561198256748178",
+      "76561198118562612",
+      "76561198081203263",
       "76561198148070517",
-      "76561198081203263"
+      "76561198071477737"
     ],
     "RoundWinReasons": [
       "CTWin",
+      "CTWin",
+      "CTWin",
+      "CTWin",
+      "TargetSaved",
+      "CTWin",
+      "BombDefused",
       "TerroristWin",
+      "CTWin",
       "BombDefused",
       "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
       "CTWin",
+      "CTWin",
+      "CTWin",
+      "CTWin",
+      "CTWin",
+      "TerroristWin",
       "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
       "TerroristWin",
       "TerroristWin",
+      "CTWin",
+      "CTWin",
       "TerroristWin",
       "TerroristWin"
     ],
     "Awards": {
       "ExecuteOrder66": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 2.0
+        "SteamID": 0,
+        "Name": "",
+        "Value": 0.0
       },
       "TheKendoll": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
-      },
-      "Terminator": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 15.0
-      },
-      "TheProffesional": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 2133.0
-      },
-      "LendingHand": {
-        "SteamID": 76561198393693567,
-        "Name": "Vash the Stampede",
-        "Value": 3.0
-      },
-      "TheAssasin": {
-        "SteamID": 0,
-        "Name": "",
-        "Value": 0.0
-      },
-      "TheEntry": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 9.0
-      },
-      "ClutchMaster": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 3.0
-      },
-      "TradeCraft": {
-        "SteamID": 76561198148070517,
-        "Name": "Devyn",
-        "Value": 2.0
-      },
-      "FragBait": {
         "SteamID": 76561198071477737,
         "Name": "K",
+        "Value": 4.0
+      },
+      "Terminator": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 31.0
+      },
+      "TheProffesional": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 4518.0
+      },
+      "LendingHand": {
+        "SteamID": 76561198084911409,
+        "Name": "Fenton",
+        "Value": 5.0
+      },
+      "TheAssasin": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 16.0
+      },
+      "TheEntry": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 7.0
+      },
+      "ClutchMaster": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
         "Value": 2.0
+      },
+      "TradeCraft": {
+        "SteamID": 76561198256748178,
+        "Name": "flow",
+        "Value": 10.0
+      },
+      "FragBait": {
+        "SteamID": 76561198256748178,
+        "Name": "flow",
+        "Value": 4.0
       }
     },
     "Players": {
-      "76561198393693567": {
-        "Name": "Vash the Stampede",
-        "SteamID": 76561198393693567,
-        "Kills": 8,
-        "Deaths": 9,
-        "Assists": 3,
+      "76561198072042202": {
+        "Name": "A",
+        "SteamID": 76561198072042202,
+        "Kills": 31,
+        "Deaths": 16,
+        "Assists": 4,
         "FlashAssists": 0,
-        "MVPs": 2,
-        "TradeKills": 0,
-        "TimesTraded": 1,
+        "MVPs": 4,
+        "TradeKills": 4,
+        "TimesTraded": 2,
         "TeamKills": 0,
-        "AWPKills": 0,
-        "DamageDealt": 1459,
-        "ArmorDamageDealt": 150,
-        "FirstKills": 3,
-        "FirstDeaths": 5,
-        "KASTRounds": 8,
-        "Headshots": 6,
-        "Defuses": 0,
-        "Plants": 0,
-        "TotalRounds": 22,
+        "AWPKills": 2,
+        "DamageDealt": 4031,
+        "ArmorDamageDealt": 409,
+        "FirstKills": 1,
+        "FirstDeaths": 3,
+        "KASTRounds": 18,
+        "Headshots": 10,
+        "Defuses": 1,
+        "Plants": 1,
+        "TotalRounds": 28,
         "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
-          "pug_de_nache_2017-12-16_00"
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 7,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198001808454": {
+        "Name": "ISM",
+        "SteamID": 76561198001808454,
+        "Kills": 26,
+        "Deaths": 21,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 5,
+        "TradeKills": 0,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 16,
+        "DamageDealt": 4518,
+        "ArmorDamageDealt": 210,
+        "FirstKills": 7,
+        "FirstDeaths": 4,
+        "KASTRounds": 20,
+        "Headshots": 8,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 28,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 3,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198055295222": {
+        "Name": "Froztbitten",
+        "SteamID": 76561198055295222,
+        "Kills": 7,
+        "Deaths": 21,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 2,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 1094,
+        "ArmorDamageDealt": 160,
+        "FirstKills": 0,
+        "FirstDeaths": 5,
+        "KASTRounds": 10,
+        "Headshots": 2,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 28,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198117966816": {
+        "Name": "rî§К",
+        "SteamID": 76561198117966816,
+        "Kills": 21,
+        "Deaths": 18,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 2,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 9,
+        "DamageDealt": 3210,
+        "ArmorDamageDealt": 327,
+        "FirstKills": 4,
+        "FirstDeaths": 1,
+        "KASTRounds": 15,
+        "Headshots": 5,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": true,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 4,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198084911409": {
+        "Name": "Fenton",
+        "SteamID": 76561198084911409,
+        "Kills": 21,
+        "Deaths": 20,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 2,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2935,
+        "ArmorDamageDealt": 317,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 17,
+        "Headshots": 8,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 6,
+          "2": 3,
+          "3": 3,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198393693567": {
+        "Name": "Vash the Stampede",
+        "SteamID": 76561198393693567,
+        "Kills": 26,
+        "Deaths": 19,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 1,
+        "TimesTraded": 0,
+        "TeamKills": 0,
+        "AWPKills": 11,
+        "DamageDealt": 3723,
+        "ArmorDamageDealt": 109,
+        "FirstKills": 6,
+        "FirstDeaths": 3,
+        "KASTRounds": 21,
+        "Headshots": 6,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 8,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198256748178": {
+        "Name": "flow",
+        "SteamID": 76561198256748178,
+        "Kills": 27,
+        "Deaths": 19,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 10,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 3977,
+        "ArmorDamageDealt": 455,
+        "FirstKills": 4,
+        "FirstDeaths": 2,
+        "KASTRounds": 19,
+        "Headshots": 15,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 28,
+        "RoundsWon": 16,
+        "Disconnected": true,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 7,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198118562612": {
+        "Name": "🖤ENDL3SSL0V3™🖤",
+        "SteamID": 76561198118562612,
+        "Kills": 3,
+        "Deaths": 14,
+        "Assists": 1,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 0,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 432,
+        "ArmorDamageDealt": 32,
+        "FirstKills": 0,
+        "FirstDeaths": 2,
+        "KASTRounds": 6,
+        "Headshots": 1,
+        "Defuses": 1,
+        "Plants": 0,
+        "TotalRounds": 28,
+        "RoundsWon": 16,
+        "Disconnected": true,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198081203263": {
+        "Name": "Zaggle",
+        "SteamID": 76561198081203263,
+        "Kills": 13,
+        "Deaths": 23,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 1,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 1728,
+        "ArmorDamageDealt": 169,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 14,
+        "Headshots": 2,
+        "Defuses": 0,
+        "Plants": 4,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 9,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198148070517": {
+        "Name": "Devyn",
+        "SteamID": 76561198148070517,
+        "Kills": 18,
+        "Deaths": 18,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 3,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2194,
+        "ArmorDamageDealt": 187,
+        "FirstKills": 2,
+        "FirstDeaths": 2,
+        "KASTRounds": 17,
+        "Headshots": 9,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 12,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198071477737": {
+        "Name": "K",
+        "SteamID": 76561198071477737,
+        "Kills": 4,
+        "Deaths": 8,
+        "Assists": 0,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 0,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 1,
+        "DamageDealt": 485,
+        "ArmorDamageDealt": 45,
+        "FirstKills": 0,
+        "FirstDeaths": 0,
+        "KASTRounds": 4,
+        "Headshots": 1,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 28,
+        "RoundsWon": 12,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-20_18"
         ],
         "Clutches": {
           "1": 0,
@@ -3991,37 +4946,157 @@
         },
         "KillPerRound": {
           "1": 4,
-          "2": 2,
+          "2": 0,
           "3": 0,
           "4": 0,
           "5": 0
         }
+      }
+    }
+  },
+  {
+    "UID": "pug_de_mirage_2017-12-21_23",
+    "MapName": "de_mirage",
+    "TotalRounds": 25,
+    "TeamA": {
+      "Name": "No, this is Patrick",
+      "SteamIDs": [
+        "76561198393693567",
+        "76561198148070517",
+        "76561198081203263",
+        "76561198132137627",
+        "76561198037413384"
+      ],
+      "RoundsWon": 9
+    },
+    "TeamB": {
+      "Name": "PSU HBG > UP",
+      "SteamIDs": [
+        "76561198072042202",
+        "76561198001808454",
+        "76561198256748178",
+        "76561198192766006",
+        "76561198071477737"
+      ],
+      "RoundsWon": 16
+    },
+    "SteamIDs": [
+      "76561198072042202",
+      "76561198393693567",
+      "76561198001808454",
+      "76561198148070517",
+      "76561198256748178",
+      "76561198192766006",
+      "76561198081203263",
+      "76561198071477737",
+      "76561198132137627",
+      "76561198037413384"
+    ],
+    "RoundWinReasons": [
+      "BombDefused",
+      "TerroristWin",
+      "CTWin",
+      "CTWin",
+      "TerroristWin",
+      "TargetBombed",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "CTWin",
+      "CTWin",
+      "BombDefused",
+      "BombDefused",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TargetBombed",
+      "TargetBombed",
+      "BombDefused",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "TerroristWin"
+    ],
+    "Awards": {
+      "ExecuteOrder66": {
+        "SteamID": 76561198071477737,
+        "Name": "K",
+        "Value": 1.0
       },
-      "76561198038963123": {
-        "Name": "LaD3",
-        "SteamID": 76561198038963123,
-        "Kills": 14,
-        "Deaths": 7,
-        "Assists": 1,
+      "TheKendoll": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 14.0
+      },
+      "Terminator": {
+        "SteamID": 76561198192766006,
+        "Name": "Glaci3r",
+        "Value": 26.0
+      },
+      "TheProffesional": {
+        "SteamID": 76561198192766006,
+        "Name": "Glaci3r",
+        "Value": 3509.0
+      },
+      "LendingHand": {
+        "SteamID": 76561198071477737,
+        "Name": "K",
+        "Value": 7.0
+      },
+      "TheAssasin": {
+        "SteamID": 76561198192766006,
+        "Name": "Glaci3r",
+        "Value": 9.0
+      },
+      "TheEntry": {
+        "SteamID": 76561198037413384,
+        "Name": "Ch1ral",
+        "Value": 5.0
+      },
+      "ClutchMaster": {
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 2.0
+      },
+      "TradeCraft": {
+        "SteamID": 76561198148070517,
+        "Name": "Devyn",
+        "Value": 7.0
+      },
+      "FragBait": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 7.0
+      }
+    },
+    "Players": {
+      "76561198072042202": {
+        "Name": "A",
+        "SteamID": 76561198072042202,
+        "Kills": 18,
+        "Deaths": 12,
+        "Assists": 5,
         "FlashAssists": 0,
-        "MVPs": 9,
-        "TradeKills": 1,
-        "TimesTraded": 0,
+        "MVPs": 3,
+        "TradeKills": 2,
+        "TimesTraded": 4,
         "TeamKills": 0,
-        "AWPKills": 0,
-        "DamageDealt": 1735,
-        "ArmorDamageDealt": 253,
-        "FirstKills": 6,
-        "FirstDeaths": 3,
-        "KASTRounds": 12,
-        "Headshots": 4,
+        "AWPKills": 6,
+        "DamageDealt": 2873,
+        "ArmorDamageDealt": 132,
+        "FirstKills": 3,
+        "FirstDeaths": 1,
+        "KASTRounds": 15,
+        "Headshots": 5,
         "Defuses": 0,
-        "Plants": 0,
-        "TotalRounds": 22,
+        "Plants": 2,
+        "TotalRounds": 25,
         "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
-          "pug_de_nache_2017-12-16_00"
+          "pug_de_mirage_2017-12-21_23"
         ],
         "Clutches": {
           "1": 0,
@@ -4031,90 +5106,90 @@
           "5": 0
         },
         "KillPerRound": {
-          "1": 8,
+          "1": 4,
           "2": 3,
           "3": 0,
+          "4": 2,
+          "5": 0
+        }
+      },
+      "76561198393693567": {
+        "Name": "Vash the Stampede",
+        "SteamID": 76561198393693567,
+        "Kills": 19,
+        "Deaths": 21,
+        "Assists": 6,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 5,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 3,
+        "DamageDealt": 2671,
+        "ArmorDamageDealt": 239,
+        "FirstKills": 4,
+        "FirstDeaths": 4,
+        "KASTRounds": 17,
+        "Headshots": 11,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 3,
+          "3": 1,
           "4": 0,
           "5": 0
         }
       },
-      "76561198071477737": {
-        "Name": "K",
-        "SteamID": 76561198071477737,
-        "Kills": 6,
-        "Deaths": 19,
+      "76561198001808454": {
+        "Name": "ISM",
+        "SteamID": 76561198001808454,
+        "Kills": 13,
+        "Deaths": 18,
         "Assists": 3,
         "FlashAssists": 0,
         "MVPs": 2,
-        "TradeKills": 1,
-        "TimesTraded": 2,
-        "TeamKills": 1,
-        "AWPKills": 0,
-        "DamageDealt": 1855,
-        "ArmorDamageDealt": 211,
-        "FirstKills": 2,
-        "FirstDeaths": 7,
-        "KASTRounds": 10,
-        "Headshots": 4,
-        "Defuses": 0,
-        "Plants": 2,
-        "TotalRounds": 22,
-        "RoundsWon": 6,
-        "Disconnected": false,
-        "Matches": [
-          "pug_de_nache_2017-12-16_00"
-        ],
-        "Clutches": {
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0,
-          "5": 0
-        },
-        "KillPerRound": {
-          "1": 5,
-          "2": 2,
-          "3": 0,
-          "4": 0,
-          "5": 0
-        }
-      },
-      "76561198072042202": {
-        "Name": "Ant-iwnl-",
-        "SteamID": 76561198072042202,
-        "Kills": 0,
-        "Deaths": 1,
-        "Assists": 0,
-        "FlashAssists": 0,
-        "MVPs": 0,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "TradeKills": 5,
+        "TimesTraded": 7,
         "TeamKills": 0,
         "AWPKills": 0,
-        "DamageDealt": 0,
-        "ArmorDamageDealt": 0,
-        "FirstKills": 0,
-        "FirstDeaths": 1,
-        "KASTRounds": 0,
-        "Headshots": 0,
-        "Defuses": 0,
-        "Plants": 0,
-        "TotalRounds": 22,
-        "RoundsWon": 6,
-        "Disconnected": true,
+        "DamageDealt": 2121,
+        "ArmorDamageDealt": 178,
+        "FirstKills": 1,
+        "FirstDeaths": 5,
+        "KASTRounds": 14,
+        "Headshots": 7,
+        "Defuses": 2,
+        "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
+        "Disconnected": false,
         "Matches": [
-          "pug_de_nache_2017-12-16_00"
+          "pug_de_mirage_2017-12-21_23"
         ],
         "Clutches": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
           "5": 0
         },
         "KillPerRound": {
-          "1": 0,
-          "2": 0,
+          "1": 7,
+          "2": 3,
           "3": 0,
           "4": 0,
           "5": 0
@@ -4123,40 +5198,122 @@
       "76561198148070517": {
         "Name": "Devyn",
         "SteamID": 76561198148070517,
-        "Kills": 15,
+        "Kills": 14,
         "Deaths": 17,
-        "Assists": 0,
+        "Assists": 6,
         "FlashAssists": 0,
-        "MVPs": 4,
-        "TradeKills": 2,
-        "TimesTraded": 1,
-        "TeamKills": 2,
+        "MVPs": 3,
+        "TradeKills": 7,
+        "TimesTraded": 3,
+        "TeamKills": 0,
         "AWPKills": 0,
-        "DamageDealt": 2133,
-        "ArmorDamageDealt": 172,
-        "FirstKills": 9,
-        "FirstDeaths": 4,
-        "KASTRounds": 13,
-        "Headshots": 8,
+        "DamageDealt": 2487,
+        "ArmorDamageDealt": 120,
+        "FirstKills": 0,
+        "FirstDeaths": 2,
+        "KASTRounds": 14,
+        "Headshots": 7,
         "Defuses": 0,
-        "Plants": 4,
-        "TotalRounds": 22,
-        "RoundsWon": 6,
+        "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
         "Disconnected": false,
         "Matches": [
-          "pug_de_nache_2017-12-16_00"
+          "pug_de_mirage_2017-12-21_23"
         ],
         "Clutches": {
           "1": 2,
-          "2": 1,
+          "2": 0,
           "3": 0,
           "4": 0,
           "5": 0
         },
         "KillPerRound": {
           "1": 8,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198256748178": {
+        "Name": "flow",
+        "SteamID": 76561198256748178,
+        "Kills": 24,
+        "Deaths": 18,
+        "Assists": 2,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 5,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 3092,
+        "ArmorDamageDealt": 319,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 18,
+        "Headshots": 7,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
           "2": 4,
-          "3": 1,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198192766006": {
+        "Name": "Glaci3r",
+        "SteamID": 76561198192766006,
+        "Kills": 26,
+        "Deaths": 19,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 7,
+        "TimesTraded": 7,
+        "TeamKills": 0,
+        "AWPKills": 9,
+        "DamageDealt": 3509,
+        "ArmorDamageDealt": 244,
+        "FirstKills": 3,
+        "FirstDeaths": 2,
+        "KASTRounds": 17,
+        "Headshots": 6,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 25,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 3,
+          "3": 4,
           "4": 0,
           "5": 0
         }
@@ -4164,28 +5321,110 @@
       "76561198081203263": {
         "Name": "Zaggle",
         "SteamID": 76561198081203263,
-        "Kills": 11,
-        "Deaths": 9,
-        "Assists": 1,
+        "Kills": 12,
+        "Deaths": 22,
+        "Assists": 4,
         "FlashAssists": 0,
-        "MVPs": 4,
-        "TradeKills": 0,
-        "TimesTraded": 0,
+        "MVPs": 0,
+        "TradeKills": 4,
+        "TimesTraded": 5,
         "TeamKills": 0,
         "AWPKills": 0,
-        "DamageDealt": 1449,
-        "ArmorDamageDealt": 222,
-        "FirstKills": 2,
-        "FirstDeaths": 2,
-        "KASTRounds": 8,
+        "DamageDealt": 1462,
+        "ArmorDamageDealt": 160,
+        "FirstKills": 1,
+        "FirstDeaths": 3,
+        "KASTRounds": 15,
         "Headshots": 3,
-        "Defuses": 3,
-        "Plants": 1,
-        "TotalRounds": 22,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198071477737": {
+        "Name": "K",
+        "SteamID": 76561198071477737,
+        "Kills": 17,
+        "Deaths": 17,
+        "Assists": 7,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 2,
+        "TimesTraded": 1,
+        "TeamKills": 1,
+        "AWPKills": 1,
+        "DamageDealt": 2292,
+        "ArmorDamageDealt": 186,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 17,
+        "Headshots": 2,
+        "Defuses": 1,
+        "Plants": 4,
+        "TotalRounds": 25,
         "RoundsWon": 16,
         "Disconnected": false,
         "Matches": [
-          "pug_de_nache_2017-12-16_00"
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198132137627": {
+        "Name": "nullptr",
+        "SteamID": 76561198132137627,
+        "Kills": 20,
+        "Deaths": 19,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 5,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2325,
+        "ArmorDamageDealt": 230,
+        "FirstKills": 4,
+        "FirstDeaths": 1,
+        "KASTRounds": 17,
+        "Headshots": 8,
+        "Defuses": 1,
+        "Plants": 2,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
         ],
         "Clutches": {
           "1": 0,
@@ -4195,8 +5434,49 @@
           "5": 0
         },
         "KillPerRound": {
-          "1": 5,
-          "2": 3,
+          "1": 9,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198037413384": {
+        "Name": "Ch1ral",
+        "SteamID": 76561198037413384,
+        "Kills": 18,
+        "Deaths": 20,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 4,
+        "TimesTraded": 7,
+        "TeamKills": 0,
+        "AWPKills": 8,
+        "DamageDealt": 3184,
+        "ArmorDamageDealt": 276,
+        "FirstKills": 5,
+        "FirstDeaths": 1,
+        "KASTRounds": 18,
+        "Headshots": 5,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 25,
+        "RoundsWon": 9,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_mirage_2017-12-21_23"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 4,
           "3": 0,
           "4": 0,
           "5": 0
@@ -4733,6 +6013,541 @@
     }
   },
   {
+    "UID": "pug_de_overpass_2017-12-21_21",
+    "MapName": "de_overpass",
+    "TotalRounds": 30,
+    "TeamA": {
+      "Name": "PSU HBG > UP",
+      "SteamIDs": [
+        "76561198072042202",
+        "76561198257100849",
+        "76561198061644533",
+        "76561198073777991",
+        "76561198132137627"
+      ],
+      "RoundsWon": 14
+    },
+    "TeamB": {
+      "Name": "No, this is Patrick",
+      "SteamIDs": [
+        "76561198271442417",
+        "76561198148070517",
+        "76561198256748178",
+        "76561198001808454",
+        "76561198393693567"
+      ],
+      "RoundsWon": 16
+    },
+    "SteamIDs": [
+      "76561198072042202",
+      "76561198257100849",
+      "76561198271442417",
+      "76561198148070517",
+      "76561198256748178",
+      "76561198001808454",
+      "76561198061644533",
+      "76561198073777991",
+      "76561198393693567",
+      "76561198132137627"
+    ],
+    "RoundWinReasons": [
+      "TerroristWin",
+      "TargetBombed",
+      "TerroristWin",
+      "CTWin",
+      "CTWin",
+      "TargetBombed",
+      "TerroristWin",
+      "CTWin",
+      "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TargetBombed",
+      "CTWin",
+      "TerroristWin",
+      "CTWin",
+      "TargetBombed",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "BombDefused",
+      "CTWin",
+      "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin",
+      "TerroristWin"
+    ],
+    "Awards": {
+      "ExecuteOrder66": {
+        "SteamID": 0,
+        "Name": "",
+        "Value": 0.0
+      },
+      "TheKendoll": {
+        "SteamID": 76561198061644533,
+        "Name": "mittins",
+        "Value": 13.0
+      },
+      "Terminator": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 33.0
+      },
+      "TheProffesional": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 4352.0
+      },
+      "LendingHand": {
+        "SteamID": 76561198393693567,
+        "Name": "Vash the Stampede",
+        "Value": 8.0
+      },
+      "TheAssasin": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 6.0
+      },
+      "TheEntry": {
+        "SteamID": 76561198061644533,
+        "Name": "mittins",
+        "Value": 5.0
+      },
+      "ClutchMaster": {
+        "SteamID": 76561198132137627,
+        "Name": "nullptr",
+        "Value": 3.0
+      },
+      "TradeCraft": {
+        "SteamID": 76561198257100849,
+        "Name": "imReedy",
+        "Value": 5.0
+      },
+      "FragBait": {
+        "SteamID": 76561198061644533,
+        "Name": "mittins",
+        "Value": 5.0
+      }
+    },
+    "Players": {
+      "76561198072042202": {
+        "Name": "A",
+        "SteamID": 76561198072042202,
+        "Kills": 33,
+        "Deaths": 21,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 2,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 6,
+        "DamageDealt": 4352,
+        "ArmorDamageDealt": 570,
+        "FirstKills": 3,
+        "FirstDeaths": 2,
+        "KASTRounds": 22,
+        "Headshots": 8,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 9,
+          "2": 6,
+          "3": 0,
+          "4": 3,
+          "5": 0
+        }
+      },
+      "76561198257100849": {
+        "Name": "imReedy",
+        "SteamID": 76561198257100849,
+        "Kills": 20,
+        "Deaths": 24,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 5,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2793,
+        "ArmorDamageDealt": 432,
+        "FirstKills": 3,
+        "FirstDeaths": 3,
+        "KASTRounds": 19,
+        "Headshots": 6,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 12,
+          "2": 4,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198271442417": {
+        "Name": "flipZz",
+        "SteamID": 76561198271442417,
+        "Kills": 20,
+        "Deaths": 25,
+        "Assists": 6,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 2,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2726,
+        "ArmorDamageDealt": 224,
+        "FirstKills": 3,
+        "FirstDeaths": 4,
+        "KASTRounds": 17,
+        "Headshots": 5,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 3,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198148070517": {
+        "Name": "Devyn",
+        "SteamID": 76561198148070517,
+        "Kills": 26,
+        "Deaths": 19,
+        "Assists": 6,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 3,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 3439,
+        "ArmorDamageDealt": 264,
+        "FirstKills": 4,
+        "FirstDeaths": 4,
+        "KASTRounds": 23,
+        "Headshots": 16,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 12,
+          "2": 4,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198256748178": {
+        "Name": "flow",
+        "SteamID": 76561198256748178,
+        "Kills": 25,
+        "Deaths": 20,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 4,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 2,
+        "DamageDealt": 3125,
+        "ArmorDamageDealt": 324,
+        "FirstKills": 2,
+        "FirstDeaths": 1,
+        "KASTRounds": 17,
+        "Headshots": 13,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 6,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198001808454": {
+        "Name": "ISM",
+        "SteamID": 76561198001808454,
+        "Kills": 20,
+        "Deaths": 23,
+        "Assists": 1,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 3,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 3,
+        "DamageDealt": 3107,
+        "ArmorDamageDealt": 252,
+        "FirstKills": 2,
+        "FirstDeaths": 2,
+        "KASTRounds": 15,
+        "Headshots": 8,
+        "Defuses": 0,
+        "Plants": 5,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 5,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198061644533": {
+        "Name": "mittins",
+        "SteamID": 76561198061644533,
+        "Kills": 11,
+        "Deaths": 29,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 1,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 1606,
+        "ArmorDamageDealt": 178,
+        "FirstKills": 5,
+        "FirstDeaths": 5,
+        "KASTRounds": 13,
+        "Headshots": 2,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 6,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198073777991": {
+        "Name": "The Kilogram",
+        "SteamID": 76561198073777991,
+        "Kills": 20,
+        "Deaths": 23,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 4,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 4,
+        "DamageDealt": 2658,
+        "ArmorDamageDealt": 255,
+        "FirstKills": 2,
+        "FirstDeaths": 2,
+        "KASTRounds": 15,
+        "Headshots": 5,
+        "Defuses": 1,
+        "Plants": 1,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 5,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198393693567": {
+        "Name": "Vash the Stampede",
+        "SteamID": 76561198393693567,
+        "Kills": 29,
+        "Deaths": 22,
+        "Assists": 8,
+        "FlashAssists": 0,
+        "MVPs": 4,
+        "TradeKills": 1,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 1,
+        "DamageDealt": 4345,
+        "ArmorDamageDealt": 297,
+        "FirstKills": 4,
+        "FirstDeaths": 4,
+        "KASTRounds": 22,
+        "Headshots": 14,
+        "Defuses": 0,
+        "Plants": 0,
+        "TotalRounds": 30,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 11,
+          "2": 5,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        }
+      },
+      "76561198132137627": {
+        "Name": "nullptr",
+        "SteamID": 76561198132137627,
+        "Kills": 25,
+        "Deaths": 23,
+        "Assists": 8,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 5,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 3618,
+        "ArmorDamageDealt": 330,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 21,
+        "Headshots": 9,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 30,
+        "RoundsWon": 14,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_overpass_2017-12-21_21"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        }
+      }
+    }
+  },
+  {
     "UID": "pug_de_season_2017-12-15_00",
     "MapName": "workshop/322837144/de_season",
     "TotalRounds": 23,
@@ -4892,9 +6707,9 @@
       "76561198165409571": {
         "Name": "Mercy Main BTW",
         "SteamID": 76561198165409571,
-        "Kills": 0,
-        "Deaths": 0,
-        "Assists": 0,
+        "Kills": 6,
+        "Deaths": 12,
+        "Assists": 2,
         "FlashAssists": 0,
         "MVPs": 1,
         "TradeKills": 0,
@@ -5252,6 +7067,535 @@
         },
         "KillPerRound": {
           "1": 6,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      }
+    }
+  },
+  {
+    "UID": "pug_de_train_2017-12-22_00",
+    "MapName": "de_train",
+    "TotalRounds": 24,
+    "TeamA": {
+      "Name": "No, this is Patrick",
+      "SteamIDs": [
+        "76561198071477737",
+        "76561198148070517",
+        "76561198393693567",
+        "76561198156421630",
+        "76561198001808454"
+      ],
+      "RoundsWon": 8
+    },
+    "TeamB": {
+      "Name": "PSU HBG > UP",
+      "SteamIDs": [
+        "76561198072042202",
+        "76561198084911409",
+        "76561198256748178",
+        "76561198192766006",
+        "76561198037413384"
+      ],
+      "RoundsWon": 16
+    },
+    "SteamIDs": [
+      "76561198072042202",
+      "76561198071477737",
+      "76561198084911409",
+      "76561198148070517",
+      "76561198256748178",
+      "76561198192766006",
+      "76561198393693567",
+      "76561198156421630",
+      "76561198037413384",
+      "76561198001808454"
+    ],
+    "RoundWinReasons": [
+      "BombDefused",
+      "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "TerroristWin",
+      "TerroristWin",
+      "CTWin",
+      "CTWin",
+      "CTWin",
+      "TerroristWin",
+      "TargetSaved",
+      "CTWin",
+      "CTWin",
+      "BombDefused",
+      "TerroristWin",
+      "TerroristWin",
+      "TargetBombed",
+      "TerroristWin",
+      "TerroristWin",
+      "BombDefused",
+      "CTWin",
+      "BombDefused",
+      "TerroristWin"
+    ],
+    "Awards": {
+      "ExecuteOrder66": {
+        "SteamID": 0,
+        "Name": "",
+        "Value": 0.0
+      },
+      "TheKendoll": {
+        "SteamID": 76561198393693567,
+        "Name": "Mary the Hacker",
+        "Value": 10.0
+      },
+      "Terminator": {
+        "SteamID": 76561198256748178,
+        "Name": "flow",
+        "Value": 25.0
+      },
+      "TheProffesional": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 4246.0
+      },
+      "LendingHand": {
+        "SteamID": 76561198037413384,
+        "Name": "Ch1ral",
+        "Value": 6.0
+      },
+      "TheAssasin": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 7.0
+      },
+      "TheEntry": {
+        "SteamID": 76561198071477737,
+        "Name": "K",
+        "Value": 5.0
+      },
+      "ClutchMaster": {
+        "SteamID": 76561198072042202,
+        "Name": "A",
+        "Value": 1.0
+      },
+      "TradeCraft": {
+        "SteamID": 76561198084911409,
+        "Name": "Fenton",
+        "Value": 5.0
+      },
+      "FragBait": {
+        "SteamID": 76561198001808454,
+        "Name": "ISM",
+        "Value": 5.0
+      }
+    },
+    "Players": {
+      "76561198072042202": {
+        "Name": "A",
+        "SteamID": 76561198072042202,
+        "Kills": 20,
+        "Deaths": 15,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 3,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 7,
+        "DamageDealt": 4246,
+        "ArmorDamageDealt": 156,
+        "FirstKills": 3,
+        "FirstDeaths": 2,
+        "KASTRounds": 14,
+        "Headshots": 9,
+        "Defuses": 1,
+        "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 5,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198071477737": {
+        "Name": "K",
+        "SteamID": 76561198071477737,
+        "Kills": 18,
+        "Deaths": 20,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 4,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2322,
+        "ArmorDamageDealt": 327,
+        "FirstKills": 5,
+        "FirstDeaths": 2,
+        "KASTRounds": 13,
+        "Headshots": 9,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198084911409": {
+        "Name": "Fenton",
+        "SteamID": 76561198084911409,
+        "Kills": 19,
+        "Deaths": 17,
+        "Assists": 1,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 5,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2211,
+        "ArmorDamageDealt": 222,
+        "FirstKills": 0,
+        "FirstDeaths": 0,
+        "KASTRounds": 14,
+        "Headshots": 8,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 4,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198148070517": {
+        "Name": "Devyn",
+        "SteamID": 76561198148070517,
+        "Kills": 20,
+        "Deaths": 19,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 2,
+        "TradeKills": 4,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2916,
+        "ArmorDamageDealt": 269,
+        "FirstKills": 0,
+        "FirstDeaths": 4,
+        "KASTRounds": 18,
+        "Headshots": 12,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 3,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "76561198256748178": {
+        "Name": "flow",
+        "SteamID": 76561198256748178,
+        "Kills": 25,
+        "Deaths": 13,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 5,
+        "TradeKills": 4,
+        "TimesTraded": 3,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 3173,
+        "ArmorDamageDealt": 418,
+        "FirstKills": 3,
+        "FirstDeaths": 1,
+        "KASTRounds": 14,
+        "Headshots": 17,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 4,
+          "2": 6,
+          "3": 3,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198192766006": {
+        "Name": "Glaci3r",
+        "SteamID": 76561198192766006,
+        "Kills": 15,
+        "Deaths": 16,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 0,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 5,
+        "DamageDealt": 2486,
+        "ArmorDamageDealt": 195,
+        "FirstKills": 4,
+        "FirstDeaths": 3,
+        "KASTRounds": 12,
+        "Headshots": 3,
+        "Defuses": 0,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 6,
+          "2": 3,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198393693567": {
+        "Name": "Mary the Hacker",
+        "SteamID": 76561198393693567,
+        "Kills": 15,
+        "Deaths": 18,
+        "Assists": 3,
+        "FlashAssists": 0,
+        "MVPs": 1,
+        "TradeKills": 3,
+        "TimesTraded": 2,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 1908,
+        "ArmorDamageDealt": 141,
+        "FirstKills": 2,
+        "FirstDeaths": 3,
+        "KASTRounds": 10,
+        "Headshots": 6,
+        "Defuses": 1,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 5,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198156421630": {
+        "Name": "astray",
+        "SteamID": 76561198156421630,
+        "Kills": 15,
+        "Deaths": 18,
+        "Assists": 5,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 0,
+        "TimesTraded": 1,
+        "TeamKills": 0,
+        "AWPKills": 0,
+        "DamageDealt": 2443,
+        "ArmorDamageDealt": 261,
+        "FirstKills": 1,
+        "FirstDeaths": 2,
+        "KASTRounds": 14,
+        "Headshots": 7,
+        "Defuses": 1,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 8,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198037413384": {
+        "Name": "Ch1ral",
+        "SteamID": 76561198037413384,
+        "Kills": 17,
+        "Deaths": 16,
+        "Assists": 6,
+        "FlashAssists": 0,
+        "MVPs": 3,
+        "TradeKills": 1,
+        "TimesTraded": 4,
+        "TeamKills": 0,
+        "AWPKills": 3,
+        "DamageDealt": 2335,
+        "ArmorDamageDealt": 337,
+        "FirstKills": 5,
+        "FirstDeaths": 3,
+        "KASTRounds": 18,
+        "Headshots": 5,
+        "Defuses": 1,
+        "Plants": 1,
+        "TotalRounds": 24,
+        "RoundsWon": 16,
+        "Disconnected": false,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 10,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "76561198001808454": {
+        "Name": "ISM",
+        "SteamID": 76561198001808454,
+        "Kills": 9,
+        "Deaths": 21,
+        "Assists": 4,
+        "FlashAssists": 0,
+        "MVPs": 0,
+        "TradeKills": 1,
+        "TimesTraded": 5,
+        "TeamKills": 0,
+        "AWPKills": 4,
+        "DamageDealt": 1376,
+        "ArmorDamageDealt": 141,
+        "FirstKills": 1,
+        "FirstDeaths": 4,
+        "KASTRounds": 14,
+        "Headshots": 2,
+        "Defuses": 0,
+        "Plants": 2,
+        "TotalRounds": 24,
+        "RoundsWon": 8,
+        "Disconnected": true,
+        "Matches": [
+          "pug_de_train_2017-12-22_00"
+        ],
+        "Clutches": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "KillPerRound": {
+          "1": 7,
           "2": 1,
           "3": 0,
           "4": 0,
