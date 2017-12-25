@@ -144,9 +144,7 @@
               var colIdx = table.cell(this).index().column;
               var rowIdx = table.cell(this).index().row;
 
-              $( table.cells().nodes() ).removeClass( 'highlight' );
               $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
-              $( table.rows().nodes() ).removeClass( 'highlight' );
               $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
           } ).on('mouseleave', function () {
               $( table.cells().nodes() ).removeClass( 'highlight' );

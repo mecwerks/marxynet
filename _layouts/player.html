@@ -10,7 +10,10 @@
       <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
       <script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
-  {% include favicon.html %}
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+      {% include favicon.html %}
       <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
@@ -220,7 +223,29 @@
                   <td markdown="span" style="text-align: center">{{FiveKRounds | default:"0"}}</td>
                </tr>
             </table>
-            {{ content }}
+      <div align="left">
+      {% assign length = site.data.players | size | minus: 1 %}
+      {% assign halfLen = length | divided_by: 2 | ceil %}
+      {% assign leftLen = length | minus: halfLen %}
+      <table id="matrix" class="row-border hover order-column">
+        <thead>
+      		<tr class="header" id="ignoreglobal">
+            <th style="text-align: center">Name</th>
+            <th style="text-align: center">Kills:KilledBy</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for j in (0..length) %}
+            <tr id="ignoreglobal">
+              <td class="row" style="text-align: center">{{site.data.players[j].Name}}</td>
+                {% assign steamid = site.data.players[j].SteamID | downcase %}
+                {% assign myid = page.SteamID | downcase %}
+                <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{site.data.players[j].KilledPlayers[myid] | default: 0}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+      </div>
          </section>
       </div>
       <footer>
@@ -229,7 +254,27 @@
          {% endif %}
          <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
       </footer>
-      <script>
+    <script>
+    $(document).ready(function() {
+      var table = $('#matrix').DataTable(
+        {
+          "paging":   false,
+          "ordering": false,
+          "info":     false,
+          "searching": false
+        }
+      );
+      
+      $('#matrix tbody')
+          .on( 'mouseenter', 'td', function () {
+              var rowIdx = table.cell(this).index().row;
+
+              $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
+          } ).on('mouseleave', 'td', function () {
+              $( table.rows().nodes() ).removeClass( 'highlight' );
+          });
+    } );
+    </script>      <script>
          var acc = document.getElementsByClassName("accordion");
          var i;
          
