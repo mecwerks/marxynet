@@ -21,6 +21,15 @@
   color:#e40a0a;
 }
 
+tr:hover:not(#ignoreglobal), td.highlight, tr.highlight {
+  background-color: #428add !important;
+  color: black;
+}
+
+#ignoreglobal:hover {
+  text-decoration: none;
+}
+
 .scoreTie {
   font: bold;
  color:#4286f4;
@@ -38,14 +47,6 @@
   border: 2px solid #ddd;
   width:50%;
   border-collapse:collapse;
-}
-
-tr:hover {
-    background-color: #ccc;
-}
-
-td:hover {
-    cursor: pointer;
 }
 
 .fullTable {

@@ -11,6 +11,9 @@
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
     {% include favicon.html %}
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,26 +40,25 @@
 	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
     <div align="center">
-      <table class="fullTable">
+      <table id="matrix" class="row-border hover order-column">
         <thead>
-      		<tr class="header">
+      		<tr class="header" id="ignoreglobal">
             <th></th>
             {% for teamBPlayer in page.TeamB.SteamIDs %}
               {% assign teamBPlayerID = teamBPlayer | downcase %}
-              <th style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
+              <th class="col" style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
             {% endfor %}
           </tr>
         </thead>
         <tbody>
           {% for teamAPlayer in page.TeamA.SteamIDs %}
             {% assign teamAPlayerID = teamAPlayer | downcase %}
-            <tr>
-              <th style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
-              <td style="text-align: center">0</td>
-              <td style="text-align: center">0</td>
-              <td style="text-align: center">0</td>
-              <td style="text-align: center">0</td>
-              <td style="text-align: center">0</td>
+            <tr id="ignoreglobal">
+              <th class="row" style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
+              {% for teamBPlayer in page.TeamB.SteamIDs %}
+                {% assign teamBPlayerID = teamBPlayer | downcase %}
+                <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
+              {% endfor %}
             </tr>
           {% endfor %}
         </tbody>
@@ -126,6 +128,32 @@
     {% endif %}
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
+    <script>
+    $(document).ready(function() {
+      var table = $('#matrix').DataTable(
+        {
+          "paging":   false,
+          "ordering": false,
+          "info":     false,
+          "searching":   false
+        }
+      );
+      
+      $('#matrix tbody')
+          .on( 'mouseenter', 'td', function () {
+              var colIdx = table.cell(this).index().column;
+              var rowIdx = table.cell(this).index().row;
+
+              $( table.cells().nodes() ).removeClass( 'highlight' );
+              $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
+              $( table.rows().nodes() ).removeClass( 'highlight' );
+              $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
+          } ).on('mouseleave', function () {
+              $( table.cells().nodes() ).removeClass( 'highlight' );
+              $( table.rows().nodes() ).removeClass( 'highlight' );
+          });
+    } );
+    </script>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     {% if site.google_analytics %}
       <script type="text/javascript">
