@@ -146,7 +146,7 @@
 
               $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
               $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
-          } ).on('mouseleave', function () {
+          } ).on('mouseleave', 'td', function () {
               $( table.cells().nodes() ).removeClass( 'highlight' );
               $( table.rows().nodes() ).removeClass( 'highlight' );
           });
