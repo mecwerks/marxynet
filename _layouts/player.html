@@ -237,7 +237,7 @@
         <tbody>
             {% for j in (0..length) %}
             <tr id="ignoreglobal">
-              <td class="row" style="text-align: center">{{site.data.players[j].Name}}</td>
+              <td class="row" style="text-align: center"><a href="/players/{{site.data.players[j].SteamID}}">{{site.data.players[j].Name}}</a></td>
                 {% assign steamid = site.data.players[j].SteamID | downcase %}
                 {% assign myid = page.SteamID | downcase %}
                 <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{site.data.players[j].KilledPlayers[myid] | default: 0}}</td>
