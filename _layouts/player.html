@@ -235,13 +235,16 @@
           </tr>
         </thead>
         <tbody>
-            {% for j in (0..length) %}
+            {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
+            {% for player in sortedPlayers %}
+            {% unless player.SteamID == page.SteamID %}
             <tr id="ignoreglobal">
-              <td class="row" style="text-align: center"><a href="/players/{{site.data.players[j].SteamID}}">{{site.data.players[j].Name}}</a></td>
-                {% assign steamid = site.data.players[j].SteamID | downcase %}
+              <td class="row" style="text-align: center"><a href="/players/{{player.SteamID}}.html">{{player.Name}}</a></td>
+                {% assign steamid = player.SteamID | downcase %}
                 {% assign myid = page.SteamID | downcase %}
-                <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{site.data.players[j].KilledPlayers[myid] | default: 0}}</td>
+                <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
             </tr>
+            {% endunless %}
             {% endfor %}
         </tbody>
       </table>
