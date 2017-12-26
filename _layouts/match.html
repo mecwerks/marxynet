@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
+	  <script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
@@ -21,17 +21,42 @@
   </head>
   <body>
     <div class="wrapper">
-      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-	<div style="clear: both">
-        <h1 style="float: left">{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }} ({{ page.TeamA.RoundsWon }}-{{ page.TeamB.RoundsWon }})</h1>
-		<h3 style="float: right"><a href="{{page.demourl}}">GOTV Demo</a></h3>
-	</div>
-	<br/>
-	<br/>
-        {% if site.description or site.github.project_tagline %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% endif %}
-      </header>
+    <header>
+	    <div align="center" id="matchHeaderStats">
+        {% if page.TeamA.RoundsWon > page.TeamB.RoundsWon %} 
+          {% assign scoreAClass = "scoreWinner"%} 
+          {% assign scoreBClass = "scoreLoser" %} 
+        {% elsif page.TeamA.RoundsWon < page.TeamB.RoundsWon%} 
+          {% assign scoreAClass="scoreLoser" %} 
+          {% assign scoreBClass="scoreWinner" %} 
+        {% else %} 
+          {% assign scoreAClass="scoreTie" %} 
+          {% assign scoreBClass="scoreTie" %} 
+        {% endif %} 
+        <div id="teamAHeader"><br>
+          <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
+          <span class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
+        </div>
+	      <div id="teamStatsHeader">
+          <br>
+          {% assign monthString = page.Year | append: "-" | append: page.Month | append: "-" | append: page.Day | append: "T" | append: page.Hour | append: ":00:00" %}
+          <h1>{{monthString | date: "%H"}}:00</h1>
+          {{monthString | date: "%B "}}
+            {% assign d = monthString | date: "%-d" %}
+            {% case d %}
+              {% when "1" or "21" or "31" %}{{ d }}st
+              {% when "2" or "22" %}{{ d }}nd
+              {% when "3" or "23" %}{{ d }}rd
+              {% else %}{{ d }}th
+            {% endcase %} 
+            {{monthString | date: ", %Y"}}
+        </div>
+        <div id="teamBHeader"><br>
+          <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
+          <span class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
+        </div>
+		  </div>
+    </header>
       {% include navbar.html %}
       <section>
 	  
@@ -64,8 +89,8 @@
         </tbody>
       </table>
       </div>
-      <div>
-      <table>
+      <div align="center">
+      <table class="halfTable row-border hover order-column">
         <tr>
             <th style="text-align: center">Execute Order 66</th>
             {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
@@ -118,8 +143,6 @@
         </tr>
       </table>
     </div> 
-      {{ content }}
-
       </section>
     </div>
     <footer>
@@ -128,6 +151,16 @@
     {% endif %}
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
+    <script>
+      var table = $('#awardTable').DataTable(
+        {
+          "paging":   false,
+          "ordering": false,
+          "info":     false,
+          "searching":   false
+        }
+      );
+    </script>
     <script>
     $(document).ready(function() {
       var table = $('#matrix').DataTable(

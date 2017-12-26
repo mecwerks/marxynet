@@ -3,20 +3,12 @@
 
 @import "jekyll-theme-modernist";
 
-.kdDiffPositive {
-  color:#08a500;
-}
-
-.kdDiffNegative {
-  color:#e40a0a;
-}
-
-.scoreWinner {
+.scoreWinner, .kdDiffPositive {
   font: bold 15px arial, sans-serif;
   color:#08a500;
 }
 
-.scoreLoser {
+.scoreLoser, .kdDiffNegative {
   font: bold 15px arial, sans-serif;
   color:#e40a0a;
 }
@@ -107,4 +99,12 @@ tr.spacer > th {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+#matchHeaderStats {
+  display: flex;
+}
+
+#teamStatsHeader, #teamAHeader, #teamBHeader {
+  flex: 1;
 }
