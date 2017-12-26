@@ -4276,7 +4276,7 @@
   },
   {
     "UID": "pug_de_inferno_old_2017-12-16_23",
-    "MapName": "workshop/822144441/de_inferno_old",
+    "MapName": "de_inferno_old",
     "TotalRounds": 59,
     "Month": 12,
     "Day": 16,
@@ -4915,7 +4915,7 @@
   },
   {
     "UID": "pug_de_inferno_old_2017-12-17_22",
-    "MapName": "workshop/822144441/de_inferno_old",
+    "MapName": "de_inferno_old",
     "TotalRounds": 41,
     "Month": 12,
     "Day": 17,
@@ -9250,7 +9250,7 @@
   },
   {
     "UID": "pug_de_season_2017-12-15_00",
-    "MapName": "workshop/322837144/de_season",
+    "MapName": "de_season",
     "TotalRounds": 23,
     "Month": 12,
     "Day": 15,
