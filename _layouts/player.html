@@ -21,61 +21,10 @@
    </head>
    <body>
       {% assign SteamID = page.SteamID | downcase %}
-      {% assign myMatches = site.data.matches | where_exp:"item", "item.SteamIDs contains SteamID" %}
-      <!-- Generate Player Data -->
-      {% assign TotalRounds = 0 %}
-      {% assign Kills = 0 %}
-      {% assign Assists = 0 %}
-      {% assign Deaths = 0 %}
-      {% assign KASTRounds = 0 %}
-      {% assign DamageDealt = 0 %}
-      {% assign Headshots = 0 %}
-      {% assign Plants = 0 %}
-      {% assign Defuses = 0 %}
-      {% assign MVPs = 0 %}
-      {% assign TeamKills = 0 %}
-      {% assign AWPKills = 0 %}
-      {% assign FirstKills = 0 %}
-      {% assign FirstDeaths = 0 %}
-      {% assign OneKRounds = 0 %}
-      {% assign TwoKRounds = 0 %}
-      {% assign ThreeKRounds = 0 %}
-      {% assign FourKRounds = 0 %}
-      {% assign FiveKRounds = 0 %}
-      {% assign matchidstring = "" %}
-      {% assign RoundsWon = 0 %}
-      {% for match in myMatches %}			
-        {% assign player = match.Players[SteamID] %}
-        {% assign TotalRounds = TotalRounds | plus: match.TotalRounds %}
-        {% assign Kills = Kills | plus: player.Kills %}
-        {% assign Assists = Assists | plus: player.Assists %}
-        {% assign Deaths = Deaths | plus: player.Deaths %}
-        {% assign KASTRounds = KASTRounds | plus: player.KASTRounds %}
-        {% assign DamageDealt = DamageDealt | plus: player.DamageDealt %}
-        {% assign Headshots = Headshots | plus: player.Headshots %}
-        {% assign Plants = Plants | plus: player.Plants %}
-        {% assign Defuses = Defuses | plus: player.Defuses %}
-        {% assign MVPs = MVPs | plus: player.MVPs %}
-        {% assign TeamKills = TeamKills | plus: player.TeamKills %}
-        {% assign AWPKills = AWPKills | plus: player.AWPKills %}
-        {% assign FirstKills = FirstKills | plus: player.FirstKills %}
-        {% assign FirstDeaths = FirstDeaths | plus: player.FirstDeaths %}
-        {% assign OneKRounds = OneKRounds | plus: player.KillPerRound["1"] %}
-        {% assign TwoKRounds = TwoKRounds | plus: player.KillPerRound["2"] %}
-        {% assign ThreeKRounds = ThreeKRounds | plus: player.KillPerRound["3"] %}
-        {% assign FourKRounds = FourKRounds | plus: player.KillPerRound["4"] %}
-        {% assign FiveKRounds = FiveKRounds | plus: player.KillPerRound["5"] %}
-        {% assign matchidstring = matchidstring | append: match.UID | append: "," %}
-      {% endfor %}
-      {% assign TotalRounds = TotalRounds | times: 1.0 %}
-      {% assign Kills = Kills | times: 1.0 %}
-      {% assign Headshots = Headshots | times: 1.0 %}
-      {% assign matchids = matchidstring | split: "," %}
-      <!-- End Generate Player Data -->
       <div class="wrapper">
          <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
          <div style="clear: both">
-            <h1 style="float: left">{{myMatches[0].Players[SteamID].Name}}</h1>
+            <h1 style="float: left">{{page.Name}}</h1>
          </div>
          <br/>
          <br/>
@@ -85,11 +34,11 @@
          </header>
       {% include navbar.html %}
          <section>
-            <button class="accordion">Matches</button>
+            <button class="accordion">Matches ({{ page.Matches | size }})</button>
             <div class="panel">
                <ul>
-                  {% for matchid in matchids %}
-                    <li><a href="/matches/{{matchid}}.html">{{matchid}}</a>
+                  {% for match in page.Matches %}
+                    <li><a href="/matches/{{match}}.html">{{match}}</a>
                   {% endfor %}
                </ul>
             </div>
@@ -98,42 +47,43 @@
                <tr>
                   <th style="text-align: center">Kills</th>
                   <!-- Kills -->				
-                  <td markdown="span" style="text-align: center">{{Kills | default: 0 | round: 0 }}</td>
+                  <td markdown="span" style="text-align: center">{{page.Kills | default: 0 | round: 0 }}</td>
                </tr>
                <tr>
                   <th style="text-align: center">Assists</th>
                   <!-- Assists -->
-                  <td markdown="span" style="text-align: center">{{Assists | default: 0 }}</td>
+                  <td markdown="span" style="text-align: center">{{page.Assists | default: 0 }}</td>
                </tr>
                <tr>
                   <th style="text-align: center">Deaths</th>
                   <!-- Deaths -->
-                  <td markdown="span" style="text-align: center">{{Deaths | default: 0 }}</td>
+                  <td markdown="span" style="text-align: center">{{page.Deaths | default: 0 }}</td>
                </tr>
                <tr>
                   <th style="text-align: center">KAST %</th>
                   <!-- KAST % -->
-                  {% if TotalRounds == 0 %}
+                  {% if page.TotalRounds == 0 %}
                     {% assign KASTPercentage = 0 %}
                   {% else %}
-                    {% assign KASTPercentage = KASTRounds | divided_by: TotalRounds | times: 100 | round: 2 %}
+                    {% assign TotalRounds = page.TotalRounds | times: 1.0 %}
+                    {% assign KASTPercentage = page.KASTRounds | divided_by: TotalRounds | times: 100 | round: 2 %}
                   {% endif %}
                   <td markdown="span" style="text-align: center">{{KASTPercentage}}%</td>
                </tr>
                <tr>
                   <th style="text-align: center">ADR</th>
                   <!-- ADR -->
-                  {% if TotalRounds == 0 %}
+                  {% if page.TotalRounds == 0 %}
                     {% assign ADR = 0 %}
                   {% else %}
-                    {% assign ADR = DamageDealt | divided_by: TotalRounds | round: 2 %}
+                    {% assign ADR = page.DamageDealt | divided_by: page.TotalRounds | round: 2 %}
                   {% endif %}
                   <td markdown="span" style="text-align: center">{{ADR}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">KD Diff</th>
                   <!-- K/D Diff -->
-                  {% assign kdDiff = Kills | minus: Deaths %}
+                  {% assign kdDiff = page.Kills | minus: page.Deaths %}
                   {% if kdDiff > 0 %}
                     {% assign kdDiffClass = "kdDiffPositive" %}
                     {% assign kdSign = "+" %}
@@ -149,82 +99,84 @@
                <tr>
                   <th style="text-align: center">Headshot %</th>
                   <!-- Headshots % -->
-                  {% if Kills == 0 %}
+                  {% if page.Kills == 0 %}
                     {% assign HSPercentage = 0 %}
                   {% else %}
-                    {% assign HSPercentage = Headshots | divided_by: Kills | times: 100 | round: 2 %}
+                    {% assign Kills = page.Kills | times: 1.0 %}
+                    {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
                   {% endif %}
                   <td markdown="span" style="text-align: center">{{HSPercentage}}%</td>
                </tr>
                <tr>
                   <th style="text-align: center">Plants</th>
                   <!-- Plants -->
-                  <td markdown="span" style="text-align: center">{{Plants | default :0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.Plants | default :0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">Defuses</th>
                   <!-- Defuses -->
-                  <td markdown="span" style="text-align: center">{{Defuses | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.Defuses | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">MVPs</th>
                   <!-- MVPs -->
-                  <td markdown="span" style="text-align: center">{{MVPs | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.MVPs | default: 0}}</td>
                </tr>
             </table>
             <table id="table_{{SteamID}}_2" class="halfTable">
                <tr>
                   <th style="text-align: center">Team Kills</th>
                   <!-- TKs -->
-                  <td markdown="span" style="text-align: center">{{TeamKills | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.TeamKills | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">AWP Kills</th>
                   <!-- AWP Kills -->
-                  <td markdown="span" style="text-align: center">{{AWPKills | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.AWPKills | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">Damage Dealt</th>
                   <!-- Damage Dealt -->
-                  <td markdown="span" style="text-align: center">{{DamageDealt | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.DamageDealt | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">First Kills</th>
                   <!-- First Kills -->
-                  <td markdown="span" style="text-align: center">{{FirstKills | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.FirstKills | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">First Deaths</th>
                   <!-- First Deaths -->
-                  <td markdown="span" style="text-align: center">{{FirstDeaths | default: 0}}</td>
+                  <td markdown="span" style="text-align: center">{{page.FirstDeaths | default: 0}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">1K Rounds</th>
                   <!-- 1Ks -->
-                  <td markdown="span" style="text-align: center">{{OneKRounds | default:"0"}}</td>
+                  <td markdown="span" style="text-align: center">{{page.KillPerRound["1"] | default:"0"}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">2K Rounds</th>
                   <!-- 2Ks -->
-                  <td markdown="span" style="text-align: center">{{TwoKRounds | default:"0"}}</td>
+                  <td markdown="span" style="text-align: center">{{page.KillPerRound["2"] | default:"0"}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">3K Rounds</th>
                   <!-- 3Ks -->
-                  <td markdown="span" style="text-align: center">{{ThreeKRounds | default:"0"}}</td>
+                  <td markdown="span" style="text-align: center">{{page.KillPerRound["3"] | default:"0"}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">4K Rounds</th>
                   <!-- 4Ks -->
-                  <td markdown="span" style="text-align: center">{{FourKRounds | default:"0"}}</td>
+                  <td markdown="span" style="text-align: center">{{page.KillPerRound["4"] | default:"0"}}</td>
                </tr>
                <tr>
                   <th style="text-align: center">5K Rounds</th>
                   <!-- 5Ks -->
-                  <td markdown="span" style="text-align: center">{{FiveKRounds | default:"0"}}</td>
+                  <td markdown="span" style="text-align: center">{{page.KillPerRound["5"] | default:"0"}}</td>
                </tr>
             </table>
-      <div align="left">
+      <button class="accordion">Kill Matrix</button>
+      <div class="panel" align="left">
       {% assign length = site.data.players | size | minus: 1 %}
       {% assign halfLen = length | divided_by: 2 | ceil %}
       {% assign leftLen = length | minus: halfLen %}
@@ -232,7 +184,7 @@
         <thead>
       		<tr class="header" id="ignoreglobal">
             <th style="text-align: center">Name</th>
-            <th style="text-align: center">Kills:KilledBy</th>
+            <th style="text-align: center">Killed:KilledBy</th>
           </tr>
         </thead>
         <tbody>
