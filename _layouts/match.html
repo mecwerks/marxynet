@@ -1,201 +1,157 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <title>{{ page.TeamA.Name | default: "Team A" }} vs. {{ page.TeamB.Name | default: "Team B" }} ({{ page.TeamA.RoundsWon }}-{{ page.TeamB.RoundsWon }})</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-{% seo %}
-    <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	  <script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-    {% include favicon.html %}
-    {% include ads.html %}
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-    <header>
-	    <div align="center" id="matchHeaderStats">
-        {% if page.TeamA.RoundsWon > page.TeamB.RoundsWon %} 
-          {% assign scoreAClass = "scoreWinner"%} 
-          {% assign scoreBClass = "scoreLoser" %} 
-        {% elsif page.TeamA.RoundsWon < page.TeamB.RoundsWon%} 
-          {% assign scoreAClass="scoreLoser" %} 
-          {% assign scoreBClass="scoreWinner" %} 
-        {% else %} 
-          {% assign scoreAClass="scoreTie" %} 
-          {% assign scoreBClass="scoreTie" %} 
-        {% endif %} 
-        <div id="teamAHeader"><br>
-          <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
-          <span style="font-size: 24px;" class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
-        </div>
-	      <div id="teamStatsHeader">
-          <br>
-          {% assign monthString = page.Year | append: "-" | append: page.Month | append: "-" | append: page.Day | append: "T" | append: page.Hour | append: ":00:00" %}
-          <h1>{{monthString | date: "%H"}}:00</h1>
-          {{monthString | date: "%B "}}
-            {% assign d = monthString | date: "%-d" %}
-            {% case d %}
-              {% when "1" or "21" or "31" %}{{ d }}st
-              {% when "2" or "22" %}{{ d }}nd
-              {% when "3" or "23" %}{{ d }}rd
-              {% else %}{{ d }}th
-            {% endcase %} 
-            {{monthString | date: ", %Y"}}
-        </div>
-        <div id="teamBHeader"><br>
-          <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
-          <span style="font-size: 24px;" class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
-        </div>
-		  </div>
-    </header>
-      {% include navbar.html %}
-      <section>
-	  
-	  {% assign rounds = page.TotalRounds %}
-	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
-	  {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
-
-    <div align="center">
-      <table id="matrix" class="row-border hover order-column">
-        <thead>
-      		<tr class="header" id="ignoreglobal">
-            <th></th>
-            {% for teamBPlayer in page.TeamB.SteamIDs %}
-              {% assign teamBPlayerID = teamBPlayer | downcase %}
-              <th class="col" style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
-            {% endfor %}
-          </tr>
-        </thead>
-        <tbody>
-          {% for teamAPlayer in page.TeamA.SteamIDs %}
-            {% assign teamAPlayerID = teamAPlayer | downcase %}
-            <tr id="ignoreglobal">
-              <th class="row" style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
-              {% for teamBPlayer in page.TeamB.SteamIDs %}
-                {% assign teamBPlayerID = teamBPlayer | downcase %}
-                <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
-              {% endfor %}
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-      </div>
-      <div align="center">
-      <table class="halfTable row-border hover order-column">
-        <tr>
-            <th style="text-align: center">Execute Order 66</th>
-            {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">The Kendoll</th>
-            {% assign steamid = page.Awards.TheKendoll.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">Terminator</th>
-            {% assign steamid = page.Awards.Terminator.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">The Professional</th>
-            {% assign steamid = page.Awards.TheProfessional.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">Lending Hand</th>
-            {% assign steamid = page.Awards.LendingHand.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">The Assasin</th>
-            {% assign steamid = page.Awards.TheAssasin.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">The Entry</th>
-            {% assign steamid = page.Awards.TheEntry.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">Clutch Master</th>
-            {% assign steamid = page.Awards.ClutchMaster.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">Trade Craft</th>
-            {% assign steamid = page.Awards.TradeCraft.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-        <tr>
-            <th style="text-align: center">Frag Bait</th>
-            {% assign steamid = page.Awards.FragBait.SteamID | downcase %}
-            <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
-        </tr>
-      </table>
-    </div> 
-      </section>
+---
+layout: default
+type: Match
+---
+<header>
+  <div align="center" id="matchHeaderStats">
+    {% if page.TeamA.RoundsWon > page.TeamB.RoundsWon %} 
+      {% assign scoreAClass = "scoreWinner"%} 
+      {% assign scoreBClass = "scoreLoser" %} 
+    {% elsif page.TeamA.RoundsWon < page.TeamB.RoundsWon%} 
+      {% assign scoreAClass="scoreLoser" %} 
+      {% assign scoreBClass="scoreWinner" %} 
+    {% else %} 
+      {% assign scoreAClass="scoreTie" %} 
+      {% assign scoreBClass="scoreTie" %} 
+    {% endif %} 
+    <div id="teamAHeader"><br>
+      <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
+      <span style="font-size: 24px;" class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
     </div>
-    <footer>
-    {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-    {% endif %}
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <script>
-      var table = $('#awardTable').DataTable(
-        {
-          "paging":   false,
-          "ordering": false,
-          "info":     false,
-          "searching":   false
-        }
-      );
-    </script>
-    <script>
-    $(document).ready(function() {
-      var table = $('#matrix').DataTable(
-        {
-          "paging":   false,
-          "ordering": false,
-          "info":     false,
-          "searching":   false
-        }
-      );
-      
-      $('#matrix tbody')
-          .on( 'mouseenter', 'td', function () {
-              var colIdx = table.cell(this).index().column;
-              var rowIdx = table.cell(this).index().row;
+    <div id="teamStatsHeader">
+      <br>
+      {% assign monthString = page.Year | append: "-" | append: page.Month | append: "-" | append: page.Day | append: "T" | append: page.Hour | append: ":00:00" %}
+      <h1>{{monthString | date: "%H"}}:00</h1>
+      {{monthString | date: "%B "}}
+        {% assign d = monthString | date: "%-d" %}
+        {% case d %}
+          {% when "1" or "21" or "31" %}{{ d }}st
+          {% when "2" or "22" %}{{ d }}nd
+          {% when "3" or "23" %}{{ d }}rd
+          {% else %}{{ d }}th
+        {% endcase %} 
+        {{monthString | date: ", %Y"}}
+    </div>
+    <div id="teamBHeader"><br>
+      <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
+      <span style="font-size: 24px;" class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
+    </div>
+  </div>
+</header>	  
+{% assign rounds = page.TotalRounds %}
+{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
+{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
-              $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
-              $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
-          } ).on('mouseleave', 'td', function () {
-              $( table.cells().nodes() ).removeClass( 'highlight' );
-              $( table.rows().nodes() ).removeClass( 'highlight' );
-          });
-    } );
-    </script>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
-</html>
+<div align="center">
+  <table id="matrix" class="row-border hover order-column">
+    <thead>
+      <tr class="header" id="ignoreglobal">
+        <th></th>
+        {% for teamBPlayer in page.TeamB.SteamIDs %}
+          {% assign teamBPlayerID = teamBPlayer | downcase %}
+          <th class="col" style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for teamAPlayer in page.TeamA.SteamIDs %}
+        {% assign teamAPlayerID = teamAPlayer | downcase %}
+        <tr id="ignoreglobal">
+          <th class="row" style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
+          {% for teamBPlayer in page.TeamB.SteamIDs %}
+            {% assign teamBPlayerID = teamBPlayer | downcase %}
+            <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <div align="center">
+  <table class="halfTable row-border hover order-column">
+    <tr>
+        <th style="text-align: center">Execute Order 66</th>
+        {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">The Kendoll</th>
+        {% assign steamid = page.Awards.TheKendoll.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">Terminator</th>
+        {% assign steamid = page.Awards.Terminator.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">The Professional</th>
+        {% assign steamid = page.Awards.TheProfessional.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">Lending Hand</th>
+        {% assign steamid = page.Awards.LendingHand.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">The Assasin</th>
+        {% assign steamid = page.Awards.TheAssasin.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">The Entry</th>
+        {% assign steamid = page.Awards.TheEntry.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">Clutch Master</th>
+        {% assign steamid = page.Awards.ClutchMaster.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">Trade Craft</th>
+        {% assign steamid = page.Awards.TradeCraft.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+    <tr>
+        <th style="text-align: center">Frag Bait</th>
+        {% assign steamid = page.Awards.FragBait.SteamID | downcase %}
+        <td style="text-align: center"><a href="/players/{{steamid}}.html">{{ page.Players[steamid].Name }}</a></td>
+    </tr>
+  </table>
+</div> 
+<script>
+  var table = $('#awardTable').DataTable(
+    {
+      "paging":   false,
+      "ordering": false,
+      "info":     false,
+      "searching":   false
+    }
+  );
+</script>
+<script>
+$(document).ready(function() {
+  var table = $('#matrix').DataTable(
+    {
+      "paging":   false,
+      "ordering": false,
+      "info":     false,
+      "searching":   false
+    }
+  );
+  
+  $('#matrix tbody')
+      .on( 'mouseenter', 'td', function () {
+          var colIdx = table.cell(this).index().column;
+          var rowIdx = table.cell(this).index().row;
+
+          $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
+          $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
+      } ).on('mouseleave', 'td', function () {
+          $( table.cells().nodes() ).removeClass( 'highlight' );
+          $( table.rows().nodes() ).removeClass( 'highlight' );
+      });
+} );
+</script>

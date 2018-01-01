@@ -1,260 +1,193 @@
-<!doctype html>
-<html lang="{{ site.lang | default: 'en-US' }}">
-   <head>
-      <title>{{page.Name}} - Statistics</title>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="chrome=1">
-      {% seo %}
-      <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-      <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-      <script src="{{ '/assets/js/sorttable.js' | relative_url }}"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-      {% include favicon.html %}
-      {% include ads.html %}
-      <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-   </head>
-   <body>
-      {% assign SteamID = page.SteamID | downcase %}
-      <div class="wrapper">
-         <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-         <div style="clear: both">
-            <h1 style="float: left">{{page.Name}}</h1>
-         </div>
-         <br/>
-         <br/>
-         {% if site.description or site.github.project_tagline %}
-         <p>{{ site.description | default: site.github.project_tagline }}</p>
-         {% endif %}
-         </header>
-      {% include navbar.html %}
-         <section>
-            <button class="accordion">Matches ({{ page.Matches | size }})</button>
-            <div class="panel">
-               <ul>
-                  {% for match in page.Matches %}
-                    <li><a href="/matches/{{match}}.html">{{match}}</a>
-                  {% endfor %}
-               </ul>
-            </div>
-            <br>
-            <table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
-               <tr>
-                  <th style="text-align: center">Kills</th>
-                  <!-- Kills -->				
-                  <td markdown="span" style="text-align: center">{{page.Kills | default: 0 | round: 0 }}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Assists</th>
-                  <!-- Assists -->
-                  <td markdown="span" style="text-align: center">{{page.Assists | default: 0 }}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Deaths</th>
-                  <!-- Deaths -->
-                  <td markdown="span" style="text-align: center">{{page.Deaths | default: 0 }}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">KAST %</th>
-                  <!-- KAST % -->
-                  {% if page.TotalRounds == 0 %}
-                    {% assign KASTPercentage = 0 %}
-                  {% else %}
-                    {% assign TotalRounds = page.TotalRounds | times: 1.0 %}
-                    {% assign KASTPercentage = page.KASTRounds | divided_by: TotalRounds | times: 100 | round: 2 %}
-                  {% endif %}
-                  <td markdown="span" style="text-align: center">{{KASTPercentage}}%</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">ADR</th>
-                  <!-- ADR -->
-                  {% if page.TotalRounds == 0 %}
-                    {% assign ADR = 0 %}
-                  {% else %}
-                    {% assign ADR = page.DamageDealt | divided_by: page.TotalRounds | round: 2 %}
-                  {% endif %}
-                  <td markdown="span" style="text-align: center">{{ADR}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">KD Diff</th>
-                  <!-- K/D Diff -->
-                  {% assign kdDiff = page.Kills | minus: page.Deaths %}
-                  {% if kdDiff > 0 %}
-                    {% assign kdDiffClass = "kdDiffPositive" %}
-                    {% assign kdSign = "+" %}
-                  {% elsif kdDiff < 0 %}
-                    {% assign kdDiffClass = "kdDiffNegative" %}
-                    {% assign kdSign = "" %}
-                  {% else %}
-                    {% assign kdDiffClass = "kdDiffNone" %}
-                    {% assign kdSign = "" %}
-                  {% endif %}
-                  <td markdown="span" style="text-align: center" class={{kdDiffClass}}>{{kdSign}}{{kdDiff | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Headshot %</th>
-                  <!-- Headshots % -->
-                  {% if page.Kills == 0 %}
-                    {% assign HSPercentage = 0 %}
-                  {% else %}
-                    {% assign Kills = page.Kills | times: 1.0 %}
-                    {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
-                  {% endif %}
-                  <td markdown="span" style="text-align: center">{{HSPercentage}}%</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Plants</th>
-                  <!-- Plants -->
-                  <td markdown="span" style="text-align: center">{{page.Plants | default :0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Defuses</th>
-                  <!-- Defuses -->
-                  <td markdown="span" style="text-align: center">{{page.Defuses | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">MVPs</th>
-                  <!-- MVPs -->
-                  <td markdown="span" style="text-align: center">{{page.MVPs | default: 0}}</td>
-               </tr>
-            </table>
-            <table id="table_{{SteamID}}_2" class="halfTable">
-               <tr>
-                  <th style="text-align: center">Team Kills</th>
-                  <!-- TKs -->
-                  <td markdown="span" style="text-align: center">{{page.TeamKills | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">AWP Kills</th>
-                  <!-- AWP Kills -->
-                  <td markdown="span" style="text-align: center">{{page.AWPKills | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">Damage Dealt</th>
-                  <!-- Damage Dealt -->
-                  <td markdown="span" style="text-align: center">{{page.DamageDealt | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">First Kills</th>
-                  <!-- First Kills -->
-                  <td markdown="span" style="text-align: center">{{page.FirstKills | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">First Deaths</th>
-                  <!-- First Deaths -->
-                  <td markdown="span" style="text-align: center">{{page.FirstDeaths | default: 0}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">1K Rounds</th>
-                  <!-- 1Ks -->
-                  <td markdown="span" style="text-align: center">{{page.KillPerRound["1"] | default:"0"}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">2K Rounds</th>
-                  <!-- 2Ks -->
-                  <td markdown="span" style="text-align: center">{{page.KillPerRound["2"] | default:"0"}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">3K Rounds</th>
-                  <!-- 3Ks -->
-                  <td markdown="span" style="text-align: center">{{page.KillPerRound["3"] | default:"0"}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">4K Rounds</th>
-                  <!-- 4Ks -->
-                  <td markdown="span" style="text-align: center">{{page.KillPerRound["4"] | default:"0"}}</td>
-               </tr>
-               <tr>
-                  <th style="text-align: center">5K Rounds</th>
-                  <!-- 5Ks -->
-                  <td markdown="span" style="text-align: center">{{page.KillPerRound["5"] | default:"0"}}</td>
-               </tr>
-            </table>
-      <button class="accordion">Kill Matrix</button>
-      <div class="panel" align="left">
-      {% assign length = site.data.players | size | minus: 1 %}
-      {% assign halfLen = length | divided_by: 2 | ceil %}
-      {% assign leftLen = length | minus: halfLen %}
-      <table id="matrix" class="row-border hover order-column">
-        <thead>
-      		<tr class="header" id="ignoreglobal">
-            <th style="text-align: center">Name</th>
-            <th style="text-align: center">Killed:KilledBy</th>
-          </tr>
-        </thead>
-        <tbody>
-            {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
-            {% for player in sortedPlayers %}
-            {% unless player.SteamID == page.SteamID %}
-            <tr id="ignoreglobal">
-              <td class="row" style="text-align: center"><a href="/players/{{player.SteamID}}.html">{{player.Name}}</a></td>
-                {% assign steamid = player.SteamID | downcase %}
-                {% assign myid = page.SteamID | downcase %}
-                <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
-            </tr>
-            {% endunless %}
-            {% endfor %}
-        </tbody>
-      </table>
-      </div>
-         </section>
-      </div>
-      <footer>
-         {% if site.github.is_project_page %}
-         <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-         {% endif %}
-         <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-      </footer>
-    <script>
-    $(document).ready(function() {
-      var table = $('#matrix').DataTable(
-        {
-          "paging":   false,
-          "ordering": false,
-          "info":     false,
-          "searching": false
-        }
-      );
-      
-      $('#matrix tbody')
-          .on( 'mouseenter', 'td', function () {
-              var rowIdx = table.cell(this).index().row;
-
-              $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
-          } ).on('mouseleave', 'td', function () {
-              $( table.rows().nodes() ).removeClass( 'highlight' );
-          });
-    } );
-    </script>      <script>
-         var acc = document.getElementsByClassName("accordion");
-         var i;
-         
-         for (i = 0; i < acc.length; i++) {
-           acc[i].addEventListener("click", function() {
-             this.classList.toggle("active");
-             var panel = this.nextElementSibling;
-             if (panel.style.maxHeight){
-               panel.style.maxHeight = null;
-             } else {
-               panel.style.maxHeight = panel.scrollHeight + "px";
-             } 
-           });
-         }
-      </script>   <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-      {% if site.google_analytics %}
-      <script type="text/javascript">
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-         ga('create', '{{ site.google_analytics }}', 'auto');
-         ga('send', 'pageview');
-      </script>
+---
+layout: default
+type: Player
+---
+<button class="accordion">Matches ({{ page.Matches | size }})</button>
+<div class="panel">
+    <ul>
+      {% for match in page.Matches %}
+        <li><a href="/matches/{{match}}.html">{{match}}</a>
+      {% endfor %}
+    </ul>
+</div>
+<br>
+<table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
+    <tr>
+      <th style="text-align: center">Kills</th>
+      <!-- Kills -->				
+      <td markdown="span" style="text-align: center">{{page.Kills | default: 0 | round: 0 }}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Assists</th>
+      <!-- Assists -->
+      <td markdown="span" style="text-align: center">{{page.Assists | default: 0 }}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Deaths</th>
+      <!-- Deaths -->
+      <td markdown="span" style="text-align: center">{{page.Deaths | default: 0 }}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">KAST %</th>
+      <!-- KAST % -->
+      {% if page.TotalRounds == 0 %}
+        {% assign KASTPercentage = 0 %}
+      {% else %}
+        {% assign TotalRounds = page.TotalRounds | times: 1.0 %}
+        {% assign KASTPercentage = page.KASTRounds | divided_by: TotalRounds | times: 100 | round: 2 %}
       {% endif %}
-   </body>
-</html>
+      <td markdown="span" style="text-align: center">{{KASTPercentage}}%</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">ADR</th>
+      <!-- ADR -->
+      {% if page.TotalRounds == 0 %}
+        {% assign ADR = 0 %}
+      {% else %}
+        {% assign ADR = page.DamageDealt | divided_by: page.TotalRounds | round: 2 %}
+      {% endif %}
+      <td markdown="span" style="text-align: center">{{ADR}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">KD Diff</th>
+      <!-- K/D Diff -->
+      {% assign kdDiff = page.Kills | minus: page.Deaths %}
+      {% if kdDiff > 0 %}
+        {% assign kdDiffClass = "kdDiffPositive" %}
+        {% assign kdSign = "+" %}
+      {% elsif kdDiff < 0 %}
+        {% assign kdDiffClass = "kdDiffNegative" %}
+        {% assign kdSign = "" %}
+      {% else %}
+        {% assign kdDiffClass = "kdDiffNone" %}
+        {% assign kdSign = "" %}
+      {% endif %}
+      <td markdown="span" style="text-align: center" class={{kdDiffClass}}>{{kdSign}}{{kdDiff | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Headshot %</th>
+      <!-- Headshots % -->
+      {% if page.Kills == 0 %}
+        {% assign HSPercentage = 0 %}
+      {% else %}
+        {% assign Kills = page.Kills | times: 1.0 %}
+        {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
+      {% endif %}
+      <td markdown="span" style="text-align: center">{{HSPercentage}}%</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Plants</th>
+      <!-- Plants -->
+      <td markdown="span" style="text-align: center">{{page.Plants | default :0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Defuses</th>
+      <!-- Defuses -->
+      <td markdown="span" style="text-align: center">{{page.Defuses | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">MVPs</th>
+      <!-- MVPs -->
+      <td markdown="span" style="text-align: center">{{page.MVPs | default: 0}}</td>
+    </tr>
+</table>
+<table id="table_{{SteamID}}_2" class="halfTable">
+    <tr>
+      <th style="text-align: center">Team Kills</th>
+      <!-- TKs -->
+      <td markdown="span" style="text-align: center">{{page.TeamKills | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">AWP Kills</th>
+      <!-- AWP Kills -->
+      <td markdown="span" style="text-align: center">{{page.AWPKills | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">Damage Dealt</th>
+      <!-- Damage Dealt -->
+      <td markdown="span" style="text-align: center">{{page.DamageDealt | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">First Kills</th>
+      <!-- First Kills -->
+      <td markdown="span" style="text-align: center">{{page.FirstKills | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">First Deaths</th>
+      <!-- First Deaths -->
+      <td markdown="span" style="text-align: center">{{page.FirstDeaths | default: 0}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">1K Rounds</th>
+      <!-- 1Ks -->
+      <td markdown="span" style="text-align: center">{{page.KillPerRound["1"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">2K Rounds</th>
+      <!-- 2Ks -->
+      <td markdown="span" style="text-align: center">{{page.KillPerRound["2"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">3K Rounds</th>
+      <!-- 3Ks -->
+      <td markdown="span" style="text-align: center">{{page.KillPerRound["3"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">4K Rounds</th>
+      <!-- 4Ks -->
+      <td markdown="span" style="text-align: center">{{page.KillPerRound["4"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">5K Rounds</th>
+      <!-- 5Ks -->
+      <td markdown="span" style="text-align: center">{{page.KillPerRound["5"] | default:"0"}}</td>
+    </tr>
+</table>            
+<button class="accordion">Kill Matrix</button>
+<div class="panel" align="left">
+  {% assign length = site.data.players | size | minus: 1 %}
+  {% assign halfLen = length | divided_by: 2 | ceil %}
+  {% assign leftLen = length | minus: halfLen %}
+  <table id="matrix" class="row-border hover order-column">
+    <thead>
+      <tr class="header" id="ignoreglobal">
+        <th style="text-align: center">Name</th>
+        <th style="text-align: center">Killed:KilledBy</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
+        {% for player in sortedPlayers %}
+        {% unless player.SteamID == page.SteamID %}
+        <tr id="ignoreglobal">
+          <td class="row" style="text-align: center"><a href="/players/{{player.SteamID}}.html">{{player.Name}}</a></td>
+            {% assign steamid = player.SteamID | downcase %}
+            {% assign myid = page.SteamID | downcase %}
+            <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
+        </tr>
+        {% endunless %}
+        {% endfor %}
+    </tbody>
+  </table>
+</div>
+<script>
+$(document).ready(function() {
+  var table = $('#matrix').DataTable(
+    {
+      "paging":   false,
+      "ordering": false,
+      "info":     false,
+      "searching": false
+    }
+  );
+  
+  $('#matrix tbody')
+      .on( 'mouseenter', 'td', function () {
+          var rowIdx = table.cell(this).index().row;
+
+          $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
+      } ).on('mouseleave', 'td', function () {
+          $( table.rows().nodes() ).removeClass( 'highlight' );
+      });
+} );
+</script>

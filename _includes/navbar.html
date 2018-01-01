@@ -26,6 +26,7 @@
 }
 </style>
 <ul id="navBar">
+  <li id="navItem"><a href="/" {% unless current[1] %}class='active'{% endunless %}>Home</a></li>
   <li id="navItem"><a href="/leaderboards" {% if current[1] == 'leaderboards' %}class='active'{% endif %}>Leaderboards</a></li>
   <li id="navItem"><a href="/matches" {% if current[1] == 'matches' %}class='active'{% endif %}>Matches</a></li>
   <li id="navItem"><a href="/players" {% if current[1] == 'players' %}class='active'{% endif %}>Players</a></li>
