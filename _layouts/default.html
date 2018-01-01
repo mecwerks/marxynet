@@ -32,13 +32,13 @@
       <header>
       <font style="font-weight:bold" size="3" color="#333">Marxy.net</font>
       </header>
-      {% include ads.html %}
       {% include navbar.html %}
       <section>
       {{ content }}
       </section>
     </div>
     <footer>
+    {% include ads.html %}
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
