@@ -6,7 +6,7 @@ title: Matches
 <div align="center" class="matchresult">
     {% assign currentMonth = 13 %}
     {% assign newMonth = false %}
-    {% assign matches = site.data.matches | sort: "UnixTime" | reverse %}
+    {% assign matches = site.data.matches %}
     {% for match in matches %} 
     {% if match.TeamA.RoundsWon > match.TeamB.RoundsWon %} 
         {% assign scoreAClass = "scoreWinner"%} 
