@@ -10,7 +10,7 @@ title: Players
 <table id="playerList" class="halfTable" style="float: left">
     {% for i in (0..halfLen) %}
         <tr>
-            <th style="text-align: center"><a href="/players/{{players[i].SteamID}}.html">{{players[i].Name}}</a></th>
+            <th style="text-align: center"><a href="/players/{{players[i].UID}}">{{players[i].Name}}</a></th>
         </tr>
     {% endfor %}
 </table>
@@ -20,7 +20,7 @@ title: Players
 <table id="playerList2" class="halfTable">
     {% for i in (halfLen..len) %}
         <tr>
-            <th style="text-align: center"><a href="/players/{{players[i].SteamID}}.html">{{players[i].Name}}</a></th>
+            <th style="text-align: center"><a href="/players/{{players[i].UID}}">{{players[i].Name}}</a></th>
         </tr>
     {% endfor %}
 </table>

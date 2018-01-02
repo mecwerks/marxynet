@@ -13,12 +13,14 @@ show_downloads: false
 page_gen:
     - data: 'players'
       template: 'player'
-      name: 'SteamID'
+      name: 'UID'
       dir: 'players'
+      index_files: true
     - data: 'matches'
       template: 'match'
       name: 'UID'
       dir: 'matches'
+      index_files: true
       
 # Build settings
 markdown: kramdown

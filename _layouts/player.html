@@ -6,7 +6,7 @@ type: Player
 <div class="panel">
     <ul>
       {% for match in page.Matches %}
-        <li><a href="/matches/{{match}}.html">{{match}}</a>
+        <li><a href="/matches/{{match}}">{{match}}</a>
       {% endfor %}
     </ul>
 </div>
@@ -160,7 +160,7 @@ type: Player
         {% for player in sortedPlayers %}
         {% unless player.SteamID == page.SteamID %}
         <tr id="ignoreglobal">
-          <td class="row" style="text-align: center"><a href="/players/{{player.SteamID}}.html">{{player.Name}}</a></td>
+          <td class="row" style="text-align: center"><a href="/players/{{player.UID}}">{{player.Name}}</a></td>
             {% assign steamid = player.SteamID | downcase %}
             {% assign myid = page.SteamID | downcase %}
             <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>

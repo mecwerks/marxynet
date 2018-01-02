@@ -29,7 +29,7 @@ title: Matches
         {% assign currentMonth = match.Month %}
         {% assign newMonth = true %}
     {% endif %}
-        <tr class='clickablerow' href='/matches/{{match.UID}}.html' id="matchrow">
+        <tr class='clickablerow' href='/matches/{{match.UID}}' id="matchrow">
             <td>
             {% assign d = monthString | date: "%-d" %}
             {% case d %}

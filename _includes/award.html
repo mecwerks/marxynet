@@ -1,5 +1,5 @@
 {% assign currentName = "None" %}
-{% assign currentSteamID = "" %}
+{% assign currentUID = "" %}
 {% assign currentCount = 0 %}
 {% assign currentMathNumber = 0 %}
 
@@ -19,9 +19,9 @@
 	{% endunless %}
 	{% if count > currentCount %}
 		{% assign currentName = player.Name %}
-		{% assign currentSteamID = steamid %}
+		{% assign currentUID = player.UID %}
 		{% assign currentCount = count %}
 	{% endif %}
 {% endfor %}
 
-<a href="/players/{{currentSteamID}}.html">{{currentName}}</a> ({{currentCount}}{{include.ValueAppend}})
+<a href="/players/{{currentSteamID}}">{{currentName}}</a> ({{currentCount}}{{include.ValueAppend}})
