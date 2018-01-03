@@ -1,0 +1,150 @@
+--- 
+title: Testing stuff 
+permalink: test 
+layout: default 
+---
+<style>
+    .awardCard {
+        width: 90%;
+        height: 90px;
+        background: white;
+        border-radius: 8px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .awardNameBackground {
+        position: absolute;
+        width: 140px;
+        height: 90px;
+        top: 0px;
+        left: 0px;
+        border-radius: 8px 0px 0px 8px;
+        background: rgba(255, 0, 0, 0.295);
+        display: table;
+        table-layout: fixed;
+        white-space: nowrap;
+    }
+
+    .awardNameBackground .awardName{
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        display: table-cell;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .awardTable {
+        border-collapse: collapse;
+        border:none;
+        margin-left: 15px;
+    }
+
+    .awardTableContainer {
+        margin-left: 10%;
+    }
+
+    .awardTable,
+    .awardTable tr,
+    .awardTable td,
+    .awardTable th {
+        border: 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .panel {
+        z-index: 100;
+        position: absolute;
+        width: auto;
+        height: auto;
+        position: absolute;
+        background-color: #bbb5eb;
+        border-radius: 5px;
+    }
+
+    .accordion {
+        background-color: #fff;
+        color: #444;
+        padding: 0px;
+        height: 10%;
+        width: 10%;
+    }
+
+    .accordion:after {
+        float: none;
+        margin-left: 0px;
+    }
+    tr:hover, td.highlight, tr.highlight {
+        background-color: rgb(0, 0, 0, 0);
+        color: black;
+    }
+
+    .awardTable td, .awardTable th {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+
+    .awardTable td:first-child, .awardTable th:first-child {
+        border-left: none;
+    }
+
+    .awardTable td:last-child, .awardTable th:last-child {
+        border-right: none;
+    }
+
+    .fullList {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .spacePls {
+        width: 100px;
+        padding: 7px 40px 7px 40px;
+    }
+</style>
+<div align="center">
+    <h3>Must participate in at least 5 matches to be eligible for leaderboard ranking.</h3>
+    {% for info in site.data.leaderboard %}
+    <div class="awardCard">
+        <div class="awardNameBackground">
+            <font class="awardName">{{info.Title}}</font>
+        </div>
+        <div class="awardTableContainer">
+            <table class="awardTable">
+                <tr id="ignoreglobal">
+                    <td></td>
+                </tr>
+                <tr id="ignoreglobal">
+                    {% for field in info.Fields %}
+                    <th class="spacePls">{{field.Title}} <button class="accordion"></button>
+                        <div class="panel">
+                            <table class="awardTable fullList">
+                                {% for entry in field.Entries %}
+                                <tr>
+                                    <td style="text-align: right">{{entry.Data}}</td>
+                                    <td style="text-align: left"><a href="/players/{{entry.UID}}">{{entry.Name}}</a></td>
+                                </tr>
+                                {% endfor %}
+                            </table>
+                        </div>
+                    </th>
+                    {% endfor %}
+                </tr>
+                <tr id="ignoreglobal">
+                    {% for field in info.Fields %}
+                    <td class="spacePls">
+                        {{field.Entries[0].Data}} - <a href="/players/{{field.Entries[0].UID}}">{{field.Entries[0].Name}}</a>
+                    </td>
+                    {% endfor %}
+                </tr>
+                <tr id="ignoreglobal">
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
+</div>

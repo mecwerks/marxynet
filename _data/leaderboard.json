@@ -1,0 +1,602 @@
+[
+  {
+    "Title": "Kills",
+    "Fields": [
+      {
+        "Title": "Total",
+        "Entries": [
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "475"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "461"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "360"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "273"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "232"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "181"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "180"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "151"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "107"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "104"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "97"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "61"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Round",
+        "Entries": [
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "0.93"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "0.91"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "0.89"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "0.78"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "0.78"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "0.76"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "0.73"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "0.68"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "0.54"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "0.48"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "0.45"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "0.38"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Match",
+        "Entries": [
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "26.39"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "25.61"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "23.20"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "22.50"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "22.50"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "20.80"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "18.88"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "18.20"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "13.38"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "12.93"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "12.20"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "12.13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Deaths",
+    "Fields": [
+      {
+        "Title": "Total",
+        "Entries": [
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "334"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "321"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "298"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "297"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "293"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "242"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "200"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "159"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "144"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "143"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "91"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "78"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Round",
+        "Entries": [
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "0.79"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "0.79"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "0.77"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "0.74"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "0.73"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "0.73"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "0.71"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "0.70"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "0.70"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "0.66"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "0.59"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "0.58"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Match",
+        "Entries": [
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "25.00"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "24.20"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "20.93"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "20.06"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "19.88"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "19.87"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "18.56"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "18.20"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "18.00"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "17.88"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "16.50"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "15.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Assists",
+    "Fields": [
+      {
+        "Title": "Total",
+        "Entries": [
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "92"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "90"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "66"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "61"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "59"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "58"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "30"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "27"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "24"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "18"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "17"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "15"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Round",
+        "Entries": [
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "0.19"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "0.18"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "0.18"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "0.17"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "0.15"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "0.15"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "0.13"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "0.13"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "0.12"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "0.11"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "0.11"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "0.09"
+          }
+        ]
+      },
+      {
+        "Title": "Avg. / Match",
+        "Entries": [
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "5.80"
+          },
+          {
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "5.11"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "5.00"
+          },
+          {
+            "Name": "K",
+            "UID": "76561198071477737",
+            "Data": "4.71"
+          },
+          {
+            "Name": "ISM",
+            "UID": "76561198001808454",
+            "Data": "4.07"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "3.75"
+          },
+          {
+            "Name": "Devyn",
+            "UID": "Devyn",
+            "Data": "3.69"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
+            "Data": "3.40"
+          },
+          {
+            "Name": "Froztbitten",
+            "UID": "76561198055295222",
+            "Data": "3.38"
+          },
+          {
+            "Name": "Yui Hirasawa",
+            "UID": "76561198081203263",
+            "Data": "3.00"
+          },
+          {
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "3.00"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "2.25"
+          }
+        ]
+      }
+    ]
+  }
+]
