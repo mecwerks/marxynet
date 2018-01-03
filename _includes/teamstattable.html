@@ -17,9 +17,19 @@
 	<tbody class="fullTable">
 		{% for steamID in include.teamIDs %}
 		{% assign player = include.players[steamID] %}
+		{% assign uid = player.UID %}
+		{% assign name = player.Name %}
+		{% for sPlayer in site.data.players %}
+			{% assign tSteamID = sPlayer.SteamID | downcase %}
+			{% if tSteamID == steamID %}
+				{% assign uid = sPlayer.UID %}
+				{% assign name = sPlayer.Name %}
+				{% break %}
+			{% endif %}
+		{% endfor %}
 		<tr>
 			<!-- Name/Page Link -->
-			<td markdown="span"><a href="/players/{{player.UID}}">{{player.Name | default: "Unknown"}}</a></td>				
+			<td markdown="span"><a href="/players/{{uid}}">{{name | default: "Unknown"}}</a></td>
 			<!-- Kills -->				
 			<td markdown="span" style="text-align: center">{{player.Kills | default:"0"}}</td>
 			<!-- Assists -->
