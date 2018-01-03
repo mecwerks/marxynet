@@ -1,6 +1,6 @@
 [
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_overpass_2017-12-25_22",
     "MapName": "de_overpass",
     "TotalRounds": 26,
@@ -613,7 +613,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_dust2_2017-12-23_23",
     "MapName": "de_dust2",
     "TotalRounds": 23,
@@ -1225,7 +1225,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_cs_office_2017-12-23_22",
     "MapName": "cs_office",
     "TotalRounds": 23,
@@ -1837,7 +1837,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_train_2017-12-22_00",
     "MapName": "de_train",
     "TotalRounds": 24,
@@ -2450,7 +2450,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_mirage_2017-12-21_23",
     "MapName": "de_mirage",
     "TotalRounds": 25,
@@ -3065,7 +3065,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_overpass_2017-12-21_21",
     "MapName": "de_overpass",
     "TotalRounds": 30,
@@ -3685,7 +3685,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_mirage_2017-12-20_18",
     "MapName": "de_mirage",
     "TotalRounds": 28,
@@ -4350,7 +4350,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_cache_2017-12-18_22",
     "MapName": "de_cache",
     "TotalRounds": 24,
@@ -4964,7 +4964,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_train_2017-12-18_21",
     "MapName": "de_train",
     "TotalRounds": 30,
@@ -5585,7 +5585,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "MapName": "de_inferno_old",
     "TotalRounds": 41,
@@ -6261,7 +6261,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "MapName": "de_inferno_old",
     "TotalRounds": 59,
@@ -6911,7 +6911,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_season_2017-12-15_00",
     "MapName": "de_season",
     "TotalRounds": 23,
@@ -7522,7 +7522,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_inferno_2017-12-10_23",
     "MapName": "de_inferno",
     "TotalRounds": 30,
@@ -8141,7 +8141,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_cs_office_2017-12-03_18",
     "MapName": "cs_office",
     "TotalRounds": 27,
@@ -8810,7 +8810,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_cache_2017-08-19_00",
     "MapName": "de_cache",
     "TotalRounds": 24,
@@ -9424,7 +9424,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_overpass_2017-08-08_22",
     "MapName": "de_overpass",
     "TotalRounds": 23,
@@ -10035,7 +10035,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_cache_2017-08-08_01",
     "MapName": "de_cache",
     "TotalRounds": 24,
@@ -10648,7 +10648,7 @@
     }
   },
   {
-    "Version": 3,
+    "Version": 4,
     "UID": "pug_de_mirage_2017-08-07_22",
     "MapName": "de_mirage",
     "TotalRounds": 25,
