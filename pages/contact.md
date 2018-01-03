@@ -16,9 +16,9 @@ For steam account association, please fill out the following fields, and press "
 </ul>
 
 <form name="customplayer" netlify>
-    <label>Page Link: <input type="text" name="uid"  placeholder="none" required></label><br>
-    <label>Display Name: <input type="text" name="name"  placeholder="Mary the Hacker" required></label><br>
-    <label>Steam Account ID #1: <input type="text" name="steamidOne" placeholder="76561198104649119" required></label><br>
+    <label>Page Link<font color="red">*</font>: <input type="text" name="uid"  placeholder="none" required></label><br>
+    <label>Display Name<font color="red">*</font>: <input type="text" name="name"  placeholder="Mary the Hacker" required></label><br>
+    <label>Steam Account ID #1<font color="red">*</font>: <input type="text" name="steamidOne" placeholder="76561198104649119" required></label><br>
     <label>Steam Account ID #2: <input type="text" name="steamidTwo" placeholder="76561198393693567"></label><br>
     <label>Steam Account ID #3: <input type="text" name="steamidThree"></label><br>
     <label>Note: <input type="text" name="note" placeholder="Thank 4 web"></label>
@@ -26,4 +26,6 @@ For steam account association, please fill out the following fields, and press "
     <button type="submit">Submit</button>
   </p>
 </form>
+
+<font color="red">*</font> = Required fields
 </div>
