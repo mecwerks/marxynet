@@ -14,7 +14,7 @@
 }
 
 tr:hover:not(#ignoreglobal), td.highlight, tr.highlight {
-  background-color: #428add !important;
+  background-color: #bbb5eb !important;
   color: black;
 }
 
@@ -38,6 +38,16 @@ tr:hover:not(#ignoreglobal), td.highlight, tr.highlight {
   background: #f3f3f3;
   width:100%;
   border-collapse:collapse;
+}
+
+.fullTableAllBorders {
+  background: #f3f3f3;
+  width:100%;
+  border-collapse:collapse;
+}
+
+.fullTableAllBorders td {
+  border-left: 1px solid rgb(128, 128, 128);
 }
 
 .matchtable {
@@ -101,3 +111,47 @@ tr.spacer > th {
 #teamStatsHeader, #teamAHeader, #teamBHeader {
   flex: 1;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 480px;
+    background-color: #b95eb2;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%; 
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #b9b9b9 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+.CellComment
+{
+    visibility: hidden;
+    width: auto;
+    position:absolute; 
+    z-index:100;
+}
+

@@ -4,24 +4,56 @@
 {% assign currentMathNumber = 0 %}
 
 {% for player in site.data.players %}
-	{% assign steamid = player.SteamID | downcase %}
-	{% assign count = player[include.Field] %}
-	{% assign currentMathNumber = player[include.DivideByField] %}
-	{% unless include.DivideByField.blank == "" or include.DivideByField == nill %}
-		{% assign count = count | times: 1.0 %}
-		{% if player[include.DivideByField] != 0 %}
-			{% if include.NonPercent == true %}
-				{% assign count = count | divided_by: currentMathNumber | round: 2 %}
-			{% else %}
-				{% assign count = count | divided_by: currentMathNumber | times: 100 | round: 2 %}
-			{% endif %}
+	{% assign matchCount = player.Matches | size %}
+	{% assign count = 0 %}
+	{% unless matchCount < 5 %}
+		{% assign steamid = player.SteamID | downcase %}
+		{% if include.Field == "matches" %}
+			{% assign count = matchCount %}
+		{% elsif include.Field == "matchesWon" %}
+			{% for match in player.Matches %}
+				{% for sMatch in site.data.matches %}
+					{% if sMatch.UID == match %}
+						{% if sMatch.TeamA.RoundsWon > sMatch.TeamB.RoundsWon %}
+							{% for sID in sMatch.TeamA.SteamIDs %}
+								{% if sID == steamid %}
+									{% assign count = count | plus: 1 %}
+									{% break %}
+								{% endif %}
+							{% endfor %}
+						{% elsif sMatch.TeamA.RoundsWon < sMatch.TeamB.RoundsWon %}
+							{% for sID in sMatch.TeamB.SteamIDs %}
+								{% if sID == steamid %}
+									{% assign count = count | plus: 1 %}
+									{% break %}
+								{% endif %}
+							{% endfor %}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		{% else %}
+			{% assign count = player[include.Field] %}
+			{% assign currentMathNumber = player[include.DivideByField] %}
+			{% unless include.DivideByField.blank == "" or include.DivideByField == nill %}
+				{% assign count = count | times: 1.0 %}
+				{% if include.DivideByField == "matches" %}
+					{% assign count = count | divided_by: matchCount | round: 2 %}
+				{% elsif player[include.DivideByField] != 0 %}
+					{% if include.NonPercent == true %}
+						{% assign count = count | divided_by: currentMathNumber | round: 2 %}
+					{% else %}
+						{% assign count = count | divided_by: currentMathNumber | times: 100 | round: 2 %}
+					{% endif %}
+				{% endif %}
+			{% endunless %}
+		{% endif %}
+		{% if count > currentCount %}
+			{% assign currentName = player.Name %}
+			{% assign currentUID = player.UID %}
+			{% assign currentCount = count %}
 		{% endif %}
 	{% endunless %}
-	{% if count > currentCount %}
-		{% assign currentName = player.Name %}
-		{% assign currentUID = player.UID %}
-		{% assign currentCount = count %}
-	{% endif %}
 {% endfor %}
 
 <a href="/players/{{currentUID}}">{{currentName}}</a> ({{currentCount}}{{include.ValueAppend}})
