@@ -2,6 +2,53 @@
 layout: default
 type: Player
 ---
+<style>
+.playerCardContainer {
+  position: relative;
+  width: 590px;
+  margin-bottom: 140px;
+}
+.playerCardContainer img {
+  position: absolute;
+  top: 0px;
+  left: 110px;
+  z-index: 101;
+  border-radius: 8px;
+}
+
+#playerName {
+  font-size: 64px;
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 10px;
+  display: none;
+}
+
+#playerNameDiv {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#playerBackground{
+  border-radius: 8px;
+  position: absolute;
+  width:480px;
+  height:110px;
+  top: 5px;
+  left: 200px;
+  background:white;
+  display: table;
+  table-layout:fixed;
+  white-space: nowrap;
+}
+</style>
+<div class="playerCardContainer" align="center">
+  {% assign steamid = page.SteamID | downcase %}
+  <div id="playerBackground"><div id="playerNameDiv"><font id="playerName">{{page.Name}}</font></div></div>
+  <img src="{{site.data.playerAvatars[steamid]}}" class="playerAvatar" width="120" height="120"/>
+</div>
 <button class="accordion">Matches ({{ page.Matches | size }})</button>
 <div class="panel">
     <ul>
@@ -189,5 +236,13 @@ $(document).ready(function() {
       } ).on('mouseleave', 'td', function () {
           $( table.rows().nodes() ).removeClass( 'highlight' );
       });
+
+  while($("#playerBackground").find("font").width() > $("#playerBackground").width() - 60) {
+      var currentFontSize = parseInt($("#playerBackground").find("font").css("font-size"));
+      if (currentFontSize == 0 || currentFontSize == "0") break;
+      $("#playerBackground").find("font").css("font-size",currentFontSize-1); 
+  }
+
+  $("#playerBackground").find("font").css("display", "initial");
 } );
 </script>
