@@ -47,7 +47,7 @@ type: Player
 </style>
 <div class="playerCardContainer" align="center">
   {% assign steamid = page.SteamID | downcase %}
-  <div id="playerBackground"><div id="playerNameDiv"><font id="playerName">{{page.Name}}</font></div></div>
+  <div id="playerBackground"><div id="playerNameDiv" align="center"><font id="playerName">{{page.Name}}</font></div></div>
   <img src="{{site.data.playerAvatars[steamid]}}" class="playerAvatar" width="118" height="118"/>
 </div>
 <button class="accordion">Matches ({{ page.Matches | size }})</button>
