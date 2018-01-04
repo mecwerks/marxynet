@@ -49,15 +49,35 @@ type: Match
         <th></th>
         {% for teamBPlayer in page.TeamB.SteamIDs %}
           {% assign teamBPlayerID = teamBPlayer | downcase %}
-          <th class="col" style="text-align: center">{{page.Players[teamBPlayerID].Name}}</th>
+          {% assign uid = page.Players[teamBPlayerID].UID %}
+          {% assign name = page.Players[teamBPlayerID].Name %}
+          {% for sPlayer in site.data.players %}
+            {% assign tSteamID = sPlayer.SteamID | downcase %}
+            {% if tSteamID == teamBPlayerID %}
+              {% assign uid = sPlayer.UID %}
+              {% assign name = sPlayer.Name %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          <th class="col" style="text-align: center"><a href="/players/{{uid}}">{{name}}</a></th>
         {% endfor %}
       </tr>
     </thead>
     <tbody>
       {% for teamAPlayer in page.TeamA.SteamIDs %}
-        {% assign teamAPlayerID = teamAPlayer | downcase %}
-        <tr id="ignoreglobal">
-          <th class="row" style="text-align: right">{{page.Players[teamAPlayerID].Name}}</th>
+          {% assign teamAPlayerID = teamAPlayer | downcase %}
+          {% assign uid = page.Players[teamAPlayerID].UID %}
+          {% assign name = page.Players[teamAPlayerID].Name %}
+          {% for sPlayer in site.data.players %}
+            {% assign tSteamID = sPlayer.SteamID | downcase %}
+            {% if tSteamID == teamAPlayerID %}
+              {% assign uid = sPlayer.UID %}
+              {% assign name = sPlayer.Name %}
+              {% break %}
+            {% endif %}
+          {% endfor %}        
+          <tr id="ignoreglobal">
+          <th class="row" style="text-align: right"><a href="/players/{{uid}}">{{name}}</a></th>
           {% for teamBPlayer in page.TeamB.SteamIDs %}
             {% assign teamBPlayerID = teamBPlayer | downcase %}
             <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
@@ -72,52 +92,52 @@ type: Match
     <tr>
         <th style="text-align: center">Execute Order 66</th>
         {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">The Kendoll</th>
         {% assign steamid = page.Awards.TheKendoll.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">Terminator</th>
         {% assign steamid = page.Awards.Terminator.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">The Professional</th>
         {% assign steamid = page.Awards.TheProfessional.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">Lending Hand</th>
         {% assign steamid = page.Awards.LendingHand.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">The Assasin</th>
         {% assign steamid = page.Awards.TheAssasin.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">The Entry</th>
         {% assign steamid = page.Awards.TheEntry.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">Clutch Master</th>
         {% assign steamid = page.Awards.ClutchMaster.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">Trade Craft</th>
         {% assign steamid = page.Awards.TradeCraft.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "N/A" }}</a></td>
     </tr>
     <tr>
         <th style="text-align: center">Frag Bait</th>
         {% assign steamid = page.Awards.FragBait.SteamID | downcase %}
-        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name }}</a></td>
+        <td style="text-align: center"><a href="/players/{{page.Players[steamid].UID}}">{{ page.Players[steamid].Name | default: "None" }}</a></td>
     </tr>
   </table>
 </div> 

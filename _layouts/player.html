@@ -205,12 +205,17 @@ type: Player
     </thead>
     <tbody>
         {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
+        {% assign found = false %}
         {% for player in sortedPlayers %}
-        {% unless player.SteamID == page.SteamID %}
+        {% assign steamid = player.SteamID | downcase %}
+        {% assign myid = page.SteamID | downcase %}
+        {% if page.KilledPlayers[steamid] != null and player.KilledPlayers[myid] != null %}
+          {% assign found = true %}
+        {% endif %}
+        {% unless player.SteamID == page.SteamID or found == false %}
+        {% assign found = false %}
         <tr id="ignoreglobal">
           <td class="row" style="text-align: center"><a href="/players/{{player.UID}}">{{player.Name}}</a></td>
-            {% assign steamid = player.SteamID | downcase %}
-            {% assign myid = page.SteamID | downcase %}
             <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
         </tr>
         {% endunless %}
