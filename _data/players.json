@@ -11,7 +11,6 @@
     "TradeKills": 62,
     "TimesTraded": 63,
     "TeamKills": 3,
-    "AWPKills": 67,
     "DamageDealt": 77991,
     "ArmorDamageDealt": 270,
     "FirstKills": 91,
@@ -94,6 +93,46 @@
       "3": 30,
       "4": 12,
       "5": 1
+    },
+    "WeaponKills": {
+      "AK47": 199,
+      "AWP": 67,
+      "Deagle": 65,
+      "M4A4": 42,
+      "Glock": 19,
+      "USP": 17,
+      "Mac10": 12,
+      "MP9": 11,
+      "UMP": 11,
+      "Scar20": 10,
+      "M4A1": 10,
+      "Gallil": 10,
+      "P2000": 9,
+      "G3SG1": 7,
+      "Negev": 5,
+      "Famas": 5,
+      "Other": 29
+    },
+    "WeaponKilledBy": {
+      "AK47": 113,
+      "AWP": 48,
+      "M4A4": 44,
+      "MP9": 15,
+      "M4A1": 15,
+      "USP": 13,
+      "P250": 12,
+      "Glock": 11,
+      "Mac10": 11,
+      "Deagle": 11,
+      "UMP": 10,
+      "CZ": 9,
+      "HE": 9,
+      "Famas": 8,
+      "Scout": 8,
+      "P90": 8,
+      "FiveSeven": 7,
+      "Tec9": 5,
+      "Other": 33
     }
   },
   {
@@ -108,7 +147,6 @@
     "TradeKills": 36,
     "TimesTraded": 44,
     "TeamKills": 1,
-    "AWPKills": 6,
     "DamageDealt": 35610,
     "ArmorDamageDealt": 283,
     "FirstKills": 44,
@@ -171,6 +209,44 @@
       "3": 12,
       "4": 2,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 99,
+      "M4A4": 64,
+      "UMP": 13,
+      "Glock": 10,
+      "USP": 10,
+      "Famas": 10,
+      "CZ": 7,
+      "AWP": 6,
+      "P90": 6,
+      "G3SG1": 5,
+      "Deagle": 4,
+      "MP9": 4,
+      "Knife": 3,
+      "Other": 11
+    },
+    "WeaponKilledBy": {
+      "AK47": 79,
+      "AWP": 38,
+      "M4A4": 25,
+      "Deagle": 10,
+      "M4A1": 9,
+      "USP": 9,
+      "P250": 8,
+      "CZ": 8,
+      "Scar20": 8,
+      "MP7": 6,
+      "Glock": 6,
+      "G3SG1": 6,
+      "UMP": 6,
+      "SG556": 5,
+      "Mac10": 4,
+      "Famas": 4,
+      "MP9": 3,
+      "Gallil": 3,
+      "P2000": 3,
+      "Other": 21
     }
   },
   {
@@ -185,7 +261,6 @@
     "TradeKills": 86,
     "TimesTraded": 50,
     "TeamKills": 5,
-    "AWPKills": 91,
     "DamageDealt": 74768,
     "ArmorDamageDealt": 351,
     "FirstKills": 43,
@@ -265,6 +340,41 @@
       "3": 34,
       "4": 15,
       "5": 2
+    },
+    "WeaponKills": {
+      "AK47": 170,
+      "AWP": 90,
+      "M4A4": 89,
+      "USP": 30,
+      "CZ": 22,
+      "UMP": 17,
+      "Deagle": 16,
+      "Scout": 15,
+      "Swag7": 12,
+      "MP9": 11,
+      "Gallil": 10,
+      "Glock": 10,
+      "Famas": 6,
+      "Other": 40
+    },
+    "WeaponKilledBy": {
+      "AK47": 111,
+      "M4A4": 31,
+      "AWP": 28,
+      "M4A1": 22,
+      "Deagle": 21,
+      "USP": 13,
+      "MP9": 11,
+      "P250": 8,
+      "Glock": 8,
+      "Gallil": 8,
+      "P90": 7,
+      "XM1014": 7,
+      "Famas": 6,
+      "CZ": 6,
+      "Mac10": 6,
+      "UMP": 6,
+      "Other": 26
     }
   },
   {
@@ -279,7 +389,6 @@
     "TradeKills": 41,
     "TimesTraded": 25,
     "TeamKills": 0,
-    "AWPKills": 12,
     "DamageDealt": 30429,
     "ArmorDamageDealt": 398,
     "FirstKills": 25,
@@ -341,6 +450,38 @@
       "3": 19,
       "4": 3,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 91,
+      "M4A4": 35,
+      "USP": 17,
+      "Deagle": 13,
+      "Glock": 12,
+      "AWP": 12,
+      "MP9": 8,
+      "CZ": 7,
+      "UMP": 6,
+      "Mac10": 5,
+      "P250": 5,
+      "FiveSeven": 3,
+      "Famas": 3,
+      "Other": 3
+    },
+    "WeaponKilledBy": {
+      "AK47": 71,
+      "AWP": 21,
+      "M4A4": 20,
+      "M4A1": 12,
+      "Deagle": 9,
+      "USP": 7,
+      "Glock": 7,
+      "MP9": 6,
+      "P250": 5,
+      "Gallil": 4,
+      "Mac10": 4,
+      "UMP": 3,
+      "P2000": 3,
+      "Other": 15
     }
   },
   {
@@ -355,7 +496,6 @@
     "TradeKills": 3,
     "TimesTraded": 1,
     "TeamKills": 0,
-    "AWPKills": 1,
     "DamageDealt": 2981,
     "ArmorDamageDealt": 250,
     "FirstKills": 6,
@@ -390,6 +530,27 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 8,
+      "USP": 3,
+      "M4A4": 3,
+      "MP7": 2,
+      "FiveSeven": 2,
+      "P250": 1,
+      "AWP": 1,
+      "Tec9": 1,
+      "Deagle": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 8,
+      "AWP": 5,
+      "M4A4": 4,
+      "M4A1": 3,
+      "USP": 2,
+      "UMP": 2,
+      "Glock": 1,
+      "P250": 1
     }
   },
   {
@@ -404,7 +565,6 @@
     "TradeKills": 8,
     "TimesTraded": 9,
     "TeamKills": 0,
-    "AWPKills": 13,
     "DamageDealt": 8405,
     "ArmorDamageDealt": 322,
     "FirstKills": 6,
@@ -447,6 +607,35 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "Mac10": 17,
+      "AWP": 13,
+      "Glock": 6,
+      "MP9": 4,
+      "Famas": 4,
+      "AK47": 3,
+      "M4A1": 2,
+      "FiveSeven": 2,
+      "M4A4": 1,
+      "CZ": 1,
+      "P250": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 20,
+      "AWP": 12,
+      "M4A4": 9,
+      "USP": 3,
+      "Glock": 2,
+      "Famas": 2,
+      "MP9": 1,
+      "Deagle": 1,
+      "P2000": 1,
+      "Knife": 1,
+      "M4A1": 1,
+      "P250": 1,
+      "MP7": 1,
+      "G3SG1": 1
     }
   },
   {
@@ -461,7 +650,6 @@
     "TradeKills": 5,
     "TimesTraded": 5,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 5236,
     "ArmorDamageDealt": 454,
     "FirstKills": 2,
@@ -499,6 +687,32 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "M4A1": 11,
+      "AK47": 10,
+      "M4A4": 5,
+      "P250": 3,
+      "Deagle": 2,
+      "Glock": 1,
+      "P2000": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "AWP": 8,
+      "UMP": 3,
+      "Glock": 2,
+      "USP": 2,
+      "M4A4": 2,
+      "CZ": 2,
+      "Deagle": 1,
+      "Incendiary": 1,
+      "P250": 1,
+      "M4A1": 1,
+      "MP9": 1,
+      "FiveSeven": 1,
+      "Scout": 1,
+      "Mac10": 1
     }
   },
   {
@@ -513,7 +727,6 @@
     "TradeKills": 9,
     "TimesTraded": 6,
     "TeamKills": 0,
-    "AWPKills": 14,
     "DamageDealt": 8663,
     "ArmorDamageDealt": 347,
     "FirstKills": 8,
@@ -557,6 +770,33 @@
       "3": 2,
       "4": 1,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 24,
+      "AWP": 14,
+      "P250": 6,
+      "USP": 6,
+      "M4A1": 6,
+      "Glock": 3,
+      "UMP": 3,
+      "HE": 2,
+      "Incendiary": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 14,
+      "M4A4": 6,
+      "AWP": 4,
+      "USP": 3,
+      "Mac10": 2,
+      "MP9": 2,
+      "Swag7": 1,
+      "P90": 1,
+      "M4A1": 1,
+      "P250": 1,
+      "Glock": 1,
+      "Deagle": 1,
+      "CZ": 1,
+      "UMP": 1
     }
   },
   {
@@ -571,7 +811,6 @@
     "TradeKills": 27,
     "TimesTraded": 29,
     "TeamKills": 1,
-    "AWPKills": 10,
     "DamageDealt": 16398,
     "ArmorDamageDealt": 208,
     "FirstKills": 15,
@@ -630,6 +869,47 @@
       "3": 4,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 38,
+      "M4A1": 26,
+      "Deagle": 13,
+      "AWP": 10,
+      "UMP": 4,
+      "MP9": 4,
+      "Glock": 3,
+      "Mac10": 3,
+      "CZ": 3,
+      "M4A4": 3,
+      "Bizon": 2,
+      "XM1014": 2,
+      "SawedOff": 2,
+      "P250": 2,
+      "Other": 7
+    },
+    "WeaponKilledBy": {
+      "AK47": 66,
+      "M4A4": 17,
+      "AWP": 17,
+      "USP": 11,
+      "Glock": 7,
+      "Deagle": 6,
+      "Mac10": 6,
+      "MP9": 6,
+      "Gallil": 6,
+      "Famas": 4,
+      "P250": 4,
+      "UMP": 4,
+      "CZ": 4,
+      "MP7": 3,
+      "P90": 3,
+      "FiveSeven": 3,
+      "M4A1": 2,
+      "P2000": 2,
+      "Scar20": 2,
+      "Scout": 2,
+      "SG556": 2,
+      "Other": 6
     }
   },
   {
@@ -644,7 +924,6 @@
     "TradeKills": 27,
     "TimesTraded": 29,
     "TeamKills": 1,
-    "AWPKills": 11,
     "DamageDealt": 25619,
     "ArmorDamageDealt": 221,
     "FirstKills": 26,
@@ -704,6 +983,54 @@
       "3": 12,
       "4": 4,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 85,
+      "M4A4": 18,
+      "AWP": 11,
+      "M4A1": 10,
+      "USP": 8,
+      "CZ": 8,
+      "UMP": 6,
+      "Deagle": 5,
+      "P2000": 5,
+      "FiveSeven": 4,
+      "Famas": 4,
+      "Tec9": 4,
+      "P90": 3,
+      "Gallil": 3,
+      "P250": 3,
+      "Glock": 2,
+      "XM1014": 2,
+      "Knife": 2,
+      "Incendiary": 2,
+      "Nova": 2,
+      "Other": 3
+    },
+    "WeaponKilledBy": {
+      "AK47": 53,
+      "AWP": 36,
+      "M4A4": 19,
+      "USP": 11,
+      "Deagle": 10,
+      "M4A1": 8,
+      "P250": 6,
+      "CZ": 6,
+      "P90": 5,
+      "MP9": 5,
+      "UMP": 4,
+      "Gallil": 4,
+      "Glock": 3,
+      "Famas": 3,
+      "Scout": 3,
+      "Swag7": 3,
+      "MP7": 3,
+      "Tec9": 3,
+      "FiveSeven": 2,
+      "HE": 2,
+      "Scar20": 2,
+      "Incendiary": 2,
+      "Other": 3
     }
   },
   {
@@ -718,7 +1045,6 @@
     "TradeKills": 38,
     "TimesTraded": 53,
     "TeamKills": 0,
-    "AWPKills": 91,
     "DamageDealt": 46559,
     "ArmorDamageDealt": 163,
     "FirstKills": 56,
@@ -796,6 +1122,43 @@
       "3": 15,
       "4": 3,
       "5": 0
+    },
+    "WeaponKills": {
+      "AWP": 91,
+      "AK47": 79,
+      "USP": 14,
+      "P250": 13,
+      "MP9": 13,
+      "Glock": 12,
+      "CZ": 10,
+      "MP7": 10,
+      "Famas": 9,
+      "M4A4": 9,
+      "Scout": 9,
+      "M4A1": 8,
+      "Deagle": 4,
+      "SawedOff": 4,
+      "HE": 3,
+      "Mac10": 3,
+      "Other": 10
+    },
+    "WeaponKilledBy": {
+      "AK47": 102,
+      "AWP": 44,
+      "M4A4": 37,
+      "Deagle": 29,
+      "Glock": 18,
+      "M4A1": 16,
+      "UMP": 12,
+      "USP": 10,
+      "Mac10": 8,
+      "P90": 7,
+      "CZ": 6,
+      "MP9": 5,
+      "Tec9": 3,
+      "SawedOff": 3,
+      "AUG": 3,
+      "Other": 24
     }
   },
   {
@@ -810,7 +1173,6 @@
     "TradeKills": 75,
     "TimesTraded": 36,
     "TeamKills": 3,
-    "AWPKills": 39,
     "DamageDealt": 56879,
     "ArmorDamageDealt": 181,
     "FirstKills": 44,
@@ -886,6 +1248,42 @@
       "3": 25,
       "4": 6,
       "5": 1
+    },
+    "WeaponKills": {
+      "AK47": 144,
+      "Deagle": 46,
+      "AWP": 37,
+      "M4A1": 30,
+      "M4A4": 29,
+      "MP9": 12,
+      "P2000": 11,
+      "Glock": 11,
+      "Mac10": 10,
+      "P250": 10,
+      "CZ": 8,
+      "Scar20": 7,
+      "USP": 7,
+      "Famas": 5,
+      "Other": 15
+    },
+    "WeaponKilledBy": {
+      "AK47": 120,
+      "M4A4": 50,
+      "AWP": 41,
+      "Glock": 18,
+      "USP": 14,
+      "M4A1": 10,
+      "MP9": 10,
+      "Deagle": 8,
+      "Mac10": 8,
+      "UMP": 7,
+      "Scar20": 5,
+      "CZ": 5,
+      "Incendiary": 4,
+      "Gallil": 4,
+      "SG556": 4,
+      "Famas": 4,
+      "Other": 28
     }
   },
   {
@@ -900,7 +1298,6 @@
     "TradeKills": 0,
     "TimesTraded": 2,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 793,
     "ArmorDamageDealt": 169,
     "FirstKills": 1,
@@ -933,6 +1330,25 @@
       "3": 0,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "M4A1": 2,
+      "P250": 1,
+      "Scout": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "Mac10": 2,
+      "UMP": 2,
+      "Glock": 1,
+      "P250": 1,
+      "Tec9": 1,
+      "USP": 1,
+      "Famas": 1,
+      "AWP": 1,
+      "M4A4": 1,
+      "Incendiary": 1,
+      "M4A1": 1
     }
   },
   {
@@ -947,7 +1363,6 @@
     "TradeKills": 11,
     "TimesTraded": 16,
     "TeamKills": 0,
-    "AWPKills": 15,
     "DamageDealt": 16966,
     "ArmorDamageDealt": 187,
     "FirstKills": 25,
@@ -997,6 +1412,33 @@
       "3": 8,
       "4": 2,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 28,
+      "MP9": 18,
+      "Mac10": 17,
+      "AWP": 15,
+      "M4A4": 13,
+      "P250": 10,
+      "FiveSeven": 10,
+      "P2000": 3,
+      "Glock": 3,
+      "Incendiary": 2,
+      "Other": 5
+    },
+    "WeaponKilledBy": {
+      "AK47": 27,
+      "M4A4": 13,
+      "Deagle": 11,
+      "AWP": 8,
+      "USP": 5,
+      "M4A1": 5,
+      "Glock": 5,
+      "MP9": 4,
+      "CZ": 3,
+      "P90": 2,
+      "Mac10": 2,
+      "Other": 9
     }
   },
   {
@@ -1011,7 +1453,6 @@
     "TradeKills": 23,
     "TimesTraded": 32,
     "TeamKills": 1,
-    "AWPKills": 2,
     "DamageDealt": 14782,
     "ArmorDamageDealt": 259,
     "FirstKills": 5,
@@ -1065,6 +1506,55 @@
       "3": 1,
       "4": 1,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 35,
+      "M4A4": 26,
+      "USP": 8,
+      "P250": 7,
+      "Mac10": 6,
+      "MP9": 3,
+      "Scar20": 2,
+      "Glock": 2,
+      "Famas": 2,
+      "Gallil": 2,
+      "SawedOff": 2,
+      "UMP": 1,
+      "AWP": 1,
+      "P90": 1,
+      "M4A1": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 62,
+      "M4A4": 30,
+      "AWP": 26,
+      "Deagle": 12,
+      "Scar20": 9,
+      "USP": 7,
+      "CZ": 5,
+      "UMP": 5,
+      "Famas": 4,
+      "Mac10": 4,
+      "P250": 4,
+      "P90": 4,
+      "Negev": 3,
+      "HE": 3,
+      "Glock": 3,
+      "Incendiary": 3,
+      "FiveSeven": 2,
+      "SawedOff": 2,
+      "Gallil": 2,
+      "M4A1": 2,
+      "MP9": 1,
+      "G3SG1": 1,
+      "Bizon": 1,
+      "Zeus": 1,
+      "MP7": 1,
+      "M249": 1,
+      "P2000": 1,
+      "Scout": 1,
+      "Knife": 1,
+      "Tec9": 1
     }
   },
   {
@@ -1079,7 +1569,6 @@
     "TradeKills": 19,
     "TimesTraded": 49,
     "TeamKills": 3,
-    "AWPKills": 8,
     "DamageDealt": 27760,
     "ArmorDamageDealt": 288,
     "FirstKills": 42,
@@ -1148,6 +1637,55 @@
       "3": 5,
       "4": 2,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 28,
+      "Scar20": 26,
+      "M4A4": 24,
+      "P90": 24,
+      "CZ": 12,
+      "SG556": 8,
+      "G3SG1": 8,
+      "AWP": 8,
+      "SawedOff": 5,
+      "MP7": 5,
+      "P250": 5,
+      "Glock": 4,
+      "M4A1": 4,
+      "USP": 3,
+      "Deagle": 3,
+      "FiveSeven": 3,
+      "Gallil": 3,
+      "M249": 2,
+      "Zeus": 2,
+      "Tec9": 2,
+      "Knife": 2,
+      "Nova": 2,
+      "Other": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 87,
+      "M4A4": 41,
+      "AWP": 37,
+      "M4A1": 25,
+      "Deagle": 16,
+      "Glock": 11,
+      "USP": 11,
+      "UMP": 10,
+      "P250": 8,
+      "MP9": 6,
+      "Mac10": 6,
+      "Gallil": 5,
+      "P90": 5,
+      "FiveSeven": 4,
+      "CZ": 3,
+      "Scar20": 2,
+      "Tec9": 2,
+      "Famas": 2,
+      "Knife": 2,
+      "P2000": 2,
+      "Incendiary": 2,
+      "Other": 7
     }
   },
   {
@@ -1162,7 +1700,6 @@
     "TradeKills": 9,
     "TimesTraded": 17,
     "TeamKills": 1,
-    "AWPKills": 13,
     "DamageDealt": 6534,
     "ArmorDamageDealt": 44,
     "FirstKills": 7,
@@ -1208,6 +1745,49 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AWP": 13,
+      "CZ": 6,
+      "Scout": 5,
+      "Deagle": 2,
+      "HE": 2,
+      "MP7": 2,
+      "AK47": 1,
+      "Famas": 1,
+      "MP9": 1,
+      "M4A4": 1,
+      "P250": 1,
+      "Nova": 1,
+      "SawedOff": 1,
+      "XM1014": 1,
+      "Swag7": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 21,
+      "M4A4": 10,
+      "AWP": 6,
+      "USP": 4,
+      "SG556": 4,
+      "Gallil": 4,
+      "SawedOff": 4,
+      "Deagle": 3,
+      "Negev": 2,
+      "Mac10": 2,
+      "G3SG1": 2,
+      "UMP": 2,
+      "AUG": 2,
+      "Glock": 1,
+      "Scar20": 1,
+      "P2000": 1,
+      "FiveSeven": 1,
+      "P90": 1,
+      "Tec9": 1,
+      "CZ": 1,
+      "Swag7": 1,
+      "P250": 1,
+      "MP9": 1,
+      "XM1014": 1
     }
   },
   {
@@ -1222,7 +1802,6 @@
     "TradeKills": 4,
     "TimesTraded": 3,
     "TeamKills": 0,
-    "AWPKills": 3,
     "DamageDealt": 4666,
     "ArmorDamageDealt": 255,
     "FirstKills": 2,
@@ -1261,6 +1840,37 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 7,
+      "Mac10": 4,
+      "SawedOff": 3,
+      "AWP": 3,
+      "G3SG1": 2,
+      "Bizon": 2,
+      "Tec9": 2,
+      "Glock": 1,
+      "Knife": 1,
+      "Scout": 1,
+      "UMP": 1,
+      "USP": 1,
+      "M4A4": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 9,
+      "M4A4": 6,
+      "CZ": 6,
+      "AWP": 5,
+      "P2000": 2,
+      "Scar20": 2,
+      "MP9": 1,
+      "Deagle": 1,
+      "Glock": 1,
+      "Mac10": 1,
+      "Gallil": 1,
+      "USP": 1,
+      "XM1014": 1,
+      "Scout": 1
     }
   },
   {
@@ -1275,7 +1885,6 @@
     "TradeKills": 7,
     "TimesTraded": 9,
     "TeamKills": 0,
-    "AWPKills": 14,
     "DamageDealt": 5995,
     "ArmorDamageDealt": 195,
     "FirstKills": 7,
@@ -1314,6 +1923,30 @@
       "3": 5,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 14,
+      "AWP": 14,
+      "USP": 4,
+      "M4A4": 3,
+      "Deagle": 2,
+      "Mac10": 2,
+      "P250": 1,
+      "Glock": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 12,
+      "AWP": 5,
+      "Deagle": 3,
+      "M4A4": 3,
+      "M4A1": 3,
+      "Glock": 2,
+      "USP": 2,
+      "CZ": 1,
+      "Scout": 1,
+      "P90": 1,
+      "P2000": 1,
+      "UMP": 1
     }
   },
   {
@@ -1328,7 +1961,6 @@
     "TradeKills": 5,
     "TimesTraded": 11,
     "TeamKills": 0,
-    "AWPKills": 11,
     "DamageDealt": 5519,
     "ArmorDamageDealt": 337,
     "FirstKills": 10,
@@ -1367,6 +1999,31 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AWP": 11,
+      "M4A4": 7,
+      "AK47": 6,
+      "Glock": 3,
+      "UMP": 2,
+      "Bizon": 2,
+      "USP": 2,
+      "CZ": 1,
+      "Deagle": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "AWP": 5,
+      "M4A4": 4,
+      "Deagle": 3,
+      "P90": 3,
+      "Glock": 2,
+      "USP": 2,
+      "Scout": 2,
+      "Mac10": 2,
+      "P250": 1,
+      "CZ": 1,
+      "M4A1": 1
     }
   },
   {
@@ -1381,7 +2038,6 @@
     "TradeKills": 10,
     "TimesTraded": 9,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 5943,
     "ArmorDamageDealt": 230,
     "FirstKills": 6,
@@ -1420,6 +2076,28 @@
       "3": 3,
       "4": 3,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 23,
+      "M4A1": 14,
+      "USP": 2,
+      "Glock": 2,
+      "Deagle": 1,
+      "P90": 1,
+      "FiveSeven": 1,
+      "Scout": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 25,
+      "AWP": 5,
+      "Deagle": 3,
+      "USP": 2,
+      "CZ": 2,
+      "Scout": 1,
+      "P90": 1,
+      "Famas": 1,
+      "M4A4": 1,
+      "Glock": 1
     }
   },
   {
@@ -1434,7 +2112,6 @@
     "TradeKills": 19,
     "TimesTraded": 12,
     "TeamKills": 0,
-    "AWPKills": 1,
     "DamageDealt": 11677,
     "ArmorDamageDealt": 432,
     "FirstKills": 10,
@@ -1475,6 +2152,36 @@
       "3": 3,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 36,
+      "M4A4": 26,
+      "Glock": 5,
+      "UMP": 5,
+      "M4A1": 2,
+      "USP": 2,
+      "Deagle": 2,
+      "Famas": 2,
+      "AWP": 1,
+      "Incendiary": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 30,
+      "M4A4": 17,
+      "P250": 6,
+      "M4A1": 6,
+      "AWP": 5,
+      "MP9": 3,
+      "Glock": 2,
+      "Mac10": 2,
+      "Deagle": 2,
+      "USP": 2,
+      "P90": 2,
+      "Gallil": 2,
+      "CZ": 1,
+      "Scout": 1,
+      "Zeus": 1,
+      "G3SG1": 1
     }
   },
   {
@@ -1489,7 +2196,6 @@
     "TradeKills": 1,
     "TimesTraded": 5,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 1606,
     "ArmorDamageDealt": 178,
     "FirstKills": 5,
@@ -1523,6 +2229,25 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 5,
+      "M4A1": 4,
+      "Glock": 1,
+      "Revolver": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 14,
+      "USP": 2,
+      "M4A4": 2,
+      "CZ": 2,
+      "AWP": 2,
+      "Deagle": 2,
+      "FiveSeven": 1,
+      "Famas": 1,
+      "MP9": 1,
+      "Glock": 1,
+      "Mac10": 1
     }
   },
   {
@@ -1537,7 +2262,6 @@
     "TradeKills": 4,
     "TimesTraded": 2,
     "TeamKills": 0,
-    "AWPKills": 4,
     "DamageDealt": 2658,
     "ArmorDamageDealt": 255,
     "FirstKills": 2,
@@ -1572,6 +2296,28 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 9,
+      "AWP": 4,
+      "Gallil": 2,
+      "M4A1": 2,
+      "P250": 1,
+      "Glock": 1,
+      "FiveSeven": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 9,
+      "AWP": 3,
+      "CZ": 2,
+      "P250": 2,
+      "P2000": 1,
+      "M4A4": 1,
+      "Famas": 1,
+      "Deagle": 1,
+      "USP": 1,
+      "Mac10": 1,
+      "Glock": 1
     }
   },
   {
@@ -1586,7 +2332,6 @@
     "TradeKills": 6,
     "TimesTraded": 6,
     "TeamKills": 1,
-    "AWPKills": 6,
     "DamageDealt": 3465,
     "ArmorDamageDealt": 32,
     "FirstKills": 1,
@@ -1624,6 +2369,31 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 6,
+      "AWP": 6,
+      "M4A4": 2,
+      "Nova": 2,
+      "USP": 1,
+      "M4A1": 1,
+      "Glock": 1,
+      "P90": 1,
+      "Incendiary": 1,
+      "Scar20": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 14,
+      "AWP": 6,
+      "P250": 3,
+      "USP": 3,
+      "Incendiary": 2,
+      "Negev": 2,
+      "M4A1": 2,
+      "Scar20": 2,
+      "CZ": 2,
+      "Deagle": 1,
+      "Glock": 1
     }
   },
   {
@@ -1638,7 +2408,6 @@
     "TradeKills": 6,
     "TimesTraded": 7,
     "TeamKills": 0,
-    "AWPKills": 14,
     "DamageDealt": 7152,
     "ArmorDamageDealt": 131,
     "FirstKills": 8,
@@ -1676,6 +2445,38 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AWP": 14,
+      "M4A1": 8,
+      "AK47": 4,
+      "P250": 4,
+      "UMP": 3,
+      "SawedOff": 3,
+      "Mac10": 2,
+      "Tec9": 1,
+      "Zeus": 1,
+      "Glock": 1,
+      "MP7": 1,
+      "M4A4": 1,
+      "USP": 1,
+      "Swag7": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 13,
+      "M4A4": 9,
+      "AWP": 5,
+      "UMP": 3,
+      "Mac10": 3,
+      "Famas": 2,
+      "P250": 2,
+      "FiveSeven": 1,
+      "USP": 1,
+      "Deagle": 1,
+      "CZ": 1,
+      "MP7": 1,
+      "M4A1": 1,
+      "Bizon": 1
     }
   },
   {
@@ -1690,7 +2491,6 @@
     "TradeKills": 8,
     "TimesTraded": 15,
     "TeamKills": 0,
-    "AWPKills": 4,
     "DamageDealt": 11361,
     "ArmorDamageDealt": 482,
     "FirstKills": 16,
@@ -1733,6 +2533,42 @@
       "3": 3,
       "4": 1,
       "5": 0
+    },
+    "WeaponKills": {
+      "M4A1": 29,
+      "AK47": 15,
+      "M4A4": 9,
+      "UMP": 8,
+      "USP": 5,
+      "AWP": 4,
+      "P250": 3,
+      "Gallil": 3,
+      "Deagle": 3,
+      "Glock": 2,
+      "Scar20": 2,
+      "Swag7": 2,
+      "G3SG1": 1,
+      "FiveSeven": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 28,
+      "AWP": 18,
+      "M4A4": 11,
+      "M4A1": 8,
+      "Scar20": 5,
+      "P90": 5,
+      "USP": 3,
+      "Deagle": 3,
+      "Glock": 2,
+      "Knife": 2,
+      "UMP": 2,
+      "CZ": 2,
+      "SawedOff": 1,
+      "Famas": 1,
+      "HE": 1,
+      "MP7": 1,
+      "Mac10": 1,
+      "G3SG1": 1
     }
   },
   {
@@ -1747,7 +2583,6 @@
     "TradeKills": 7,
     "TimesTraded": 9,
     "TeamKills": 0,
-    "AWPKills": 3,
     "DamageDealt": 6593,
     "ArmorDamageDealt": 369,
     "FirstKills": 4,
@@ -1786,6 +2621,43 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 14,
+      "M4A4": 9,
+      "USP": 6,
+      "AWP": 3,
+      "UMP": 3,
+      "FiveSeven": 2,
+      "Glock": 2,
+      "Mac10": 1,
+      "HE": 1,
+      "Scar20": 1,
+      "Tec9": 1,
+      "M4A1": 1,
+      "Bizon": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 15,
+      "AWP": 6,
+      "M4A1": 4,
+      "Mac10": 3,
+      "P250": 2,
+      "Zeus": 2,
+      "Glock": 2,
+      "FiveSeven": 2,
+      "M4A4": 2,
+      "Knife": 1,
+      "Scar20": 1,
+      "SawedOff": 1,
+      "Negev": 1,
+      "USP": 1,
+      "P2000": 1,
+      "Swag7": 1,
+      "MP9": 1,
+      "Bizon": 1,
+      "MP7": 1,
+      "UMP": 1
     }
   },
   {
@@ -1800,7 +2672,6 @@
     "TradeKills": 4,
     "TimesTraded": 7,
     "TeamKills": 0,
-    "AWPKills": 1,
     "DamageDealt": 3206,
     "ArmorDamageDealt": 0,
     "FirstKills": 4,
@@ -1839,6 +2710,35 @@
       "3": 0,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 5,
+      "P90": 3,
+      "M4A1": 3,
+      "Bizon": 3,
+      "Glock": 1,
+      "AWP": 1,
+      "P250": 1,
+      "USP": 1,
+      "P2000": 1,
+      "FiveSeven": 1,
+      "AUG": 1,
+      "Incendiary": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 9,
+      "M4A1": 5,
+      "P90": 4,
+      "Deagle": 3,
+      "USP": 2,
+      "M4A4": 2,
+      "AWP": 2,
+      "MP9": 1,
+      "CZ": 1,
+      "Glock": 1,
+      "Swag7": 1,
+      "P2000": 1,
+      "FiveSeven": 1
     }
   },
   {
@@ -1853,7 +2753,6 @@
     "TradeKills": 5,
     "TimesTraded": 11,
     "TeamKills": 1,
-    "AWPKills": 1,
     "DamageDealt": 6360,
     "ArmorDamageDealt": 593,
     "FirstKills": 5,
@@ -1892,6 +2791,44 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "Gallil": 11,
+      "P90": 9,
+      "M4A4": 4,
+      "CZ": 4,
+      "Famas": 3,
+      "SawedOff": 3,
+      "USP": 2,
+      "UMP": 2,
+      "HE": 2,
+      "AWP": 1,
+      "Swag7": 1,
+      "Incendiary": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 24,
+      "M4A4": 8,
+      "Deagle": 6,
+      "AWP": 6,
+      "Scar20": 4,
+      "G3SG1": 2,
+      "AUG": 2,
+      "P90": 1,
+      "Incendiary": 1,
+      "Scout": 1,
+      "USP": 1,
+      "Famas": 1,
+      "CZ": 1,
+      "MP7": 1,
+      "Knife": 1,
+      "P2000": 1,
+      "Mac10": 1,
+      "XM1014": 1,
+      "Glock": 1,
+      "Nova": 1,
+      "Swag7": 1,
+      "SG556": 1
     }
   },
   {
@@ -1906,7 +2843,6 @@
     "TradeKills": 6,
     "TimesTraded": 5,
     "TeamKills": 0,
-    "AWPKills": 1,
     "DamageDealt": 5342,
     "ArmorDamageDealt": 674,
     "FirstKills": 2,
@@ -1941,6 +2877,34 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 7,
+      "M4A4": 6,
+      "UMP": 5,
+      "P90": 4,
+      "Deagle": 2,
+      "HE": 1,
+      "MP7": 1,
+      "Scar20": 1,
+      "AWP": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "M4A4": 6,
+      "M4A1": 5,
+      "Gallil": 5,
+      "AWP": 4,
+      "P250": 2,
+      "CZ": 2,
+      "G3SG1": 2,
+      "P90": 2,
+      "USP": 1,
+      "MP9": 1,
+      "UMP": 1,
+      "Glock": 1,
+      "HE": 1,
+      "Deagle": 1
     }
   },
   {
@@ -1955,7 +2919,6 @@
     "TradeKills": 5,
     "TimesTraded": 1,
     "TeamKills": 2,
-    "AWPKills": 2,
     "DamageDealt": 2655,
     "ArmorDamageDealt": 232,
     "FirstKills": 3,
@@ -1990,6 +2953,27 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 9,
+      "AWP": 2,
+      "Deagle": 2,
+      "P250": 2,
+      "Glock": 1,
+      "FiveSeven": 1,
+      "M4A1": 1,
+      "USP": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 6,
+      "M4A1": 2,
+      "Scar20": 2,
+      "USP": 1,
+      "MP9": 1,
+      "AWP": 1,
+      "Deagle": 1,
+      "Mac10": 1,
+      "Gallil": 1
     }
   },
   {
@@ -2004,7 +2988,6 @@
     "TradeKills": 4,
     "TimesTraded": 4,
     "TeamKills": 0,
-    "AWPKills": 6,
     "DamageDealt": 7198,
     "ArmorDamageDealt": 317,
     "FirstKills": 13,
@@ -2046,6 +3029,43 @@
       "3": 5,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 20,
+      "AWP": 6,
+      "USP": 4,
+      "Swag7": 4,
+      "M4A4": 2,
+      "XM1014": 2,
+      "Nova": 2,
+      "FiveSeven": 1,
+      "P90": 1,
+      "Deagle": 1,
+      "Glock": 1,
+      "UMP": 1,
+      "DualBarettas": 1,
+      "Famas": 1,
+      "M249": 1,
+      "SawedOff": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 12,
+      "AWP": 4,
+      "M4A4": 4,
+      "USP": 3,
+      "M4A1": 3,
+      "P250": 3,
+      "Famas": 3,
+      "Deagle": 2,
+      "SawedOff": 2,
+      "CZ": 2,
+      "Glock": 1,
+      "Nova": 1,
+      "UMP": 1,
+      "MP7": 1,
+      "HE": 1,
+      "Incendiary": 1,
+      "Scout": 1
     }
   },
   {
@@ -2060,7 +3080,6 @@
     "TradeKills": 1,
     "TimesTraded": 0,
     "TeamKills": 2,
-    "AWPKills": 0,
     "DamageDealt": 1161,
     "ArmorDamageDealt": 197,
     "FirstKills": 0,
@@ -2092,6 +3111,19 @@
       "3": 0,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "Scar20": 2,
+      "Mac10": 2,
+      "P90": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "AWP": 3,
+      "USP": 2,
+      "M4A4": 2,
+      "UMP": 1,
+      "Famas": 1
     }
   },
   {
@@ -2106,7 +3138,6 @@
     "TradeKills": 1,
     "TimesTraded": 6,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 4700,
     "ArmorDamageDealt": 243,
     "FirstKills": 0,
@@ -2147,6 +3178,34 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AUG": 10,
+      "M4A4": 8,
+      "SG556": 7,
+      "AK47": 5,
+      "P2000": 2,
+      "Glock": 2,
+      "HE": 1,
+      "UMP": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 8,
+      "M4A4": 5,
+      "XM1014": 4,
+      "Swag7": 3,
+      "CZ": 3,
+      "USP": 2,
+      "MP9": 2,
+      "AWP": 2,
+      "M4A1": 2,
+      "UMP": 2,
+      "SawedOff": 2,
+      "Deagle": 1,
+      "Glock": 1,
+      "MP7": 1,
+      "P90": 1,
+      "Famas": 1
     }
   },
   {
@@ -2161,7 +3220,6 @@
     "TradeKills": 9,
     "TimesTraded": 15,
     "TeamKills": 1,
-    "AWPKills": 8,
     "DamageDealt": 8703,
     "ArmorDamageDealt": 465,
     "FirstKills": 4,
@@ -2210,6 +3268,46 @@
       "3": 3,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 14,
+      "P90": 10,
+      "SG556": 7,
+      "AWP": 7,
+      "M4A4": 6,
+      "MP9": 4,
+      "P250": 3,
+      "USP": 2,
+      "AUG": 2,
+      "Tec9": 2,
+      "M4A1": 1,
+      "P2000": 1,
+      "Scout": 1,
+      "Famas": 1,
+      "MP7": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 35,
+      "M4A4": 8,
+      "AWP": 7,
+      "USP": 6,
+      "Mac10": 5,
+      "Deagle": 5,
+      "Swag7": 2,
+      "MP9": 2,
+      "M4A1": 2,
+      "CZ": 2,
+      "Bizon": 2,
+      "MP7": 2,
+      "SawedOff": 2,
+      "Famas": 2,
+      "Gallil": 2,
+      "Scout": 2,
+      "P250": 1,
+      "Glock": 1,
+      "XM1014": 1,
+      "P90": 1,
+      "FiveSeven": 1
     }
   },
   {
@@ -2224,7 +3322,6 @@
     "TradeKills": 8,
     "TimesTraded": 2,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 3216,
     "ArmorDamageDealt": 412,
     "FirstKills": 2,
@@ -2259,6 +3356,26 @@
       "3": 5,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "XM1014": 10,
+      "AK47": 9,
+      "M4A4": 5,
+      "CZ": 1,
+      "USP": 1,
+      "UMP": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 6,
+      "SG556": 3,
+      "Deagle": 2,
+      "AWP": 2,
+      "AUG": 2,
+      "USP": 1,
+      "MP9": 1,
+      "Glock": 1,
+      "Mac10": 1,
+      "Gallil": 1
     }
   },
   {
@@ -2273,7 +3390,6 @@
     "TradeKills": 4,
     "TimesTraded": 4,
     "TeamKills": 0,
-    "AWPKills": 7,
     "DamageDealt": 5518,
     "ArmorDamageDealt": 286,
     "FirstKills": 7,
@@ -2312,6 +3428,32 @@
       "3": 3,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 19,
+      "Deagle": 7,
+      "AWP": 7,
+      "M4A4": 4,
+      "Glock": 2,
+      "P250": 1,
+      "MP9": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 11,
+      "M4A4": 4,
+      "AWP": 2,
+      "CZ": 2,
+      "UMP": 2,
+      "USP": 1,
+      "Scout": 1,
+      "MP9": 1,
+      "AUG": 1,
+      "FiveSeven": 1,
+      "Nova": 1,
+      "P2000": 1,
+      "P250": 1,
+      "Glock": 1,
+      "Deagle": 1
     }
   },
   {
@@ -2326,7 +3468,6 @@
     "TradeKills": 3,
     "TimesTraded": 3,
     "TeamKills": 0,
-    "AWPKills": 5,
     "DamageDealt": 2961,
     "ArmorDamageDealt": 189,
     "FirstKills": 1,
@@ -2361,6 +3502,22 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 9,
+      "AWP": 5,
+      "USP": 1
+    },
+    "WeaponKilledBy": {
+      "M4A4": 3,
+      "Famas": 2,
+      "AK47": 2,
+      "P2000": 1,
+      "MP9": 1,
+      "AWP": 1,
+      "HE": 1,
+      "Scout": 1,
+      "SG556": 1
     }
   },
   {
@@ -2375,7 +3532,6 @@
     "TradeKills": 3,
     "TimesTraded": 2,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 1639,
     "ArmorDamageDealt": 231,
     "FirstKills": 0,
@@ -2409,6 +3565,25 @@
       "3": 1,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "Gallil": 10,
+      "Glock": 1,
+      "FiveSeven": 1
+    },
+    "WeaponKilledBy": {
+      "M4A1": 6,
+      "AWP": 3,
+      "P2000": 2,
+      "Deagle": 2,
+      "AK47": 2,
+      "Swag7": 1,
+      "UMP": 1,
+      "MP9": 1,
+      "Famas": 1,
+      "M4A4": 1,
+      "Tec9": 1,
+      "P250": 1
     }
   },
   {
@@ -2423,7 +3598,6 @@
     "TradeKills": 4,
     "TimesTraded": 1,
     "TeamKills": 1,
-    "AWPKills": 0,
     "DamageDealt": 2455,
     "ArmorDamageDealt": 215,
     "FirstKills": 1,
@@ -2458,6 +3632,25 @@
       "3": 2,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 10,
+      "Glock": 3,
+      "M4A4": 2,
+      "Mac10": 1,
+      "Nova": 1,
+      "P2000": 1,
+      "FiveSeven": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 5,
+      "AWP": 2,
+      "M4A4": 2,
+      "P250": 1,
+      "P2000": 1,
+      "M4A1": 1,
+      "Glock": 1,
+      "UMP": 1
     }
   },
   {
@@ -2472,7 +3665,6 @@
     "TradeKills": 2,
     "TimesTraded": 0,
     "TeamKills": 0,
-    "AWPKills": 0,
     "DamageDealt": 2549,
     "ArmorDamageDealt": 320,
     "FirstKills": 3,
@@ -2507,6 +3699,22 @@
       "3": 0,
       "4": 0,
       "5": 0
+    },
+    "WeaponKills": {
+      "AK47": 11,
+      "M4A4": 4,
+      "FiveSeven": 1,
+      "USP": 1,
+      "HE": 1
+    },
+    "WeaponKilledBy": {
+      "AK47": 10,
+      "Deagle": 3,
+      "Glock": 1,
+      "Mac10": 1,
+      "P90": 1,
+      "CZ": 1,
+      "M4A4": 1
     }
   }
 ]

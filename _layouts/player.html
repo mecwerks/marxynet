@@ -223,6 +223,12 @@ type: Player
     </tbody>
   </table>
 </div>
+<button class="accordion">Weapon Charts</button>
+<div class="panel" align="left">
+<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+<div id="chartContainer2" style="height: 400px; width: 100%;"></div>
+</div>
+
 <script>
 $(document).ready(function() {
   var table = $('#matrix').DataTable(
@@ -251,4 +257,71 @@ $(document).ready(function() {
 
   $("#playerBackground").find("font").css("display", "initial");
 } );
+</script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script>
+window.onload = function () {
+var dataP = [];
+var dataD = [];
+var wKills = {{page.WeaponKills | jsonify}};
+var wDeaths = {{page.WeaponKilledBy | jsonify}};
+var names = {{site.data.strings.demoweapons | jsonify}};
+
+for (var key in wKills)
+{
+  if (wKills.hasOwnProperty(key))
+  {
+    dataP.push({y: wKills[key], label: names[key]});
+  }
+}
+
+for (var key in wDeaths)
+{
+  if (wDeaths.hasOwnProperty(key))
+  {
+    dataD.push({y: wDeaths[key], label: names[key]});
+  }
+}
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+  backgroundColor: "#DEDEDE",
+	title:{
+		text: "Weapon Kills",
+		horizontalAlign: "center"
+	},
+	data: [{
+		type: "doughnut",
+		startAngle: 90,
+		innerRadius: 100,
+		indexLabelFontSize: 17,
+		indexLabel: "{label} - #percent%",
+		toolTipContent: "<b>{label}:</b> {y}",
+		dataPoints: dataP
+	}]
+});
+
+chart.render();
+
+var chart2 = new CanvasJS.Chart("chartContainer2", {
+	animationEnabled: true,
+  backgroundColor: "#DEDEDE",
+	title:{
+		text: "Weapon Deaths",
+		horizontalAlign: "center"
+	},
+	data: [{
+		type: "doughnut",
+		startAngle: 90,
+		innerRadius: 100,
+		indexLabelFontSize: 17,
+		indexLabel: "{label} - #percent%",
+		toolTipContent: "<b>{label}:</b> {y}",
+		dataPoints: dataD
+	}]
+});
+
+chart2.render();
+
+}
 </script>
