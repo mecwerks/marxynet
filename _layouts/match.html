@@ -2,7 +2,29 @@
 layout: default
 type: Match
 ---
-<header>
+<style>
+#matchHeaderContainer {
+  background-image: url("/assets/images/maps/{{page.MapName}}.jpg");
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto; 
+  background-size: 100% auto;
+  background-position: center; 
+  border-radius: 8px;
+}
+#matchHeaderStats {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+}
+#teamAHeader, #teamBHeader {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#mapName {
+  margin-top: 15px;
+}
+</style>
+<header id="matchHeaderContainer">
   <div align="center" id="matchHeaderStats">
     {% if page.TeamA.RoundsWon > page.TeamB.RoundsWon %} 
       {% assign scoreAClass = "scoreWinner"%} 
@@ -14,14 +36,15 @@ type: Match
       {% assign scoreAClass="scoreTie" %} 
       {% assign scoreBClass="scoreTie" %} 
     {% endif %} 
-    <div id="teamAHeader"><br>
+    <div id="teamAHeader">
       <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
-      <span style="font-size: 24px;" class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
+      <span style="font-size: 24px;font-weight:bold;" class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
     </div>
     <div id="teamStatsHeader">
+      <h1 id="mapName">{{page.MapName}}</h1>
       <br>
       {% assign monthString = page.Year | append: "-" | append: page.Month | append: "-" | append: page.Day | append: "T" | append: page.Hour | append: ":00:00" %}
-      <h1>{{monthString | date: "%H"}}:00</h1>
+      <h3>{{monthString | date: "%H"}}:00</h3>
       {{monthString | date: "%B "}}
         {% assign d = monthString | date: "%-d" %}
         {% case d %}
@@ -32,9 +55,9 @@ type: Match
         {% endcase %} 
         {{monthString | date: ", %Y"}}
     </div>
-    <div id="teamBHeader"><br>
+    <div id="teamBHeader">
       <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
-      <span style="font-size: 24px;" class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
+      <span style="font-size: 24px;font-weight:bold;" class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
     </div>
   </div>
 </header>	  
