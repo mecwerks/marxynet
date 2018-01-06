@@ -1,17 +1,18 @@
-<table id="table_{{include.teamname}}" class="sortable">
+<table id="table_{{include.teamname}}" class="sortable" style="width: 100%;">
 	<thead>
 		<tr class="header">
-			<th width="2%">{{include.teamname | default:"Team Unknown"}}</th>
+			<th style="text-align: center; width: 20%;">{{include.teamname | default:"Team Unknown"}}</th>
 			<th style="text-align: center">Kills</th>
 			<th style="text-align: center">Assists</th>
 			<th style="text-align: center">Deaths</th>
-			<th>KAST</th>
+			<th style="text-align: center">KAST</th>
 			<th style="text-align: center">ADR</th>
 			<th style="text-align: center">K/D Diff</th>
-			<th>Headshot %</th>
-			<th>Plants</th>
-			<th>Defuses</th>
-			<th>MVPs</th>
+			<th style="text-align: center">Headshot %</th>
+			<th style="text-align: center">Plants</th>
+			<th style="text-align: center">Defuses</th>
+			<th style="text-align: center">MVPs</th>
+			<th style="text-align: center">HLTV</th>
 		</tr>
 	</thead>
 	<tbody class="fullTable">
@@ -56,13 +57,15 @@
 			<td markdown="span" style="text-align: center" class={{kdDiffClass}}>{{kdSign}}{{kdDiff | default:"0"}}</td>
 			<!-- Headshot % -->
 			{% assign kills = player.Kills | times: 1.0 %}
-			<td markdown="span">{{player.Headshots | divided_by: kills | times: 100 | round: 2}}%</td>
+			<td markdown="span" style="text-align: center">{{player.Headshots | divided_by: kills | times: 100 | round: 2}}%</td>
 			<!-- Plants -->
 			<td markdown="span" style="text-align: center">{{player.Plants | default:"0"}}</td>
 			<!-- Defuses -->
 			<td markdown="span" style="text-align: center">{{player.Defuses | default:"0"}}</td>
 			<!-- MVPs -->
 			<td markdown="span" style="text-align: center">{{player.MVPs | default:"0"}}</td>
+			<!-- HLTV -->
+			<td markdown="span" style="text-align: center">{{player.HLTVRating | default:"0"}}</td>
 		</tr>
 		{% endfor %}
 	</tbody>
