@@ -79,117 +79,48 @@ type: Match
     </tbody>
   </table>
   </div>
+  <br>
   <div align="center">
   <table class="halfTable row-border hover order-column">
     <tr>
         <th style="text-align: center">Execute Order 66</th>
-        {% assign steamid = page.Awards.ExecuteOrder66.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.ExecuteOrder66.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">The Kendoll</th>
-        {% assign steamid = page.Awards.TheKendoll.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.TheKendoll.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">Terminator</th>
-        {% assign steamid = page.Awards.Terminator.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.Terminator.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">The Professional</th>
-        {% assign steamid = page.Awards.TheProfessional.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.TheProfessional.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">Lending Hand</th>
-        {% assign steamid = page.Awards.LendingHand.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.LendingHand.SteamID Players=page.Players %}
     </tr>
     <tr>
-        <th style="text-align: center">The Assasin</th>
-        {% assign steamid = page.Awards.TheAssasin.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        <th style="text-align: center">The Assassin</th>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.TheAssasin.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">The Entry</th>
-        {% assign steamid = page.Awards.TheEntry.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.TheEntry.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">Clutch Master</th>
-        {% assign steamid = page.Awards.ClutchMaster.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.ClutchMaster.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">Trade Craft</th>
-        {% assign steamid = page.Awards.TradeCraft.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.TradeCraft.SteamID Players=page.Players %}
     </tr>
     <tr>
         <th style="text-align: center">Frag Bait</th>
-        {% assign steamid = page.Awards.FragBait.SteamID | downcase %}
-        {% assign uid = page.Players[steamid].UID %}
-        {% assign name = page.Players[steamid].Name %}
-        {% if site.data.uidTable[steamid] != null %}
-          {% assign uid = site.data.uidTable[steamid][1] %}
-          {% assign name = site.data.uidTable[steamid][0] %}
-        {% endif %} 
-        <td style="text-align: center"><a href="/players/{{uid}}">{{ name | default: "N/A" }}</a></td>
+        {% include playerAwardTableInsert.html SteamID=page.Awards.FragBait.SteamID Players=page.Players %}
     </tr>
   </table>
 </div> 

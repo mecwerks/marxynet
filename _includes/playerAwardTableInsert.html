@@ -1,0 +1,12 @@
+{% assign sid = include.SteamID | downcase %}
+{% if sid == "0" %}
+    <td style="text-align: center">N/A</td>
+{% else %}
+    {% assign puid = include..Players[sid].UID %}
+    {% assign pname = include..Players[sid].Name %}
+    {% if site.data.uidTable[sid] != null %}
+        {% assign puid = site.data.uidTable[sid][1] %}
+        {% assign pname = site.data.uidTable[sid][0] %}
+    {% endif %}
+    <td style="text-align: center"><a href="/players/{{puid}}">{{ pname | default: "N/A" }}</a></td>
+{% endif %}
