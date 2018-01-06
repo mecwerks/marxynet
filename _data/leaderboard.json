@@ -8,12 +8,12 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "495"
+            "Data": "530"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "484"
+            "Data": "499"
           },
           {
             "Name": "Devyn",
@@ -28,22 +28,22 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "232"
+            "Data": "250"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "198"
+            "Data": "217"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "189"
           },
           {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "181"
-          },
-          {
-            "Name": "Fenton | powered by depression",
-            "UID": "76561198084911409",
-            "Data": "174"
           },
           {
             "Name": "rî§К",
@@ -53,7 +53,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "114"
+            "Data": "121"
           },
           {
             "Name": "Froztbitten",
@@ -73,17 +73,17 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "0.93"
+            "Data": "0.94"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "0.91"
+            "Data": "0.89"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "0.87"
+            "Data": "0.85"
           },
           {
             "Name": "rî§К",
@@ -96,14 +96,14 @@
             "Data": "0.78"
           },
           {
-            "Name": "Fenton | powered by depression",
-            "UID": "76561198084911409",
-            "Data": "0.76"
-          },
-          {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "0.76"
+            "Data": "0.74"
+          },
+          {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "0.73"
           },
           {
             "Name": "ism",
@@ -113,7 +113,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "0.52"
+            "Data": "0.48"
           },
           {
             "Name": "alt-CJ",
@@ -138,17 +138,17 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "26.05"
+            "Data": "26.50"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "25.47"
+            "Data": "24.95"
           },
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "23.20"
+            "Data": "22.73"
           },
           {
             "Name": "Devyn",
@@ -158,7 +158,7 @@
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "22.00"
+            "Data": "21.70"
           },
           {
             "Name": "rî§К",
@@ -168,7 +168,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "19.33"
+            "Data": "18.90"
           },
           {
             "Name": "ism",
@@ -181,11 +181,6 @@
             "Data": "12.93"
           },
           {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "12.67"
-          },
-          {
             "Name": "alt-CJ",
             "UID": "76561198079742537",
             "Data": "12.20"
@@ -194,6 +189,11 @@
             "Name": "Froztbitten",
             "UID": "76561198055295222",
             "Data": "12.13"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "12.10"
           }
         ]
       }
@@ -208,7 +208,7 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "351"
+            "Data": "374"
           },
           {
             "Name": "Devyn",
@@ -223,7 +223,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "307"
+            "Data": "322"
           },
           {
             "Name": "K",
@@ -233,7 +233,7 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "242"
+            "Data": "261"
           },
           {
             "Name": "Froztbitten",
@@ -243,17 +243,17 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "173"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "164"
+            "Data": "195"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "164"
+            "Data": "185"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "182"
           },
           {
             "Name": "rî§К",
@@ -271,14 +271,14 @@
         "Title": "Avg. / Round",
         "Entries": [
           {
-            "Name": "Flip",
-            "UID": "flipndipp",
-            "Data": "0.79"
-          },
-          {
             "Name": "Froztbitten",
             "UID": "76561198055295222",
             "Data": "0.79"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "0.78"
           },
           {
             "Name": "Fenton | powered by depression",
@@ -286,13 +286,13 @@
             "Data": "0.75"
           },
           {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "0.74"
-          },
-          {
             "Name": "K",
             "UID": "76561198071477737",
+            "Data": "0.73"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
             "Data": "0.73"
           },
           {
@@ -318,7 +318,7 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "0.66"
+            "Data": "0.67"
           },
           {
             "Name": "rî§К",
@@ -328,7 +328,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "0.58"
+            "Data": "0.57"
           }
         ]
       },
@@ -343,7 +343,7 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "24.20"
+            "Data": "23.73"
           },
           {
             "Name": "K",
@@ -356,29 +356,29 @@
             "Data": "19.88"
           },
           {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "19.50"
+          },
+          {
             "Name": "ism",
             "UID": "ism",
             "Data": "19.24"
           },
           {
-            "Name": "Fenton | powered by depression",
-            "UID": "76561198084911409",
-            "Data": "19.22"
-          },
-          {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "18.47"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "18.22"
+            "Data": "18.70"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "18.22"
+            "Data": "18.50"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "18.20"
           },
           {
             "Name": "alt-CJ",
@@ -388,7 +388,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "16.16"
+            "Data": "16.10"
           },
           {
             "Name": "rî§К",
@@ -406,14 +406,14 @@
         "Title": "Total",
         "Entries": [
           {
-            "Name": "Ant-iwnl-",
-            "UID": "Ant-iwnl-",
-            "Data": "95"
-          },
-          {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "92"
+            "Data": "100"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "99"
           },
           {
             "Name": "ism",
@@ -426,24 +426,24 @@
             "Data": "66"
           },
           {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "63"
+          },
+          {
             "Name": "Devyn",
             "UID": "Devyn",
             "Data": "61"
           },
           {
-            "Name": "Flip",
-            "UID": "flipndipp",
-            "Data": "58"
-          },
-          {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "36"
+            "Data": "40"
           },
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "29"
+            "Data": "36"
           },
           {
             "Name": "Froztbitten",
@@ -453,7 +453,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "20"
+            "Data": "21"
           },
           {
             "Name": "rî§К",
@@ -476,14 +476,14 @@
             "Data": "0.19"
           },
           {
-            "Name": "Ant-iwnl-",
-            "UID": "Ant-iwnl-",
+            "Name": "Marxy",
+            "UID": "marxy",
             "Data": "0.18"
           },
           {
-            "Name": "Marxy",
-            "UID": "marxy",
-            "Data": "0.17"
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "0.18"
           },
           {
             "Name": "K",
@@ -501,13 +501,13 @@
             "Data": "0.15"
           },
           {
-            "Name": "alt-CJ",
-            "UID": "76561198079742537",
-            "Data": "0.13"
-          },
-          {
             "Name": "Zaggle",
             "UID": "Zaggle",
+            "Data": "0.14"
+          },
+          {
+            "Name": "alt-CJ",
+            "UID": "76561198079742537",
             "Data": "0.13"
           },
           {
@@ -528,7 +528,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "0.09"
+            "Data": "0.08"
           }
         ]
       },
@@ -538,17 +538,17 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "5.80"
-          },
-          {
-            "Name": "Ant-iwnl-",
-            "UID": "Ant-iwnl-",
-            "Data": "5.00"
+            "Data": "5.73"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "4.84"
+            "Data": "5.00"
+          },
+          {
+            "Name": "Ant-iwnl-",
+            "UID": "Ant-iwnl-",
+            "Data": "4.95"
           },
           {
             "Name": "K",
@@ -566,6 +566,11 @@
             "Data": "3.88"
           },
           {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "3.60"
+          },
+          {
             "Name": "Devyn",
             "UID": "Devyn",
             "Data": "3.59"
@@ -581,11 +586,6 @@
             "Data": "3.38"
           },
           {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "3.22"
-          },
-          {
             "Name": "rî§К",
             "UID": "76561198117966816",
             "Data": "3.00"
@@ -593,7 +593,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "2.22"
+            "Data": "2.10"
           }
         ]
       }
@@ -608,12 +608,12 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "372"
+            "Data": "386"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "357"
+            "Data": "377"
           },
           {
             "Name": "Devyn",
@@ -626,34 +626,34 @@
             "Data": "263"
           },
           {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "210"
+          },
+          {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "200"
           },
           {
-            "Name": "Flip",
-            "UID": "flipndipp",
-            "Data": "190"
-          },
-          {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "137"
+            "Data": "153"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "133"
+            "Data": "148"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "127"
           },
           {
             "Name": "Froztbitten",
             "UID": "76561198055295222",
             "Data": "121"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "117"
           },
           {
             "Name": "rî§К",
@@ -673,22 +673,17 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "69.79%"
+            "Data": "68.68%"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "66.98%"
+            "Data": "67.08%"
           },
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "61.89%"
-          },
-          {
-            "Name": "Blue Cunts with Guns",
-            "UID": "76561198256748178",
-            "Data": "60.35%"
+            "Data": "62.50%"
           },
           {
             "Name": "rî§К",
@@ -696,14 +691,14 @@
             "Data": "59.87%"
           },
           {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "59.77%"
+          },
+          {
             "Name": "ism",
             "UID": "ism",
             "Data": "58.31%"
-          },
-          {
-            "Name": "Fenton | powered by depression",
-            "UID": "76561198084911409",
-            "Data": "57.83%"
           },
           {
             "Name": "Devyn",
@@ -711,9 +706,14 @@
             "Data": "57.73%"
           },
           {
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
+            "Data": "57.14%"
+          },
+          {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "52.94%"
+            "Data": "50.80%"
           },
           {
             "Name": "K",
@@ -738,17 +738,17 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "19.58"
+            "Data": "19.30"
           },
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "19.00"
+            "Data": "19.09"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "18.79"
+            "Data": "18.85"
           },
           {
             "Name": "Devyn",
@@ -768,7 +768,7 @@
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "15.22"
+            "Data": "15.30"
           },
           {
             "Name": "Froztbitten",
@@ -778,7 +778,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "14.78"
+            "Data": "14.80"
           },
           {
             "Name": "K",
@@ -788,7 +788,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "13.00"
+            "Data": "12.70"
           },
           {
             "Name": "alt-CJ",
@@ -808,12 +808,12 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "75476"
+            "Data": "77991"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "70122"
+            "Data": "74768"
           },
           {
             "Name": "Devyn",
@@ -828,7 +828,12 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "32979"
+            "Data": "35610"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "30429"
           },
           {
             "Name": "K",
@@ -836,14 +841,9 @@
             "Data": "27760"
           },
           {
-            "Name": "Blue Cunts with Guns",
-            "UID": "76561198256748178",
-            "Data": "27605"
-          },
-          {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "23614"
+            "Data": "25619"
           },
           {
             "Name": "rî§К",
@@ -853,7 +853,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "15002"
+            "Data": "16398"
           },
           {
             "Name": "Froztbitten",
@@ -873,17 +873,17 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "141.61"
+            "Data": "138.77"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "131.56"
+            "Data": "133.04"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "121.61"
+            "Data": "118.86"
           },
           {
             "Name": "Devyn",
@@ -898,7 +898,7 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "107.42"
+            "Data": "105.98"
           },
           {
             "Name": "ism",
@@ -908,7 +908,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "102.67"
+            "Data": "98.92"
           },
           {
             "Name": "K",
@@ -923,7 +923,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "67.88"
+            "Data": "65.59"
           },
           {
             "Name": "Froztbitten",
@@ -938,12 +938,12 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "3972.42"
+            "Data": "3899.55"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "3690.63"
+            "Data": "3738.40"
           },
           {
             "Name": "Devyn",
@@ -953,12 +953,12 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "3297.90"
+            "Data": "3237.27"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "3067.22"
+            "Data": "3042.90"
           },
           {
             "Name": "rî§К",
@@ -973,7 +973,7 @@
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "2623.78"
+            "Data": "2561.90"
           },
           {
             "Name": "K",
@@ -993,7 +993,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "1666.89"
+            "Data": "1639.80"
           }
         ]
       }
@@ -1018,17 +1018,17 @@
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "47.98%"
+            "Data": "48.39%"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "43.10%"
+            "Data": "42.86%"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "41.53%"
+            "Data": "42.08%"
           },
           {
             "Name": "ism",
@@ -1038,7 +1038,7 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "35.78%"
+            "Data": "35.20%"
           },
           {
             "Name": "rî§К",
@@ -1053,17 +1053,17 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "32.73%"
+            "Data": "32.64%"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "27.27%"
           },
           {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "26.52%"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "26.32%"
           }
         ]
       },
@@ -1081,34 +1081,34 @@
             "Data": "22.27%"
           },
           {
-            "Name": "Blue Cunts with Guns",
-            "UID": "76561198256748178",
-            "Data": "21.14%"
-          },
-          {
             "Name": "Froztbitten",
             "UID": "76561198055295222",
             "Data": "20.70%"
           },
           {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "18.90%"
+          },
+          {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "18.74%"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "11.91%"
-          },
-          {
-            "Name": "Flip",
-            "UID": "flipndipp",
-            "Data": "11.65%"
+            "Data": "16.55%"
           },
           {
             "Name": "Devyn",
             "UID": "Devyn",
             "Data": "10.91%"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "10.91%"
+          },
+          {
+            "Name": "Flip",
+            "UID": "flipndipp",
+            "Data": "10.48%"
           },
           {
             "Name": "ism",
@@ -1118,7 +1118,7 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "7.79%"
+            "Data": "7.49%"
           },
           {
             "Name": "K",
@@ -1128,7 +1128,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "6.14%"
+            "Data": "5.81%"
           }
         ]
       },
@@ -1143,27 +1143,27 @@
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "10.58"
+            "Data": "10.50"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "10.56"
+            "Data": "10.50"
           },
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "8.53"
+            "Data": "8.65"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "8.33"
+            "Data": "8.10"
           },
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "8.30"
+            "Data": "8.00"
           },
           {
             "Name": "rî§К",
@@ -1193,7 +1193,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "3.33"
+            "Data": "3.30"
           }
         ]
       }
@@ -1216,14 +1216,14 @@
             "Data": "28"
           },
           {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "26"
+          },
+          {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "24"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "20"
           },
           {
             "Name": "Marxy",
@@ -1258,7 +1258,7 @@
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "4"
+            "Data": "5"
           },
           {
             "Name": "Fenton | powered by depression",
@@ -1273,7 +1273,7 @@
           {
             "Name": "Zaggle",
             "UID": "Zaggle",
-            "Data": "9.05%"
+            "Data": "10.40%"
           },
           {
             "Name": "rî§К",
@@ -1303,12 +1303,12 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "5.25%"
+            "Data": "4.98%"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "3.75%"
+            "Data": "3.56%"
           },
           {
             "Name": "Devyn",
@@ -1318,17 +1318,17 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "2.61%"
+            "Data": "2.38%"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "1.76%"
+            "Data": "1.95%"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "1.74%"
+            "Data": "1.54%"
           }
         ]
       },
@@ -1336,14 +1336,14 @@
         "Title": "Avg. / Match",
         "Entries": [
           {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "2.60"
+          },
+          {
             "Name": "Froztbitten",
             "UID": "76561198055295222",
             "Data": "2.38"
-          },
-          {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "2.22"
           },
           {
             "Name": "rî§К",
@@ -1368,12 +1368,12 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "1.47"
+            "Data": "1.40"
           },
           {
             "Name": "Marxy",
             "UID": "marxy",
-            "Data": "1.05"
+            "Data": "1.00"
           },
           {
             "Name": "Devyn",
@@ -1383,17 +1383,17 @@
           {
             "Name": "Flip",
             "UID": "flipndipp",
-            "Data": "0.80"
+            "Data": "0.73"
           },
           {
             "Name": "Blue Cunts with Guns",
             "UID": "76561198256748178",
-            "Data": "0.44"
+            "Data": "0.50"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "0.44"
+            "Data": "0.40"
           }
         ]
       }
@@ -1436,14 +1436,14 @@
             "Data": "3"
           },
           {
-            "Name": "rî§К",
-            "UID": "76561198117966816",
+            "Name": "Fenton | powered by depression",
+            "UID": "76561198084911409",
             "Data": "3"
           },
           {
-            "Name": "ism",
-            "UID": "ism",
-            "Data": "2"
+            "Name": "rî§К",
+            "UID": "76561198117966816",
+            "Data": "3"
           },
           {
             "Name": "Blue Cunts with Guns",
@@ -1451,8 +1451,8 @@
             "Data": "2"
           },
           {
-            "Name": "Fenton | powered by depression",
-            "UID": "76561198084911409",
+            "Name": "ism",
+            "UID": "ism",
             "Data": "2"
           },
           {
@@ -1483,7 +1483,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "1.88%"
+            "Data": "1.78%"
           },
           {
             "Name": "Froztbitten",
@@ -1496,29 +1496,29 @@
             "Data": "1.56%"
           },
           {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "1.36%"
-          },
-          {
-            "Name": "Marxy",
-            "UID": "marxy",
-            "Data": "1.31%"
-          },
-          {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "1.25%"
           },
           {
-            "Name": "Blue Cunts with Guns",
-            "UID": "76561198256748178",
-            "Data": "0.88%"
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "1.25%"
+          },
+          {
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "1.20%"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "0.87%"
+            "Data": "1.16%"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "0.78%"
           },
           {
             "Name": "ism",
@@ -1543,7 +1543,7 @@
           {
             "Name": "Ant-iwnl-",
             "UID": "Ant-iwnl-",
-            "Data": "0.53"
+            "Data": "0.50"
           },
           {
             "Name": "rî§К",
@@ -1561,29 +1561,29 @@
             "Data": "0.40"
           },
           {
-            "Name": "Marxy",
-            "UID": "marxy",
-            "Data": "0.37"
-          },
-          {
             "Name": "K",
             "UID": "76561198071477737",
             "Data": "0.36"
           },
           {
-            "Name": "Zaggle",
-            "UID": "Zaggle",
-            "Data": "0.33"
+            "Name": "Marxy",
+            "UID": "marxy",
+            "Data": "0.35"
           },
           {
-            "Name": "Blue Cunts with Guns",
-            "UID": "76561198256748178",
-            "Data": "0.22"
+            "Name": "Zaggle",
+            "UID": "Zaggle",
+            "Data": "0.30"
           },
           {
             "Name": "Fenton | powered by depression",
             "UID": "76561198084911409",
-            "Data": "0.22"
+            "Data": "0.30"
+          },
+          {
+            "Name": "Blue Cunts with Guns",
+            "UID": "76561198256748178",
+            "Data": "0.20"
           },
           {
             "Name": "ism",
