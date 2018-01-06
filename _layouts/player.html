@@ -61,6 +61,10 @@ type: Player
 <br>
 <table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
     <tr>
+      <th style="text-align: center">Rounds Played</th>
+      <td markdown="span" style="text-align: center">{{page.TotalRounds | default: 0 | round: 0 }}</td>
+    </tr>
+    <tr>
       <th style="text-align: center">Kills</th>
       <!-- Kills -->				
       <td markdown="span" style="text-align: center">{{page.Kills | default: 0 | round: 0 }}</td>
@@ -123,6 +127,12 @@ type: Player
       {% endif %}
       <td markdown="span" style="text-align: center">{{HSPercentage}}%</td>
     </tr>
+</table>
+<table id="table_{{SteamID}}_2" class="halfTable">
+    <tr>
+      <th style="text-align: center">HLTV Rating</th>
+      <td markdown="span" style="text-align: center">{{page.HLTVRating | default :0}}</td>
+    </tr>
     <tr>
       <th style="text-align: center">Plants</th>
       <!-- Plants -->
@@ -138,17 +148,10 @@ type: Player
       <!-- MVPs -->
       <td markdown="span" style="text-align: center">{{page.MVPs | default: 0}}</td>
     </tr>
-</table>
-<table id="table_{{SteamID}}_2" class="halfTable">
     <tr>
       <th style="text-align: center">Team Kills</th>
       <!-- TKs -->
       <td markdown="span" style="text-align: center">{{page.TeamKills | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">AWP Kills</th>
-      <!-- AWP Kills -->
-      <td markdown="span" style="text-align: center">{{page.AWPKills | default: 0}}</td>
     </tr>
     <tr>
       <th style="text-align: center">Damage Dealt</th>
@@ -165,6 +168,8 @@ type: Player
       <!-- First Deaths -->
       <td markdown="span" style="text-align: center">{{page.FirstDeaths | default: 0}}</td>
     </tr>
+</table>
+<table style="float: left" id="table_{{SteamID}}_3" class="halfTable">
     <tr>
       <th style="text-align: center">1K Rounds</th>
       <!-- 1Ks -->
@@ -190,7 +195,29 @@ type: Player
       <!-- 5Ks -->
       <td markdown="span" style="text-align: center">{{page.KillPerRound["5"] | default:"0"}}</td>
     </tr>
-</table>            
+</table>
+<table id="table_{{SteamID}}_4" class="halfTable">
+    <tr>
+      <th style="text-align: center">1v1 Clutches</th>
+      <td markdown="span" style="text-align: center">{{page.Clutches["1"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">1v2 Clutches</th>
+      <td markdown="span" style="text-align: center">{{page.Clutches["2"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">1v3 Clutches</th>
+      <td markdown="span" style="text-align: center">{{page.Clutches["3"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">1v4 Clutches</th>
+      <td markdown="span" style="text-align: center">{{page.Clutches["4"] | default:"0"}}</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">1v5 Clutches</th>
+      <td markdown="span" style="text-align: center">{{page.Clutches["5"] | default:"0"}}</td>
+    </tr>
+</table>           
 <button class="accordion">Kill Matrix</button>
 <div class="panel" align="left">
   {% assign length = site.data.players | size | minus: 1 %}
@@ -223,10 +250,11 @@ type: Player
     </tbody>
   </table>
 </div>
+<br>
 <button class="accordion">Weapon Charts</button>
 <div class="panel" align="left">
-<div id="chartContainer" style="height: 400px; width: 100%;"></div>
-<div id="chartContainer2" style="height: 400px; width: 100%;"></div>
+  <div id="chartContainer" style="height: 410px; width: 100%;"></div>
+  <div id="chartContainer2" style="height: 410px; width: 100%;"></div>
 </div>
 
 <script>
