@@ -9,10 +9,10 @@ title: Matches
     {% assign newMonth = false %}
     {% assign matches = site.data.matches %}
     {% for match in matches %}
-        {% if match.TeamA.RoundsWon > match.TeamB.RoundsWon %} 
+        {% if match.TeamA.RoundWins > match.TeamB.RoundWins %} 
             {% assign scoreAClass = "scoreWinner"%} 
             {% assign scoreBClass = "scoreLoser" %} 
-        {% elsif match.TeamA.RoundsWon < match.TeamB.RoundsWon%} 
+        {% elsif match.TeamA.RoundWins < match.TeamB.RoundWins %} 
             {% assign scoreAClass="scoreLoser" %} 
             {% assign scoreBClass="scoreWinner" %} 
         {% else %} 
@@ -39,7 +39,7 @@ title: Matches
             {% assign newMonth = true %}
         {% endif %}
         <tr class='clickablerow' href='/matches/{{match.UID}}' id="matchrow">
-            <td>
+            <td style="width: 10%;">
                 {% assign d = monthString | date: "%-d" %}
                 {% case d %}
                 {% when "1" or "21" or "31" %}{{ d }}st
@@ -48,10 +48,10 @@ title: Matches
                 {% else %}{{ d }}th
                 {% endcase %} @ {{monthString | date: "%H"}}:00
             </td>
-            <td style="text-align: right">{{match.TeamA.Name}}</td>
-            <td style="text-align: center"><span class="{{scoreAClass}}">{{match.TeamA.RoundsWon}}</span> - <span class="{{scoreBClass}}">{{match.TeamB.RoundsWon}}</span></td>
-            <td>{{match.TeamB.Name}}</td>
-            <td>{{match.MapName}}</td>
+            <td style="text-align: right;width: 25%">{{match.TeamA.Name}}</td>
+            <td style="text-align: center;width: 8%"><span class="{{scoreAClass}}">{{match.TeamA.RoundWins}}</span> - <span class="{{scoreBClass}}">{{match.TeamB.RoundWins}}</span></td>
+            <td style="width: 25%">{{match.TeamB.Name}}</td>
+            <td style="width: 15%">{{match.Map}}</td>
         </tr>
         {% if newMatch == true %}
             {% assign newMonth = true %}

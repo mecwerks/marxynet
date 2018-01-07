@@ -4,7 +4,7 @@ type: Match
 ---
 <style>
 #matchHeaderContainer {
-  background-image: url("/assets/images/maps/{{page.MapName}}.jpg");
+  background-image: url("/assets/images/maps/{{page.Map}}.jpg");
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   -webkit-background-size: 100% auto; 
@@ -26,10 +26,10 @@ type: Match
 </style>
 <header id="matchHeaderContainer">
   <div align="center" id="matchHeaderStats">
-    {% if page.TeamA.RoundsWon > page.TeamB.RoundsWon %} 
+    {% if page.TeamA.RoundWins > page.TeamB.RoundWins %} 
       {% assign scoreAClass = "scoreWinner"%} 
       {% assign scoreBClass = "scoreLoser" %} 
-    {% elsif page.TeamA.RoundsWon < page.TeamB.RoundsWon%} 
+    {% elsif page.TeamA.RoundWins < page.TeamB.RoundWins%} 
       {% assign scoreAClass="scoreLoser" %} 
       {% assign scoreBClass="scoreWinner" %} 
     {% else %} 
@@ -38,10 +38,10 @@ type: Match
     {% endif %} 
     <div id="teamAHeader">
       <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
-      <span style="font-size: 24px;font-weight:bold;" class="{{scoreAClass}}">{{page.TeamA.RoundsWon}}</span>
+      <span style="font-size: 24px;font-weight:bold;" class="{{scoreAClass}}">{{page.TeamA.RoundWins}}</span>
     </div>
     <div id="teamStatsHeader">
-      <h1 id="mapName">{{page.MapName}}</h1>
+      <h1 id="mapName">{{page.Map}}</h1>
       <br>
       {% assign monthString = page.Year | append: "-" | append: page.Month | append: "-" | append: page.Day | append: "T" | append: page.Hour | append: ":00:00" %}
       <h3>{{monthString | date: "%H"}}:00</h3>
@@ -57,11 +57,11 @@ type: Match
     </div>
     <div id="teamBHeader">
       <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
-      <span style="font-size: 24px;font-weight:bold;" class="{{scoreBClass}}">{{page.TeamB.RoundsWon}}</span>
+      <span style="font-size: 24px;font-weight:bold;" class="{{scoreBClass}}">{{page.TeamB.RoundWins}}</span>
     </div>
   </div>
 </header>	  
-{% assign rounds = page.TotalRounds %}
+{% assign rounds = page.Rounds %}
 {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
 {% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
 
@@ -74,10 +74,6 @@ type: Match
           {% assign teamBPlayerID = teamBPlayer | downcase %}
           {% assign uid = page.Players[teamBPlayerID].UID %}
           {% assign name = page.Players[teamBPlayerID].Name %}
-          {% if site.data.uidTable[teamBPlayerID] != null %}
-            {% assign uid = site.data.uidTable[teamBPlayerID][1] %}
-            {% assign name = site.data.uidTable[teamBPlayerID][0] %}
-          {% endif %}  
           <th class="col" style="text-align: center"><a href="/players/{{uid}}">{{name}}</a></th>
         {% endfor %}
       </tr>
@@ -87,10 +83,6 @@ type: Match
           {% assign teamAPlayerID = teamAPlayer | downcase %}
           {% assign uid = page.Players[teamAPlayerID].UID %}
           {% assign name = page.Players[teamAPlayerID].Name %}
-          {% if site.data.uidTable[teamAPlayerID] != null %}
-            {% assign uid = site.data.uidTable[teamAPlayerID][1] %}
-            {% assign name = site.data.uidTable[teamAPlayerID][0] %}
-          {% endif %}        
           <tr id="ignoreglobal">
           <th class="row" style="text-align: right"><a href="/players/{{uid}}">{{name}}</a></th>
           {% for teamBPlayer in page.TeamB.SteamIDs %}
@@ -105,46 +97,16 @@ type: Match
   <br>
   <div align="center">
   <table class="halfTable row-border hover order-column">
+    {% for award in page.Awards %}
     <tr>
-        <th style="text-align: center">Execute Order 66</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.ExecuteOrder66.SteamID Players=page.Players %}
+        <th style="text-align: center" class="tooltip">{{award.Title}}<span class="tooltiptext">{{award.Description}}</span></th>
+        {% if award.UID == empty %}
+          <td style="text-align: center">N/A</td>
+        {% else %}
+          <td style="text-align: center"><a href="/players/{{award.UID}}">{{ award.Name | default: "N/A" }}</a></td>
+        {% endif %}
     </tr>
-    <tr>
-        <th style="text-align: center">The Kendoll</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.TheKendoll.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">Terminator</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.Terminator.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">The Professional</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.TheProfessional.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">Lending Hand</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.LendingHand.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">The Assassin</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.TheAssasin.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">The Entry</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.TheEntry.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">Clutch Master</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.ClutchMaster.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">Trade Craft</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.TradeCraft.SteamID Players=page.Players %}
-    </tr>
-    <tr>
-        <th style="text-align: center">Frag Bait</th>
-        {% include playerAwardTableInsert.html SteamID=page.Awards.FragBait.SteamID Players=page.Players %}
-    </tr>
+    {% endfor %}
   </table>
 </div> 
 <script>

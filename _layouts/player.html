@@ -44,11 +44,14 @@ type: Player
   table-layout:fixed;
   white-space: nowrap;
 }
+
+td {
+  width: 50%;
+}
 </style>
 <div class="playerCardContainer" align="center">
-  {% assign steamid = page.SteamID | downcase %}
   <div id="playerBackground"><div id="playerNameDiv" align="center"><font id="playerName">{{page.Name}}</font></div></div>
-  <img src="{{site.data.playerAvatars[steamid]}}" class="playerAvatar" width="118" height="118"/>
+  <img src="{{site.data.playerAvatars[page.UID]}}" class="playerAvatar" width="118" height="118"/>
 </div>
 <button class="accordion">Matches ({{ page.Matches | size }})</button>
 <div class="panel">
@@ -62,7 +65,7 @@ type: Player
 <table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
     <tr>
       <th style="text-align: center">Rounds Played</th>
-      <td markdown="span" style="text-align: center">{{page.TotalRounds | default: 0 | round: 0 }}</td>
+      <td markdown="span" style="text-align: center">{{page.Rounds | default: 0 | round: 0 }}</td>
     </tr>
     <tr>
       <th style="text-align: center">Kills</th>
@@ -82,21 +85,21 @@ type: Player
     <tr>
       <th style="text-align: center">KAST %</th>
       <!-- KAST % -->
-      {% if page.TotalRounds == 0 %}
+      {% if page.Rounds == 0 %}
         {% assign KASTPercentage = 0 %}
       {% else %}
-        {% assign TotalRounds = page.TotalRounds | times: 1.0 %}
-        {% assign KASTPercentage = page.KASTRounds | divided_by: TotalRounds | times: 100 | round: 2 %}
+        {% assign Rounds = page.Rounds | times: 1.0 %}
+        {% assign KASTPercentage = page.KASTRounds | divided_by: Rounds | times: 100 | round: 2 %}
       {% endif %}
       <td markdown="span" style="text-align: center">{{KASTPercentage}}%</td>
     </tr>
     <tr>
       <th style="text-align: center">ADR</th>
       <!-- ADR -->
-      {% if page.TotalRounds == 0 %}
+      {% if page.Rounds == 0 %}
         {% assign ADR = 0 %}
       {% else %}
-        {% assign ADR = page.DamageDealt | divided_by: page.TotalRounds | round: 2 %}
+        {% assign ADR = page.HealthDamage | plus: page.ArmorDamage | divided_by: page.Rounds | round: 2 %}
       {% endif %}
       <td markdown="span" style="text-align: center">{{ADR}}</td>
     </tr>
@@ -131,7 +134,7 @@ type: Player
 <table id="table_{{SteamID}}_2" class="halfTable">
     <tr>
       <th style="text-align: center">HLTV Rating</th>
-      <td markdown="span" style="text-align: center">{{page.HLTVRating | default :0}}</td>
+      <td markdown="span" style="text-align: center">{{page.HltvRating | default :0}}</td>
     </tr>
     <tr>
       <th style="text-align: center">Plants</th>
@@ -146,7 +149,7 @@ type: Player
     <tr>
       <th style="text-align: center">MVPs</th>
       <!-- MVPs -->
-      <td markdown="span" style="text-align: center">{{page.MVPs | default: 0}}</td>
+      <td markdown="span" style="text-align: center">{{page.MVPRounds | default: 0}}</td>
     </tr>
     <tr>
       <th style="text-align: center">Team Kills</th>
@@ -156,7 +159,7 @@ type: Player
     <tr>
       <th style="text-align: center">Damage Dealt</th>
       <!-- Damage Dealt -->
-      <td markdown="span" style="text-align: center">{{page.DamageDealt | default: 0}}</td>
+      <td markdown="span" style="text-align: center">{{page.HealthDamage | plus: page.ArmorDamage | default: 0}}</td>
     </tr>
     <tr>
       <th style="text-align: center">First Kills</th>
@@ -173,49 +176,49 @@ type: Player
     <tr>
       <th style="text-align: center">1K Rounds</th>
       <!-- 1Ks -->
-      <td markdown="span" style="text-align: center">{{page.KillPerRound["1"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["1"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">2K Rounds</th>
       <!-- 2Ks -->
-      <td markdown="span" style="text-align: center">{{page.KillPerRound["2"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["2"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">3K Rounds</th>
       <!-- 3Ks -->
-      <td markdown="span" style="text-align: center">{{page.KillPerRound["3"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["3"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">4K Rounds</th>
       <!-- 4Ks -->
-      <td markdown="span" style="text-align: center">{{page.KillPerRound["4"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["4"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">5K Rounds</th>
       <!-- 5Ks -->
-      <td markdown="span" style="text-align: center">{{page.KillPerRound["5"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["5"] | default:"0"}}</td>
     </tr>
 </table>
 <table id="table_{{SteamID}}_4" class="halfTable">
     <tr>
       <th style="text-align: center">1v1 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.Clutches["1"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.ClutchRounds["1"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">1v2 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.Clutches["2"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.ClutchRounds["2"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">1v3 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.Clutches["3"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.ClutchRounds["3"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">1v4 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.Clutches["4"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.ClutchRounds["4"] | default:"0"}}</td>
     </tr>
     <tr>
       <th style="text-align: center">1v5 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.Clutches["5"] | default:"0"}}</td>
+      <td markdown="span" style="text-align: center">{{page.ClutchRounds["5"] | default:"0"}}</td>
     </tr>
 </table>           
 <button class="accordion">Kill Matrix</button>
@@ -292,7 +295,7 @@ window.onload = function () {
 var dataP = [];
 var dataD = [];
 var wKills = {{page.WeaponKills | jsonify}};
-var wDeaths = {{page.WeaponKilledBy | jsonify}};
+var wDeaths = {{page.WeaponDeaths | jsonify}};
 var names = {{site.data.strings.demoweapons | jsonify}};
 
 for (var key in wKills)

@@ -114,44 +114,60 @@ tr.spacer > th {
 
 .tooltip {
     position: relative;
-    display: inline-block;
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 480px;
-    background-color: #b95eb2;
+    background-color: #bbb5eb;
     color: black;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: -5px;
-    right: 105%; 
+    top: 0px;
+    right: 105%;
+    width: auto;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .tooltip .tooltiptext::after {
-    content: "";
+    content: " ";
     position: absolute;
     top: 50%;
-    right: 100%;
+    left: 100%; /* To the right of the tooltip */
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent #b9b9b9 transparent transparent;
+    border-color: transparent transparent transparent black;
 }
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
 
-
-
-.CellComment
-{
-    visibility: hidden;
-    width: auto;
-    position:absolute; 
-    z-index:100;
+.CellWithComment{
+  position:relative;
 }
 
+.CellComment{
+  display:none;
+  position:absolute; 
+  z-index:100;
+  border:1px;
+  background-color:white;
+  border-style:solid;
+  border-width:1px;
+  border-color:red;
+  padding:3px;
+  color:red; 
+  top:20px; 
+  left:20px;
+}
+
+.CellWithComment:hover span.CellComment{
+  display:block;
+}

@@ -17,17 +17,10 @@
 	</thead>
 	<tbody class="fullTable">
 		{% for steamID in include.teamIDs %}
-		{% assign player = include.players[steamID] %}
+		{% assign sID = steamID | downcase %}
+		{% assign player = include.players[sID] %}
 		{% assign uid = player.UID %}
 		{% assign name = player.Name %}
-		{% for sPlayer in site.data.players %}
-			{% assign tSteamID = sPlayer.SteamID | downcase %}
-			{% if tSteamID == steamID %}
-				{% assign uid = sPlayer.UID %}
-				{% assign name = sPlayer.Name %}
-				{% break %}
-			{% endif %}
-		{% endfor %}
 		<tr>
 			<!-- Name/Page Link -->
 			<td markdown="span"><a href="/players/{{uid}}">{{name | default: "Unknown"}}</a></td>
@@ -41,7 +34,7 @@
 			{% assign totalRounds = include.totalRounds | times: 1.0 %}
 			<td markdown="span">{{player.KASTRounds | divided_by: totalRounds | times: 100 | round: 2}}%</td>
 			<!-- ADR -->
-			<td markdown="span" style="text-align: center">{{player.DamageDealt | divided_by: totalRounds | round: 1}}
+			<td markdown="span" style="text-align: center">{{player.HealthDamage | plus: player.ArmorDamage | divided_by: totalRounds | round: 1}}
 			<!-- K/D Diff -->
 			{% assign kdDiff = player.Kills | minus: player.Deaths %}
 			{% if kdDiff > 0 %}
@@ -65,7 +58,7 @@
 			<!-- MVPs -->
 			<td markdown="span" style="text-align: center">{{player.MVPs | default:"0"}}</td>
 			<!-- HLTV -->
-			<td markdown="span" style="text-align: center">{{player.HLTVRating | default:"0"}}</td>
+			<td markdown="span" style="text-align: center">{{player.HltvRating | default:"0"}}</td>
 		</tr>
 		{% endfor %}
 	</tbody>

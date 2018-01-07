@@ -33,7 +33,11 @@
 				{% endfor %}
 			{% endfor %}
 		{% else %}
-			{% assign count = player[include.Field] %}
+			{% if include.Field == "DamageDealt" %}
+				{% assign count = player.HealthDamage | plus: player.ArmorDamage %}
+			{% else %}
+				{% assign count = player[include.Field] %}
+			{% endif %}
 			{% assign currentMathNumber = player[include.DivideByField] %}
 			{% unless include.DivideByField.blank == "" or include.DivideByField == nill %}
 				{% assign count = count | times: 1.0 %}

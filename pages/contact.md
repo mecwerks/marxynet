@@ -11,7 +11,7 @@ For steam account association, please fill out the following fields, and press "
 </h3>
 
 <ul>
-  <li><strong>Page Link</strong>: enter the link you want your page to be referenced by, for example enter "none" to use SteamAccount #1 or enter a name. Your page will be accessable from "marxy.net/players/[name]"</li>
+  <li><strong>Page Link</strong>: enter the link you want your page to be referenced by, for example enter "none" to use SteamAccount #1 or enter a name. Your page will be accessable from "marxy.net/players/[Page Link]"</li>
   <li><strong>Display Name</strong>: The name to display at the top of your player page.</li>
 </ul>
 
