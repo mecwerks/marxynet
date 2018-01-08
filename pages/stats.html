@@ -1,0 +1,266 @@
+---
+layout: default
+title: Statistics
+permalink: stats
+---
+<style>
+td, th {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.activestat {
+    display: block;
+}
+
+.inactivestat {
+    display: none;
+}
+</style>
+<div align="center" class="container">
+<h3>Must participate in at least 5 matches to be eligible for leaderboard ranking.</h3>
+<select id="statistic" onchange="statisticChange(this)">
+    <option value="hltv">Hltv Rating</option>
+    <option value="kills">Kills</option>
+    <option value="assists">Assists</option>
+    <option value="deaths">Deaths</option>
+    <option value="tradekills">Trade Kills</option>
+    <option value="timestraded">Times Traded</option>
+    <option value="firstkills">First Kills</option>
+    <option value="firstdeaths">First Deaths</option>
+    <option value="headshots">Headshots</option>
+    <option value="damage">Damage</option>
+    <option value="kast">KAST</option>
+</select>
+<select id="valueType" onchange="valueTypeChange(this)">
+    <option value="total">Total</option>
+    <option value="average">Average</option>
+</select>
+</div>
+<script>
+$(document).ready(function()
+{
+    generateTable("hltv");
+});
+
+function statisticChange(control)
+{
+    generateTable(control.value);
+}
+
+function valueTypeChange(control)
+{
+    switch(control.value)
+    {
+        case "total":
+            $('.stat').removeClass('activestat').addClass('inactivestat');
+            $('.total').removeClass('inactivestat').addClass('activestat');
+            sortTable(1, "total");
+            break;
+        case "average":
+            $('.stat').removeClass('activestat').addClass('inactivestat');
+            $('.average').removeClass('inactivestat').addClass('activestat');
+            sortTable(1, "average");
+            break;
+    }
+}
+
+function round(number, precision) {
+  var factor = Math.pow(10, precision);
+  return Math.round(number * factor) / factor;
+}
+
+function generateTable(value)
+{
+    var old = $("#statTable");
+    
+    if (old != null)
+        old.remove();
+
+    var myContainer = $(".container")[0];
+    var table = document.createElement('table');
+    var tableHeader = document.createElement('thead');
+    var tableBody = document.createElement('tbody');
+
+    table.appendChild(tableHeader);
+    table.appendChild(tableBody);
+    table.id = "statTable";
+    table.className = "halfTable";
+
+    var pArray = {{site.data.players | jsonify }};
+
+    var headerInfo = GetHeaderInfo(value);
+
+    if ("headerAverage" in headerInfo)
+        $("#valueType").html("<option value='total'>Total</option><option value='average'>Average</option>");
+    else
+        $("#valueType").html("<option value='total'>Total</option>");
+
+    // name
+    var th = document.createElement('th');
+    th.width = '50%';
+    th.appendChild(document.createTextNode("Name"))
+    tableHeader.appendChild(th);
+
+    // fields
+    th = document.createElement('th');
+    th.width = '50%';
+    th.appendChild(spanElement(headerInfo.headerTotal, "activestat stat total"));
+
+    // average
+    if ("headerAverage" in headerInfo) 
+        th.appendChild(spanElement(headerInfo.headerAverage, "inactivestat stat average"));
+
+    tableHeader.appendChild(th);
+
+    // Rows
+    for(i = 0; i < pArray.length; i++)
+    {
+        if (pArray[i].Matches.length < 5)
+            continue;
+
+        var tr = document.createElement('tr');
+
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(pArray[i].Name));
+        tr.appendChild(td);
+
+        var counts = GetCounts(pArray[i], value);
+        td = document.createElement('td');
+        td.appendChild(spanElement(counts.totalValue, "activestat stat total"));
+        if ("averageValue" in counts)
+            td.appendChild(spanElement(counts.averageValue, "inactivestat stat average"));
+        tr.appendChild(td);
+        tableBody.appendChild(tr);
+    }
+
+    myContainer.appendChild(table);
+
+    sortTable(1, "total");
+}
+
+function spanElement(value, classString)
+{
+    var span = document.createElement('span');
+    span.className = classString;
+    span.appendChild(document.createTextNode(value));
+    return span;
+}
+
+function GetHeaderInfo(value) 
+{
+    switch(value)
+    {
+        case "hltv":
+            return { headerTotal:"HLTV Rating" };
+        case "kills":
+            return { headerTotal:"Kills", headerAverage:"Kills / Round" };
+        case "assists":
+            return { headerTotal:"Assists", headerAverage:"Assists / Round" };
+        case "deaths":
+            return { headerTotal:"Deaths", headerAverage:"Deaths / Round" };
+        case "tradekills":
+            return { headerTotal:"Trade Kills", headerAverage:"Trade Kills / Round" };
+        case "timestraded":
+            return { headerTotal:"Times Traded", headerAverage:"Times Traded / Round" };
+        case "firstkills":
+            return { headerTotal:"First Kills", headerAverage:"First Kills / Round" };
+        case "firstdeaths":
+            return { headerTotal:"First Deaths", headerAverage:"First Deaths / Round" };
+        case "headshots":
+            return { headerTotal:"Headshots", headerAverage:"Headshots %" };
+        case "damage":
+            return { headerTotal:"Damage Dealt", headerAverage:"ADR" };
+        case "kast":
+            return { headerTotal:"KAST Rounds", headerAverage:"KAST Round %" };
+        default:
+            return { headerTotal:"Unknown" };
+    }
+}
+
+function GetCounts(p, value) 
+{
+    switch(value)
+    {
+        case "hltv":
+            return { totalValue: p.HltvRating };
+        case "kills":
+            return { totalValue: p.Kills, averageValue: round(p.Kills / p.Rounds, 2) };
+        case "assists":
+            return { totalValue: p.Assists, averageValue: round(p.Assists / p.Rounds, 2) };
+        case "deaths":
+            return { totalValue: p.Deaths, averageValue: round(p.Deaths / p.Rounds, 2) };
+        case "tradekills":
+            return { totalValue: p.TradeKills, averageValue: round(p.TradeKills / p.Rounds, 2) };
+        case "timestraded":
+            return { totalValue: p.TimesTraded, averageValue: round(p.TimesTraded / p.Rounds, 2) };
+        case "firstkills":
+            return { totalValue: p.FirstKills, averageValue: round(p.FirstKills / p.Rounds, 2) };
+        case "firstdeaths":
+            return { totalValue: p.FirstDeaths, averageValue: round(p.FirstDeaths / p.Rounds, 2) };
+        case "headshots":
+            return { totalValue: p.Headshots, averageValue: round(p.Headshots / p.Kills, 2) };
+        case "damage":
+            return { totalValue: p.HealthDamage + p.ArmorDamage, averageValue: round((p.HealthDamage + p.ArmorDamage) / p.Rounds, 2) };
+        case "kast":
+            return { totalValue: p.KASTRounds, averageValue: round(p.KASTRounds / p.Rounds, 2) };
+        default:
+            return { totalValue: 0 };
+    }
+}
+
+function sortTable(n, classString) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("statTable");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "desc"; 
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 0; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (x.getElementsByClassName(classString)[0].innerHTML.localeCompare(y.getElementsByClassName(classString)[0].innerHTML, undefined, {numeric: true, sensitivity: 'base'}) > 0) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (y.getElementsByClassName(classString)[0].innerHTML.localeCompare(x.getElementsByClassName(classString)[0].innerHTML, undefined, {numeric: true, sensitivity: 'base'}) > 0) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++; 
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
