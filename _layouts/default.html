@@ -1,7 +1,9 @@
 <!doctype html>
 
 {% if page.type == "Match" %}
-  {% assign Title = page.MapName %}
+  {% capture Title %}
+    {{page.Map}} ({{page.TeamA.RoundWins}}-{{page.TeamB.RoundWins}})
+  {% endcapture %}
 {% elsif page.type == "Player" %}
   {% assign Title = page.Name %}
 {% else %}
