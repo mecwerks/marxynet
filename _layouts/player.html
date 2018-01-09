@@ -291,68 +291,90 @@ $(document).ready(function() {
 </script>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <script>
+function compare(a, b) {
+  if (a.y < b.y)
+    return 1;
+  else if (a.y > b.y)
+    return -1;
+
+  return 0;
+}
 window.onload = function () {
-var dataP = [];
-var dataD = [];
-var wKills = {{page.WeaponKills | jsonify}};
-var wDeaths = {{page.WeaponDeaths | jsonify}};
-var names = {{site.data.strings.demoweapons | jsonify}};
+  var dataP = [];
+  var dataD = [];
+  var wKills = {{page.WeaponKills | jsonify}};
+  var wDeaths = {{page.WeaponDeaths | jsonify}};
+  var names = {{site.data.strings.demoweapons | jsonify}};
+  var oKills = 0;
+  var oDeaths = 0;
+  var cutoff = 0.02;
 
-for (var key in wKills)
-{
-  if (wKills.hasOwnProperty(key))
+  for (var key in wKills)
   {
-    dataP.push({y: wKills[key], label: names[key]});
+    if (wKills.hasOwnProperty(key))
+    {
+      if (wKills[key] / {{page.Kills}} > cutoff)
+        dataP.push({y: wKills[key], label: names[key]});
+      else
+        oKills += wKills[key];
+    }
   }
-}
 
-for (var key in wDeaths)
-{
-  if (wDeaths.hasOwnProperty(key))
+  dataP.push({y: oKills, label: "Other"});
+  dataP.sort(compare);
+
+  for (var key in wDeaths)
   {
-    dataD.push({y: wDeaths[key], label: names[key]});
+    if (wDeaths.hasOwnProperty(key))
+    {
+      if (wDeaths[key] / {{page.Deaths}} > cutoff)
+        dataD.push({y: wDeaths[key], label: names[key]});
+      else
+        oDeaths += wDeaths[key];
+    }
   }
-}
 
-var chart = new CanvasJS.Chart("chartContainer", {
-	animationEnabled: true,
-  backgroundColor: "#DEDEDE",
-	title:{
-		text: "Weapon Kills",
-		horizontalAlign: "center"
-	},
-	data: [{
-		type: "doughnut",
-		startAngle: 90,
-		innerRadius: 100,
-		indexLabelFontSize: 17,
-		indexLabel: "{label} - #percent%",
-		toolTipContent: "<b>{label}:</b> {y}",
-		dataPoints: dataP
-	}]
-});
+  dataD.push({y: oDeaths, label: "Other"});
+  dataD.sort(compare);
 
-chart.render();
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    backgroundColor: "#DEDEDE",
+    title:{
+      text: "Weapon Kills",
+      horizontalAlign: "center"
+    },
+    data: [{
+      type: "doughnut",
+      startAngle: 45,
+      innerRadius: 100,
+      indexLabelFontSize: 17,
+      indexLabel: "{label} - #percent%",
+      toolTipContent: "<b>{label}:</b> {y}",
+      dataPoints: dataP
+    }]
+  });
 
-var chart2 = new CanvasJS.Chart("chartContainer2", {
-	animationEnabled: true,
-  backgroundColor: "#DEDEDE",
-	title:{
-		text: "Weapon Deaths",
-		horizontalAlign: "center"
-	},
-	data: [{
-		type: "doughnut",
-		startAngle: 90,
-		innerRadius: 100,
-		indexLabelFontSize: 17,
-		indexLabel: "{label} - #percent%",
-		toolTipContent: "<b>{label}:</b> {y}",
-		dataPoints: dataD
-	}]
-});
+  chart.render();
 
-chart2.render();
+  var chart2 = new CanvasJS.Chart("chartContainer2", {
+    animationEnabled: true,
+    backgroundColor: "#DEDEDE",
+    title:{
+      text: "Weapon Deaths",
+      horizontalAlign: "center"
+    },
+    data: [{
+      type: "doughnut",
+      startAngle: 45,
+      innerRadius: 100,
+      indexLabelFontSize: 17,
+      indexLabel: "{label} - #percent%",
+      toolTipContent: "<b>{label}:</b> {y}",
+      dataPoints: dataD
+    }]
+  });
 
+  chart2.render();
 }
 </script>
