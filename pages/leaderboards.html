@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Statistics
-permalink: stats
+permalink: leaderboards
 ---
 <style>
 td, th {
@@ -17,8 +17,9 @@ td, th {
     display: none;
 }
 </style>
+{% assign matchCap = 3 %}
 <div align="center" class="container">
-<h3>Must participate in at least 5 matches to be eligible for leaderboard ranking.</h3>
+<h3>Must participate in at least {{matchCap}} matches to be eligible for leaderboard ranking.</h3>
 <select id="statistic" onchange="statisticChange(this)">
     <option value="hltv">Hltv Rating</option>
     <option value="kills">Kills</option>
@@ -31,6 +32,10 @@ td, th {
     <option value="headshots">Headshots</option>
     <option value="damage">Damage</option>
     <option value="kast">KAST</option>
+    <option value="teamkills">Team Kills</option>
+    <option value="plants">Plants</option>
+    <option value="defuses">Defuses</option>
+    <option value="clutches">Clutches</option>
 </select>
 <select id="valueType" onchange="valueTypeChange(this)">
     <option value="total">Total</option>
@@ -116,16 +121,24 @@ function generateTable(value)
     // Rows
     for(i = 0; i < pArray.length; i++)
     {
-        if (pArray[i].Matches.length < 5)
+        if (value != "matches" && value != "rounds" && pArray[i].Matches.length < {{matchCap}})
+            continue;
+
+        var counts = GetCounts(pArray[i], value);
+
+        if (counts.totalValue == 0)
             continue;
 
         var tr = document.createElement('tr');
 
         var td = document.createElement('td');
-        td.appendChild(document.createTextNode(pArray[i].Name));
+        var a = document.createElement('a');
+        a.appendChild(document.createTextNode(pArray[i].Name));
+        a.href = "/players/" + pArray[i].UID;
+        a.title = pArray[i].Name;
+        td.appendChild(a);
         tr.appendChild(td);
 
-        var counts = GetCounts(pArray[i], value);
         td = document.createElement('td');
         td.appendChild(spanElement(counts.totalValue, "activestat stat total"));
         if ("averageValue" in counts)
@@ -160,19 +173,27 @@ function GetHeaderInfo(value)
         case "deaths":
             return { headerTotal:"Deaths", headerAverage:"Deaths / Round" };
         case "tradekills":
-            return { headerTotal:"Trade Kills", headerAverage:"Trade Kills / Round" };
+            return { headerTotal:"Trade Kills", headerAverage:"Trade Kills / Match" };
         case "timestraded":
-            return { headerTotal:"Times Traded", headerAverage:"Times Traded / Round" };
+            return { headerTotal:"Times Traded", headerAverage:"Times Traded / Match" };
         case "firstkills":
-            return { headerTotal:"First Kills", headerAverage:"First Kills / Round" };
+            return { headerTotal:"First Kills", headerAverage:"First Kills / Match" };
         case "firstdeaths":
-            return { headerTotal:"First Deaths", headerAverage:"First Deaths / Round" };
+            return { headerTotal:"First Deaths", headerAverage:"First Deaths / Match" };
         case "headshots":
             return { headerTotal:"Headshots", headerAverage:"Headshots %" };
         case "damage":
             return { headerTotal:"Damage Dealt", headerAverage:"ADR" };
         case "kast":
             return { headerTotal:"KAST Rounds", headerAverage:"KAST Round %" };
+        case "teamkills":
+            return { headerTotal:"Team Kills", headerAverage:"Team Kills / Match" };
+        case "plants":
+            return { headerTotal:"Plants", headerAverage:"Plants / Match" };
+        case "defuses":
+            return { headerTotal:"Defuses" /*, headerAverage:"Defuses / Match" */ };
+        case "clutches":
+            return { headerTotal:"Clutches", headerAverage:"Clutches / Match" };
         default:
             return { headerTotal:"Unknown" };
     }
@@ -191,19 +212,27 @@ function GetCounts(p, value)
         case "deaths":
             return { totalValue: p.Deaths, averageValue: round(p.Deaths / p.Rounds, 2).toFixed(2) };
         case "tradekills":
-            return { totalValue: p.TradeKills, averageValue: round(p.TradeKills / p.Rounds, 2).toFixed(2) };
+            return { totalValue: p.TradeKills, averageValue: round(p.TradeKills / p.Matches.length, 2).toFixed(2) };
         case "timestraded":
-            return { totalValue: p.TimesTraded, averageValue: round(p.TimesTraded / p.Rounds, 2).toFixed(2) };
+            return { totalValue: p.TimesTraded, averageValue: round(p.TimesTraded / p.Matches.length, 2).toFixed(2) };
         case "firstkills":
-            return { totalValue: p.FirstKills, averageValue: round(p.FirstKills / p.Rounds, 2).toFixed(2) };
+            return { totalValue: p.FirstKills, averageValue: round(p.FirstKills / p.Matches.length, 2).toFixed(2) };
         case "firstdeaths":
-            return { totalValue: p.FirstDeaths, averageValue: round(p.FirstDeaths / p.Rounds, 2).toFixed(2) };
+            return { totalValue: p.FirstDeaths, averageValue: round(p.FirstDeaths / p.Matches.length, 2).toFixed(2) };
         case "headshots":
-            return { totalValue: p.Headshots, averageValue: round((p.Headshots / p.Kills) * 100, 2).toFixed(2) + "%" };
+            return { totalValue: p.Headshots, averageValue: round((p.Headshots / p.Kills) * 100, 1).toFixed(1) };
         case "damage":
             return { totalValue: p.HealthDamage + p.ArmorDamage, averageValue: round((p.HealthDamage + p.ArmorDamage) / p.Rounds, 2).toFixed(2) };
         case "kast":
-            return { totalValue: p.KASTRounds, averageValue: round((p.KASTRounds / p.Rounds) * 100, 2).toFixed(2) + "%" };
+            return { totalValue: p.KASTRounds, averageValue: round((p.KASTRounds / p.Rounds) * 100, 1).toFixed(1) };
+        case "teamkills":
+            return { totalValue: p.TeamKills, averageValue: round(p.TeamKills / p.Matches.length, 2).toFixed(2) };
+        case "plants":
+            return { totalValue: p.Plants, averageValue: round(p.Plants / p.Matches.length, 2).toFixed(2) };
+        case "defuses":
+            return { totalValue: p.Defuses /*, averageValue: round(p.Defuses / p.Matches.length, 2).toFixed(2) */ };
+        case "clutches":
+            return { totalValue: p.TotalClutches, averageValue: round(p.TotalClutches / p.Matches.length, 2).toFixed(2) };
         default:
             return { totalValue: 0 };
     }

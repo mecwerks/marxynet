@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: leaderboards
+permalink: leaderboards_old
 title: Leaderboards
 ---
 <div align="center">
