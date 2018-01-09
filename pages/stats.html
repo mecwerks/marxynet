@@ -183,27 +183,27 @@ function GetCounts(p, value)
     switch(value)
     {
         case "hltv":
-            return { totalValue: p.HltvRating };
+            return { totalValue: p.HltvRating.toFixed(2) };
         case "kills":
-            return { totalValue: p.Kills, averageValue: round(p.Kills / p.Rounds, 2) };
+            return { totalValue: p.Kills, averageValue: round(p.Kills / p.Rounds, 2).toFixed(2) };
         case "assists":
-            return { totalValue: p.Assists, averageValue: round(p.Assists / p.Rounds, 2) };
+            return { totalValue: p.Assists, averageValue: round(p.Assists / p.Rounds, 2).toFixed(2) };
         case "deaths":
-            return { totalValue: p.Deaths, averageValue: round(p.Deaths / p.Rounds, 2) };
+            return { totalValue: p.Deaths, averageValue: round(p.Deaths / p.Rounds, 2).toFixed(2) };
         case "tradekills":
-            return { totalValue: p.TradeKills, averageValue: round(p.TradeKills / p.Rounds, 2) };
+            return { totalValue: p.TradeKills, averageValue: round(p.TradeKills / p.Rounds, 2).toFixed(2) };
         case "timestraded":
-            return { totalValue: p.TimesTraded, averageValue: round(p.TimesTraded / p.Rounds, 2) };
+            return { totalValue: p.TimesTraded, averageValue: round(p.TimesTraded / p.Rounds, 2).toFixed(2) };
         case "firstkills":
-            return { totalValue: p.FirstKills, averageValue: round(p.FirstKills / p.Rounds, 2) };
+            return { totalValue: p.FirstKills, averageValue: round(p.FirstKills / p.Rounds, 2).toFixed(2) };
         case "firstdeaths":
-            return { totalValue: p.FirstDeaths, averageValue: round(p.FirstDeaths / p.Rounds, 2) };
+            return { totalValue: p.FirstDeaths, averageValue: round(p.FirstDeaths / p.Rounds, 2).toFixed(2) };
         case "headshots":
-            return { totalValue: p.Headshots, averageValue: round(p.Headshots / p.Kills, 2) };
+            return { totalValue: p.Headshots, averageValue: round((p.Headshots / p.Kills) * 100, 2).toFixed(2) + "%" };
         case "damage":
-            return { totalValue: p.HealthDamage + p.ArmorDamage, averageValue: round((p.HealthDamage + p.ArmorDamage) / p.Rounds, 2) };
+            return { totalValue: p.HealthDamage + p.ArmorDamage, averageValue: round((p.HealthDamage + p.ArmorDamage) / p.Rounds, 2).toFixed(2) };
         case "kast":
-            return { totalValue: p.KASTRounds, averageValue: round(p.KASTRounds / p.Rounds, 2) };
+            return { totalValue: p.KASTRounds, averageValue: round((p.KASTRounds / p.Rounds) * 100, 2).toFixed(2) + "%" };
         default:
             return { totalValue: 0 };
     }
