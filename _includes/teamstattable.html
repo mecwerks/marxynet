@@ -21,9 +21,24 @@
 		{% assign player = include.players[sID] %}
 		{% assign uid = player.UID %}
 		{% assign name = player.Name %}
+		{% assign extra = "" %}
+		{% for dc in include.disconnects %}
+			{% if dc[0] == sID %}
+				{% capture extra %}
+					<span class='imgHelper tooltip'><img class='dcImage' src='/assets/images/dc.png' width='15' height='15'/><font style="font-size: 12px"></font><span class="tooltiptextTop">Left on Round #{{dc[1]}}</span></span>
+				{% endcapture %}
+			{% endif %}
+		{% endfor %}
+		{% for rc in include.ringers %}
+			{% if rc[0] == sID %}
+				{% capture extra %}
+					<span class='imgHelper tooltip'><img class='dcImage' src='/assets/images/ringer.png' width='15' height='15'/><font style="font-size: 12px"></font><span class="tooltiptextTop">Joined on Round #{{rc[1]}}</span></span>
+				{% endcapture %}
+			{% endif %}
+		{% endfor %}
 		<tr>
 			<!-- Name/Page Link -->
-			<td markdown="span"><a href="/players/{{uid}}">{{name | default: "Unknown"}}</a></td>
+			<td markdown="span"><a href="/players/{{uid}}">{{name | default: "Unknown"}}</a>{{extra}}</td>
 			<!-- Kills -->				
 			<td markdown="span" style="text-align: center">{{player.Kills | default:"0"}}</td>
 			<!-- Assists -->
@@ -31,7 +46,7 @@
 			<!-- Deaths -->
 			<td markdown="span" style="text-align: center">{{player.Deaths | default:"0"}}</td>
 			<!-- KAST % -->
-			{% assign totalRounds = include.totalRounds | times: 1.0 %}
+			{% assign totalRounds = player.Rounds | times: 1.0 %}
 			<td markdown="span">{{player.KASTRounds | divided_by: totalRounds | times: 100 | round: 2}}%</td>
 			<!-- ADR -->
 			<td markdown="span" style="text-align: center">{{player.HealthDamage | plus: player.ArmorDamage | divided_by: totalRounds | round: 1}}

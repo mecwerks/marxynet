@@ -149,6 +149,42 @@ tr.spacer > th {
     visibility: visible;
 }
 
+.tooltip .tooltiptextTop {
+    visibility: hidden;
+    width: 480px;
+    background-color: #e0904d;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    //
+    width: auto;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tooltip .tooltiptextTop::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptextTop {
+    visibility: visible;
+}
+
 .CellWithComment{
   position:relative;
 }

@@ -1,6 +1,6 @@
 [
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -811,10 +811,11 @@
       "CTWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -1610,10 +1611,11 @@
       "CTWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -2438,10 +2440,11 @@
       "TargetBombed",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -3243,12 +3246,11 @@
       "TerroristWin",
       "BombDefused"
     ],
-    "DisconnectedClients": [
-      76561198271442417
-    ]
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -4064,10 +4066,11 @@
       "TerroristWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -4868,12 +4871,13 @@
       "BombDefused",
       "TerroristWin"
     ],
-    "DisconnectedClients": [
-      76561198001808454
-    ]
+    "DisconnectedClients": {
+      "76561198001808454": 23
+    },
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -5674,10 +5678,11 @@
       "CTWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -6489,10 +6494,11 @@
       "TerroristWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -7223,7 +7229,7 @@
         "Defuses": 0,
         "HealthDamage": 357,
         "ArmorDamage": 45,
-        "Rounds": 28,
+        "Rounds": 9,
         "RoundWins": 16,
         "KASTRounds": 6,
         "MVPRounds": 0,
@@ -7347,12 +7353,15 @@
       "TerroristWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": [
-      76561198118562612
-    ]
+    "DisconnectedClients": {
+      "76561198118562612": 19
+    },
+    "RingerClients": {
+      "76561198071477737": 19
+    }
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -8160,10 +8169,11 @@
       "TargetBombed",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -9006,10 +9016,11 @@
       "TerroristWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -9037,8 +9048,7 @@
         76561198001808454,
         76561198148070517,
         76561198071477737,
-        76561198055295222,
-        76561197972321876
+        76561198055295222
       ]
     },
     "SteamIDs": [
@@ -9875,10 +9885,11 @@
       "CTWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -10784,10 +10795,11 @@
       "BombDefused",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -11577,12 +11589,13 @@
       "TargetBombed",
       "BombDefused"
     ],
-    "DisconnectedClients": [
-      76561198165409571
-    ]
+    "DisconnectedClients": {
+      "76561198165409571": 14
+    },
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -12428,12 +12441,13 @@
       "CTWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": [
-      76561198117966816
-    ]
+    "DisconnectedClients": {
+      "76561198117966816": 21
+    },
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -13214,7 +13228,7 @@
         "Defuses": 0,
         "HealthDamage": 1487,
         "ArmorDamage": 324,
-        "Rounds": 27,
+        "Rounds": 13,
         "RoundWins": 11,
         "KASTRounds": 8,
         "MVPRounds": 1,
@@ -13351,12 +13365,15 @@
       "CTWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": [
-      76561198001808454
-    ]
+    "DisconnectedClients": {
+      "76561198001808454": 13
+    },
+    "RingerClients": {
+      "76561198148070517": 14
+    }
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -14159,10 +14176,11 @@
       "CTWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -14979,12 +14997,11 @@
       "TerroristWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": [
-      76561198148070517
-    ]
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -15773,10 +15790,11 @@
       "TerroristWin",
       "CTWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   },
   {
-    "Version": 3,
+    "Version": 6,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
@@ -16578,6 +16596,7 @@
       "TerroristWin",
       "TerroristWin"
     ],
-    "DisconnectedClients": []
+    "DisconnectedClients": {},
+    "RingerClients": {}
   }
 ]

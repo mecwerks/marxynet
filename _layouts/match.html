@@ -23,6 +23,18 @@ type: Match
 #mapName {
   margin-top: 15px;
 }
+.dcImage {
+  padding: 0 0 0 0;
+}
+.imgHelper {
+  padding: 0 0 0 0;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  float:right;
+  margin-top: 3px;
+  margin-bottom: -2px;
+}
 </style>
 <header id="matchHeaderContainer">
   <div align="center" id="matchHeaderStats">
@@ -62,8 +74,8 @@ type: Match
   </div>
 </header>	  
 {% assign rounds = page.Rounds %}
-{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name %}
-{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name %}
+{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
+{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
 
 <div align="center">
   <table id="matrix" class="row-border hover order-column">
