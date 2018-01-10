@@ -300,7 +300,8 @@ function compare(a, b) {
   return 0;
 }
 window.onload = function () {
-  var data = [];
+  var dataP = [];
+  var dataD = [];
   var wKills = {{page.WeaponKills | jsonify}};
   var wDeaths = {{page.WeaponDeaths | jsonify}};
   var names = {{site.data.strings.demoweapons | jsonify}};
@@ -312,19 +313,68 @@ window.onload = function () {
   {
     if (wKills.hasOwnProperty(key))
     {
-      dataP.push({y: wKills[key], label: names[key]});
+      if (wKills[key] / {{page.Kills}} > cutoff)
+        dataP.push({y: wKills[key], label: names[key]});
+      else
+        oKills += wKills[key];
     }
   }
 
+  dataP.push({y: oKills, label: "Other"});
   dataP.sort(compare);
 
   for (var key in wDeaths)
   {
     if (wDeaths.hasOwnProperty(key))
     {
-      dataD.push({y: wDeaths[key], label: names[key]});
+      if (wDeaths[key] / {{page.Deaths}} > cutoff)
+        dataD.push({y: wDeaths[key], label: names[key]});
+      else
+        oDeaths += wDeaths[key];
     }
   }
+
+  dataD.push({y: oDeaths, label: "Other"});
   dataD.sort(compare);
+
+  var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    backgroundColor: "#DEDEDE",
+    title:{
+      text: "Weapon Kills",
+      horizontalAlign: "center"
+    },
+    data: [{
+      type: "doughnut",
+      startAngle: 45,
+      innerRadius: 100,
+      indexLabelFontSize: 17,
+      indexLabel: "{label} - #percent%",
+      toolTipContent: "<b>{label}:</b> {y}",
+      dataPoints: dataP
+    }]
+  });
+
+  chart.render();
+
+  var chart2 = new CanvasJS.Chart("chartContainer2", {
+    animationEnabled: true,
+    backgroundColor: "#DEDEDE",
+    title:{
+      text: "Weapon Deaths",
+      horizontalAlign: "center"
+    },
+    data: [{
+      type: "doughnut",
+      startAngle: 45,
+      innerRadius: 100,
+      indexLabelFontSize: 17,
+      indexLabel: "{label} - #percent%",
+      toolTipContent: "<b>{label}:</b> {y}",
+      dataPoints: dataD
+    }]
+  });
+
+  chart2.render();
 }
 </script>
