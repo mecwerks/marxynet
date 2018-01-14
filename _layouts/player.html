@@ -62,6 +62,21 @@ td {
     </ul>
 </div>
 <br>
+<button class="accordion">Weapon Charts</button>
+<div class="panel" align="left">
+  <div id="chartContainer" style="height: 410px; width: 100%;"></div>
+  <br>
+  <div id="chartContainer2" style="height: 410px; width: 100%;"></div>
+  <br>
+  <div id="chartContainer3" style="height: 410px; width: 100%;"></div>
+  <br>
+  <div id="chartContainer4" style="height: 410px; width: 100%;"></div>
+  <br>
+  <div id="chartContainer5" style="height: 410px; width: 100%;"></div>
+  <br>
+  <div id="chartContainer6" style="height: 410px; width: 100%;"></div>
+</div>
+<br>
 <table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
     <tr>
       <th style="text-align: center">Rounds Played</th>
@@ -254,20 +269,6 @@ td {
   </table>
 </div>
 <br>
-<button class="accordion">Weapon Charts</button>
-<div class="panel" align="left">
-  <div id="chartContainer" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer2" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer3" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer4" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer5" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer6" style="height: 410px; width: 100%;"></div>
-</div>
 
 <script>
 $(document).ready(function() {
@@ -388,12 +389,11 @@ window.onload = function () {
   for (i = 0; i < misc.length; i++)
   {
     if (misc[i] == "World")
-      sp = -1;
-    else sp = wData[misc[i]].Kills;
-    if (wData.hasOwnProperty(misc[i]))
-      addWeaponDataPointEx(miscData, sp, wData[misc[i]].Deaths, -1, names[misc[i]]);
+      addWeaponDataPointEx(miscData, -1, 0, -1, names[misc[i]]);
+    else if (wData.hasOwnProperty(misc[i]))
+      addWeaponDataPointEx(miscData, wData[misc[i]].Kills, wData[misc[i]].Deaths, -1, names[misc[i]]);
     else
-      addWeaponDataPointEx(miscData, sp, 0, -1, names[misc[i]]);
+      addWeaponDataPointEx(miscData, 0, 0, -1, names[misc[i]]);
   }
 
   for (i = 0; i < nades.length; i++)
