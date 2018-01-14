@@ -1,26 +1,901 @@
 [
   {
+    "UID": "76561198055295222",
+    "Name": "Froztbitten",
+    "SteamID": 76561198055295222,
+    "Kills": 135,
+    "Deaths": 265,
+    "Assists": 35,
+    "TeamKills": 2,
+    "TradeKills": 28,
+    "TimesTraded": 34,
+    "FirstKills": 10,
+    "FirstDeaths": 34,
+    "Headshots": 64,
+    "Plants": 25,
+    "Defuses": 5,
+    "HealthDamage": 16076,
+    "ArmorDamage": 2657,
+    "Rounds": 340,
+    "RoundWins": 155,
+    "KASTRounds": 186,
+    "MVPRounds": 16,
+    "HltvRating": 0.57,
+    "Matches": [
+      "pug_de_inferno_old_2017-12-16_23",
+      "pug_de_inferno_old_2017-12-17_22",
+      "pug_de_train_2017-12-18_21",
+      "pug_de_cache_2017-12-18_22",
+      "pug_de_mirage_2017-12-20_18",
+      "pug_cs_office_2017-12-23_22",
+      "pug_de_dust2_2017-12-23_23",
+      "pug_de_overpass_2017-12-25_22",
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 92,
+      "2": 18,
+      "3": 2,
+      "4": 1,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198072042202": 16,
+      "76561198393693567": 20,
+      "76561198109854748": 4,
+      "76561198257100849": 8,
+      "76561198071477737": 15,
+      "76561198118562612": 2,
+      "76561198271442417": 8,
+      "76561198010989621": 3,
+      "76561198038963123": 4,
+      "76561198001808454": 7,
+      "76561198137565812": 7,
+      "76561198117966816": 10,
+      "76561198084911409": 2,
+      "76561198042795726": 2,
+      "76561198020273020": 6,
+      "76561198081203263": 7,
+      "76561198148070517": 4,
+      "76561198344040839": 7,
+      "76561198192766006": 2,
+      "76561198145195904": 4
+    },
+    "WeaponStats": {
+      "USP": {
+        "Kills": 11,
+        "Deaths": 10,
+        "Shots": 166,
+        "Hits": 49,
+        "Damage": 1188
+      },
+      "MP9": {
+        "Kills": 4,
+        "Deaths": 3,
+        "Shots": 233,
+        "Hits": 36,
+        "Damage": 742
+      },
+      "Tec9": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 74,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M4A4": {
+        "Kills": 33,
+        "Deaths": 33,
+        "Shots": 843,
+        "Hits": 154,
+        "Damage": 3693
+      },
+      "AK47": {
+        "Kills": 49,
+        "Deaths": 77,
+        "Shots": 1102,
+        "Hits": 162,
+        "Damage": 5523
+      },
+      "HE": {
+        "Kills": 0,
+        "Deaths": 4,
+        "Shots": 9,
+        "Hits": 1,
+        "Damage": 1
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 94,
+        "Hits": 2,
+        "Damage": 2
+      },
+      "AWP": {
+        "Kills": 9,
+        "Deaths": 38,
+        "Shots": 29,
+        "Hits": 9,
+        "Damage": 813
+      },
+      "Knife": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 19,
+        "Hits": 1,
+        "Damage": 25
+      },
+      "UMP": {
+        "Kills": 1,
+        "Deaths": 5,
+        "Shots": 26,
+        "Hits": 5,
+        "Damage": 100
+      },
+      "Scout": {
+        "Kills": 1,
+        "Deaths": 1,
+        "Shots": 7,
+        "Hits": 2,
+        "Damage": 146
+      },
+      "Deagle": {
+        "Kills": 0,
+        "Deaths": 17,
+        "Shots": 4,
+        "Hits": 1,
+        "Damage": 27
+      },
+      "Incendiary": {
+        "Kills": 0,
+        "Deaths": 4,
+        "Shots": 10,
+        "Hits": 33,
+        "Damage": 155
+      },
+      "Glock": {
+        "Kills": 3,
+        "Deaths": 5,
+        "Shots": 206,
+        "Hits": 46,
+        "Damage": 843
+      },
+      "Mac10": {
+        "Kills": 7,
+        "Deaths": 6,
+        "Shots": 322,
+        "Hits": 42,
+        "Damage": 630
+      },
+      "Scar20": {
+        "Kills": 2,
+        "Deaths": 10,
+        "Shots": 10,
+        "Hits": 4,
+        "Damage": 200
+      },
+      "CZ": {
+        "Kills": 0,
+        "Deaths": 7,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "P90": {
+        "Kills": 1,
+        "Deaths": 5,
+        "Shots": 2,
+        "Hits": 1,
+        "Damage": 59
+      },
+      "P250": {
+        "Kills": 9,
+        "Deaths": 5,
+        "Shots": 205,
+        "Hits": 31,
+        "Damage": 1030
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 14,
+        "Hits": 2,
+        "Damage": 2
+      },
+      "M4A1": {
+        "Kills": 1,
+        "Deaths": 11,
+        "Shots": 50,
+        "Hits": 4,
+        "Damage": 234
+      },
+      "SawedOff": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 12,
+        "Hits": 20,
+        "Damage": 320
+      },
+      "Negev": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 341,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Famas": {
+        "Kills": 2,
+        "Deaths": 4,
+        "Shots": 32,
+        "Hits": 10,
+        "Damage": 194
+      },
+      "Gallil": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 19,
+        "Hits": 8,
+        "Damage": 200
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP7": {
+        "Kills": 1,
+        "Deaths": 2,
+        "Shots": 10,
+        "Hits": 4,
+        "Damage": 100
+      },
+      "Nova": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 2,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M249": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Bizon": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "FiveSeven": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Swag7": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 4,
+        "Hits": 0,
+        "Damage": 0
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 3
+  },
+  {
+    "UID": "76561198137565812",
+    "Name": "✪ WAZZI",
+    "SteamID": 76561198137565812,
+    "Kills": 112,
+    "Deaths": 111,
+    "Assists": 21,
+    "TeamKills": 0,
+    "TradeKills": 17,
+    "TimesTraded": 12,
+    "FirstKills": 12,
+    "FirstDeaths": 21,
+    "Headshots": 48,
+    "Plants": 4,
+    "Defuses": 1,
+    "HealthDamage": 12312,
+    "ArmorDamage": 2003,
+    "Rounds": 168,
+    "RoundWins": 92,
+    "KASTRounds": 109,
+    "MVPRounds": 13,
+    "HltvRating": 0.98,
+    "Matches": [
+      "pug_de_train_2017-12-18_21",
+      "pug_de_cache_2017-12-18_22",
+      "pug_de_dust2_2018-01-05_20",
+      "pug_de_nuke_2018-01-11_21",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 48,
+      "2": 24,
+      "3": 4,
+      "4": 1,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198393693567": 9,
+      "76561198271442417": 12,
+      "76561198071477737": 13,
+      "76561198001808454": 5,
+      "76561198072042202": 5,
+      "76561198100421553": 5,
+      "76561198055295222": 5,
+      "76561198148070517": 5,
+      "76561198256748178": 6,
+      "76561198038653688": 2,
+      "76561198081203263": 9,
+      "76561198257100849": 2,
+      "76561198192766006": 6,
+      "76561198117966816": 13,
+      "76561198344040839": 9,
+      "76561198020273020": 4,
+      "76561198145195904": 2
+    },
+    "WeaponStats": {
+      "Knife": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 452,
+        "Hits": 2,
+        "Damage": 88
+      },
+      "Glock": {
+        "Kills": 7,
+        "Deaths": 3,
+        "Shots": 205,
+        "Hits": 38,
+        "Damage": 813
+      },
+      "USP": {
+        "Kills": 3,
+        "Deaths": 6,
+        "Shots": 108,
+        "Hits": 21,
+        "Damage": 457
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 94,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Mac10": {
+        "Kills": 31,
+        "Deaths": 1,
+        "Shots": 888,
+        "Hits": 155,
+        "Damage": 3190
+      },
+      "HE": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 94,
+        "Hits": 34,
+        "Damage": 469
+      },
+      "M4A4": {
+        "Kills": 5,
+        "Deaths": 12,
+        "Shots": 387,
+        "Hits": 27,
+        "Damage": 584
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 81,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Tec9": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 75,
+        "Hits": 8,
+        "Damage": 139
+      },
+      "AWP": {
+        "Kills": 19,
+        "Deaths": 18,
+        "Shots": 102,
+        "Hits": 23,
+        "Damage": 1953
+      },
+      "AK47": {
+        "Kills": 8,
+        "Deaths": 36,
+        "Shots": 188,
+        "Hits": 28,
+        "Damage": 776
+      },
+      "M4A1": {
+        "Kills": 5,
+        "Deaths": 2,
+        "Shots": 89,
+        "Hits": 10,
+        "Damage": 363
+      },
+      "P250": {
+        "Kills": 3,
+        "Deaths": 3,
+        "Shots": 80,
+        "Hits": 13,
+        "Damage": 335
+      },
+      "Famas": {
+        "Kills": 4,
+        "Deaths": 2,
+        "Shots": 182,
+        "Hits": 22,
+        "Damage": 452
+      },
+      "MP9": {
+        "Kills": 6,
+        "Deaths": 6,
+        "Shots": 343,
+        "Hits": 41,
+        "Damage": 797
+      },
+      "FiveSeven": {
+        "Kills": 4,
+        "Deaths": 1,
+        "Shots": 81,
+        "Hits": 18,
+        "Damage": 504
+      },
+      "MP7": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 5,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Decoy": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 10,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Incendiary": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 15,
+        "Hits": 12,
+        "Damage": 65
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 10,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "DualBarettas": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 7,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "CZ": {
+        "Kills": 1,
+        "Deaths": 1,
+        "Shots": 12,
+        "Hits": 3,
+        "Damage": 136
+      },
+      "Deagle": {
+        "Kills": 0,
+        "Deaths": 7,
+        "Shots": 17,
+        "Hits": 1,
+        "Damage": 24
+      },
+      "Gallil": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 7,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "UMP": {
+        "Kills": 4,
+        "Deaths": 2,
+        "Shots": 229,
+        "Hits": 23,
+        "Damage": 451
+      },
+      "Scout": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 7,
+        "Hits": 4,
+        "Damage": 241
+      },
+      "Nova": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 2,
+        "Damage": 26
+      },
+      "XM1014": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 3,
+        "Hits": 3,
+        "Damage": 26
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "P90": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 10,
+        "Hits": 3,
+        "Damage": 100
+      },
+      "SG556": {
+        "Kills": 4,
+        "Deaths": 0,
+        "Shots": 69,
+        "Hits": 5,
+        "Damage": 207
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 13,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "SawedOff": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Swag7": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 9,
+        "Hits": 9,
+        "Damage": 185
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 2
+  },
+  {
+    "UID": "76561198344040839",
+    "Name": "89iup34reawfdjcx",
+    "SteamID": 76561198344040839,
+    "Kills": 62,
+    "Deaths": 61,
+    "Assists": 13,
+    "TeamKills": 1,
+    "TradeKills": 10,
+    "TimesTraded": 8,
+    "FirstKills": 5,
+    "FirstDeaths": 6,
+    "Headshots": 22,
+    "Plants": 6,
+    "Defuses": 1,
+    "HealthDamage": 6382,
+    "ArmorDamage": 1219,
+    "Rounds": 86,
+    "RoundWins": 38,
+    "KASTRounds": 57,
+    "MVPRounds": 6,
+    "HltvRating": 1.0,
+    "Matches": [
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 2,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 28,
+      "2": 10,
+      "3": 5,
+      "4": 0,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198256748178": 6,
+      "76561198055445808": 6,
+      "76561198037413384": 5,
+      "76561198055295222": 6,
+      "76561198192766006": 12,
+      "76561198145195904": 6,
+      "76561198071477737": 4,
+      "76561198137565812": 6,
+      "76561198072042202": 3,
+      "76561198393693567": 5,
+      "76561198081203263": 4
+    },
+    "WeaponStats": {
+      "USP": {
+        "Kills": 1,
+        "Deaths": 4,
+        "Shots": 39,
+        "Hits": 8,
+        "Damage": 151
+      },
+      "CZ": {
+        "Kills": 2,
+        "Deaths": 1,
+        "Shots": 31,
+        "Hits": 4,
+        "Damage": 139
+      },
+      "Knife": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 2,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Mac10": {
+        "Kills": 5,
+        "Deaths": 5,
+        "Shots": 121,
+        "Hits": 38,
+        "Damage": 689
+      },
+      "M4A1": {
+        "Kills": 19,
+        "Deaths": 2,
+        "Shots": 344,
+        "Hits": 78,
+        "Damage": 1899
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 24,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "HE": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 13,
+        "Hits": 8,
+        "Damage": 145
+      },
+      "AK47": {
+        "Kills": 19,
+        "Deaths": 19,
+        "Shots": 331,
+        "Hits": 57,
+        "Damage": 1776
+      },
+      "Deagle": {
+        "Kills": 2,
+        "Deaths": 3,
+        "Shots": 11,
+        "Hits": 5,
+        "Damage": 242
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 8,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "UMP": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 6,
+        "Hits": 2,
+        "Damage": 50
+      },
+      "AWP": {
+        "Kills": 0,
+        "Deaths": 10,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP9": {
+        "Kills": 7,
+        "Deaths": 0,
+        "Shots": 160,
+        "Hits": 28,
+        "Damage": 472
+      },
+      "Glock": {
+        "Kills": 2,
+        "Deaths": 1,
+        "Shots": 56,
+        "Hits": 17,
+        "Damage": 215
+      },
+      "P250": {
+        "Kills": 3,
+        "Deaths": 1,
+        "Shots": 45,
+        "Hits": 13,
+        "Damage": 348
+      },
+      "FiveSeven": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 9,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M4A4": {
+        "Kills": 2,
+        "Deaths": 10,
+        "Shots": 19,
+        "Hits": 5,
+        "Damage": 100
+      },
+      "Swag7": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "SG556": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Incendiary": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "XM1014": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 5,
+        "Hits": 8,
+        "Damage": 107
+      },
+      "Gallil": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 11,
+        "Hits": 4,
+        "Damage": 106
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Famas": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 16,
+        "Hits": 0,
+        "Damage": 0
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 4
+  },
+  {
     "UID": "marxy",
     "Name": "Marxy",
     "SteamID": 76561198393693567,
-    "Kills": 534,
-    "Deaths": 435,
-    "Assists": 112,
-    "TeamKills": 3,
-    "TradeKills": 63,
-    "TimesTraded": 63,
-    "FirstKills": 98,
-    "FirstDeaths": 79,
-    "Headshots": 228,
-    "Plants": 26,
-    "Defuses": 7,
-    "HealthDamage": 61424,
-    "ArmorDamage": 6849,
-    "Rounds": 621,
-    "RoundWins": 319,
-    "KASTRounds": 470,
-    "MVPRounds": 80,
-    "HltvRating": 1.24,
+    "Kills": 572,
+    "Deaths": 477,
+    "Assists": 122,
+    "TeamKills": 4,
+    "TradeKills": 67,
+    "TimesTraded": 67,
+    "FirstKills": 105,
+    "FirstDeaths": 89,
+    "Headshots": 238,
+    "Plants": 28,
+    "Defuses": 8,
+    "HealthDamage": 66195,
+    "ArmorDamage": 7406,
+    "Rounds": 677,
+    "RoundWins": 348,
+    "KASTRounds": 508,
+    "MVPRounds": 86,
+    "HltvRating": 1.22,
     "Matches": [
       "pug_de_mirage_2017-08-07_22",
       "pug_de_cache_2017-08-08_01",
@@ -43,30 +918,32 @@
       "pug_de_cache_2018-01-03_19",
       "pug_de_dust2_2018-01-05_20",
       "pug_de_nuke_2018-01-11_21",
-      "pug_de_mirage_2018-01-12_20"
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
     ],
     "ClutchRounds": {
-      "1": 3,
+      "1": 4,
       "2": 4,
       "3": 2,
       "4": 0,
       "5": 0
     },
     "MultiKillRounds": {
-      "1": 201,
-      "2": 104,
-      "3": 35,
+      "1": 219,
+      "2": 112,
+      "3": 37,
       "4": 11,
       "5": 1
     },
     "KilledPlayers": {
       "76561198092823903": 4,
-      "76561198072042202": 45,
+      "76561198072042202": 54,
       "76561198235994884": 4,
       "76561198001808454": 67,
       "76561198117966816": 22,
       "76561198002599946": 4,
-      "76561198071477737": 34,
+      "76561198071477737": 46,
       "76561198070596192": 6,
       "76561198148070517": 62,
       "76561198256748178": 23,
@@ -83,47 +960,48 @@
       "76561197964022127": 3,
       "76561198055445808": 3,
       "76561198055295222": 54,
-      "76561198137565812": 6,
+      "76561198137565812": 8,
       "76561198100421553": 6,
       "76561198118562612": 5,
       "76561198061644533": 8,
       "76561198257100849": 10,
       "76561198073777991": 6,
       "76561198132137627": 4,
-      "76561198192766006": 15,
+      "76561198192766006": 18,
       "76561198037413384": 6,
-      "76561198020273020": 5,
+      "76561198020273020": 9,
       "76561198081203263": 15,
-      "76561198038653688": 11
+      "76561198038653688": 11,
+      "76561198145195904": 10
     },
     "WeaponStats": {
       "Smoke": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 221,
+        "Shots": 245,
         "Hits": 2,
         "Damage": 2
       },
       "Flash": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 231,
+        "Shots": 259,
         "Hits": 2,
         "Damage": 2
       },
       "Glock": {
         "Kills": 19,
         "Deaths": 13,
-        "Shots": 242,
-        "Hits": 59,
-        "Damage": 1586
+        "Shots": 269,
+        "Hits": 63,
+        "Damage": 1633
       },
       "UMP": {
         "Kills": 11,
         "Deaths": 10,
-        "Shots": 297,
-        "Hits": 62,
-        "Damage": 1356
+        "Shots": 328,
+        "Hits": 69,
+        "Damage": 1547
       },
       "FiveSeven": {
         "Kills": 0,
@@ -133,74 +1011,74 @@
         "Damage": 273
       },
       "AK47": {
-        "Kills": 214,
-        "Deaths": 123,
-        "Shots": 3578,
-        "Hits": 725,
-        "Damage": 23933
+        "Kills": 224,
+        "Deaths": 135,
+        "Shots": 3786,
+        "Hits": 764,
+        "Damage": 25218
       },
       "MP9": {
-        "Kills": 11,
+        "Kills": 12,
         "Deaths": 18,
-        "Shots": 241,
-        "Hits": 47,
-        "Damage": 885
+        "Shots": 251,
+        "Hits": 49,
+        "Damage": 907
       },
       "Deagle": {
-        "Kills": 72,
-        "Deaths": 15,
-        "Shots": 510,
-        "Hits": 162,
-        "Damage": 7858
+        "Kills": 80,
+        "Deaths": 18,
+        "Shots": 553,
+        "Hits": 174,
+        "Damage": 8487
       },
       "Molotov": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 106,
+        "Shots": 120,
         "Hits": 4,
         "Damage": 4
       },
       "M4A4": {
-        "Kills": 45,
-        "Deaths": 57,
-        "Shots": 958,
-        "Hits": 205,
-        "Damage": 4996
+        "Kills": 51,
+        "Deaths": 59,
+        "Shots": 1071,
+        "Hits": 237,
+        "Damage": 5783
       },
       "AWP": {
-        "Kills": 70,
-        "Deaths": 53,
-        "Shots": 255,
-        "Hits": 84,
-        "Damage": 6722
+        "Kills": 78,
+        "Deaths": 61,
+        "Shots": 275,
+        "Hits": 94,
+        "Damage": 7445
       },
       "HE": {
         "Kills": 3,
-        "Deaths": 9,
-        "Shots": 141,
-        "Hits": 40,
-        "Damage": 742
+        "Deaths": 10,
+        "Shots": 155,
+        "Hits": 46,
+        "Damage": 861
       },
       "P250": {
         "Kills": 6,
-        "Deaths": 12,
-        "Shots": 123,
-        "Hits": 36,
-        "Damage": 749
+        "Deaths": 13,
+        "Shots": 127,
+        "Hits": 40,
+        "Damage": 836
       },
       "Mac10": {
         "Kills": 14,
-        "Deaths": 14,
+        "Deaths": 18,
         "Shots": 416,
         "Hits": 93,
         "Damage": 1627
       },
       "Incendiary": {
         "Kills": 4,
-        "Deaths": 3,
-        "Shots": 111,
-        "Hits": 103,
-        "Damage": 489
+        "Deaths": 4,
+        "Shots": 122,
+        "Hits": 127,
+        "Damage": 642
       },
       "P2000": {
         "Kills": 9,
@@ -211,10 +1089,10 @@
       },
       "Knife": {
         "Kills": 1,
-        "Deaths": 2,
-        "Shots": 33,
-        "Hits": 3,
-        "Damage": 189
+        "Deaths": 3,
+        "Shots": 36,
+        "Hits": 5,
+        "Damage": 244
       },
       "Tec9": {
         "Kills": 1,
@@ -225,7 +1103,7 @@
       },
       "M4A1": {
         "Kills": 10,
-        "Deaths": 15,
+        "Deaths": 19,
         "Shots": 226,
         "Hits": 44,
         "Damage": 1008
@@ -240,16 +1118,16 @@
       "Decoy": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 15,
+        "Shots": 17,
         "Hits": 0,
         "Damage": 0
       },
       "Bizon": {
-        "Kills": 0,
+        "Kills": 1,
         "Deaths": 2,
-        "Shots": 7,
-        "Hits": 1,
-        "Damage": 15
+        "Shots": 22,
+        "Hits": 5,
+        "Damage": 75
       },
       "CZ": {
         "Kills": 2,
@@ -259,11 +1137,11 @@
         "Damage": 556
       },
       "USP": {
-        "Kills": 19,
-        "Deaths": 14,
-        "Shots": 304,
-        "Hits": 57,
-        "Damage": 2041
+        "Kills": 20,
+        "Deaths": 15,
+        "Shots": 327,
+        "Hits": 61,
+        "Damage": 2188
       },
       "Negev": {
         "Kills": 5,
@@ -330,7 +1208,7 @@
       },
       "G3SG1": {
         "Kills": 7,
-        "Deaths": 1,
+        "Deaths": 3,
         "Shots": 34,
         "Hits": 13,
         "Damage": 714
@@ -351,51 +1229,259 @@
       },
       "P90": {
         "Kills": 3,
-        "Deaths": 8,
+        "Deaths": 9,
         "Shots": 71,
         "Hits": 18,
         "Damage": 342
       },
       "Scar20": {
-        "Kills": 10,
+        "Kills": 15,
         "Deaths": 2,
-        "Shots": 57,
-        "Hits": 15,
-        "Damage": 823
+        "Shots": 93,
+        "Hits": 23,
+        "Damage": 1323
       },
       "MP7": {
         "Kills": 1,
-        "Deaths": 0,
+        "Deaths": 1,
         "Shots": 54,
         "Hits": 6,
         "Damage": 148
       }
     },
     "FlashAssists": 0,
-    "TotalClutches": 9
+    "TotalClutches": 10
+  },
+  {
+    "UID": "76561198145195904",
+    "Name": "SHEA BUTTER",
+    "SteamID": 76561198145195904,
+    "Kills": 22,
+    "Deaths": 41,
+    "Assists": 5,
+    "TeamKills": 1,
+    "TradeKills": 7,
+    "TimesTraded": 6,
+    "FirstKills": 0,
+    "FirstDeaths": 7,
+    "Headshots": 2,
+    "Plants": 8,
+    "Defuses": 1,
+    "HealthDamage": 2200,
+    "ArmorDamage": 330,
+    "Rounds": 56,
+    "RoundWins": 27,
+    "KASTRounds": 34,
+    "MVPRounds": 3,
+    "HltvRating": 0.63,
+    "Matches": [
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 13,
+      "2": 2,
+      "3": 2,
+      "4": 0,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198055295222": 6,
+      "76561198117966816": 2,
+      "76561198393693567": 2,
+      "76561198081203263": 8,
+      "76561198344040839": 2,
+      "76561198137565812": 2,
+      "76561198192766006": 1
+    },
+    "WeaponStats": {
+      "P250": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 45,
+        "Hits": 6,
+        "Damage": 179
+      },
+      "USP": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 13,
+        "Hits": 4,
+        "Damage": 122
+      },
+      "MP9": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 1,
+        "Hits": 1,
+        "Damage": 14
+      },
+      "Glock": {
+        "Kills": 1,
+        "Deaths": 2,
+        "Shots": 7,
+        "Hits": 1,
+        "Damage": 15
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP7": {
+        "Kills": 2,
+        "Deaths": 1,
+        "Shots": 65,
+        "Hits": 16,
+        "Damage": 286
+      },
+      "M4A1": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "AK47": {
+        "Kills": 8,
+        "Deaths": 10,
+        "Shots": 118,
+        "Hits": 20,
+        "Damage": 573
+      },
+      "FiveSeven": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 8,
+        "Hits": 3,
+        "Damage": 78
+      },
+      "Deagle": {
+        "Kills": 0,
+        "Deaths": 5,
+        "Shots": 6,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "AWP": {
+        "Kills": 3,
+        "Deaths": 8,
+        "Shots": 6,
+        "Hits": 3,
+        "Damage": 300
+      },
+      "XM1014": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 5,
+        "Hits": 7,
+        "Damage": 95
+      },
+      "UMP": {
+        "Kills": 3,
+        "Deaths": 3,
+        "Shots": 33,
+        "Hits": 7,
+        "Damage": 176
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 17,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Mac10": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M4A4": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 27,
+        "Hits": 8,
+        "Damage": 193
+      },
+      "Swag7": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 3,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 8,
+        "Hits": 4,
+        "Damage": 185
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Scout": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 0
   },
   {
     "UID": "Zaggle",
     "Name": "Zaggle",
     "SteamID": 76561198081203263,
-    "Kills": 128,
-    "Deaths": 206,
-    "Assists": 40,
+    "Kills": 149,
+    "Deaths": 249,
+    "Assists": 44,
     "TeamKills": 1,
-    "TradeKills": 23,
-    "TimesTraded": 30,
-    "FirstKills": 14,
-    "FirstDeaths": 27,
-    "Headshots": 34,
-    "Plants": 28,
-    "Defuses": 4,
-    "HealthDamage": 14347,
-    "ArmorDamage": 2024,
-    "Rounds": 280,
-    "RoundWins": 131,
-    "KASTRounds": 176,
-    "MVPRounds": 14,
-    "HltvRating": 0.68,
+    "TradeKills": 29,
+    "TimesTraded": 36,
+    "FirstKills": 16,
+    "FirstDeaths": 31,
+    "Headshots": 46,
+    "Plants": 36,
+    "Defuses": 5,
+    "HealthDamage": 17421,
+    "ArmorDamage": 2455,
+    "Rounds": 336,
+    "RoundWins": 160,
+    "KASTRounds": 219,
+    "MVPRounds": 16,
+    "HltvRating": 0.67,
     "Matches": [
       "pug_de_mirage_2017-08-07_22",
       "pug_de_cache_2017-08-08_01",
@@ -407,7 +1493,9 @@
       "pug_de_overpass_2017-12-25_22",
       "pug_de_cache_2018-01-03_19",
       "pug_de_dust2_2018-01-05_20",
-      "pug_de_mirage_2018-01-12_20"
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
     ],
     "ClutchRounds": {
       "1": 2,
@@ -417,27 +1505,27 @@
       "5": 0
     },
     "MultiKillRounds": {
-      "1": 77,
-      "2": 20,
+      "1": 97,
+      "2": 25,
       "3": 4,
       "4": 0,
       "5": 0
     },
     "KilledPlayers": {
-      "76561198072042202": 11,
+      "76561198072042202": 20,
       "76561198092823903": 3,
       "76561198235994884": 3,
       "76561198001808454": 23,
       "76561198117966816": 9,
       "76561198002599946": 2,
-      "76561198071477737": 16,
+      "76561198071477737": 20,
       "76561198070596192": 7,
       "76561198038963123": 4,
       "76561198148070517": 6,
       "76561198256748178": 7,
       "76561198118562612": 2,
       "76561198055295222": 8,
-      "76561198192766006": 5,
+      "76561198192766006": 7,
       "76561198393693567": 5,
       "76561198042795726": 6,
       "76561198271442417": 2,
@@ -445,36 +1533,40 @@
       "76561198156421630": 2,
       "76561198045198932": 3,
       "76561198055445808": 3,
-      "76561198037413384": 1
+      "76561198037413384": 1,
+      "76561198137565812": 3,
+      "76561198145195904": 7,
+      "76561198344040839": 3,
+      "76561198020273020": 2
     },
     "WeaponStats": {
       "Glock": {
-        "Kills": 3,
-        "Deaths": 7,
-        "Shots": 101,
-        "Hits": 21,
-        "Damage": 388
+        "Kills": 5,
+        "Deaths": 8,
+        "Shots": 135,
+        "Hits": 30,
+        "Damage": 581
       },
       "USP": {
-        "Kills": 2,
-        "Deaths": 12,
-        "Shots": 157,
-        "Hits": 29,
-        "Damage": 595
+        "Kills": 3,
+        "Deaths": 14,
+        "Shots": 182,
+        "Hits": 33,
+        "Damage": 722
       },
       "Mac10": {
         "Kills": 3,
-        "Deaths": 6,
-        "Shots": 132,
-        "Hits": 18,
-        "Damage": 331
+        "Deaths": 8,
+        "Shots": 137,
+        "Hits": 20,
+        "Damage": 371
       },
       "P250": {
-        "Kills": 3,
-        "Deaths": 4,
-        "Shots": 122,
-        "Hits": 27,
-        "Damage": 778
+        "Kills": 6,
+        "Deaths": 5,
+        "Shots": 145,
+        "Hits": 34,
+        "Damage": 1083
       },
       "FiveSeven": {
         "Kills": 0,
@@ -484,11 +1576,11 @@
         "Damage": 21
       },
       "AK47": {
-        "Kills": 39,
-        "Deaths": 74,
-        "Shots": 662,
-        "Hits": 124,
-        "Damage": 3979
+        "Kills": 47,
+        "Deaths": 82,
+        "Shots": 792,
+        "Hits": 154,
+        "Damage": 4852
       },
       "Tec9": {
         "Kills": 0,
@@ -498,25 +1590,25 @@
         "Damage": 72
       },
       "MP9": {
-        "Kills": 4,
-        "Deaths": 6,
-        "Shots": 150,
-        "Hits": 31,
-        "Damage": 597
+        "Kills": 5,
+        "Deaths": 7,
+        "Shots": 230,
+        "Hits": 46,
+        "Damage": 792
       },
       "Knife": {
         "Kills": 0,
-        "Deaths": 0,
-        "Shots": 141,
+        "Deaths": 2,
+        "Shots": 280,
         "Hits": 0,
         "Damage": 0
       },
       "AWP": {
-        "Kills": 11,
-        "Deaths": 19,
-        "Shots": 23,
-        "Hits": 11,
-        "Damage": 786
+        "Kills": 15,
+        "Deaths": 29,
+        "Shots": 37,
+        "Hits": 15,
+        "Damage": 1177
       },
       "Revolver": {
         "Kills": 0,
@@ -526,11 +1618,11 @@
         "Damage": 0
       },
       "Deagle": {
-        "Kills": 13,
-        "Deaths": 6,
-        "Shots": 96,
-        "Hits": 26,
-        "Damage": 998
+        "Kills": 16,
+        "Deaths": 11,
+        "Shots": 111,
+        "Hits": 31,
+        "Damage": 1300
       },
       "HE": {
         "Kills": 0,
@@ -540,16 +1632,16 @@
         "Damage": 0
       },
       "M4A4": {
-        "Kills": 3,
-        "Deaths": 23,
-        "Shots": 35,
-        "Hits": 13,
-        "Damage": 370
+        "Kills": 4,
+        "Deaths": 25,
+        "Shots": 56,
+        "Hits": 18,
+        "Damage": 544
       },
       "Flash": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 25,
+        "Shots": 26,
         "Hits": 0,
         "Damage": 0
       },
@@ -563,9 +1655,9 @@
       "Swag7": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 2,
-        "Hits": 4,
-        "Damage": 48
+        "Shots": 5,
+        "Hits": 7,
+        "Damage": 67
       },
       "Smoke": {
         "Kills": 0,
@@ -575,25 +1667,25 @@
         "Damage": 0
       },
       "M4A1": {
-        "Kills": 29,
-        "Deaths": 2,
-        "Shots": 536,
-        "Hits": 151,
-        "Damage": 3622
+        "Kills": 34,
+        "Deaths": 7,
+        "Shots": 575,
+        "Hits": 167,
+        "Damage": 3949
       },
       "Molotov": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 11,
+        "Shots": 12,
         "Hits": 0,
         "Damage": 0
       },
       "Incendiary": {
         "Kills": 0,
         "Deaths": 0,
-        "Shots": 9,
-        "Hits": 10,
-        "Damage": 38
+        "Shots": 13,
+        "Hits": 11,
+        "Damage": 41
       },
       "P90": {
         "Kills": 1,
@@ -610,16 +1702,16 @@
         "Damage": 100
       },
       "UMP": {
-        "Kills": 4,
-        "Deaths": 4,
-        "Shots": 141,
-        "Hits": 20,
-        "Damage": 470
+        "Kills": 5,
+        "Deaths": 5,
+        "Shots": 167,
+        "Hits": 28,
+        "Damage": 553
       },
       "Gallil": {
         "Kills": 1,
         "Deaths": 7,
-        "Shots": 17,
+        "Shots": 18,
         "Hits": 5,
         "Damage": 100
       },
@@ -632,7 +1724,7 @@
       },
       "G3SG1": {
         "Kills": 1,
-        "Deaths": 1,
+        "Deaths": 2,
         "Shots": 13,
         "Hits": 2,
         "Damage": 100
@@ -645,11 +1737,11 @@
         "Damage": 0
       },
       "CZ": {
-        "Kills": 3,
+        "Kills": 4,
         "Deaths": 6,
-        "Shots": 51,
-        "Hits": 7,
-        "Damage": 123
+        "Shots": 60,
+        "Hits": 11,
+        "Damage": 201
       },
       "Scout": {
         "Kills": 0,
@@ -667,7 +1759,7 @@
       },
       "SG556": {
         "Kills": 1,
-        "Deaths": 2,
+        "Deaths": 3,
         "Shots": 9,
         "Hits": 4,
         "Damage": 116
@@ -702,7 +1794,7 @@
       },
       "Scar20": {
         "Kills": 0,
-        "Deaths": 2,
+        "Deaths": 3,
         "Shots": 0,
         "Hits": 0,
         "Damage": 0
@@ -731,6 +1823,1570 @@
     },
     "FlashAssists": 0,
     "TotalClutches": 2
+  },
+  {
+    "UID": "Glaci3r",
+    "Name": "Glaci3r",
+    "SteamID": 76561198192766006,
+    "Kills": 135,
+    "Deaths": 108,
+    "Assists": 21,
+    "TeamKills": 0,
+    "TradeKills": 16,
+    "TimesTraded": 16,
+    "FirstKills": 24,
+    "FirstDeaths": 12,
+    "Headshots": 33,
+    "Plants": 5,
+    "Defuses": 1,
+    "HealthDamage": 14627,
+    "ArmorDamage": 1427,
+    "Rounds": 164,
+    "RoundWins": 93,
+    "KASTRounds": 120,
+    "MVPRounds": 18,
+    "HltvRating": 1.2,
+    "Matches": [
+      "pug_de_mirage_2017-12-21_23",
+      "pug_de_train_2017-12-22_00",
+      "pug_de_nuke_2018-01-11_21",
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 46,
+      "2": 29,
+      "3": 8,
+      "4": 2,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198393693567": 20,
+      "76561198132137627": 4,
+      "76561198148070517": 12,
+      "76561198081203263": 15,
+      "76561198037413384": 5,
+      "76561198001808454": 9,
+      "76561198071477737": 7,
+      "76561198156421630": 1,
+      "76561198084911409": 4,
+      "76561198137565812": 7,
+      "76561198344040839": 15,
+      "76561198117966816": 10,
+      "76561198072042202": 10,
+      "76561198055295222": 6,
+      "76561198020273020": 5,
+      "76561198145195904": 6
+    },
+    "WeaponStats": {
+      "Knife": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 79,
+        "Hits": 2,
+        "Damage": 65
+      },
+      "USP": {
+        "Kills": 9,
+        "Deaths": 7,
+        "Shots": 133,
+        "Hits": 29,
+        "Damage": 876
+      },
+      "Glock": {
+        "Kills": 2,
+        "Deaths": 4,
+        "Shots": 33,
+        "Hits": 9,
+        "Damage": 119
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 31,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Deagle": {
+        "Kills": 19,
+        "Deaths": 6,
+        "Shots": 164,
+        "Hits": 45,
+        "Damage": 1985
+      },
+      "AWP": {
+        "Kills": 39,
+        "Deaths": 15,
+        "Shots": 142,
+        "Hits": 45,
+        "Damage": 3699
+      },
+      "CZ": {
+        "Kills": 2,
+        "Deaths": 4,
+        "Shots": 38,
+        "Hits": 13,
+        "Damage": 263
+      },
+      "AK47": {
+        "Kills": 37,
+        "Deaths": 28,
+        "Shots": 663,
+        "Hits": 148,
+        "Damage": 4198
+      },
+      "P250": {
+        "Kills": 1,
+        "Deaths": 3,
+        "Shots": 17,
+        "Hits": 3,
+        "Damage": 63
+      },
+      "Incendiary": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 20,
+        "Hits": 37,
+        "Damage": 163
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 60,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "HE": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 23,
+        "Hits": 5,
+        "Damage": 124
+      },
+      "M4A4": {
+        "Kills": 10,
+        "Deaths": 12,
+        "Shots": 178,
+        "Hits": 39,
+        "Damage": 1011
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 1,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Mac10": {
+        "Kills": 4,
+        "Deaths": 2,
+        "Shots": 113,
+        "Hits": 25,
+        "Damage": 556
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 23,
+        "Hits": 2,
+        "Damage": 2
+      },
+      "UMP": {
+        "Kills": 5,
+        "Deaths": 4,
+        "Shots": 85,
+        "Hits": 22,
+        "Damage": 508
+      },
+      "M4A1": {
+        "Kills": 0,
+        "Deaths": 12,
+        "Shots": 5,
+        "Hits": 3,
+        "Damage": 74
+      },
+      "Scout": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 14,
+        "Hits": 6,
+        "Damage": 364
+      },
+      "Gallil": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 21,
+        "Hits": 5,
+        "Damage": 117
+      },
+      "P90": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP7": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 3,
+        "Hits": 3,
+        "Damage": 40
+      },
+      "MP9": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Swag7": {
+        "Kills": 4,
+        "Deaths": 0,
+        "Shots": 10,
+        "Hits": 18,
+        "Damage": 503
+      },
+      "Bizon": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 0
+  },
+  {
+    "UID": "76561198020273020",
+    "Name": "watching arches",
+    "SteamID": 76561198020273020,
+    "Kills": 48,
+    "Deaths": 56,
+    "Assists": 12,
+    "TeamKills": 0,
+    "TradeKills": 7,
+    "TimesTraded": 5,
+    "FirstKills": 4,
+    "FirstDeaths": 6,
+    "Headshots": 20,
+    "Plants": 4,
+    "Defuses": 0,
+    "HealthDamage": 5956,
+    "ArmorDamage": 734,
+    "Rounds": 73,
+    "RoundWins": 34,
+    "KASTRounds": 43,
+    "MVPRounds": 6,
+    "HltvRating": 0.9,
+    "Matches": [
+      "pug_cs_office_2017-12-23_22",
+      "pug_de_dust2_2017-12-23_23",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 19,
+      "2": 7,
+      "3": 5,
+      "4": 0,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198001808454": 7,
+      "76561198071477737": 3,
+      "76561198393693567": 7,
+      "76561198072042202": 1,
+      "76561198042795726": 4,
+      "76561198271442417": 4,
+      "76561198148070517": 4,
+      "76561198055295222": 8,
+      "76561198081203263": 3,
+      "76561198137565812": 4,
+      "76561198192766006": 3
+    },
+    "WeaponStats": {
+      "Glock": {
+        "Kills": 4,
+        "Deaths": 1,
+        "Shots": 85,
+        "Hits": 14,
+        "Damage": 332
+      },
+      "USP": {
+        "Kills": 1,
+        "Deaths": 2,
+        "Shots": 40,
+        "Hits": 8,
+        "Damage": 218
+      },
+      "Knife": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 38,
+        "Hits": 2,
+        "Damage": 200
+      },
+      "Tec9": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 30,
+        "Hits": 3,
+        "Damage": 108
+      },
+      "M4A4": {
+        "Kills": 1,
+        "Deaths": 6,
+        "Shots": 88,
+        "Hits": 8,
+        "Damage": 348
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 23,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "HE": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 16,
+        "Hits": 14,
+        "Damage": 387
+      },
+      "SawedOff": {
+        "Kills": 3,
+        "Deaths": 0,
+        "Shots": 5,
+        "Hits": 12,
+        "Damage": 214
+      },
+      "CZ": {
+        "Kills": 0,
+        "Deaths": 6,
+        "Shots": 25,
+        "Hits": 3,
+        "Damage": 63
+      },
+      "XM1014": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Mac10": {
+        "Kills": 6,
+        "Deaths": 2,
+        "Shots": 285,
+        "Hits": 45,
+        "Damage": 922
+      },
+      "AWP": {
+        "Kills": 11,
+        "Deaths": 9,
+        "Shots": 59,
+        "Hits": 11,
+        "Damage": 923
+      },
+      "Incendiary": {
+        "Kills": 3,
+        "Deaths": 0,
+        "Shots": 6,
+        "Hits": 38,
+        "Damage": 202
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 25,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "AK47": {
+        "Kills": 8,
+        "Deaths": 15,
+        "Shots": 240,
+        "Hits": 25,
+        "Damage": 969
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 2,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Scout": {
+        "Kills": 1,
+        "Deaths": 1,
+        "Shots": 7,
+        "Hits": 2,
+        "Damage": 100
+      },
+      "SG556": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 8,
+        "Hits": 2,
+        "Damage": 56
+      },
+      "UMP": {
+        "Kills": 2,
+        "Deaths": 1,
+        "Shots": 69,
+        "Hits": 9,
+        "Damage": 187
+      },
+      "Deagle": {
+        "Kills": 0,
+        "Deaths": 4,
+        "Shots": 30,
+        "Hits": 4,
+        "Damage": 155
+      },
+      "P90": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 71,
+        "Hits": 2,
+        "Damage": 25
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Bizon": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 104,
+        "Hits": 17,
+        "Damage": 263
+      },
+      "Decoy": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 3,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP9": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 68,
+        "Hits": 6,
+        "Damage": 258
+      },
+      "Gallil": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 10,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "P250": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M4A1": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 11,
+        "Hits": 3,
+        "Damage": 72
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 0
+  },
+  {
+    "UID": "76561198071477737",
+    "Name": "K",
+    "SteamID": 76561198071477737,
+    "Kills": 206,
+    "Deaths": 333,
+    "Assists": 70,
+    "TeamKills": 3,
+    "TradeKills": 19,
+    "TimesTraded": 47,
+    "FirstKills": 50,
+    "FirstDeaths": 67,
+    "Headshots": 53,
+    "Plants": 25,
+    "Defuses": 5,
+    "HealthDamage": 25943,
+    "ArmorDamage": 3493,
+    "Rounds": 436,
+    "RoundWins": 222,
+    "KASTRounds": 268,
+    "MVPRounds": 20,
+    "HltvRating": 0.7,
+    "Matches": [
+      "pug_de_mirage_2017-08-07_22",
+      "pug_de_cache_2017-08-08_01",
+      "pug_de_overpass_2017-08-08_22",
+      "pug_de_cache_2017-08-19_00",
+      "pug_de_inferno_old_2017-12-16_23",
+      "pug_de_inferno_old_2017-12-17_22",
+      "pug_de_train_2017-12-18_21",
+      "pug_de_cache_2017-12-18_22",
+      "pug_de_mirage_2017-12-20_18",
+      "pug_de_mirage_2017-12-21_23",
+      "pug_de_train_2017-12-22_00",
+      "pug_cs_office_2017-12-23_22",
+      "pug_de_dust2_2017-12-23_23",
+      "pug_de_overpass_2017-12-25_22",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 130,
+      "2": 33,
+      "3": 5,
+      "4": 2,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198001808454": 3,
+      "76561198092823903": 1,
+      "76561198117966816": 4,
+      "76561198079742537": 4,
+      "76561198081203263": 28,
+      "76561198148070517": 18,
+      "76561198104649119": 8,
+      "76561198256748178": 4,
+      "76561198072042202": 5,
+      "76561198084911409": 11,
+      "76561198271442417": 23,
+      "76561198235994884": 4,
+      "76561198030424730": 1,
+      "76561198055295222": 29,
+      "76561198083383351": 6,
+      "76561198038963123": 9,
+      "76561198010989621": 2,
+      "76561198118562612": 2,
+      "76561198393693567": 15,
+      "76561198100421553": 3,
+      "76561198137565812": 9,
+      "76561198257100849": 3,
+      "76561198037413384": 9,
+      "76561198132137627": 2,
+      "76561198192766006": 8,
+      "76561198020273020": 2,
+      "76561198042795726": 2,
+      "76561198344040839": 4
+    },
+    "WeaponStats": {
+      "Glock": {
+        "Kills": 5,
+        "Deaths": 13,
+        "Shots": 204,
+        "Hits": 45,
+        "Damage": 907
+      },
+      "USP": {
+        "Kills": 4,
+        "Deaths": 13,
+        "Shots": 151,
+        "Hits": 23,
+        "Damage": 614
+      },
+      "MP7": {
+        "Kills": 5,
+        "Deaths": 0,
+        "Shots": 159,
+        "Hits": 31,
+        "Damage": 638
+      },
+      "FiveSeven": {
+        "Kills": 3,
+        "Deaths": 4,
+        "Shots": 32,
+        "Hits": 8,
+        "Damage": 167
+      },
+      "Knife": {
+        "Kills": 3,
+        "Deaths": 2,
+        "Shots": 249,
+        "Hits": 7,
+        "Damage": 211
+      },
+      "AK47": {
+        "Kills": 32,
+        "Deaths": 93,
+        "Shots": 975,
+        "Hits": 118,
+        "Damage": 3918
+      },
+      "M4A4": {
+        "Kills": 28,
+        "Deaths": 43,
+        "Shots": 539,
+        "Hits": 111,
+        "Damage": 2757
+      },
+      "Tec9": {
+        "Kills": 2,
+        "Deaths": 2,
+        "Shots": 54,
+        "Hits": 12,
+        "Damage": 268
+      },
+      "MP9": {
+        "Kills": 3,
+        "Deaths": 9,
+        "Shots": 108,
+        "Hits": 15,
+        "Damage": 262
+      },
+      "AWP": {
+        "Kills": 17,
+        "Deaths": 47,
+        "Shots": 62,
+        "Hits": 17,
+        "Damage": 1425
+      },
+      "Deagle": {
+        "Kills": 3,
+        "Deaths": 20,
+        "Shots": 37,
+        "Hits": 7,
+        "Damage": 425
+      },
+      "P90": {
+        "Kills": 26,
+        "Deaths": 5,
+        "Shots": 1334,
+        "Hits": 198,
+        "Damage": 3949
+      },
+      "G3SG1": {
+        "Kills": 13,
+        "Deaths": 0,
+        "Shots": 259,
+        "Hits": 28,
+        "Damage": 1111
+      },
+      "M4A1": {
+        "Kills": 4,
+        "Deaths": 26,
+        "Shots": 70,
+        "Hits": 14,
+        "Damage": 338
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 3,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "P250": {
+        "Kills": 5,
+        "Deaths": 8,
+        "Shots": 154,
+        "Hits": 31,
+        "Damage": 835
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 45,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "XM1014": {
+        "Kills": 1,
+        "Deaths": 1,
+        "Shots": 6,
+        "Hits": 10,
+        "Damage": 130
+      },
+      "HE": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 19,
+        "Hits": 9,
+        "Damage": 108
+      },
+      "Mac10": {
+        "Kills": 0,
+        "Deaths": 9,
+        "Shots": 42,
+        "Hits": 8,
+        "Damage": 110
+      },
+      "Revolver": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 10,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "SawedOff": {
+        "Kills": 5,
+        "Deaths": 0,
+        "Shots": 21,
+        "Hits": 29,
+        "Damage": 570
+      },
+      "UMP": {
+        "Kills": 0,
+        "Deaths": 11,
+        "Shots": 23,
+        "Hits": 2,
+        "Damage": 40
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 23,
+        "Hits": 3,
+        "Damage": 69
+      },
+      "Swag7": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Nova": {
+        "Kills": 2,
+        "Deaths": 1,
+        "Shots": 10,
+        "Hits": 16,
+        "Damage": 180
+      },
+      "Gallil": {
+        "Kills": 3,
+        "Deaths": 5,
+        "Shots": 35,
+        "Hits": 13,
+        "Damage": 300
+      },
+      "Incendiary": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 13,
+        "Hits": 8,
+        "Damage": 46
+      },
+      "Famas": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 47,
+        "Hits": 2,
+        "Damage": 70
+      },
+      "CZ": {
+        "Kills": 15,
+        "Deaths": 4,
+        "Shots": 257,
+        "Hits": 62,
+        "Damage": 1700
+      },
+      "SG556": {
+        "Kills": 8,
+        "Deaths": 0,
+        "Shots": 186,
+        "Hits": 39,
+        "Damage": 982
+      },
+      "Bizon": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 63,
+        "Hits": 9,
+        "Damage": 149
+      },
+      "Zeus": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 6,
+        "Hits": 3,
+        "Damage": 278
+      },
+      "Negev": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 712,
+        "Hits": 5,
+        "Damage": 140
+      },
+      "Scar20": {
+        "Kills": 28,
+        "Deaths": 4,
+        "Shots": 289,
+        "Hits": 60,
+        "Damage": 3071
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 11,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "M249": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 112,
+        "Hits": 9,
+        "Damage": 224
+      },
+      "Scout": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 3,
+        "Hits": 1,
+        "Damage": 52
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 2
+  },
+  {
+    "UID": "Ant-iwnl-",
+    "Name": "Ant-iwnl-",
+    "SteamID": 76561198072042202,
+    "Kills": 643,
+    "Deaths": 400,
+    "Assists": 120,
+    "TeamKills": 5,
+    "TradeKills": 91,
+    "TimesTraded": 57,
+    "FirstKills": 62,
+    "FirstDeaths": 54,
+    "Headshots": 212,
+    "Plants": 32,
+    "Defuses": 14,
+    "HealthDamage": 68294,
+    "ArmorDamage": 8344,
+    "Rounds": 677,
+    "RoundWins": 378,
+    "KASTRounds": 522,
+    "MVPRounds": 96,
+    "HltvRating": 1.43,
+    "Matches": [
+      "pug_de_mirage_2017-08-07_22",
+      "pug_de_cache_2017-08-08_01",
+      "pug_de_overpass_2017-08-08_22",
+      "pug_de_cache_2017-08-19_00",
+      "pug_cs_office_2017-12-03_18",
+      "pug_de_inferno_2017-12-10_23",
+      "pug_de_season_2017-12-15_00",
+      "pug_de_inferno_old_2017-12-16_23",
+      "pug_de_inferno_old_2017-12-17_22",
+      "pug_de_train_2017-12-18_21",
+      "pug_de_cache_2017-12-18_22",
+      "pug_de_mirage_2017-12-20_18",
+      "pug_de_overpass_2017-12-21_21",
+      "pug_de_mirage_2017-12-21_23",
+      "pug_de_train_2017-12-22_00",
+      "pug_cs_office_2017-12-23_22",
+      "pug_de_dust2_2017-12-23_23",
+      "pug_de_overpass_2017-12-25_22",
+      "pug_de_cache_2018-01-03_19",
+      "pug_de_dust2_2018-01-05_20",
+      "pug_de_nuke_2018-01-11_21",
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22",
+      "pug_de_inferno_old_2018-01-13_23"
+    ],
+    "ClutchRounds": {
+      "1": 11,
+      "2": 11,
+      "3": 3,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 210,
+      "2": 125,
+      "3": 38,
+      "4": 17,
+      "5": 2
+    },
+    "KilledPlayers": {
+      "76561198071477737": 19,
+      "76561198081203263": 45,
+      "76561198256748178": 31,
+      "76561198104649119": 12,
+      "76561198084911409": 41,
+      "76561198148070517": 91,
+      "76561198079742537": 5,
+      "76561198038963123": 27,
+      "76561198070596192": 3,
+      "76561198030424730": 3,
+      "76561198235994884": 3,
+      "76561198271442417": 66,
+      "76561198042795726": 5,
+      "76561198083383351": 14,
+      "76561198065111042": 2,
+      "76561198420472547": 9,
+      "76561198010989621": 11,
+      "76561197964022127": 6,
+      "76561198165409571": 1,
+      "76561198055445808": 10,
+      "76561198055295222": 54,
+      "76561198393693567": 58,
+      "76561198118562612": 5,
+      "76561198137565812": 14,
+      "76561198100421553": 8,
+      "76561198001808454": 21,
+      "76561198117966816": 19,
+      "76561198037413384": 10,
+      "76561198132137627": 4,
+      "76561198156421630": 12,
+      "76561198020273020": 5,
+      "76561198453342067": 6,
+      "76561198045198932": 5,
+      "76561198257100849": 5,
+      "76561198192766006": 16,
+      "76561198344040839": 6
+    },
+    "WeaponStats": {
+      "Knife": {
+        "Kills": 4,
+        "Deaths": 4,
+        "Shots": 3939,
+        "Hits": 11,
+        "Damage": 445
+      },
+      "HE": {
+        "Kills": 8,
+        "Deaths": 0,
+        "Shots": 294,
+        "Hits": 123,
+        "Damage": 2399
+      },
+      "USP": {
+        "Kills": 36,
+        "Deaths": 16,
+        "Shots": 534,
+        "Hits": 110,
+        "Damage": 3623
+      },
+      "Glock": {
+        "Kills": 10,
+        "Deaths": 9,
+        "Shots": 302,
+        "Hits": 51,
+        "Damage": 1209
+      },
+      "Scout": {
+        "Kills": 17,
+        "Deaths": 3,
+        "Shots": 106,
+        "Hits": 34,
+        "Damage": 2086
+      },
+      "Mac10": {
+        "Kills": 5,
+        "Deaths": 8,
+        "Shots": 112,
+        "Hits": 26,
+        "Damage": 471
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 431,
+        "Hits": 8,
+        "Damage": 8
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 485,
+        "Hits": 3,
+        "Damage": 5
+      },
+      "AK47": {
+        "Kills": 207,
+        "Deaths": 127,
+        "Shots": 4105,
+        "Hits": 718,
+        "Damage": 21152
+      },
+      "Deagle": {
+        "Kills": 30,
+        "Deaths": 31,
+        "Shots": 311,
+        "Hits": 64,
+        "Damage": 3218
+      },
+      "Incendiary": {
+        "Kills": 5,
+        "Deaths": 1,
+        "Shots": 140,
+        "Hits": 359,
+        "Damage": 2014
+      },
+      "Nova": {
+        "Kills": 4,
+        "Deaths": 1,
+        "Shots": 13,
+        "Hits": 27,
+        "Damage": 500
+      },
+      "Famas": {
+        "Kills": 6,
+        "Deaths": 6,
+        "Shots": 132,
+        "Hits": 27,
+        "Damage": 677
+      },
+      "M4A4": {
+        "Kills": 95,
+        "Deaths": 41,
+        "Shots": 1928,
+        "Hits": 362,
+        "Damage": 9315
+      },
+      "P250": {
+        "Kills": 2,
+        "Deaths": 10,
+        "Shots": 70,
+        "Hits": 12,
+        "Damage": 306
+      },
+      "AWP": {
+        "Kills": 108,
+        "Deaths": 43,
+        "Shots": 361,
+        "Hits": 125,
+        "Damage": 10162
+      },
+      "FiveSeven": {
+        "Kills": 4,
+        "Deaths": 4,
+        "Shots": 69,
+        "Hits": 16,
+        "Damage": 424
+      },
+      "Decoy": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 12,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Gallil": {
+        "Kills": 10,
+        "Deaths": 8,
+        "Shots": 224,
+        "Hits": 29,
+        "Damage": 892
+      },
+      "CZ": {
+        "Kills": 25,
+        "Deaths": 8,
+        "Shots": 262,
+        "Hits": 84,
+        "Damage": 2637
+      },
+      "Tec9": {
+        "Kills": 4,
+        "Deaths": 2,
+        "Shots": 37,
+        "Hits": 8,
+        "Damage": 214
+      },
+      "M4A1": {
+        "Kills": 24,
+        "Deaths": 26,
+        "Shots": 264,
+        "Hits": 85,
+        "Damage": 2300
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 153,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "UMP": {
+        "Kills": 17,
+        "Deaths": 8,
+        "Shots": 362,
+        "Hits": 59,
+        "Damage": 1688
+      },
+      "P90": {
+        "Kills": 2,
+        "Deaths": 7,
+        "Shots": 50,
+        "Hits": 8,
+        "Damage": 187
+      },
+      "Swag7": {
+        "Kills": 12,
+        "Deaths": 1,
+        "Shots": 36,
+        "Hits": 52,
+        "Damage": 831
+      },
+      "MP7": {
+        "Kills": 3,
+        "Deaths": 1,
+        "Shots": 27,
+        "Hits": 13,
+        "Damage": 281
+      },
+      "MP9": {
+        "Kills": 11,
+        "Deaths": 14,
+        "Shots": 267,
+        "Hits": 47,
+        "Damage": 1056
+      },
+      "P2000": {
+        "Kills": 0,
+        "Deaths": 5,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "SawedOff": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 1,
+        "Hits": 3,
+        "Damage": 54
+      },
+      "XM1014": {
+        "Kills": 0,
+        "Deaths": 8,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Zeus": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 3,
+        "Hits": 2,
+        "Damage": 163
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Negev": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 220,
+        "Hits": 1,
+        "Damage": 31
+      },
+      "Bizon": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 96,
+        "Hits": 16,
+        "Damage": 309
+      },
+      "SG556": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 8,
+        "Hits": 3,
+        "Damage": 86
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 25
+  },
+  {
+    "UID": "76561198117966816",
+    "Name": "rî§К",
+    "SteamID": 76561198117966816,
+    "Kills": 193,
+    "Deaths": 161,
+    "Assists": 33,
+    "TeamKills": 1,
+    "TradeKills": 18,
+    "TimesTraded": 24,
+    "FirstKills": 41,
+    "FirstDeaths": 16,
+    "Headshots": 65,
+    "Plants": 17,
+    "Defuses": 5,
+    "HealthDamage": 20861,
+    "ArmorDamage": 2938,
+    "Rounds": 245,
+    "RoundWins": 132,
+    "KASTRounds": 173,
+    "MVPRounds": 28,
+    "HltvRating": 1.14,
+    "Matches": [
+      "pug_de_mirage_2017-08-07_22",
+      "pug_de_cache_2017-08-08_01",
+      "pug_de_inferno_2017-12-10_23",
+      "pug_de_mirage_2017-12-20_18",
+      "pug_de_overpass_2017-12-25_22",
+      "pug_de_cache_2018-01-03_19",
+      "pug_de_nuke_2018-01-11_21",
+      "pug_de_mirage_2018-01-12_20",
+      "pug_de_train_2018-01-13_22"
+    ],
+    "ClutchRounds": {
+      "1": 5,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "MultiKillRounds": {
+      "1": 82,
+      "2": 36,
+      "3": 11,
+      "4": 2,
+      "5": 0
+    },
+    "KilledPlayers": {
+      "76561198256748178": 28,
+      "76561198104649119": 18,
+      "76561198081203263": 14,
+      "76561198084911409": 8,
+      "76561198071477737": 10,
+      "76561198148070517": 10,
+      "76561198079742537": 5,
+      "76561198420472547": 5,
+      "76561198010989621": 2,
+      "76561198001808454": 10,
+      "76561198118562612": 1,
+      "76561198055295222": 17,
+      "76561198072042202": 17,
+      "76561198393693567": 9,
+      "76561198042795726": 3,
+      "76561198453342067": 4,
+      "76561198137565812": 11,
+      "76561198055445808": 6,
+      "76561198192766006": 6,
+      "76561198037413384": 5,
+      "76561198145195904": 6
+    },
+    "WeaponStats": {
+      "P2000": {
+        "Kills": 3,
+        "Deaths": 0,
+        "Shots": 111,
+        "Hits": 19,
+        "Damage": 427
+      },
+      "Knife": {
+        "Kills": 1,
+        "Deaths": 0,
+        "Shots": 154,
+        "Hits": 1,
+        "Damage": 100
+      },
+      "Glock": {
+        "Kills": 9,
+        "Deaths": 7,
+        "Shots": 229,
+        "Hits": 47,
+        "Damage": 749
+      },
+      "FiveSeven": {
+        "Kills": 14,
+        "Deaths": 2,
+        "Shots": 153,
+        "Hits": 44,
+        "Damage": 1280
+      },
+      "Molotov": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 41,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "UMP": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 7,
+        "Hits": 5,
+        "Damage": 87
+      },
+      "Decoy": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 51,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Smoke": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 110,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Flash": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 150,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "MP9": {
+        "Kills": 25,
+        "Deaths": 6,
+        "Shots": 847,
+        "Hits": 140,
+        "Damage": 2731
+      },
+      "AK47": {
+        "Kills": 32,
+        "Deaths": 45,
+        "Shots": 1033,
+        "Hits": 136,
+        "Damage": 3693
+      },
+      "Incendiary": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 45,
+        "Hits": 106,
+        "Damage": 600
+      },
+      "M4A4": {
+        "Kills": 21,
+        "Deaths": 18,
+        "Shots": 474,
+        "Hits": 83,
+        "Damage": 2006
+      },
+      "Nova": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Deagle": {
+        "Kills": 5,
+        "Deaths": 16,
+        "Shots": 39,
+        "Hits": 7,
+        "Damage": 498
+      },
+      "P90": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "AWP": {
+        "Kills": 36,
+        "Deaths": 14,
+        "Shots": 107,
+        "Hits": 42,
+        "Damage": 3836
+      },
+      "USP": {
+        "Kills": 3,
+        "Deaths": 8,
+        "Shots": 48,
+        "Hits": 13,
+        "Damage": 461
+      },
+      "Mac10": {
+        "Kills": 21,
+        "Deaths": 7,
+        "Shots": 536,
+        "Hits": 119,
+        "Damage": 2172
+      },
+      "M4A1": {
+        "Kills": 3,
+        "Deaths": 7,
+        "Shots": 49,
+        "Hits": 13,
+        "Damage": 316
+      },
+      "HE": {
+        "Kills": 1,
+        "Deaths": 2,
+        "Shots": 4,
+        "Hits": 1,
+        "Damage": 5
+      },
+      "MP7": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "XM1014": {
+        "Kills": 3,
+        "Deaths": 0,
+        "Shots": 29,
+        "Hits": 21,
+        "Damage": 226
+      },
+      "SawedOff": {
+        "Kills": 1,
+        "Deaths": 1,
+        "Shots": 3,
+        "Hits": 6,
+        "Damage": 118
+      },
+      "Bizon": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "P250": {
+        "Kills": 12,
+        "Deaths": 3,
+        "Shots": 182,
+        "Hits": 45,
+        "Damage": 1217
+      },
+      "CZ": {
+        "Kills": 1,
+        "Deaths": 5,
+        "Shots": 11,
+        "Hits": 4,
+        "Damage": 73
+      },
+      "Scar20": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "SG556": {
+        "Kills": 0,
+        "Deaths": 3,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Famas": {
+        "Kills": 2,
+        "Deaths": 0,
+        "Shots": 65,
+        "Hits": 12,
+        "Damage": 275
+      },
+      "Gallil": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Scout": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "AUG": {
+        "Kills": 0,
+        "Deaths": 0,
+        "Shots": 3,
+        "Hits": 3,
+        "Damage": 72
+      },
+      "Swag7": {
+        "Kills": 0,
+        "Deaths": 2,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "Tec9": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      },
+      "G3SG1": {
+        "Kills": 0,
+        "Deaths": 1,
+        "Shots": 0,
+        "Hits": 0,
+        "Damage": 0
+      }
+    },
+    "FlashAssists": 0,
+    "TotalClutches": 6
   },
   {
     "UID": "76561198037413384",
@@ -958,1402 +3614,6 @@
     },
     "FlashAssists": 0,
     "TotalClutches": 0
-  },
-  {
-    "UID": "Glaci3r",
-    "Name": "Glaci3r",
-    "SteamID": 76561198192766006,
-    "Kills": 87,
-    "Deaths": 76,
-    "Assists": 15,
-    "TeamKills": 0,
-    "TradeKills": 12,
-    "TimesTraded": 12,
-    "FirstKills": 17,
-    "FirstDeaths": 9,
-    "Headshots": 20,
-    "Plants": 4,
-    "Defuses": 0,
-    "HealthDamage": 9917,
-    "ArmorDamage": 950,
-    "Rounds": 108,
-    "RoundWins": 61,
-    "KASTRounds": 79,
-    "MVPRounds": 12,
-    "HltvRating": 1.11,
-    "Matches": [
-      "pug_de_mirage_2017-12-21_23",
-      "pug_de_train_2017-12-22_00",
-      "pug_de_nuke_2018-01-11_21",
-      "pug_de_mirage_2018-01-12_20"
-    ],
-    "ClutchRounds": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 34,
-      "2": 18,
-      "3": 6,
-      "4": 0,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198393693567": 16,
-      "76561198132137627": 4,
-      "76561198148070517": 12,
-      "76561198081203263": 10,
-      "76561198037413384": 5,
-      "76561198001808454": 9,
-      "76561198071477737": 2,
-      "76561198156421630": 1,
-      "76561198084911409": 4,
-      "76561198137565812": 7,
-      "76561198344040839": 5,
-      "76561198117966816": 6,
-      "76561198072042202": 7
-    },
-    "WeaponStats": {
-      "Knife": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 59,
-        "Hits": 2,
-        "Damage": 65
-      },
-      "USP": {
-        "Kills": 5,
-        "Deaths": 5,
-        "Shots": 65,
-        "Hits": 19,
-        "Damage": 607
-      },
-      "Glock": {
-        "Kills": 1,
-        "Deaths": 3,
-        "Shots": 21,
-        "Hits": 4,
-        "Damage": 62
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 17,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Deagle": {
-        "Kills": 9,
-        "Deaths": 6,
-        "Shots": 102,
-        "Hits": 24,
-        "Damage": 1094
-      },
-      "AWP": {
-        "Kills": 24,
-        "Deaths": 10,
-        "Shots": 91,
-        "Hits": 27,
-        "Damage": 2350
-      },
-      "CZ": {
-        "Kills": 1,
-        "Deaths": 3,
-        "Shots": 17,
-        "Hits": 6,
-        "Damage": 122
-      },
-      "AK47": {
-        "Kills": 27,
-        "Deaths": 22,
-        "Shots": 460,
-        "Hits": 110,
-        "Damage": 3006
-      },
-      "P250": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 9,
-        "Hits": 3,
-        "Damage": 63
-      },
-      "Incendiary": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 13,
-        "Hits": 27,
-        "Damage": 127
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 38,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "HE": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 12,
-        "Hits": 3,
-        "Damage": 76
-      },
-      "M4A4": {
-        "Kills": 8,
-        "Deaths": 10,
-        "Shots": 140,
-        "Hits": 31,
-        "Damage": 805
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 1,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Mac10": {
-        "Kills": 4,
-        "Deaths": 1,
-        "Shots": 113,
-        "Hits": 25,
-        "Damage": 556
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 14,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "UMP": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "M4A1": {
-        "Kills": 0,
-        "Deaths": 6,
-        "Shots": 5,
-        "Hits": 3,
-        "Damage": 74
-      },
-      "Scout": {
-        "Kills": 2,
-        "Deaths": 2,
-        "Shots": 14,
-        "Hits": 6,
-        "Damage": 364
-      },
-      "Gallil": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 21,
-        "Hits": 5,
-        "Damage": 117
-      },
-      "P90": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP9": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Swag7": {
-        "Kills": 4,
-        "Deaths": 0,
-        "Shots": 10,
-        "Hits": 18,
-        "Damage": 503
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 0
-  },
-  {
-    "UID": "Ant-iwnl-",
-    "Name": "Ant-iwnl-",
-    "SteamID": 76561198072042202,
-    "Kills": 581,
-    "Deaths": 363,
-    "Assists": 107,
-    "TeamKills": 5,
-    "TradeKills": 84,
-    "TimesTraded": 50,
-    "FirstKills": 51,
-    "FirstDeaths": 51,
-    "Headshots": 187,
-    "Plants": 31,
-    "Defuses": 11,
-    "HealthDamage": 61419,
-    "ArmorDamage": 7664,
-    "Rounds": 621,
-    "RoundWins": 351,
-    "KASTRounds": 474,
-    "MVPRounds": 86,
-    "HltvRating": 1.42,
-    "Matches": [
-      "pug_de_mirage_2017-08-07_22",
-      "pug_de_cache_2017-08-08_01",
-      "pug_de_overpass_2017-08-08_22",
-      "pug_de_cache_2017-08-19_00",
-      "pug_cs_office_2017-12-03_18",
-      "pug_de_inferno_2017-12-10_23",
-      "pug_de_season_2017-12-15_00",
-      "pug_de_inferno_old_2017-12-16_23",
-      "pug_de_inferno_old_2017-12-17_22",
-      "pug_de_train_2017-12-18_21",
-      "pug_de_cache_2017-12-18_22",
-      "pug_de_mirage_2017-12-20_18",
-      "pug_de_overpass_2017-12-21_21",
-      "pug_de_mirage_2017-12-21_23",
-      "pug_de_train_2017-12-22_00",
-      "pug_cs_office_2017-12-23_22",
-      "pug_de_dust2_2017-12-23_23",
-      "pug_de_overpass_2017-12-25_22",
-      "pug_de_cache_2018-01-03_19",
-      "pug_de_dust2_2018-01-05_20",
-      "pug_de_nuke_2018-01-11_21",
-      "pug_de_mirage_2018-01-12_20"
-    ],
-    "ClutchRounds": {
-      "1": 11,
-      "2": 11,
-      "3": 3,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 191,
-      "2": 110,
-      "3": 35,
-      "4": 16,
-      "5": 2
-    },
-    "KilledPlayers": {
-      "76561198071477737": 19,
-      "76561198081203263": 34,
-      "76561198256748178": 31,
-      "76561198104649119": 12,
-      "76561198084911409": 41,
-      "76561198148070517": 91,
-      "76561198079742537": 5,
-      "76561198038963123": 27,
-      "76561198070596192": 3,
-      "76561198030424730": 3,
-      "76561198235994884": 3,
-      "76561198271442417": 66,
-      "76561198042795726": 5,
-      "76561198083383351": 14,
-      "76561198065111042": 2,
-      "76561198420472547": 9,
-      "76561198010989621": 11,
-      "76561197964022127": 6,
-      "76561198165409571": 1,
-      "76561198055445808": 10,
-      "76561198055295222": 38,
-      "76561198393693567": 43,
-      "76561198118562612": 5,
-      "76561198137565812": 11,
-      "76561198100421553": 8,
-      "76561198001808454": 21,
-      "76561198117966816": 15,
-      "76561198037413384": 10,
-      "76561198132137627": 4,
-      "76561198156421630": 12,
-      "76561198020273020": 5,
-      "76561198453342067": 6,
-      "76561198045198932": 5,
-      "76561198257100849": 5,
-      "76561198192766006": 9
-    },
-    "WeaponStats": {
-      "Knife": {
-        "Kills": 3,
-        "Deaths": 3,
-        "Shots": 3509,
-        "Hits": 8,
-        "Damage": 350
-      },
-      "HE": {
-        "Kills": 6,
-        "Deaths": 0,
-        "Shots": 275,
-        "Hits": 111,
-        "Damage": 2194
-      },
-      "USP": {
-        "Kills": 32,
-        "Deaths": 15,
-        "Shots": 496,
-        "Hits": 100,
-        "Damage": 3276
-      },
-      "Glock": {
-        "Kills": 10,
-        "Deaths": 8,
-        "Shots": 287,
-        "Hits": 47,
-        "Damage": 1164
-      },
-      "Scout": {
-        "Kills": 17,
-        "Deaths": 3,
-        "Shots": 105,
-        "Hits": 34,
-        "Damage": 2086
-      },
-      "Mac10": {
-        "Kills": 5,
-        "Deaths": 6,
-        "Shots": 112,
-        "Hits": 26,
-        "Damage": 471
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 396,
-        "Hits": 4,
-        "Damage": 4
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 444,
-        "Hits": 3,
-        "Damage": 5
-      },
-      "AK47": {
-        "Kills": 182,
-        "Deaths": 123,
-        "Shots": 3667,
-        "Hits": 623,
-        "Damage": 18014
-      },
-      "Deagle": {
-        "Kills": 22,
-        "Deaths": 28,
-        "Shots": 249,
-        "Hits": 49,
-        "Damage": 2402
-      },
-      "Incendiary": {
-        "Kills": 5,
-        "Deaths": 1,
-        "Shots": 130,
-        "Hits": 310,
-        "Damage": 1769
-      },
-      "Nova": {
-        "Kills": 4,
-        "Deaths": 1,
-        "Shots": 13,
-        "Hits": 27,
-        "Damage": 500
-      },
-      "Famas": {
-        "Kills": 6,
-        "Deaths": 6,
-        "Shots": 132,
-        "Hits": 27,
-        "Damage": 677
-      },
-      "M4A4": {
-        "Kills": 94,
-        "Deaths": 37,
-        "Shots": 1913,
-        "Hits": 360,
-        "Damage": 9215
-      },
-      "P250": {
-        "Kills": 2,
-        "Deaths": 9,
-        "Shots": 70,
-        "Hits": 12,
-        "Damage": 306
-      },
-      "AWP": {
-        "Kills": 99,
-        "Deaths": 33,
-        "Shots": 335,
-        "Hits": 114,
-        "Damage": 9321
-      },
-      "FiveSeven": {
-        "Kills": 4,
-        "Deaths": 4,
-        "Shots": 69,
-        "Hits": 16,
-        "Damage": 424
-      },
-      "Decoy": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 12,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Gallil": {
-        "Kills": 10,
-        "Deaths": 8,
-        "Shots": 224,
-        "Hits": 29,
-        "Damage": 892
-      },
-      "CZ": {
-        "Kills": 25,
-        "Deaths": 7,
-        "Shots": 262,
-        "Hits": 84,
-        "Damage": 2637
-      },
-      "Tec9": {
-        "Kills": 4,
-        "Deaths": 2,
-        "Shots": 35,
-        "Hits": 8,
-        "Damage": 214
-      },
-      "M4A1": {
-        "Kills": 12,
-        "Deaths": 22,
-        "Shots": 131,
-        "Hits": 44,
-        "Damage": 1233
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 139,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "UMP": {
-        "Kills": 17,
-        "Deaths": 7,
-        "Shots": 362,
-        "Hits": 59,
-        "Damage": 1688
-      },
-      "P90": {
-        "Kills": 2,
-        "Deaths": 7,
-        "Shots": 50,
-        "Hits": 8,
-        "Damage": 187
-      },
-      "Swag7": {
-        "Kills": 12,
-        "Deaths": 1,
-        "Shots": 36,
-        "Hits": 52,
-        "Damage": 831
-      },
-      "MP7": {
-        "Kills": 3,
-        "Deaths": 1,
-        "Shots": 27,
-        "Hits": 13,
-        "Damage": 281
-      },
-      "MP9": {
-        "Kills": 11,
-        "Deaths": 12,
-        "Shots": 267,
-        "Hits": 47,
-        "Damage": 1056
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 5,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "SawedOff": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 1,
-        "Hits": 3,
-        "Damage": 54
-      },
-      "XM1014": {
-        "Kills": 0,
-        "Deaths": 7,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "G3SG1": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Zeus": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 2,
-        "Hits": 2,
-        "Damage": 163
-      },
-      "Scar20": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Negev": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 220,
-        "Hits": 1,
-        "Damage": 31
-      },
-      "Bizon": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 79,
-        "Hits": 15,
-        "Damage": 300
-      },
-      "SG556": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 8,
-        "Hits": 3,
-        "Damage": 86
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 25
-  },
-  {
-    "UID": "76561198117966816",
-    "Name": "rî§К",
-    "SteamID": 76561198117966816,
-    "Kills": 163,
-    "Deaths": 138,
-    "Assists": 28,
-    "TeamKills": 1,
-    "TradeKills": 15,
-    "TimesTraded": 22,
-    "FirstKills": 33,
-    "FirstDeaths": 15,
-    "Headshots": 54,
-    "Plants": 16,
-    "Defuses": 4,
-    "HealthDamage": 17888,
-    "ArmorDamage": 2604,
-    "Rounds": 216,
-    "RoundWins": 119,
-    "KASTRounds": 152,
-    "MVPRounds": 24,
-    "HltvRating": 1.13,
-    "Matches": [
-      "pug_de_mirage_2017-08-07_22",
-      "pug_de_cache_2017-08-08_01",
-      "pug_de_inferno_2017-12-10_23",
-      "pug_de_mirage_2017-12-20_18",
-      "pug_de_overpass_2017-12-25_22",
-      "pug_de_cache_2018-01-03_19",
-      "pug_de_nuke_2018-01-11_21",
-      "pug_de_mirage_2018-01-12_20"
-    ],
-    "ClutchRounds": {
-      "1": 5,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 72,
-      "2": 29,
-      "3": 9,
-      "4": 2,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198256748178": 28,
-      "76561198104649119": 18,
-      "76561198081203263": 14,
-      "76561198084911409": 8,
-      "76561198071477737": 6,
-      "76561198148070517": 10,
-      "76561198079742537": 5,
-      "76561198420472547": 5,
-      "76561198010989621": 2,
-      "76561198001808454": 10,
-      "76561198118562612": 1,
-      "76561198055295222": 17,
-      "76561198072042202": 9,
-      "76561198393693567": 9,
-      "76561198042795726": 3,
-      "76561198453342067": 4,
-      "76561198137565812": 3,
-      "76561198055445808": 6,
-      "76561198192766006": 2,
-      "76561198037413384": 5
-    },
-    "WeaponStats": {
-      "P2000": {
-        "Kills": 3,
-        "Deaths": 0,
-        "Shots": 111,
-        "Hits": 19,
-        "Damage": 427
-      },
-      "Knife": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 145,
-        "Hits": 1,
-        "Damage": 100
-      },
-      "Glock": {
-        "Kills": 7,
-        "Deaths": 6,
-        "Shots": 207,
-        "Hits": 40,
-        "Damage": 633
-      },
-      "FiveSeven": {
-        "Kills": 12,
-        "Deaths": 1,
-        "Shots": 134,
-        "Hits": 38,
-        "Damage": 1150
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 39,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "UMP": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 7,
-        "Hits": 5,
-        "Damage": 87
-      },
-      "Decoy": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 43,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 103,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 144,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP9": {
-        "Kills": 21,
-        "Deaths": 4,
-        "Shots": 623,
-        "Hits": 119,
-        "Damage": 2243
-      },
-      "AK47": {
-        "Kills": 32,
-        "Deaths": 41,
-        "Shots": 1033,
-        "Hits": 136,
-        "Damage": 3693
-      },
-      "Incendiary": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 41,
-        "Hits": 92,
-        "Damage": 513
-      },
-      "M4A4": {
-        "Kills": 20,
-        "Deaths": 18,
-        "Shots": 468,
-        "Hits": 82,
-        "Damage": 1996
-      },
-      "Nova": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Deagle": {
-        "Kills": 4,
-        "Deaths": 14,
-        "Shots": 35,
-        "Hits": 4,
-        "Damage": 305
-      },
-      "P90": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "AWP": {
-        "Kills": 25,
-        "Deaths": 11,
-        "Shots": 76,
-        "Hits": 30,
-        "Damage": 2762
-      },
-      "USP": {
-        "Kills": 1,
-        "Deaths": 7,
-        "Shots": 23,
-        "Hits": 6,
-        "Damage": 224
-      },
-      "Mac10": {
-        "Kills": 19,
-        "Deaths": 4,
-        "Shots": 482,
-        "Hits": 109,
-        "Damage": 2000
-      },
-      "M4A1": {
-        "Kills": 3,
-        "Deaths": 7,
-        "Shots": 49,
-        "Hits": 13,
-        "Damage": 316
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 2,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP7": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "XM1014": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 10,
-        "Hits": 4,
-        "Damage": 48
-      },
-      "SawedOff": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Bizon": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "P250": {
-        "Kills": 12,
-        "Deaths": 2,
-        "Shots": 178,
-        "Hits": 44,
-        "Damage": 1195
-      },
-      "CZ": {
-        "Kills": 0,
-        "Deaths": 5,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Scar20": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "SG556": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Famas": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 57,
-        "Hits": 9,
-        "Damage": 200
-      },
-      "Gallil": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Scout": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "AUG": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 3,
-        "Hits": 3,
-        "Damage": 72
-      },
-      "Swag7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 5
-  },
-  {
-    "UID": "76561198344040839",
-    "Name": "89iup34reawfdjcx",
-    "SteamID": 76561198344040839,
-    "Kills": 28,
-    "Deaths": 22,
-    "Assists": 2,
-    "TeamKills": 0,
-    "TradeKills": 6,
-    "TimesTraded": 2,
-    "FirstKills": 2,
-    "FirstDeaths": 3,
-    "Headshots": 9,
-    "Plants": 1,
-    "Defuses": 0,
-    "HealthDamage": 2315,
-    "ArmorDamage": 436,
-    "Rounds": 30,
-    "RoundWins": 14,
-    "KASTRounds": 20,
-    "MVPRounds": 2,
-    "HltvRating": 1.23,
-    "Matches": [
-      "pug_de_mirage_2018-01-12_20"
-    ],
-    "ClutchRounds": {
-      "1": 1,
-      "2": 1,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 10,
-      "2": 6,
-      "3": 2,
-      "4": 0,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198256748178": 6,
-      "76561198055445808": 6,
-      "76561198037413384": 5,
-      "76561198055295222": 6,
-      "76561198192766006": 5
-    },
-    "WeaponStats": {
-      "USP": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 8,
-        "Hits": 2,
-        "Damage": 31
-      },
-      "CZ": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 31,
-        "Hits": 4,
-        "Damage": 139
-      },
-      "Knife": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 1,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Mac10": {
-        "Kills": 1,
-        "Deaths": 2,
-        "Shots": 18,
-        "Hits": 7,
-        "Damage": 105
-      },
-      "M4A1": {
-        "Kills": 8,
-        "Deaths": 0,
-        "Shots": 151,
-        "Hits": 28,
-        "Damage": 662
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 10,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 5,
-        "Hits": 2,
-        "Damage": 20
-      },
-      "AK47": {
-        "Kills": 11,
-        "Deaths": 8,
-        "Shots": 163,
-        "Hits": 36,
-        "Damage": 1005
-      },
-      "Deagle": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 4,
-        "Hits": 3,
-        "Damage": 100
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 1,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "UMP": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 5,
-        "Hits": 1,
-        "Damage": 22
-      },
-      "AWP": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP9": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 12,
-        "Hits": 2,
-        "Damage": 15
-      },
-      "Glock": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 15,
-        "Hits": 7,
-        "Damage": 87
-      },
-      "P250": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 11,
-        "Hits": 2,
-        "Damage": 46
-      },
-      "FiveSeven": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 5,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "M4A4": {
-        "Kills": 2,
-        "Deaths": 4,
-        "Shots": 19,
-        "Hits": 5,
-        "Damage": 100
-      },
-      "Swag7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 2
-  },
-  {
-    "UID": "76561198055295222",
-    "Name": "Froztbitten",
-    "SteamID": 76561198055295222,
-    "Kills": 114,
-    "Deaths": 223,
-    "Assists": 31,
-    "TeamKills": 1,
-    "TradeKills": 26,
-    "TimesTraded": 29,
-    "FirstKills": 6,
-    "FirstDeaths": 27,
-    "Headshots": 55,
-    "Plants": 21,
-    "Defuses": 4,
-    "HealthDamage": 13452,
-    "ArmorDamage": 2336,
-    "Rounds": 284,
-    "RoundWins": 126,
-    "KASTRounds": 158,
-    "MVPRounds": 12,
-    "HltvRating": 0.56,
-    "Matches": [
-      "pug_de_inferno_old_2017-12-16_23",
-      "pug_de_inferno_old_2017-12-17_22",
-      "pug_de_train_2017-12-18_21",
-      "pug_de_cache_2017-12-18_22",
-      "pug_de_mirage_2017-12-20_18",
-      "pug_cs_office_2017-12-23_22",
-      "pug_de_dust2_2017-12-23_23",
-      "pug_de_overpass_2017-12-25_22",
-      "pug_de_mirage_2018-01-12_20"
-    ],
-    "ClutchRounds": {
-      "1": 1,
-      "2": 1,
-      "3": 1,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 80,
-      "2": 13,
-      "3": 2,
-      "4": 1,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198072042202": 14,
-      "76561198393693567": 20,
-      "76561198109854748": 4,
-      "76561198257100849": 8,
-      "76561198071477737": 10,
-      "76561198118562612": 2,
-      "76561198271442417": 8,
-      "76561198010989621": 3,
-      "76561198038963123": 4,
-      "76561198001808454": 7,
-      "76561198137565812": 5,
-      "76561198117966816": 10,
-      "76561198084911409": 2,
-      "76561198042795726": 2,
-      "76561198020273020": 3,
-      "76561198081203263": 7,
-      "76561198148070517": 4,
-      "76561198344040839": 3
-    },
-    "WeaponStats": {
-      "USP": {
-        "Kills": 9,
-        "Deaths": 8,
-        "Shots": 148,
-        "Hits": 42,
-        "Damage": 1081
-      },
-      "MP9": {
-        "Kills": 3,
-        "Deaths": 1,
-        "Shots": 191,
-        "Hits": 32,
-        "Damage": 611
-      },
-      "Tec9": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 61,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "M4A4": {
-        "Kills": 31,
-        "Deaths": 32,
-        "Shots": 723,
-        "Hits": 136,
-        "Damage": 3242
-      },
-      "AK47": {
-        "Kills": 43,
-        "Deaths": 65,
-        "Shots": 974,
-        "Hits": 141,
-        "Damage": 4826
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 7,
-        "Hits": 1,
-        "Damage": 1
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 67,
-        "Hits": 2,
-        "Damage": 2
-      },
-      "AWP": {
-        "Kills": 1,
-        "Deaths": 30,
-        "Shots": 9,
-        "Hits": 1,
-        "Damage": 73
-      },
-      "Knife": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 18,
-        "Hits": 1,
-        "Damage": 25
-      },
-      "UMP": {
-        "Kills": 1,
-        "Deaths": 5,
-        "Shots": 26,
-        "Hits": 5,
-        "Damage": 100
-      },
-      "Scout": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 2,
-        "Hits": 1,
-        "Damage": 73
-      },
-      "Deagle": {
-        "Kills": 0,
-        "Deaths": 15,
-        "Shots": 4,
-        "Hits": 1,
-        "Damage": 27
-      },
-      "Incendiary": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 5,
-        "Hits": 10,
-        "Damage": 48
-      },
-      "Glock": {
-        "Kills": 3,
-        "Deaths": 3,
-        "Shots": 173,
-        "Hits": 42,
-        "Damage": 756
-      },
-      "Mac10": {
-        "Kills": 7,
-        "Deaths": 5,
-        "Shots": 286,
-        "Hits": 37,
-        "Damage": 574
-      },
-      "Scar20": {
-        "Kills": 2,
-        "Deaths": 9,
-        "Shots": 10,
-        "Hits": 4,
-        "Damage": 200
-      },
-      "CZ": {
-        "Kills": 0,
-        "Deaths": 6,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "P90": {
-        "Kills": 1,
-        "Deaths": 4,
-        "Shots": 2,
-        "Hits": 1,
-        "Damage": 59
-      },
-      "P250": {
-        "Kills": 8,
-        "Deaths": 4,
-        "Shots": 173,
-        "Hits": 29,
-        "Damage": 955
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 9,
-        "Hits": 2,
-        "Damage": 2
-      },
-      "M4A1": {
-        "Kills": 1,
-        "Deaths": 8,
-        "Shots": 50,
-        "Hits": 4,
-        "Damage": 234
-      },
-      "SawedOff": {
-        "Kills": 2,
-        "Deaths": 2,
-        "Shots": 12,
-        "Hits": 20,
-        "Damage": 320
-      },
-      "Negev": {
-        "Kills": 0,
-        "Deaths": 3,
-        "Shots": 341,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Famas": {
-        "Kills": 2,
-        "Deaths": 4,
-        "Shots": 32,
-        "Hits": 10,
-        "Damage": 194
-      },
-      "Gallil": {
-        "Kills": 2,
-        "Deaths": 2,
-        "Shots": 19,
-        "Hits": 8,
-        "Damage": 200
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Nova": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 2,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "M249": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "G3SG1": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Bizon": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Zeus": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "FiveSeven": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 3
   },
   {
     "UID": "76561198055445808",
@@ -3905,293 +5165,6 @@
     "TotalClutches": 3
   },
   {
-    "UID": "76561198137565812",
-    "Name": "✪ WAZZI",
-    "SteamID": 76561198137565812,
-    "Kills": 70,
-    "Deaths": 77,
-    "Assists": 17,
-    "TeamKills": 0,
-    "TradeKills": 10,
-    "TimesTraded": 9,
-    "FirstKills": 9,
-    "FirstDeaths": 13,
-    "Headshots": 31,
-    "Plants": 2,
-    "Defuses": 1,
-    "HealthDamage": 8209,
-    "ArmorDamage": 1266,
-    "Rounds": 112,
-    "RoundWins": 60,
-    "KASTRounds": 76,
-    "MVPRounds": 6,
-    "HltvRating": 0.88,
-    "Matches": [
-      "pug_de_train_2017-12-18_21",
-      "pug_de_cache_2017-12-18_22",
-      "pug_de_dust2_2018-01-05_20",
-      "pug_de_nuke_2018-01-11_21"
-    ],
-    "ClutchRounds": {
-      "1": 2,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 37,
-      "2": 15,
-      "3": 1,
-      "4": 0,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198393693567": 6,
-      "76561198271442417": 12,
-      "76561198071477737": 8,
-      "76561198001808454": 5,
-      "76561198072042202": 3,
-      "76561198100421553": 5,
-      "76561198055295222": 3,
-      "76561198148070517": 5,
-      "76561198256748178": 6,
-      "76561198038653688": 2,
-      "76561198081203263": 4,
-      "76561198257100849": 2,
-      "76561198192766006": 6,
-      "76561198117966816": 3
-    },
-    "WeaponStats": {
-      "Knife": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 374,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Glock": {
-        "Kills": 6,
-        "Deaths": 2,
-        "Shots": 130,
-        "Hits": 26,
-        "Damage": 615
-      },
-      "USP": {
-        "Kills": 1,
-        "Deaths": 4,
-        "Shots": 59,
-        "Hits": 12,
-        "Damage": 208
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 53,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Mac10": {
-        "Kills": 18,
-        "Deaths": 1,
-        "Shots": 584,
-        "Hits": 91,
-        "Damage": 2029
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 55,
-        "Hits": 15,
-        "Damage": 191
-      },
-      "M4A4": {
-        "Kills": 2,
-        "Deaths": 11,
-        "Shots": 163,
-        "Hits": 17,
-        "Damage": 364
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 38,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Tec9": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 23,
-        "Hits": 5,
-        "Damage": 74
-      },
-      "AWP": {
-        "Kills": 14,
-        "Deaths": 13,
-        "Shots": 86,
-        "Hits": 18,
-        "Damage": 1468
-      },
-      "AK47": {
-        "Kills": 5,
-        "Deaths": 32,
-        "Shots": 111,
-        "Hits": 20,
-        "Damage": 575
-      },
-      "M4A1": {
-        "Kills": 5,
-        "Deaths": 1,
-        "Shots": 89,
-        "Hits": 10,
-        "Damage": 363
-      },
-      "P250": {
-        "Kills": 2,
-        "Deaths": 1,
-        "Shots": 65,
-        "Hits": 10,
-        "Damage": 250
-      },
-      "Famas": {
-        "Kills": 4,
-        "Deaths": 2,
-        "Shots": 182,
-        "Hits": 22,
-        "Damage": 452
-      },
-      "MP9": {
-        "Kills": 4,
-        "Deaths": 2,
-        "Shots": 257,
-        "Hits": 28,
-        "Damage": 555
-      },
-      "FiveSeven": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 24,
-        "Hits": 7,
-        "Damage": 270
-      },
-      "MP7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Decoy": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 7,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "G3SG1": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Incendiary": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 7,
-        "Hits": 5,
-        "Damage": 40
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 3,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "DualBarettas": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 7,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "CZ": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 12,
-        "Hits": 3,
-        "Damage": 136
-      },
-      "Deagle": {
-        "Kills": 0,
-        "Deaths": 4,
-        "Shots": 17,
-        "Hits": 1,
-        "Damage": 24
-      },
-      "Gallil": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 7,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "UMP": {
-        "Kills": 4,
-        "Deaths": 0,
-        "Shots": 173,
-        "Hits": 15,
-        "Damage": 248
-      },
-      "Scout": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 7,
-        "Hits": 4,
-        "Damage": 241
-      },
-      "Nova": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 1,
-        "Hits": 2,
-        "Damage": 26
-      },
-      "XM1014": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 2,
-        "Hits": 1,
-        "Damage": 10
-      },
-      "Zeus": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 1,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "P90": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 10,
-        "Hits": 3,
-        "Damage": 100
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 2
-  },
-  {
     "UID": "76561198084911409",
     "Name": "Fenton",
     "SteamID": 76561198084911409,
@@ -5629,358 +6602,6 @@
     "TotalClutches": 0
   },
   {
-    "UID": "76561198071477737",
-    "Name": "Ken the Doll",
-    "SteamID": 76561198071477737,
-    "Kills": 181,
-    "Deaths": 294,
-    "Assists": 66,
-    "TeamKills": 3,
-    "TradeKills": 17,
-    "TimesTraded": 43,
-    "FirstKills": 41,
-    "FirstDeaths": 60,
-    "Headshots": 47,
-    "Plants": 24,
-    "Defuses": 5,
-    "HealthDamage": 22158,
-    "ArmorDamage": 3144,
-    "Rounds": 380,
-    "RoundWins": 195,
-    "KASTRounds": 227,
-    "MVPRounds": 18,
-    "HltvRating": 0.69,
-    "Matches": [
-      "pug_de_mirage_2017-08-07_22",
-      "pug_de_cache_2017-08-08_01",
-      "pug_de_overpass_2017-08-08_22",
-      "pug_de_cache_2017-08-19_00",
-      "pug_de_inferno_old_2017-12-16_23",
-      "pug_de_inferno_old_2017-12-17_22",
-      "pug_de_train_2017-12-18_21",
-      "pug_de_cache_2017-12-18_22",
-      "pug_de_mirage_2017-12-20_18",
-      "pug_de_mirage_2017-12-21_23",
-      "pug_de_train_2017-12-22_00",
-      "pug_cs_office_2017-12-23_22",
-      "pug_de_dust2_2017-12-23_23",
-      "pug_de_overpass_2017-12-25_22"
-    ],
-    "ClutchRounds": {
-      "1": 2,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 110,
-      "2": 27,
-      "3": 4,
-      "4": 2,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198001808454": 3,
-      "76561198092823903": 1,
-      "76561198117966816": 2,
-      "76561198079742537": 4,
-      "76561198081203263": 21,
-      "76561198148070517": 18,
-      "76561198104649119": 8,
-      "76561198256748178": 4,
-      "76561198072042202": 5,
-      "76561198084911409": 11,
-      "76561198271442417": 23,
-      "76561198235994884": 4,
-      "76561198030424730": 1,
-      "76561198055295222": 22,
-      "76561198083383351": 6,
-      "76561198038963123": 9,
-      "76561198010989621": 2,
-      "76561198118562612": 2,
-      "76561198393693567": 6,
-      "76561198100421553": 3,
-      "76561198137565812": 6,
-      "76561198257100849": 3,
-      "76561198037413384": 9,
-      "76561198132137627": 2,
-      "76561198192766006": 5,
-      "76561198020273020": 2,
-      "76561198042795726": 2
-    },
-    "WeaponStats": {
-      "Glock": {
-        "Kills": 4,
-        "Deaths": 11,
-        "Shots": 179,
-        "Hits": 42,
-        "Damage": 766
-      },
-      "USP": {
-        "Kills": 3,
-        "Deaths": 11,
-        "Shots": 130,
-        "Hits": 18,
-        "Damage": 479
-      },
-      "MP7": {
-        "Kills": 5,
-        "Deaths": 0,
-        "Shots": 159,
-        "Hits": 31,
-        "Damage": 638
-      },
-      "FiveSeven": {
-        "Kills": 3,
-        "Deaths": 4,
-        "Shots": 32,
-        "Hits": 8,
-        "Damage": 167
-      },
-      "Knife": {
-        "Kills": 2,
-        "Deaths": 2,
-        "Shots": 218,
-        "Hits": 6,
-        "Damage": 165
-      },
-      "AK47": {
-        "Kills": 28,
-        "Deaths": 87,
-        "Shots": 866,
-        "Hits": 102,
-        "Damage": 3452
-      },
-      "M4A4": {
-        "Kills": 24,
-        "Deaths": 41,
-        "Shots": 442,
-        "Hits": 93,
-        "Damage": 2357
-      },
-      "Tec9": {
-        "Kills": 2,
-        "Deaths": 2,
-        "Shots": 51,
-        "Hits": 11,
-        "Damage": 241
-      },
-      "MP9": {
-        "Kills": 0,
-        "Deaths": 6,
-        "Shots": 34,
-        "Hits": 4,
-        "Damage": 51
-      },
-      "AWP": {
-        "Kills": 8,
-        "Deaths": 37,
-        "Shots": 48,
-        "Hits": 8,
-        "Damage": 551
-      },
-      "Deagle": {
-        "Kills": 3,
-        "Deaths": 16,
-        "Shots": 29,
-        "Hits": 6,
-        "Damage": 394
-      },
-      "P90": {
-        "Kills": 24,
-        "Deaths": 5,
-        "Shots": 1223,
-        "Hits": 182,
-        "Damage": 3639
-      },
-      "G3SG1": {
-        "Kills": 8,
-        "Deaths": 0,
-        "Shots": 189,
-        "Hits": 15,
-        "Damage": 652
-      },
-      "M4A1": {
-        "Kills": 4,
-        "Deaths": 25,
-        "Shots": 70,
-        "Hits": 14,
-        "Damage": 338
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 3,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "P250": {
-        "Kills": 5,
-        "Deaths": 8,
-        "Shots": 149,
-        "Hits": 30,
-        "Damage": 814
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 39,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "XM1014": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 6,
-        "Hits": 10,
-        "Damage": 130
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 17,
-        "Hits": 9,
-        "Damage": 108
-      },
-      "Mac10": {
-        "Kills": 0,
-        "Deaths": 6,
-        "Shots": 42,
-        "Hits": 8,
-        "Damage": 110
-      },
-      "Revolver": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 10,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "SawedOff": {
-        "Kills": 5,
-        "Deaths": 0,
-        "Shots": 21,
-        "Hits": 29,
-        "Damage": 570
-      },
-      "UMP": {
-        "Kills": 0,
-        "Deaths": 10,
-        "Shots": 23,
-        "Hits": 2,
-        "Damage": 40
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 23,
-        "Hits": 3,
-        "Damage": 69
-      },
-      "Swag7": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Nova": {
-        "Kills": 2,
-        "Deaths": 1,
-        "Shots": 10,
-        "Hits": 16,
-        "Damage": 180
-      },
-      "Gallil": {
-        "Kills": 3,
-        "Deaths": 5,
-        "Shots": 35,
-        "Hits": 13,
-        "Damage": 300
-      },
-      "Incendiary": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 13,
-        "Hits": 6,
-        "Damage": 36
-      },
-      "Famas": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 46,
-        "Hits": 2,
-        "Damage": 70
-      },
-      "CZ": {
-        "Kills": 12,
-        "Deaths": 3,
-        "Shots": 220,
-        "Hits": 52,
-        "Damage": 1393
-      },
-      "SG556": {
-        "Kills": 8,
-        "Deaths": 0,
-        "Shots": 186,
-        "Hits": 39,
-        "Damage": 982
-      },
-      "Bizon": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 63,
-        "Hits": 9,
-        "Damage": 149
-      },
-      "Zeus": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 5,
-        "Hits": 3,
-        "Damage": 278
-      },
-      "Negev": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 712,
-        "Hits": 5,
-        "Damage": 140
-      },
-      "Scar20": {
-        "Kills": 26,
-        "Deaths": 2,
-        "Shots": 271,
-        "Hits": 53,
-        "Damage": 2720
-      },
-      "Molotov": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 8,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "M249": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 112,
-        "Hits": 9,
-        "Damage": 224
-      },
-      "Scout": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 3,
-        "Hits": 1,
-        "Damage": 52
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 2
-  },
-  {
     "UID": "76561198042795726",
     "Name": "♕ Luck ღ",
     "SteamID": 76561198042795726,
@@ -6300,257 +6921,6 @@
     },
     "FlashAssists": 0,
     "TotalClutches": 1
-  },
-  {
-    "UID": "76561198020273020",
-    "Name": "im down with browntown",
-    "SteamID": 76561198020273020,
-    "Kills": 29,
-    "Deaths": 38,
-    "Assists": 4,
-    "TeamKills": 0,
-    "TradeKills": 4,
-    "TimesTraded": 3,
-    "FirstKills": 2,
-    "FirstDeaths": 3,
-    "Headshots": 15,
-    "Plants": 3,
-    "Defuses": 0,
-    "HealthDamage": 3475,
-    "ArmorDamage": 437,
-    "Rounds": 46,
-    "RoundWins": 23,
-    "KASTRounds": 26,
-    "MVPRounds": 4,
-    "HltvRating": 0.81,
-    "Matches": [
-      "pug_cs_office_2017-12-23_22",
-      "pug_de_dust2_2017-12-23_23"
-    ],
-    "ClutchRounds": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    "MultiKillRounds": {
-      "1": 13,
-      "2": 5,
-      "3": 2,
-      "4": 0,
-      "5": 0
-    },
-    "KilledPlayers": {
-      "76561198001808454": 7,
-      "76561198071477737": 3,
-      "76561198393693567": 3,
-      "76561198072042202": 1,
-      "76561198042795726": 4,
-      "76561198271442417": 4,
-      "76561198148070517": 4,
-      "76561198055295222": 3
-    },
-    "WeaponStats": {
-      "Glock": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 25,
-        "Hits": 5,
-        "Damage": 116
-      },
-      "USP": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 17,
-        "Hits": 2,
-        "Damage": 116
-      },
-      "Knife": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 6,
-        "Hits": 1,
-        "Damage": 100
-      },
-      "Tec9": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 30,
-        "Hits": 3,
-        "Damage": 108
-      },
-      "M4A4": {
-        "Kills": 1,
-        "Deaths": 6,
-        "Shots": 61,
-        "Hits": 5,
-        "Damage": 210
-      },
-      "Smoke": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 19,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "HE": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 9,
-        "Hits": 8,
-        "Damage": 138
-      },
-      "SawedOff": {
-        "Kills": 3,
-        "Deaths": 0,
-        "Shots": 5,
-        "Hits": 12,
-        "Damage": 214
-      },
-      "CZ": {
-        "Kills": 0,
-        "Deaths": 6,
-        "Shots": 25,
-        "Hits": 3,
-        "Damage": 63
-      },
-      "XM1014": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Mac10": {
-        "Kills": 4,
-        "Deaths": 1,
-        "Shots": 131,
-        "Hits": 20,
-        "Damage": 489
-      },
-      "AWP": {
-        "Kills": 3,
-        "Deaths": 5,
-        "Shots": 16,
-        "Hits": 3,
-        "Damage": 162
-      },
-      "Incendiary": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 4,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Flash": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 17,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "AK47": {
-        "Kills": 7,
-        "Deaths": 9,
-        "Shots": 153,
-        "Hits": 23,
-        "Damage": 869
-      },
-      "Zeus": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 2,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Scar20": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Scout": {
-        "Kills": 1,
-        "Deaths": 1,
-        "Shots": 7,
-        "Hits": 2,
-        "Damage": 100
-      },
-      "SG556": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 8,
-        "Hits": 2,
-        "Damage": 56
-      },
-      "UMP": {
-        "Kills": 1,
-        "Deaths": 0,
-        "Shots": 20,
-        "Hits": 5,
-        "Damage": 100
-      },
-      "Deagle": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 14,
-        "Hits": 3,
-        "Damage": 132
-      },
-      "P90": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 71,
-        "Hits": 2,
-        "Damage": 25
-      },
-      "P2000": {
-        "Kills": 0,
-        "Deaths": 2,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "Bizon": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 104,
-        "Hits": 17,
-        "Damage": 263
-      },
-      "Decoy": {
-        "Kills": 0,
-        "Deaths": 0,
-        "Shots": 1,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "MP9": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 0,
-        "Hits": 0,
-        "Damage": 0
-      },
-      "G3SG1": {
-        "Kills": 2,
-        "Deaths": 0,
-        "Shots": 68,
-        "Hits": 6,
-        "Damage": 258
-      },
-      "Gallil": {
-        "Kills": 0,
-        "Deaths": 1,
-        "Shots": 10,
-        "Hits": 0,
-        "Damage": 0
-      }
-    },
-    "FlashAssists": 0,
-    "TotalClutches": 0
   },
   {
     "UID": "76561198132137627",
