@@ -61,9 +61,9 @@ title: Leaderboards
 </tr>
 <tr>
     <th style="text-align: center">MVPs</th>
-    <td style="text-align: center">{% include award.html Field="MVPs"%}</td>
-    <td style="text-align: center" class="CellWithComment">{% include award.html Field="MVPs" DivideByField="Rounds" ValueAppend="%"%}<span class="CellComment">Round %</span></td>
-    <td style="text-align: center">{% include award.html Field="MVPs" DivideByField="matches" %}</td>
+    <td style="text-align: center">{% include award.html Field="MVPRounds"%}</td>
+    <td style="text-align: center" class="CellWithComment">{% include award.html Field="MVPRounds" DivideByField="Rounds" ValueAppend="%"%}<span class="CellComment">Round %</span></td>
+    <td style="text-align: center">{% include award.html Field="MVPRounds" DivideByField="matches" %}</td>
 </tr>
 <tr>
     <th style="text-align: center">Team Kills</th>
