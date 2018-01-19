@@ -1,520 +1,171 @@
 ---
-layout: default
+layout: default_new
 type: Player
 ---
 <style>
-.playerCardContainer {
-  position: relative;
-  width: 590px;
-  margin-bottom: 140px;
-}
-.playerCardContainer img {
-  position: absolute;
-  top: 0px;
-  left: 110px;
-  z-index: 101;
-  border-radius: 8px;
-  border: 2px solid black;
-}
 
-#playerName {
-  font-size: 64px;
-  display: table-cell;
-  vertical-align: middle;
-  white-space: nowrap;
-  padding-left: 10px;
+#overview, #matches, #stats, #weapons, #clutches {
   display: none;
 }
 
-#playerNameDiv {
-  display: table-cell;
-  vertical-align: middle;
-  white-space: nowrap;
+.container {
+  width: 85%;
 }
 
-#playerBackground{
+.card {
+  height: 120px !important;
   border-radius: 8px;
-  position: absolute;
-  width:480px;
-  height:110px;
-  top: 5px;
-  left: 200px;
-  background:white;
-  display: table;
-  table-layout:fixed;
-  white-space: nowrap;
+  border: 1px solid black;
 }
 
-td {
-  width: 50%;
+.card-image {
+  min-width: 120px;
+}
+
+.card-content {
+  width: 100%;
+  max-height: 100% !important;
+  font-size: 200%;
+}
+.card-image img {
+  min-width: 120px;
+  border-radius: 7px 0 0 7px !important;
 }
 </style>
-<div class="playerCardContainer" align="center">
-  <div id="playerBackground"><div id="playerNameDiv" align="center"><font id="playerName">{{page.Name}}</font></div></div>
-  <img src="{{site.data.playerAvatars[page.UID]}}" class="playerAvatar" width="118" height="118"/>
-</div>
-<button class="accordion">Matches ({{ page.Matches | size }})</button>
-<div class="panel">
-    <ul>
-      {% for match in page.Matches %}
-        <li><a href="/matches/{{match}}">{{match}}</a>
-      {% endfor %}
+
+{% assign Kills = page.Kills | times: 1.0 %}
+{% assign Rounds = page.Rounds | times: 1.0 %}
+{% assign KDRatio = Kills | divided_by: page.Deaths | round: 2 %}
+{% assign TDamage = page.HealthDamage | plus: page.ArmorDamage %}
+
+{% if page.Rounds == 0 %}
+  {% assign ADR = 0 %}
+  {% assign KPR = 0 %}
+  {% assign APR = 0 %}
+  {% assign DPR = 0 %}
+{% else %}
+  {% assign ADR = TDamage | divided_by: Rounds | round: 2 %}
+  {% assign KPR = page.Kills | divided_by: Rounds | round: 2 %}
+  {% assign APR = page.Assists | divided_by: Rounds | round: 2 %}
+  {% assign DPR = page.Deaths | divided_by: Rounds | round: 2 %}
+{% endif %}
+
+{% if page.Kills == 0 %}
+  {% assign HSPercentage = 0 %}
+{% else %}
+  {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
+{% endif %}
+
+<script src="/assets/js/bigtext.js"></script>
+<div class="container">
+<div class="row">
+  <div class="col s12 m8 offset-m2 l6 offset-l3">
+    <div class="card hoverable horizontal small">
+      <div class="card-image">
+        <img src="{{site.data.playerAvatars[page.UID]}}" class="playerImage">
+      </div>
+      <div class="card-content">
+        <p class="center-align" id="playerName">{{page.Name}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <ul class="tabs">
+      <li class="tab col s3"><a href="#overview">Overview</a></li>
+      <li class="tab col s2"><a href="#matches">Matches</a></li>
+      <li class="tab col s2"><a href="#stats">Statistics</a></li>
+      <li class="tab col s3"><a href="#weapons">Weapon Charts</a></li>
+      <li class="tab col"><a href="#clutches">Clutches</a></li>
     </ul>
-</div>
-<br>
-<button class="accordion">Weapon Charts</button>
-<div class="panel" align="left">
-  <div id="chartContainer" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer2" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer3" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer4" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer5" style="height: 410px; width: 100%;"></div>
-  <br>
-  <div id="chartContainer6" style="height: 410px; width: 100%;"></div>
-</div>
-<br>
-<table style="float: left" id="table_{{page.SteamID}}_1" class="halfTable">
-    <tr>
-      <th style="text-align: center">Rounds Played</th>
-      <td markdown="span" style="text-align: center">{{page.Rounds | default: 0 | round: 0 }}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Kills</th>
-      <!-- Kills -->				
-      <td markdown="span" style="text-align: center">{{page.Kills | default: 0 | round: 0 }}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Assists</th>
-      <!-- Assists -->
-      <td markdown="span" style="text-align: center">{{page.Assists | default: 0 }}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Deaths</th>
-      <!-- Deaths -->
-      <td markdown="span" style="text-align: center">{{page.Deaths | default: 0 }}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">KAST %</th>
-      <!-- KAST % -->
-      {% if page.Rounds == 0 %}
-        {% assign KASTPercentage = 0 %}
-      {% else %}
-        {% assign Rounds = page.Rounds | times: 1.0 %}
-        {% assign KASTPercentage = page.KASTRounds | divided_by: Rounds | times: 100 | round: 2 %}
-      {% endif %}
-      <td markdown="span" style="text-align: center">{{KASTPercentage}}%</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">ADR</th>
-      <!-- ADR -->
-      {% if page.Rounds == 0 %}
-        {% assign ADR = 0 %}
-      {% else %}
-        {% assign ADR = page.HealthDamage | plus: page.ArmorDamage | divided_by: page.Rounds | round: 2 %}
-      {% endif %}
-      <td markdown="span" style="text-align: center">{{ADR}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">KD Diff</th>
-      <!-- K/D Diff -->
-      {% assign kdDiff = page.Kills | minus: page.Deaths %}
-      {% if kdDiff > 0 %}
-        {% assign kdDiffClass = "kdDiffPositive" %}
-        {% assign kdSign = "+" %}
-      {% elsif kdDiff < 0 %}
-        {% assign kdDiffClass = "kdDiffNegative" %}
-        {% assign kdSign = "" %}
-      {% else %}
-        {% assign kdDiffClass = "kdDiffNone" %}
-        {% assign kdSign = "" %}
-      {% endif %}
-      <td markdown="span" style="text-align: center" class={{kdDiffClass}}>{{kdSign}}{{kdDiff | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Headshot %</th>
-      <!-- Headshots % -->
-      {% if page.Kills == 0 %}
-        {% assign HSPercentage = 0 %}
-      {% else %}
-        {% assign Kills = page.Kills | times: 1.0 %}
-        {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
-      {% endif %}
-      <td markdown="span" style="text-align: center">{{HSPercentage}}%</td>
-    </tr>
-</table>
-<table id="table_{{SteamID}}_2" class="halfTable">
-    <tr>
-      <th style="text-align: center">HLTV Rating</th>
-      <td markdown="span" style="text-align: center">{{page.HltvRating | default :0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Plants</th>
-      <!-- Plants -->
-      <td markdown="span" style="text-align: center">{{page.Plants | default :0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Defuses</th>
-      <!-- Defuses -->
-      <td markdown="span" style="text-align: center">{{page.Defuses | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">MVPs</th>
-      <!-- MVPs -->
-      <td markdown="span" style="text-align: center">{{page.MVPRounds | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Team Kills</th>
-      <!-- TKs -->
-      <td markdown="span" style="text-align: center">{{page.TeamKills | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">Damage Dealt</th>
-      <!-- Damage Dealt -->
-      <td markdown="span" style="text-align: center">{{page.HealthDamage | plus: page.ArmorDamage | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">First Kills</th>
-      <!-- First Kills -->
-      <td markdown="span" style="text-align: center">{{page.FirstKills | default: 0}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">First Deaths</th>
-      <!-- First Deaths -->
-      <td markdown="span" style="text-align: center">{{page.FirstDeaths | default: 0}}</td>
-    </tr>
-</table>
-<table style="float: left" id="table_{{SteamID}}_3" class="halfTable">
-    <tr>
-      <th style="text-align: center">1K Rounds</th>
-      <!-- 1Ks -->
-      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["1"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">2K Rounds</th>
-      <!-- 2Ks -->
-      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["2"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">3K Rounds</th>
-      <!-- 3Ks -->
-      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["3"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">4K Rounds</th>
-      <!-- 4Ks -->
-      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["4"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">5K Rounds</th>
-      <!-- 5Ks -->
-      <td markdown="span" style="text-align: center">{{page.MultiKillRounds["5"] | default:"0"}}</td>
-    </tr>
-</table>
-<table id="table_{{SteamID}}_4" class="halfTable">
-    <tr>
-      <th style="text-align: center">1v1 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.ClutchRounds["1"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">1v2 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.ClutchRounds["2"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">1v3 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.ClutchRounds["3"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">1v4 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.ClutchRounds["4"] | default:"0"}}</td>
-    </tr>
-    <tr>
-      <th style="text-align: center">1v5 Clutches</th>
-      <td markdown="span" style="text-align: center">{{page.ClutchRounds["5"] | default:"0"}}</td>
-    </tr>
-</table>           
-<button class="accordion">Kill Matrix</button>
-<div class="panel" align="left">
-  {% assign length = site.data.players | size | minus: 1 %}
-  {% assign halfLen = length | divided_by: 2 | ceil %}
-  {% assign leftLen = length | minus: halfLen %}
-  <table id="matrix" class="row-border hover order-column">
-    <thead>
-      <tr class="header" id="ignoreglobal">
-        <th style="text-align: center">Name</th>
-        <th style="text-align: center">Killed:KilledBy</th>
+  </div>
+  <!-- Overview -->
+  <div id="overview" class="col s12">
+    <table class="col s4 offset-s1 responsive-table bordered">
+      <tr>
+        <th>Kills:</th>
+        <td class="right-align">{{page.Kills}}</td>
       </tr>
-    </thead>
-    <tbody>
-        {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
-        {% assign found = false %}
-        {% for player in sortedPlayers %}
-        {% assign steamid = player.SteamID | downcase %}
-        {% assign myid = page.SteamID | downcase %}
-        {% if page.KilledPlayers[steamid] != null and player.KilledPlayers[myid] != null %}
-          {% assign found = true %}
-        {% endif %}
-        {% unless player.SteamID == page.SteamID or found == false %}
-        {% assign found = false %}
-        <tr id="ignoreglobal">
-          <td class="row" style="text-align: center"><a href="/players/{{player.UID}}">{{player.Name}}</a></td>
-            <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
-        </tr>
-        {% endunless %}
-        {% endfor %}
-    </tbody>
-  </table>
+      <tr>
+        <th>Deaths:</th>
+        <td class="right-align">{{page.Deaths}}</td>
+      </tr>
+      <tr>
+        <th>Headshot %:</th>
+        <td class="right-align">{{HSPercentage}}</td>
+      </tr>
+      <tr>
+        <th>K/D:</th>
+        <td class="right-align">{{KDRatio}}</td>
+      </tr>
+      <tr>
+        <th>Damage:</th>
+        <td class="right-align">{{TDamage}}</td>
+      </tr>
+      <tr>
+        <th>Matches:</th>
+        <td class="right-align">{{page.Matches | size}}</td>
+      </tr>
+      <tr>
+        <th>Rounds:</th>
+        <td class="right-align">{{page.Rounds}}</td>
+      </tr>
+    </table>
+    <div class="col s2"></div>
+    <table class="col s4 responsive-table bordered">
+      <tr>
+        <th>Hltv Rating:</th>
+        <td class="right-align">{{page.HltvRating}}</td>
+      </tr>
+      <tr>
+        <th>Kills/Round:</th>
+        <td class="right-align">{{KPR}}</td>
+      </tr>
+      <tr>
+        <th>Assists/Round:</th>
+        <td class="right-align">{{APR}}</td>
+      </tr>
+      <tr>
+        <th>Deaths/Round:</th>
+        <td class="right-align">{{DPR}}</td>
+      </tr>
+      <tr>
+       <th>Damage/Round:</th>
+        <td class="right-align">{{ADR}}</td>
+      </tr>
+      <tr>
+        <th>Trade Kills:</th>
+        <td class="right-align">{{page.TradeKills}}</td>
+      </tr>
+      <tr>
+        <th>Trade Deaths:</th>
+        <td class="right-align">{{page.TimesTraded}}</td>
+      </tr>
+    </table>
+  </div>
+  <!-- Matches -->
+  <div id="matches" class="col s12">
+  </div>
+  <!-- Statistics -->
+  <div id="stats" class="col s12">
+  </div>
+  <!-- Weapons -->
+  <div id="weapons" class="col s12">
+  </div>
+  <!-- Clutches -->
+  <div id="clutches" class="col s12">
+  </div>
 </div>
-<br>
-
 <script>
-$(document).ready(function() {
-  var table = $('#matrix').DataTable(
-    {
-      "paging":   false,
-      "ordering": false,
-      "info":     false,
-      "searching": false
-    }
-  );
-  
-  $('#matrix tbody')
-      .on( 'mouseenter', 'td', function () {
-          var rowIdx = table.cell(this).index().row;
+$(document).ready(function()
+{
+  var id = $('.tab > .active').attr('href');
 
-          $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
-      } ).on('mouseleave', 'td', function () {
-          $( table.rows().nodes() ).removeClass( 'highlight' );
-      });
-
-  while($("#playerBackground").find("font").width() > $("#playerBackground").width() - 60) {
-      var currentFontSize = parseInt($("#playerBackground").find("font").css("font-size"));
-      if (currentFontSize == 0 || currentFontSize == "0") break;
-      $("#playerBackground").find("font").css("font-size",currentFontSize-1); 
-  }
-
-  $("#playerBackground").find("font").css("display", "initial");
-} );
-</script>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script>
-var names = {{site.data.strings.demoweapons | jsonify}};
-
-function compare(a, b) {
-  if (a.y < b.y)
-    return 1;
-  else if (a.y > b.y)
-    return -1;
-
-  return 0;
-}
-
-window.onload = function () {
-  var wData = {{page.WeaponStats | jsonify}};
-  var oKills = 0;
-  var oDeaths = 0;
-  var cutoff = 0.02;
-  var weaponLineTitles = [ "Kills", "Deaths", "Accuracy" ];
-  var rifles = [ "AK47", "M4A4", "M4A1", "AWP", "Scout", "Gallil", "Famas", "SG556", "AUG" ];
-  var pistols = [ "Glock", "USP", "P2000", "Deagle", "P250", "CZ", "FiveSeven", "Tec9", "DualBarettas", "Revolver" ];
-  var smgs = [ "Mac10", "UMP", "MP9", "MP7", "P90", "Bizon" ];
-  var heavys = [ "Swag7", "SawedOff", "Nova", "XM1014", "Negev", "M249" ];
-  var nades = [ "Flash", "Smoke", "Decoy", "HE", "Molotov", "Incendiary" ];
-  var misc = [ "Zeus", "Knife", "World" ];
-  var rifleData = [ [], [], [] ];
-  var pistolData = [ [], [], [] ];
-  var smgData = [ [], [], [] ];
-  var heavyData = [ [], [], [] ];
-  var nadeData = [ [], [], [] ];
-  var miscData = [ [], [], [] ];
-
-  for (i = 0; i < rifles.length; i++)
-  {
-    if (wData.hasOwnProperty(rifles[i]))
-      addWeaponDataPoint(rifleData, wData[rifles[i]], rifles[i]);
-    else
-      addWeaponDataPoint(rifleData, null, rifles[i]);
-  }
-
-  var autoHits = 0, autoShots = 0, autoKills = 0, autoDeaths = 0;
-
-  if (wData.hasOwnProperty("Scar20"))
-  {
-    autoKills += wData["Scar20"].Kills;
-    autoDeaths += wData["Scar20"].Deaths;
-    autoShots += wData["Scar20"].Shots;
-    autoHits += wData["Scar20"].Hits;
-  }
-
-  if (wData.hasOwnProperty("G3SG1"))
-  {
-    autoKills += wData["G3SG1"].Kills;
-    autoDeaths += wData["G3SG1"].Deaths;
-    autoShots += wData["G3SG1"].Shots;
-    autoHits += wData["G3SG1"].Hits;
-  }
-
-  if (autoShots > 0)
-    addWeaponDataPointEx(rifleData, autoKills, autoDeaths, Number(((autoHits / autoShots) * 100).toFixed(2)), "Autos");
+  if (id)
+    $(id).show();
   else
-    addWeaponDataPointEx(rifleData, autoKills, autoDeaths, 0, "Autos");
+    $('.tab:first').addClass('active');
 
-  for (i = 0; i < pistols.length; i++)
-  {
-    if (wData.hasOwnProperty(pistols[i]))
-      addWeaponDataPoint(pistolData, wData[pistols[i]], pistols[i]);
-    else
-      addWeaponDataPoint(pistolData, null, pistols[i]);
-  }
-
-  for (i = 0; i < smgs.length; i++)
-  {
-    if (wData.hasOwnProperty(smgs[i]))
-      addWeaponDataPoint(smgData, wData[smgs[i]], smgs[i]);
-    else
-      addWeaponDataPoint(smgData, null, smgs[i]);
-  }
-
-  for (i = 0; i < heavys.length; i++)
-  {
-    if (wData.hasOwnProperty(heavys[i]))
-      addWeaponDataPoint(heavyData, wData[heavys[i]], heavys[i]);
-    else
-      addWeaponDataPoint(heavyData, null, heavys[i]);
-  }
-
-  for (i = 0; i < misc.length; i++)
-  {
-    if (misc[i] == "World")
-      addWeaponDataPointEx(miscData, -1, 0, -1, names[misc[i]]);
-    else if (wData.hasOwnProperty(misc[i]))
-      addWeaponDataPointEx(miscData, wData[misc[i]].Kills, wData[misc[i]].Deaths, -1, names[misc[i]]);
-    else
-      addWeaponDataPointEx(miscData, 0, 0, -1, names[misc[i]]);
-  }
-
-  for (i = 0; i < nades.length; i++)
-  {
-    if (wData.hasOwnProperty(nades[i]))
-      addNadeDataPoint(nadeData, wData[nades[i]], nades[i]);
-    else
-      addNadeDataPoint(nadeData, null, nades[i]);
-  }
-
-  generateChart("chartContainer", rifleData, "Rifles", weaponLineTitles);   
-  generateChart("chartContainer2", pistolData, "Pistols", weaponLineTitles);   
-  generateChart("chartContainer3", smgData, "SMGs", weaponLineTitles);   
-  generateChart("chartContainer4", heavyData, "Heavys", weaponLineTitles);   
-  generateChart("chartContainer5", nadeData, "Nades", [ "Throws", "Hits or Impacts", "Damage / Throw" ]);   
-  generateChart("chartContainer6", miscData, "Misc", weaponLineTitles);   
-}
-
-function addWeaponDataPointEx(data, num1, num2, num3, lblText)
-{
-  if (num1 != -1)
-    data[0].push({y: num1, label: lblText });
-
-  if (num2 != -1)
-    data[1].push({y: num2, label: lblText });
-
-  if (num3 != -1)
-    data[2].push({y: num3, label: lblText });
-}
-
-function addWeaponDataPoint(data, weapon, key)
-{
-  var lblText = names[key];
-
-  if (weapon == null)
-    addWeaponDataPointEx(data, 0, 0, 0, lblText);
-  else
-  {
-    if (weapon.Shots > 0)
-       addWeaponDataPointEx(data, weapon.Kills, weapon.Deaths, Number(((weapon.Hits / weapon.Shots) * 100).toFixed(2)), lblText);
-    else
-      addWeaponDataPointEx(data, weapon.Kills, weapon.Deaths, 0, lblText);
-  }
-}
-
-function addNadeDataPoint(data, nade, key)
-{
-  var lblText = names[key];
-
-  if (nade == null)
-    addWeaponDataPointEx(data, 0, 0, 0, lblText);
-  else
-  {
-    if (nade.Shots > 0)
-       addWeaponDataPointEx(data, nade.Shots, nade.Hits, Number((nade.Damage /nade.Shots).toFixed(2)), lblText);
-    else
-      addWeaponDataPointEx(data, nade.Shots, nade.Hits, -1, lblText);
-  }
-}
-
-function generateChart(container, data, title, lineTitles)
-{
-  var chart = new CanvasJS.Chart(container, {
-    animationEnabled: true,
-    theme: "light2",
-    title:{
-      text: title
-    },
-    axisY: {
-      crosshair: {
-        enabled: true
-      }
-    },
-    axisX: {
-      crosshair: {
-        enabled: true
-      }
-    },
-    toolTip:{
-      shared:true
-    },  
-    legend:{
-      cursor:"pointer",
-      verticalAlign: "bottom",
-      horizontalAlign: "left",
-      dockInsidePlotArea: false,
-      itemclick: toogleDataSeries
-    },
-    data: [{
-      type: "line",
-      showInLegend: true,
-      name: lineTitles[0],
-      color: "#08a500",
-      dataPoints: data[0]
-    },
-    {
-      type: "line",
-      showInLegend: true,
-      name: lineTitles[1],
-      color: "#e40a0a",
-      dataPoints: data[1]
-    },
-    {
-      type: "line",
-      showInLegend: true,
-      name: lineTitles[2],
-      lineDashType: "dash",
-      color: "#4286f4",
-      dataPoints: data[2]
-    }]
-  });
-  chart.render();
-
-  function toogleDataSeries(e){
-    if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-      e.dataSeries.visible = false;
-    } else{
-      e.dataSeries.visible = true;
-    }
-    chart.render();
-  }
-}
-
+  // fix font width
+  console.log($(".card").width() + " " + $(".card-content").width());
+});
 </script>
