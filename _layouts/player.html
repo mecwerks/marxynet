@@ -2,6 +2,7 @@
 layout: default_new
 type: Player
 ---
+<script src="/assets/js/Chart.bundle.js"></script>
 <style>
 
 #overview, #matches, #stats, #weapons, #clutches {
@@ -57,6 +58,11 @@ table.highlight>tbody>tr:hover {
   font-size: 12px;
   font-weight: bold;
 }
+
+canvas {
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
 </style>
 
 {% assign Kills = page.Kills | times: 1.0 %}
@@ -95,7 +101,7 @@ table.highlight>tbody>tr:hover {
       <li class="tab col s3"><a href="#overview">Overview</a></li>
       <li class="tab col s2"><a href="#matches">Matches</a></li>
       <li class="tab col s2"><a href="#stats">Statistics</a></li>
-      <li class="tab col s3"><a href="#weapons">Weapon Charts</a></li>
+      <li class="tab col s3"><a href="#weapons" onclick="drawCharts()">Weapon Charts</a></li>
       <li class="tab col"><a href="#clutches">Clutches</a></li>
     </ul>
   </div>
@@ -157,7 +163,7 @@ table.highlight>tbody>tr:hover {
         <td class="right-align">{{page.TradeKills}}</td>
       </tr>
       <tr>
-        <th>Trade Deaths:</th>
+        <th>Times Traded:</th>
         <td class="right-align">{{page.TimesTraded}}</td>
       </tr>
     </table>
@@ -206,12 +212,181 @@ table.highlight>tbody>tr:hover {
   </div>
   <!-- Statistics -->
   <div id="stats" class="col s12 tabContent">
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot1">
+      <tr>
+        <th>Kills:</th>
+        <td class="right-align">{{page.Kills}}</td>
+      </tr>
+      <tr>
+        <th>Assits:</th>
+        <td class="right-align">{{page.Assists}}</td>
+      </tr>
+      <tr>
+        <th>Deaths:</th>
+        <td class="right-align">{{page.Deaths}}</td>
+      </tr>
+      <tr>
+        <th>Headshots:</th>
+        <td class="right-align">{{page.Headshots}}</td>
+      </tr>
+      <tr>
+        <th>Team Kills:</th>
+        <td class="right-align">{{page.TeamKills}}</td>
+      </tr>
+      <tr>
+        <th>Trade Kills:</th>
+        <td class="right-align">{{page.TradeKills}}</td>
+      </tr>
+      <tr>
+        <th>Times Traded:</th>
+        <td class="right-align">{{page.TimesTraded}}</td>
+      </tr>
+      <tr>
+        <th>First Kills:</th>
+        <td class="right-align">{{page.FirstKills}}</td>
+      </tr>
+      <tr>
+        <th>First Deaths:</th>
+        <td class="right-align">{{page.FirstDeaths}}</td>
+      </tr>
+    </table>
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
+      <tr>
+        <th>Hltv Rating:</th>
+        <td class="right-align">{{page.HltvRating}}</td>
+      </tr>
+      <tr>
+        <th>Plants:</th>
+        <td class="right-align">{{page.Plants}}</td>
+      </tr>
+      <tr>
+        <th>Defuses:</th>
+        <td class="right-align">{{page.Defuses}}</td>
+      </tr>
+      <tr>
+        <th>Health Damage:</th>
+        <td class="right-align">{{page.HealthDamage}}</td>
+      </tr>
+      <tr>
+        <th>Armor Damage:</th>
+        <td class="right-align">{{page.ArmorDamage}}</td>
+      </tr>
+      <tr>
+        <th>Rounds Played:</th>
+        <td class="right-align">{{page.Rounds}}</td>
+      </tr>
+      <tr>
+        <th>Rounds Won:</th>
+        <td class="right-align">{{page.RoundWins}}</td>
+      </tr>
+      <tr>
+        <th>KAST Rounds:</th>
+        <td class="right-align">{{page.KASTRounds}}</td>
+      </tr>
+      <tr>
+        <th>MVPs:</th>
+        <td class="right-align">{{page.MVPRounds}}</td>
+      </tr>
+    </table>
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot1">
+      <tr>
+        <th>1Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["1"]}}</td>
+      </tr>
+      <tr>
+        <th>2Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["2"]}}</td>
+      </tr>
+      <tr>
+        <th>3Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["3"]}}</td>
+      </tr>
+      <tr>
+        <th>4Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["4"]}}</td>
+      </tr>
+      <tr>
+        <th>5Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["5"]}}</td>
+      </tr>
+      <tr>
+        <th>Total Kill Rounds:</th>
+        <td class="right-align">{{page.MultiKillRounds["1"] | plus: page.MultiKillRounds["2"] | plus: page.MultiKillRounds["3"] | plus: page.MultiKillRounds["4"] | plus: page.MultiKillRounds["5"]}}</td>
+      </tr>
+    </table>
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
+      <tr>
+        <th>1v1 Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["1"]}}</td>
+      </tr>
+      <tr>
+        <th>1v2 Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["2"]}}</td>
+      </tr>
+      <tr>
+        <th>1v3 Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["3"]}}</td>
+      </tr>
+      <tr>
+        <th>1v4 Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["4"]}}</td>
+      </tr>
+      <tr>
+        <th>1v5 Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["5"]}}</td>
+      </tr>
+      <tr>
+        <th>Total Clutches:</th>
+        <td class="right-align">{{page.ClutchRounds["1"] | plus: page.ClutchRounds["2"] | plus: page.ClutchRounds["3"] | plus: page.ClutchRounds["4"] | plus: page.ClutchRounds["5"]}}</td>
+      </tr>
+    </table>
+    {% assign length = site.data.players | size | minus: 1 %}
+    {% assign halfLen = length | divided_by: 2 | ceil %}
+    {% assign leftLen = length | minus: halfLen %}
+    <table id="matrix" class="col s12 bordered highlight grey lighten-3 black-text text-darken-2">
+      <thead>
+        <tr class="header" id="ignoreglobal">
+          <th style="text-align: center">Name</th>
+          <th style="text-align: center">Killed:KilledBy</th>
+        </tr>
+      </thead>
+      <tbody>
+          {% assign sortedPlayers = site.data.players | sort_natural: 'Name' %}
+          {% assign found = false %}
+          {% for player in sortedPlayers %}
+          {% assign steamid = player.SteamID | downcase %}
+          {% assign myid = page.SteamID | downcase %}
+          {% if page.KilledPlayers[steamid] != null and player.KilledPlayers[myid] != null %}
+            {% assign found = true %}
+          {% endif %}
+          {% unless player.SteamID == page.SteamID or found == false %}
+          {% assign found = false %}
+          <tr id="ignoreglobal">
+            <td class="row" style="text-align: center"><a href="/players/{{player.UID}}">{{player.Name}}</a></td>
+              <td style="text-align: center">{{page.KilledPlayers[steamid] | default: 0}} : {{player.KilledPlayers[myid] | default: 0}}</td>
+          </tr>
+          {% endunless %}
+          {% endfor %}
+      </tbody>
+    </table>
   </div>
   <!-- Weapons -->
   <div id="weapons" class="col s12 tabContent">
+    <div class="grey lighten-3 black-text text-darken-2">
+      <br>
+      <canvas id="rifleChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+      <canvas id="pistolChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+      <canvas id="smgChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+      <canvas id="heavyChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+      <canvas id="nadeChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+      <canvas id="miscChart" class="hoverable" style="width: 90%;height: 350px;"></canvas>
+    </div>
   </div>
   <!-- Clutches -->
   <div id="clutches" class="col s12 tabContent">
+    <div style="height: 900px;" align="center">
+      <h1 style="font-size:46px;">WIP</h1>
+    </div>
   </div>
 </div>
 <script>
@@ -220,8 +395,236 @@ $(document).ready(function()
   var id = $('.tab > .active').attr('href');
 
   if (id)
+  {
     $(id).show();
+
+    if (id == "#weapons")
+      drawCharts();
+  }
   else
     $('.tab:first').addClass('active');
 });
+
+var names = {{site.data.strings.demoweapons | jsonify}};
+var chartsLoaded = false;
+
+function drawCharts()
+{
+  if (chartsLoaded)
+    return;
+
+  console.log("Test");
+
+  chartsLoaded = true;
+
+  var wData = {{page.WeaponStats | jsonify}};
+  var oKills = 0;
+  var oDeaths = 0;
+  var cutoff = 0.02;
+  var weaponLineTitles = [ "Kills", "Deaths", "Accuracy" ];
+  var rifles = [ "AK47", "M4A4", "M4A1", "AWP", "Scout", "Gallil", "Famas", "SG556", "AUG" ];
+  var pistols = [ "Glock", "USP", "P2000", "Deagle", "P250", "CZ", "FiveSeven", "Tec9", "DualBarettas", "Revolver" ];
+  var smgs = [ "Mac10", "UMP", "MP9", "MP7", "P90", "Bizon" ];
+  var heavys = [ "Swag7", "SawedOff", "Nova", "XM1014", "Negev", "M249" ];
+  var nades = [ "Flash", "Smoke", "Decoy", "HE", "Molotov", "Incendiary" ];
+  var misc = [ "Zeus", "Knife", "World" ];
+  var rifleData = [ ["NaN"], ["NaN"], ["NaN"] ];
+  var pistolData = [ ["NaN"], ["NaN"], ["NaN"] ];
+  var smgData = [ ["NaN"], ["NaN"], ["NaN"] ];
+  var heavyData = [ ["NaN"], ["NaN"], ["NaN"] ];
+  var nadeData = [ ["NaN"], ["NaN"], ["NaN"] ];
+  var miscData = [ ["NaN"], ["NaN"], ["NaN"] ];
+
+  for (i = 0; i < rifles.length; i++)
+  {
+    if (wData.hasOwnProperty(rifles[i]))
+      addWeaponDataPoint(rifleData, wData[rifles[i]], rifles[i]);
+    else
+      addWeaponDataPoint(rifleData, null, rifles[i]);
+  }
+
+  var autoHits = 0, autoShots = 0, autoKills = 0, autoDeaths = 0;
+
+  if (wData.hasOwnProperty("Scar20"))
+  {
+    autoKills += wData["Scar20"].Kills;
+    autoDeaths += wData["Scar20"].Deaths;
+    autoShots += wData["Scar20"].Shots;
+    autoHits += wData["Scar20"].Hits;
+  }
+
+  if (wData.hasOwnProperty("G3SG1"))
+  {
+    autoKills += wData["G3SG1"].Kills;
+    autoDeaths += wData["G3SG1"].Deaths;
+    autoShots += wData["G3SG1"].Shots;
+    autoHits += wData["G3SG1"].Hits;
+  }
+
+  if (autoShots > 0)
+    addWeaponDataPointEx(rifleData, autoKills, autoDeaths, Number(((autoHits / autoShots) * 100).toFixed(2)), "Autos");
+  else
+    addWeaponDataPointEx(rifleData, autoKills, autoDeaths, 0, "Autos");
+
+  rifles.push("Autos");
+
+  for (i = 0; i < pistols.length; i++)
+  {
+    if (wData.hasOwnProperty(pistols[i]))
+      addWeaponDataPoint(pistolData, wData[pistols[i]], pistols[i]);
+    else
+      addWeaponDataPoint(pistolData, null, pistols[i]);
+  }
+
+  for (i = 0; i < smgs.length; i++)
+  {
+    if (wData.hasOwnProperty(smgs[i]))
+      addWeaponDataPoint(smgData, wData[smgs[i]], smgs[i]);
+    else
+      addWeaponDataPoint(smgData, null, smgs[i]);
+  }
+
+  for (i = 0; i < heavys.length; i++)
+  {
+    if (wData.hasOwnProperty(heavys[i]))
+      addWeaponDataPoint(heavyData, wData[heavys[i]], heavys[i]);
+    else
+      addWeaponDataPoint(heavyData, null, heavys[i]);
+  }
+
+  for (i = 0; i < misc.length; i++)
+  {
+    if (misc[i] == "World")
+      addWeaponDataPointEx(miscData, "NaN", 0, "NaN", names[misc[i]]);
+    else if (wData.hasOwnProperty(misc[i]))
+      addWeaponDataPointEx(miscData, wData[misc[i]].Kills, wData[misc[i]].Deaths, "NaN", names[misc[i]]);
+    else
+      addWeaponDataPointEx(miscData, 0, 0, "NaN", names[misc[i]]);
+  }
+
+  for (i = 0; i < nades.length; i++)
+  {
+    if (wData.hasOwnProperty(nades[i]))
+      addNadeDataPoint(nadeData, wData[nades[i]], nades[i]);
+    else
+      addNadeDataPoint(nadeData, null, nades[i]);
+  }
+
+  generateChart("rifleChart", rifleData, "Rifles", weaponLineTitles, rifles);   
+  generateChart("pistolChart", pistolData, "Pistols", weaponLineTitles, pistols);   
+  generateChart("smgChart", smgData, "SMGs", weaponLineTitles, smgs);   
+  generateChart("heavyChart", heavyData, "Heavys", weaponLineTitles, heavys);   
+  generateChart("nadeChart", nadeData, "Nades", [ "Throws", "Hits or Impacts", "Damage / Throw" ], nades);   
+  generateChart("miscChart", miscData, "Misc", weaponLineTitles, misc);   
+}
+function addWeaponDataPointEx(data, num1, num2, num3, lblText)
+{
+  if (num1 != -1)
+    data[0].push(num1);
+  if (num2 != -1)
+    data[1].push(num2);
+  if (num3 != -1)
+    data[2].push(num3);
+}
+function addWeaponDataPoint(data, weapon, key)
+{
+  var lblText = names[key];
+  if (weapon == null)
+    addWeaponDataPointEx(data, 0, 0, 0, lblText);
+  else
+  {
+    if (weapon.Shots > 0)
+       addWeaponDataPointEx(data, weapon.Kills, weapon.Deaths, Number(((weapon.Hits / weapon.Shots) * 100).toFixed(2)), lblText);
+    else
+      addWeaponDataPointEx(data, weapon.Kills, weapon.Deaths, 0, lblText);
+  }
+}
+function addNadeDataPoint(data, nade, key)
+{
+  var lblText = names[key];
+  if (nade == null)
+    addWeaponDataPointEx(data, 0, 0, 0, lblText);
+  else
+  {
+    if (nade.Shots > 0)
+       addWeaponDataPointEx(data, nade.Shots, nade.Hits, Number((nade.Damage /nade.Shots).toFixed(2)), lblText);
+    else
+      addWeaponDataPointEx(data, nade.Shots, nade.Hits, "NaN", lblText);
+  }
+}
+
+var lineColors = [ '#08a500', '#e83c3c', '#3ca4e8' ];
+
+Array.prototype.extend = function (other_array, other) {
+    /* you should include a test to check whether other_array really is an array */
+    if (other)
+      other_array.forEach(function(v) {this.push(names[v])}, this);    
+    else
+      other_array.forEach(function(v) {this.push(v)}, this);    
+}
+
+Chart.Tooltip.positioners.cursor = function(chartElements, coordinates) {
+  return coordinates;
+};
+
+function generateChart(canvasID, data, title, lineLabels, xLabels)
+{
+  var labels = [];
+  var datasets = [];
+
+  labels.push("");
+  labels.extend(xLabels, true);
+  labels.push("");
+
+  for (i = 0; i < lineLabels.length; i++)
+  {
+    var tData = [];
+
+    tData.extend(data[i]);
+    tData.push("NaN");
+
+    datasets.push({
+      label: lineLabels[i],
+      borderColor: lineColors[i],
+      fill: false,
+      data: tData,
+      lineTension: 0
+    });
+  }
+
+  var canvas = document.getElementById(canvasID);
+  var ctx = canvas.getContext('2d');
+
+  var myLineChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: datasets
+    },
+    options: {
+      title: {
+        display: true,
+        text: title,
+        fontSize: 24
+      },
+      legend: {
+        position: 'bottom'
+      },
+      tooltips: {
+        intersect: false,
+        mode: 'index',
+        position: 'average'
+      },
+      scales: {
+        yAxes: [{
+          display: true,
+          ticks: {
+            sugestedMin: 0,
+            maxTicksLimit: 10
+          }
+        }]
+      }
+    }
+  });
+}
 </script>
