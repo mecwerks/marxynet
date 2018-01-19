@@ -9,7 +9,7 @@ type: Player
 }
 
 .container {
-  width: 85%;
+  width: 100%;
 }
 
 #playerName {
@@ -19,6 +19,43 @@ type: Player
 .playerImage {
   border: 1px solid black;
   border-radius: 8px;
+}
+
+table.highlight>tbody>tr:hover {
+  background-color: #8ee0ff73;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: rgba(81, 150, 255, 0.7);
+}
+
+.tabs .tab a {
+  color: rgba(81, 150, 255, 1);
+}
+
+.tabs .indicator {
+  background-color: rgb(81, 150, 255);
+}
+
+.ot1 {
+  border-right: 0.5px solid #dedede;
+}
+
+.ot2 {
+  border-left: 0.5px solid #dedede;
+}
+
+.ot1 tr th, .ot2 tr th {
+  padding-left: 20px;
+}
+
+.ot1 tr td, .ot2 tr td {
+  padding-right: 20px;
+}
+
+.infoFont {
+  font-size: 12px;
+  font-weight: bold;
 }
 </style>
 
@@ -45,7 +82,6 @@ type: Player
   {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
 {% endif %}
 
-<script src="/assets/js/bigtext.js"></script>
 <div class="container">
 <div class="row">
   <div class="center-align">
@@ -65,7 +101,7 @@ type: Player
   </div>
   <!-- Overview -->
   <div id="overview" class="col s12 tabContent">
-    <table class="col s4 offset-s1 responsive-table bordered">
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot1">
       <tr>
         <th>Kills:</th>
         <td class="right-align">{{page.Kills}}</td>
@@ -95,8 +131,7 @@ type: Player
         <td class="right-align">{{page.Rounds}}</td>
       </tr>
     </table>
-    <div class="col s2"></div>
-    <table class="col s4 responsive-table bordered">
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
       <tr>
         <th>Hltv Rating:</th>
         <td class="right-align">{{page.HltvRating}}</td>
@@ -129,9 +164,44 @@ type: Player
   </div>
   <!-- Matches -->
   <div id="matches" class="col s12 tabContent">
-    <table>
-    {% for muid in page.Matches %}
-    {% endfor %}
+    <table class="col s12 bordered highlight grey lighten-3 black-text text-darken-2">
+      {% assign muids = page.Matches | reverse %}
+      {% for muid in muids %}
+        {% assign match = null %}
+        {% for mmatch in site.data.matches %}
+          {% if mmatch.UID == muid %}
+            {% assign match = mmatch %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        <tr class='clickablerow' href='/matches/{{match.UID}}'>
+          {% if match.TeamA.RoundWins > match.TeamB.RoundWins %} 
+              {% assign scoreAClass = "scoreWinner"%} 
+              {% assign scoreBClass = "scoreLoser" %} 
+          {% elsif match.TeamA.RoundWins < match.TeamB.RoundWins %} 
+              {% assign scoreAClass="scoreLoser" %} 
+              {% assign scoreBClass="scoreWinner" %} 
+          {% else %} 
+              {% assign scoreAClass="scoreTie" %} 
+              {% assign scoreBClass="scoreTie" %} 
+          {% endif %} 
+          {% assign monthString = match.Year | append: "-" | append: match.Month | append: "-" | append: match.Day | append: "T" | append: match.Hour | append: ":00:00" %}
+          <td style="width: 15%;" class="infoFont">
+            {{monthString | date: "%b "}}
+            {% assign d = match.Day %}
+            {% case d %}
+            {% when 1 or 21 or 31 %}{{ d }}st
+            {% when 2 or 22 %}{{ d }}nd
+            {% when 3 or 23 %}{{ d }}rd
+            {% else %}{{ d }}th
+            {% endcase %} @ {{monthString | date: "%H"}}:00
+          </td>
+          <td style="text-align: right;width: 25%">{{match.TeamA.Name}}</td>
+          <td style="text-align: center;width: 8%"><span class="{{scoreAClass}}">{{match.TeamA.RoundWins}}</span> - <span class="{{scoreBClass}}">{{match.TeamB.RoundWins}}</span></td>
+          <td style="width: 25%">{{match.TeamB.Name}}</td>
+          <td style="width: 15%" class="infoFont">{{match.Map}}</td>
+        </tr>
+      {% endfor %}
     </table>
   </div>
   <!-- Statistics -->
