@@ -1,6 +1,6 @@
 [
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_oldnuke_2018-01-18_20",
     "Hour": 20,
     "Day": 18,
@@ -2062,6 +2062,13 @@
         "Value": 45.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "imReedy",
+        "UID": "76561198257100849",
+        "Value": 10.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -2137,7 +2144,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_inferno_old_2018-01-13_23",
     "Hour": 23,
     "Day": 13,
@@ -3958,6 +3965,13 @@
         "Value": 31.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "watching arches",
+        "UID": "76561198020273020",
+        "Value": 8.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -4026,7 +4040,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_train_2018-01-13_22",
     "Hour": 22,
     "Day": 13,
@@ -6010,6 +6024,13 @@
         "Value": 31.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Ant-iwnl-",
+        "UID": "Ant-iwnl-",
+        "Value": 8.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -6080,7 +6101,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_mirage_2018-01-12_20",
     "Hour": 20,
     "Day": 12,
@@ -7952,6 +7973,13 @@
         "Value": 29.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Ant-iwnl-",
+        "UID": "Ant-iwnl-",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Glaci3r",
@@ -8023,7 +8051,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_nuke_2018-01-11_21",
     "Hour": 21,
     "Day": 11,
@@ -9972,6 +10000,13 @@
         "Value": 30.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "rî§К",
+        "UID": "76561198117966816",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "imReedy",
@@ -10042,7 +10077,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -11892,6 +11927,13 @@
         "Value": 35.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 8.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -11962,7 +12004,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -13776,6 +13818,13 @@
         "Value": 23.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "flow",
+        "UID": "76561198256748178",
+        "Value": 6.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Fenton",
@@ -13841,7 +13890,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -15836,6 +15885,13 @@
         "Value": 32.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Devyn",
+        "UID": "Devyn",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -15903,7 +15959,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -17816,6 +17872,13 @@
         "Value": 31.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Flip",
+        "UID": "flipndipp",
+        "Value": 6.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -17880,7 +17943,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -19905,6 +19968,13 @@
         "Value": 32.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "ism",
+        "UID": "ism",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -19969,7 +20039,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -21791,6 +21861,13 @@
         "Value": 24.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Ch1ral",
+        "UID": "76561198037413384",
+        "Value": 6.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "flow",
@@ -21858,7 +21935,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -23660,6 +23737,13 @@
         "Value": 26.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "K",
+        "UID": "76561198071477737",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Glaci3r",
@@ -23726,7 +23810,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -25668,6 +25752,13 @@
         "Value": 33.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 8.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -25739,7 +25830,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -27667,6 +27758,13 @@
         "Value": 31.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Fenton",
+        "UID": "76561198084911409",
+        "Value": 5.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -27740,7 +27838,7 @@
     }
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -29507,6 +29605,13 @@
         "Value": 29.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 6.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -29572,7 +29677,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -31536,6 +31641,13 @@
         "Value": 28.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "K",
+        "UID": "76561198071477737",
+        "Value": 10.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Cam",
@@ -31607,7 +31719,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -33634,6 +33746,13 @@
         "Value": 45.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Ant-iwnl-",
+        "UID": "Ant-iwnl-",
+        "Value": 10.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -33716,7 +33835,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -35862,6 +35981,13 @@
         "Value": 69.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Flip",
+        "UID": "flipndipp",
+        "Value": 14.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -35962,7 +36088,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -37790,6 +37916,13 @@
         "Value": 24.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 5.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -37856,7 +37989,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -39909,6 +40042,13 @@
         "Value": 27.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 9.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -39982,7 +40122,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -42356,6 +42496,13 @@
         "Value": 41.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "♕ Luck ღ",
+        "UID": "76561198042795726",
+        "Value": 8.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -42428,7 +42575,7 @@
     }
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -44412,6 +44559,13 @@
         "Value": 29.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "K csgoboss.com",
+        "UID": "76561198071477737",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Wormy",
@@ -44477,7 +44631,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -46452,6 +46606,13 @@
         "Value": 28.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Devyn",
+        "UID": "Devyn",
+        "Value": 6.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Ant-iwnl-",
@@ -46516,7 +46677,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -48366,6 +48527,13 @@
         "Value": 25.0
       },
       {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 7.0
+      },
+      {
         "Title": "The Professional",
         "Description": "Most Damage Dealt",
         "Name": "Marxy",
@@ -48431,7 +48599,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 9,
+    "Version": 10,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
@@ -50349,6 +50517,13 @@
         "Name": "rî§К",
         "UID": "76561198117966816",
         "Value": 25.0
+      },
+      {
+        "Title": "Lending Hand",
+        "Description": "Most Assists",
+        "Name": "Ant-iwnl-",
+        "UID": "Ant-iwnl-",
+        "Value": 10.0
       },
       {
         "Title": "The Professional",
