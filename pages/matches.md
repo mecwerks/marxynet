@@ -1,8 +1,34 @@
 ---
-layout: default
+layout: default_new
 permalink: matches
 title: Matches
 ---
+<style>
+.container {
+  width: 100%;
+}
+
+table.highlight>tbody>tr:hover {
+  background-color: #8ee0ff73;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: rgba(81, 150, 255, 0.7);
+}
+
+.tabs .tab a {
+  color: rgba(81, 150, 255, 1);
+}
+
+.tabs .indicator {
+  background-color: rgb(81, 150, 255);
+}
+
+.infoFont {
+  font-size: 12px;
+  font-weight: bold;
+}
+</style>
 <div align="center" class="matchresult">
     {% assign currentMonth = 13 %}
     {% assign currentYear = 0 %}
@@ -33,13 +59,13 @@ title: Matches
             {% else %}
                 </table>
             {% endif %}
-            <table class="matchtable">
+            <table class="col s12 bordered highlight grey lighten-3 black-text text-darken-2">
             <caption>{{monthString | date: "%B, %Y"}}</caption>
             {% assign currentMonth = match.Month %}
             {% assign newMonth = true %}
         {% endif %}
         <tr class='clickablerow' href='/matches/{{match.UID}}' id="matchrow">
-            <td style="width: 10%;">
+            <td style="width: 10%;" class="infoFont">
                 {% assign d = monthString | date: "%-d" %}
                 {% case d %}
                 {% when "1" or "21" or "31" %}{{ d }}st
@@ -51,18 +77,10 @@ title: Matches
             <td style="text-align: right;width: 25%">{{match.TeamA.Name}}</td>
             <td style="text-align: center;width: 8%"><span class="{{scoreAClass}}">{{match.TeamA.RoundWins}}</span> - <span class="{{scoreBClass}}">{{match.TeamB.RoundWins}}</span></td>
             <td style="width: 25%">{{match.TeamB.Name}}</td>
-            <td style="width: 15%">{{match.Map}}</td>
+            <td style="width: 15%" class="infoFont">{{match.Map}}</td>
         </tr>
         {% if newMatch == true %}
             {% assign newMonth = true %}
-        {% else %}
-            <tr class="spacer">
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
         {% endif %}
     {% endfor %}
     </table>
