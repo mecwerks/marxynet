@@ -385,27 +385,43 @@ canvas {
       </div>
       </div>
       <table class="col s12 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
-        <tr>
-          <th></th>
-          <th class="center-align">Entered</th>
-          <th class="center-align">Won</th>
-          <th class="center-align">Percentage</th>
-        </tr>
-        {% for i in (1..5) %}
-          {% assign num = i | downcase %}
+        <thead>
           <tr>
-            <th>1v{{i}}s</th>
-            <td class="center-align">{{page.ClutchRoundsEntered[num]}}</td>
-            <td class="center-align">{{page.ClutchRoundsWon[num]}}</td>
-            {% assign dividend = page.ClutchRoundsEntered[num] | times: 1.0 %}
-            {% if dividend <= 0 %}
-              {% assign ttl = 0.0 %}
-            {% else %}
-              {% assign ttl = page.ClutchRoundsWon[num] | divided_by: dividend | times: 100 | round: 2 %}
-            {% endif %}
+            <th></th>
+            <th class="center-align">Entered</th>
+            <th class="center-align">Won</th>
+            <th class="center-align">Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for i in (1..5) %}
+            {% assign num = i | downcase %}
+            <tr>
+              <th class="right-align">1v{{i}}s</th>
+              <td class="center-align">{{page.ClutchRoundsEntered[num]}}</td>
+              <td class="center-align">{{page.ClutchRoundsWon[num]}}</td>
+              {% assign dividend = page.ClutchRoundsEntered[num] | times: 1.0 %}
+              {% if dividend <= 0 %}
+                {% assign ttl = 0.0 %}
+              {% else %}
+                {% assign ttl = page.ClutchRoundsWon[num] | divided_by: dividend | times: 100 | round: 2 %}
+              {% endif %}
+              <td class="center-align">{{ttl}}%</td>
+            </tr>
+          {% endfor %}
+          <tr>
+            <th class="right-align">Total</th>
+            <td class="center-align">{{totalClutchesEntered}}</th>
+            <td class="center-align">{{totalClutchesWon}}</th>
+              {% assign dividend = totalClutchesEntered | times: 1.0 %}
+              {% if dividend <= 0 %}
+                {% assign ttl = 0.0 %}
+              {% else %}
+                {% assign ttl = totalClutchesWon | divided_by: dividend | times: 100 | round: 2 %}
+              {% endif %}
             <td class="center-align">{{ttl}}%</td>
           </tr>
-        {% endfor %}
+        </tbody>
       </table>
     </div>
   </div>
