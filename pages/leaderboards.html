@@ -245,7 +245,7 @@ function GetCounts(p, value)
         case "defuses":
             return { totalValue: p.Defuses /*, averageValue: round(p.Defuses / p.Matches.length, 2).toFixed(2) */ };
         case "clutches":
-            return { totalValue: p.TotalClutches, averageValue: round(p.TotalClutches / p.Matches.length, 2).toFixed(2) };
+            return { totalValue: p.TotalClutchesWon, averageValue: round(p.TotalClutchesWon / p.Matches.length, 2).toFixed(2) };
         default:
             return { totalValue: 0 };
     }
