@@ -36,6 +36,8 @@ type: Match
   margin-bottom: -2px;
 }
 </style>
+<div class="container">
+<div class="row">
 <header id="matchHeaderContainer">
   <div align="center" id="matchHeaderStats">
     {% if page.TeamA.RoundWins > page.TeamB.RoundWins %} 
@@ -49,7 +51,7 @@ type: Match
       {% assign scoreBClass="scoreTie" %} 
     {% endif %} 
     <div id="teamAHeader">
-      <h2>{{ page.TeamA.Name | default: "Team A" }}</h2>
+      <h3>{{ page.TeamA.Name | default: "Team A" }}</h3>
       <span style="font-size: 24px;font-weight:bold;" class="{{scoreAClass}}">{{page.TeamA.RoundWins}}</span>
     </div>
     <div id="teamStatsHeader">
@@ -68,47 +70,20 @@ type: Match
         {{monthString | date: ", %Y"}}
     </div>
     <div id="teamBHeader">
-      <h2>{{ page.TeamB.Name | default: "Team B" }}</h2>
+      <h3>{{ page.TeamB.Name | default: "Team B" }}</h3>
       <span style="font-size: 24px;font-weight:bold;" class="{{scoreBClass}}">{{page.TeamB.RoundWins}}</span>
     </div>
   </div>
-</header>	  
+</header>
+</div>
 {% assign rounds = page.Rounds %}
-{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
-{% include teamstattable.html totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
+{% assign fp = page.Picks[0].Player %}
+{% include teamstattable.html FirstPick=fp Captain=page.TeamA.Captain totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
+{% include teamstattable.html FirstPick=fp Captain=page.TeamB.Captain totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
 
-<div align="center">
-  <table id="matrix" class="row-border hover order-column">
-    <thead>
-      <tr class="header" id="ignoreglobal">
-        <th></th>
-        {% for teamBPlayer in page.TeamB.SteamIDs %}
-          {% assign teamBPlayerID = teamBPlayer | downcase %}
-          {% assign uid = page.Players[teamBPlayerID].UID %}
-          {% assign name = page.Players[teamBPlayerID].Name %}
-          <th class="col" style="text-align: center"><a href="/players/{{uid}}">{{name}}</a></th>
-        {% endfor %}
-      </tr>
-    </thead>
-    <tbody>
-      {% for teamAPlayer in page.TeamA.SteamIDs %}
-          {% assign teamAPlayerID = teamAPlayer | downcase %}
-          {% assign uid = page.Players[teamAPlayerID].UID %}
-          {% assign name = page.Players[teamAPlayerID].Name %}
-          <tr id="ignoreglobal">
-          <th class="row" style="text-align: right"><a href="/players/{{uid}}">{{name}}</a></th>
-          {% for teamBPlayer in page.TeamB.SteamIDs %}
-            {% assign teamBPlayerID = teamBPlayer | downcase %}
-            <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
-          {% endfor %}
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-  </div>
-  <br>
-  <div align="center">
-  <table class="halfTable row-border hover order-column">
+  <div class="row">
+  <table class="col highlight s6 ot1">
+    <caption><h2>Awards</h2></caption>
     {% for award in page.Awards %}
     <tr>
         <th style="text-align: center" class="tooltip">{{award.Title}}<span class="tooltiptext">{{award.Description}}</span></th>
@@ -120,7 +95,60 @@ type: Match
     </tr>
     {% endfor %}
   </table>
-</div> 
+  {% assign capt1 = page.Captain1 | downcase %}
+  {% assign capt2 = page.Captain2 | downcase %}
+  <table class="col highlight s6 ot2">
+    <caption><h2>Player Picks</h2></caption>
+    <tr>
+      <th style="text-align: center">#</th>
+      <th style="text-align: center">Player</th>
+      <th style="text-align: center">Captain</th>
+    </tr>
+    {% assign count = 1 %}
+    {% for pick in page.Picks %}
+      <tr>
+        {% assign pid = pick.Player | downcase %}
+        {% assign capt = pick.Captain | downcase %}
+        <td style="text-align: center">{{count}}</td>
+        <td style="text-align: center"><a href="/players/{{page.Players[pid].UID}}">{{page.Players[pid].Name}}</a></td>
+        <td style="text-align: center;font-weight:bold;"><a href="/players/{{page.Players[capt].UID}}">{{page.Players[capt].Name}}</a></td>
+      </tr>
+      {% assign count = count | plus: 1 %}
+    {% endfor %}
+  </table>
+</div>
+
+  <div class="row">
+    <table id="matrix" class="col s10 offset-s1">
+      <caption><h2>Kill Matrix</h2></caption>
+      <thead>
+        <tr class="header" id="ignoreglobal">
+          <th></th>
+          {% for teamBPlayer in page.TeamB.SteamIDs %}
+            {% assign teamBPlayerID = teamBPlayer | downcase %}
+            {% assign uid = page.Players[teamBPlayerID].UID %}
+            {% assign name = page.Players[teamBPlayerID].Name %}
+            <th style="text-align: center"><a href="/players/{{uid}}">{{name}}</a></th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for teamAPlayer in page.TeamA.SteamIDs %}
+            {% assign teamAPlayerID = teamAPlayer | downcase %}
+            {% assign uid = page.Players[teamAPlayerID].UID %}
+            {% assign name = page.Players[teamAPlayerID].Name %}
+            <tr id="ignoreglobal">
+            <th style="text-align: right"><a href="/players/{{uid}}">{{name}}</a></th>
+            {% for teamBPlayer in page.TeamB.SteamIDs %}
+              {% assign teamBPlayerID = teamBPlayer | downcase %}
+              <td style="text-align: center">{{page.Players[teamAPlayerID].KilledPlayers[teamBPlayerID] | default: 0}} : {{page.Players[teamBPlayerID].KilledPlayers[teamAPlayerID] | default: 0}}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
 <script>
   var table = $('#awardTable').DataTable(
     {
@@ -147,11 +175,11 @@ $(document).ready(function() {
           var colIdx = table.cell(this).index().column;
           var rowIdx = table.cell(this).index().row;
 
-          $( table.column( colIdx ).nodes() ).addClass( 'highlight' );
-          $( table.row( rowIdx ).nodes() ).addClass( 'highlight' );
+          $( table.column( colIdx ).nodes() ).addClass( 'matrixHighlight' );
+          $( table.row( rowIdx ).nodes() ).addClass( 'matrixHighlight' );
       } ).on('mouseleave', 'td', function () {
-          $( table.cells().nodes() ).removeClass( 'highlight' );
-          $( table.rows().nodes() ).removeClass( 'highlight' );
+          $( table.cells().nodes() ).removeClass( 'matrixHighlight' );
+          $( table.rows().nodes() ).removeClass( 'matrixHighlight' );
       });
 } );
 </script>

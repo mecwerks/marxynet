@@ -24,12 +24,19 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!--<link type="text/css" rel="stylesheet" href="/assets/css/materialize.min.css"  media="screen,projection"/>-->
+
     {% include favicon.html %}
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="/assets/js/materialize.min.js"></script>
     <div class="wrapper">
       <header>
       <font style="font-weight:bold" size="3" color="#333">Marxy.net</font>
@@ -53,8 +60,9 @@
         var i;
         
         for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-          window.location = this.getAttribute("href");
+          acc[i].addEventListener("click", function() {
+            var win = window.open(this.getAttribute("href"), "_blank");
+            //window.location = this.getAttribute("href");
           });
         }
     </script>

@@ -1,6 +1,6 @@
 [
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_mirage_2018-01-21_20",
     "Hour": 20,
     "Day": 21,
@@ -11,6 +11,7 @@
     "Rounds": 21,
     "TeamA": {
       "Name": "Team TiltyTiddy",
+      "Captain": 76561198079742537,
       "RoundWins": 5,
       "SteamIDs": [
         76561198072042202,
@@ -22,6 +23,7 @@
     },
     "TeamB": {
       "Name": "Team Mio",
+      "Captain": 76561198393693567,
       "RoundWins": 16,
       "SteamIDs": [
         76561198393693567,
@@ -1971,10 +1973,38 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198393693567,
+    "Captain2": 76561198079742537,
+    "Picks": [
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198420472547
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198137565812
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198020273020
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_inferno_2018-01-19_23",
     "Hour": 23,
     "Day": 19,
@@ -1985,6 +2015,7 @@
     "Rounds": 27,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198055445808,
       "RoundWins": 11,
       "SteamIDs": [
         76561198055445808,
@@ -1996,6 +2027,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198072042202,
       "RoundWins": 16,
       "SteamIDs": [
         76561198081203263,
@@ -3961,10 +3993,46 @@
     "DisconnectedClients": {
       "76561198042795726": 25
     },
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198055445808,
+    "Captain2": 76561198072042202,
+    "Picks": [
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198260779558
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198042795726
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198420472547
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198079742537
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_cache_2018-01-19_21",
     "Hour": 21,
     "Day": 19,
@@ -3975,6 +4043,7 @@
     "Rounds": 30,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198420472547,
       "RoundWins": 14,
       "SteamIDs": [
         76561198072042202,
@@ -3986,6 +4055,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198055295222,
       "RoundWins": 16,
       "SteamIDs": [
         76561198055295222,
@@ -6085,10 +6155,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198420472547,
+    "Captain2": 76561198055295222,
+    "Picks": [
+      {
+        "Captain": 76561198420472547,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198192766006
+      },
+      {
+        "Captain": 76561198420472547,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198420472547,
+        "Player": 76561198079742537
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198420472547,
+        "Player": 76561198081203263
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_oldnuke_2018-01-18_20",
     "Hour": 20,
     "Day": 18,
@@ -6099,6 +6205,7 @@
     "Rounds": 34,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198393693567,
       "RoundWins": 19,
       "SteamIDs": [
         76561198055295222,
@@ -6110,6 +6217,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198079742537,
       "RoundWins": 15,
       "SteamIDs": [
         76561198072042202,
@@ -8229,10 +8337,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198079742537,
+    "Captain2": 76561198393693567,
+    "Picks": [
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198420472547
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198020273020
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198257100849
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198137565812
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_inferno_old_2018-01-13_23",
     "Hour": 23,
     "Day": 13,
@@ -8243,6 +8387,7 @@
     "Rounds": 27,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198071477737,
       "RoundWins": 11,
       "SteamIDs": [
         76561198344040839,
@@ -8254,6 +8399,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198192766006,
       "RoundWins": 16,
       "SteamIDs": [
         76561198055295222,
@@ -10125,10 +10271,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198071477737,
+    "Captain2": 76561198192766006,
+    "Picks": [
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198145195904
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198020273020
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198137565812
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198344040839
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_train_2018-01-13_22",
     "Hour": 22,
     "Day": 13,
@@ -10139,6 +10321,7 @@
     "Rounds": 29,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198192766006,
       "RoundWins": 16,
       "SteamIDs": [
         76561198137565812,
@@ -10150,6 +10333,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198117966816,
       "RoundWins": 13,
       "SteamIDs": [
         76561198055295222,
@@ -12186,10 +12370,46 @@
       "BombDefused"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198192766006,
+    "Captain2": 76561198117966816,
+    "Picks": [
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198344040839
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198137565812
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198192766006,
+        "Player": 76561198145195904
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_mirage_2018-01-12_20",
     "Hour": 20,
     "Day": 12,
@@ -12200,6 +12420,7 @@
     "Rounds": 30,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198055445808,
       "RoundWins": 16,
       "SteamIDs": [
         76561198037413384,
@@ -12211,6 +12432,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198393693567,
       "RoundWins": 14,
       "SteamIDs": [
         76561198393693567,
@@ -14136,10 +14358,38 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198393693567,
+    "Captain2": 76561198055445808,
+    "Picks": [
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198192766006
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198344040839
+      },
+      {
+        "Captain": 76561198055445808,
+        "Player": 76561198037413384
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_nuke_2018-01-11_21",
     "Hour": 21,
     "Day": 11,
@@ -14150,6 +14400,7 @@
     "Rounds": 29,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198137565812,
       "RoundWins": 16,
       "SteamIDs": [
         76561198393693567,
@@ -14161,6 +14412,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198257100849,
       "RoundWins": 13,
       "SteamIDs": [
         76561198192766006,
@@ -16162,10 +16414,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198137565812,
+    "Captain2": 76561198257100849,
+    "Picks": [
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198257100849,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198257100849,
+        "Player": 76561198192766006
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198257100849,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198257100849,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198084911409
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -16176,6 +16464,7 @@
     "Rounds": 29,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198038653688,
       "RoundWins": 16,
       "SteamIDs": [
         76561198271442417,
@@ -16187,6 +16476,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198045198932,
       "RoundWins": 13,
       "SteamIDs": [
         76561198393693567,
@@ -18089,10 +18379,42 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198045198932,
+    "Captain2": 76561198038653688,
+    "Picks": [
+      {
+        "Captain": 76561198045198932,
+        "Player": 76561198156421630
+      },
+      {
+        "Captain": 76561198045198932,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198038653688,
+        "Player": 76561198256748178
+      },
+      {
+        "Captain": 76561198038653688,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198045198932,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198045198932,
+        "Player": 76561198137565812
+      },
+      {
+        "Captain": 76561198038653688,
+        "Player": 76561198081203263
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -18103,6 +18425,7 @@
     "Rounds": 24,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198117966816,
       "RoundWins": 16,
       "SteamIDs": [
         76561198038653688,
@@ -18114,6 +18437,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198081203263,
       "RoundWins": 8,
       "SteamIDs": [
         76561198081203263,
@@ -19975,10 +20299,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198081203263,
+    "Captain2": 76561198117966816,
+    "Picks": [
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198453342067
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198256748178
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198038653688
+      },
+      {
+        "Captain": 76561198117966816,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198148070517
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -19989,6 +20349,7 @@
     "Rounds": 26,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198148070517,
       "RoundWins": 16,
       "SteamIDs": [
         76561198271442417,
@@ -20000,6 +20361,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198072042202,
       "RoundWins": 10,
       "SteamIDs": [
         76561198072042202,
@@ -22044,10 +22406,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198072042202,
+    "Captain2": 76561198148070517,
+    "Picks": [
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198042795726
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198055295222
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -22058,6 +22456,7 @@
     "Rounds": 23,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198081203263,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -22069,6 +22468,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198148070517,
       "RoundWins": 7,
       "SteamIDs": [
         76561198148070517,
@@ -24028,10 +24428,46 @@
       "BombDefused"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198148070517,
+    "Captain2": 76561198081203263,
+    "Picks": [
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198042795726
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198081203263,
+        "Player": 76561198020273020
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198055295222
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -24042,6 +24478,7 @@
     "Rounds": 23,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198020273020,
       "RoundWins": 7,
       "SteamIDs": [
         76561198081203263,
@@ -24053,6 +24490,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198393693567,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -26124,10 +26562,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198393693567,
+    "Captain2": 76561198020273020,
+    "Picks": [
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198020273020,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198020273020,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198042795726
+      },
+      {
+        "Captain": 76561198020273020,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198020273020,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198001808454
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -26138,6 +26612,7 @@
     "Rounds": 24,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198001808454,
       "RoundWins": 8,
       "SteamIDs": [
         76561198071477737,
@@ -26149,6 +26624,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198256748178,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -28020,10 +28496,46 @@
     "DisconnectedClients": {
       "76561198001808454": 23
     },
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198256748178,
+    "Captain2": 76561198001808454,
+    "Picks": [
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198156421630
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198192766006
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198037413384
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198084911409
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -28034,6 +28546,7 @@
     "Rounds": 25,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198132137627,
       "RoundWins": 9,
       "SteamIDs": [
         76561198393693567,
@@ -28045,6 +28558,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198256748178,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -29895,10 +30409,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198256748178,
+    "Captain2": 76561198132137627,
+    "Picks": [
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198132137627,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198132137627,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198192766006
+      },
+      {
+        "Captain": 76561198132137627,
+        "Player": 76561198037413384
+      },
+      {
+        "Captain": 76561198132137627,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198071477737
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -29909,6 +30459,7 @@
     "Rounds": 30,
     "TeamA": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198072042202,
       "RoundWins": 14,
       "SteamIDs": [
         76561198072042202,
@@ -29920,6 +30471,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198393693567,
       "RoundWins": 16,
       "SteamIDs": [
         76561198271442417,
@@ -31915,10 +32467,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198072042202,
+    "Captain2": 76561198393693567,
+    "Picks": [
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198257100849
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198061644533
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198073777991
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198256748178
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198132137627
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -31929,6 +32517,7 @@
     "Rounds": 28,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198148070517,
       "RoundWins": 12,
       "SteamIDs": [
         76561198117966816,
@@ -31940,6 +32529,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198256748178,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -33923,10 +34513,46 @@
     },
     "RingerClients": {
       "76561198071477737": 19
-    }
+    },
+    "Captain1": 76561198148070517,
+    "Captain2": 76561198256748178,
+    "Picks": [
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198118562612
+      },
+      {
+        "Captain": 76561198256748178,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198081203263
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -33937,6 +34563,7 @@
     "Rounds": 24,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198148070517,
       "RoundWins": 8,
       "SteamIDs": [
         76561198001808454,
@@ -33948,6 +34575,7 @@
     },
     "TeamB": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198072042202,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -35762,10 +36390,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198148070517,
+    "Captain2": 76561198072042202,
+    "Picks": [
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198100421553
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198257100849
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198137565812
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198071477737
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -35776,6 +36440,7 @@
     "Rounds": 30,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198137565812,
       "RoundWins": 15,
       "SteamIDs": [
         76561198148070517,
@@ -35787,6 +36452,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198393693567,
       "RoundWins": 15,
       "SteamIDs": [
         76561198001808454,
@@ -37804,10 +38470,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198393693567,
+    "Captain2": 76561198137565812,
+    "Picks": [
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198100421553
+      },
+      {
+        "Captain": 76561198137565812,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198071477737
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -37818,6 +38520,7 @@
     "Rounds": 41,
     "TeamA": {
       "Name": "No, this is Patrick",
+      "Captain": 76561198010989621,
       "RoundWins": 22,
       "SteamIDs": [
         76561198393693567,
@@ -37829,6 +38532,7 @@
     },
     "TeamB": {
       "Name": "PSU HBG > UP",
+      "Captain": 76561198055295222,
       "RoundWins": 19,
       "SteamIDs": [
         76561198072042202,
@@ -39920,10 +40624,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198055295222,
+    "Captain2": 76561198010989621,
+    "Picks": [
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198010989621,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198010989621,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198010989621,
+        "Player": 76561198038963123
+      },
+      {
+        "Captain": 76561198010989621,
+        "Player": 76561198118562612
+      },
+      {
+        "Captain": 76561198055295222,
+        "Player": 76561198001808454
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -39934,6 +40674,7 @@
     "Rounds": 59,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198072042202,
       "RoundWins": 31,
       "SteamIDs": [
         76561198072042202,
@@ -39945,6 +40686,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198148070517,
       "RoundWins": 28,
       "SteamIDs": [
         76561198148070517,
@@ -42173,10 +42915,46 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198072042202,
+    "Captain2": 76561198148070517,
+    "Picks": [
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198038963123
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198257100849
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198083383351
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198055295222
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198109854748
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -42187,6 +42965,7 @@
     "Rounds": 23,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198393693567,
       "RoundWins": 16,
       "SteamIDs": [
         76561198393693567,
@@ -42198,6 +42977,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198084911409,
       "RoundWins": 7,
       "SteamIDs": [
         76561198165409571,
@@ -44074,10 +44854,46 @@
     "DisconnectedClients": {
       "76561198165409571": 14
     },
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198393693567,
+    "Captain2": 76561198084911409,
+    "Picks": [
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198038653688
+      },
+      {
+        "Captain": 76561198084911409,
+        "Player": 76561198055445808
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198084911409,
+        "Player": 76561198165409571
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561197972321876
+      },
+      {
+        "Captain": 76561198084911409,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198393693567,
+        "Player": 76561198067076932
+      },
+      {
+        "Captain": 76561198084911409,
+        "Player": 76561197964022127
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -44088,6 +44904,7 @@
     "Rounds": 30,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198148070517,
       "RoundWins": 14,
       "SteamIDs": [
         76561198420472547,
@@ -44099,6 +44916,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198001808454,
       "RoundWins": 16,
       "SteamIDs": [
         76561198393693567,
@@ -46207,10 +47025,46 @@
     "DisconnectedClients": {
       "76561198117966816": 21
     },
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198148070517,
+    "Captain2": 76561198001808454,
+    "Picks": [
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198084911409
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198420472547
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198079742537
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561197972321876
+      },
+      {
+        "Captain": 76561198148070517,
+        "Player": 76561198010989621
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198117966816
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -46221,6 +47075,7 @@
     "Rounds": 27,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198271442417,
       "RoundWins": 11,
       "SteamIDs": [
         76561198042795726,
@@ -46233,6 +47088,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198079742537,
       "RoundWins": 16,
       "SteamIDs": [
         76561198072042202,
@@ -48660,10 +49516,46 @@
     },
     "RingerClients": {
       "76561198148070517": 14
-    }
+    },
+    "Captain1": 76561198079742537,
+    "Captain2": 76561198271442417,
+    "Picks": [
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198271442417,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198393693567
+      },
+      {
+        "Captain": 76561198271442417,
+        "Player": 76561198083383351
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198420472547
+      },
+      {
+        "Captain": 76561198271442417,
+        "Player": 76561198042795726
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198055445808
+      },
+      {
+        "Captain": 76561198271442417,
+        "Player": 76561198065111042
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -48674,6 +49566,7 @@
     "Rounds": 24,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198104649119,
       "RoundWins": 16,
       "SteamIDs": [
         76561198235994884,
@@ -48685,6 +49578,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198072042202,
       "RoundWins": 8,
       "SteamIDs": [
         76561198072042202,
@@ -50716,10 +51610,46 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198104649119,
+    "Captain2": 76561198072042202,
+    "Picks": [
+      {
+        "Captain": 76561198104649119,
+        "Player": 76561198235994884
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198256748178
+      },
+      {
+        "Captain": 76561198104649119,
+        "Player": 76561198271442417
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198001808454
+      },
+      {
+        "Captain": 76561198104649119,
+        "Player": 76561198148070517
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198079742537
+      },
+      {
+        "Captain": 76561198104649119,
+        "Player": 76561198030424730
+      },
+      {
+        "Captain": 76561198072042202,
+        "Player": 76561198071477737
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -50730,6 +51660,7 @@
     "Rounds": 23,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198038963123,
       "RoundWins": 7,
       "SteamIDs": [
         76561198148070517,
@@ -50741,6 +51672,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198084911409,
       "RoundWins": 16,
       "SteamIDs": [
         76561198081203263,
@@ -52762,10 +53694,26 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198038963123,
+    "Captain2": 76561198084911409,
+    "Picks": [
+      {
+        "Captain": 76561198038963123,
+        "Player": 76561198070596192
+      },
+      {
+        "Captain": 76561198084911409,
+        "Player": 76561198079742537
+      },
+      {
+        "Captain": 76561198038963123,
+        "Player": 76561198071477737
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -52776,6 +53724,7 @@
     "Rounds": 24,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198001808454,
       "RoundWins": 16,
       "SteamIDs": [
         76561198001808454,
@@ -52787,6 +53736,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198079742537,
       "RoundWins": 8,
       "SteamIDs": [
         76561198104649119,
@@ -54684,10 +55634,22 @@
       "CTWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198001808454,
+    "Captain2": 76561198079742537,
+    "Picks": [
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198071477737
+      },
+      {
+        "Captain": 76561198079742537,
+        "Player": 76561198081203263
+      }
+    ]
   },
   {
-    "Version": 11,
+    "Version": 14,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
@@ -54698,6 +55660,7 @@
     "Rounds": 25,
     "TeamA": {
       "Name": "Team A",
+      "Captain": 76561198071477737,
       "RoundWins": 9,
       "SteamIDs": [
         76561198104649119,
@@ -54709,6 +55672,7 @@
     },
     "TeamB": {
       "Name": "Team B",
+      "Captain": 76561198001808454,
       "RoundWins": 16,
       "SteamIDs": [
         76561198092823903,
@@ -56677,6 +57641,42 @@
       "TerroristWin"
     ],
     "DisconnectedClients": {},
-    "RingerClients": {}
+    "RingerClients": {},
+    "Captain1": 76561198001808454,
+    "Captain2": 76561198071477737,
+    "Picks": [
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198072042202
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198104649119
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198092823903
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198256748178
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198117966816
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198081203263
+      },
+      {
+        "Captain": 76561198001808454,
+        "Player": 76561198235994884
+      },
+      {
+        "Captain": 76561198071477737,
+        "Player": 76561198084911409
+      }
+    ]
   }
 ]

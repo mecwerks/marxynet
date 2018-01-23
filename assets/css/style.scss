@@ -2,6 +2,31 @@
 ---
 
 @import "jekyll-theme-modernist";
+@import "materialize";
+
+.container {
+  width: 100%;
+}
+
+table {
+  @extend .bordered, .grey, .lighten-3, .black-text, .text-darken-2;
+}
+
+.matrixHighlight {
+  background-color: #8ee0ff73 !important;  
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #8ee0ff73;
+}
+
+table.ot1 {
+  border-right: 0.5px solid #dedede;
+}
+
+table.ot2 {
+  border-left: 0.5px solid #dedede;
+}
 
 .scoreWinner, .kdDiffPositive {
   font: bold 15px arial, sans-serif;

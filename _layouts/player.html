@@ -1,5 +1,5 @@
 ---
-layout: default_new
+layout: default
 type: Player
 ---
 <script src="/assets/js/Chart.bundle.js"></script>
@@ -18,14 +18,6 @@ type: Player
   border-radius: 8px;
 }
 
-.ot1 {
-  border-right: 0.5px solid #dedede;
-}
-
-.ot2 {
-  border-left: 0.5px solid #dedede;
-}
-
 .ot1 tr th, .ot2 tr th {
   padding-left: 20px;
 }
@@ -41,10 +33,6 @@ canvas {
 
 .container {
   width: 100%;
-}
-
-table.highlight>tbody>tr:hover {
-  background-color: #8ee0ff73;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
@@ -107,7 +95,7 @@ table.highlight>tbody>tr:hover {
   </div>
   <!-- Overview -->
   <div id="overview" class="col s12 tabContent">
-    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot1">
+    <table class="col s6 highlight ot1">
       <tr>
         <th>Kills:</th>
         <td class="right-align">{{page.Kills}}</td>

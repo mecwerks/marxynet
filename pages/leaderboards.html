@@ -16,31 +16,44 @@ td, th {
 .inactivestat {
     display: none;
 }
+
+select {
+    display: block !important;
+}
+
 </style>
 {% assign matchCap = 5 %}
-<div align="center" class="container">
-<h3>Must participate in at least {{matchCap}} matches to be eligible for leaderboard ranking.</h3>
-<select id="statistic" onchange="statisticChange(this)">
-    <option value="hltv">Hltv Rating</option>
-    <option value="kills">Kills</option>
-    <option value="assists">Assists</option>
-    <option value="deaths">Deaths</option>
-    <option value="tradekills">Trade Kills</option>
-    <option value="timestraded">Times Traded</option>
-    <option value="firstkills">First Kills</option>
-    <option value="firstdeaths">First Deaths</option>
-    <option value="headshots">Headshots</option>
-    <option value="damage">Damage</option>
-    <option value="kast">KAST</option>
-    <option value="teamkills">Team Kills</option>
-    <option value="plants">Plants</option>
-    <option value="defuses">Defuses</option>
-    <option value="clutches">Clutches</option>
-</select>
-<select id="valueType" onchange="valueTypeChange(this)">
-    <option value="total">Total</option>
-    <option value="average">Average</option>
-</select>
+<div class="container selectors">
+    <div class="row">
+        <h3 class="col s8 offset-s2">Must participate in at least {{matchCap}} matches to be eligible for leaderboard ranking.</h3>
+    </div>
+
+    <div class="row">
+        <select id="statistic" onchange="statisticChange(this)" class="col s2 offset-s2">
+            <option value="hltv">Hltv Rating</option>
+            <option value="kills">Kills</option>
+            <option value="assists">Assists</option>
+            <option value="deaths">Deaths</option>
+            <option value="tradekills">Trade Kills</option>
+            <option value="timestraded">Times Traded</option>
+            <option value="firstkills">First Kills</option>
+            <option value="firstdeaths">First Deaths</option>
+            <option value="headshots">Headshots</option>
+            <option value="damage">Damage</option>
+            <option value="kast">KAST</option>
+            <option value="teamkills">Team Kills</option>
+            <option value="plants">Plants</option>
+            <option value="defuses">Defuses</option>
+            <option value="clutches">Clutches</option>
+        </select>
+        <select id="valueType" onchange="valueTypeChange(this)" class="col s2 offset-s4">
+            <option value="total">Total</option>
+            <option value="average">Average</option>
+        </select>
+    </div>
+
+    <div class="tableContainer row">
+    </div>
 </div>
 <script>
 $(document).ready(function()
@@ -82,7 +95,7 @@ function generateTable(value)
     if (old != null)
         old.remove();
 
-    var myContainer = $(".container")[0];
+    var myContainer = $(".tableContainer")[0];
     var table = document.createElement('table');
     var tableHeader = document.createElement('thead');
     var tableBody = document.createElement('tbody');
@@ -90,7 +103,7 @@ function generateTable(value)
     table.appendChild(tableHeader);
     table.appendChild(tableBody);
     table.id = "statTable";
-    table.className = "halfTable";
+    table.className = "highlight col s8 offset-s2";
 
     var pArray = {{site.data.players | jsonify }};
 
