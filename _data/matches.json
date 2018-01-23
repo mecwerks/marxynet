@@ -1,6 +1,6 @@
 [
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_mirage_2018-01-21_20",
     "Hour": 20,
     "Day": 21,
@@ -1974,7 +1974,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_inferno_2018-01-19_23",
     "Hour": 23,
     "Day": 19,
@@ -3139,7 +3139,7 @@
           "pug_de_inferno_2018-01-19_23"
         ],
         "ClutchRounds": {
-          "1": 1,
+          "1": 0,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -3295,7 +3295,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutches": 0
       },
       "76561198260779558": {
         "UID": "76561198260779558",
@@ -3506,9 +3506,9 @@
         "UID": "76561198079742537",
         "Name": "Screamcry",
         "SteamID": 76561198079742537,
-        "Kills": 0,
+        "Kills": 8,
         "Deaths": 23,
-        "Assists": 0,
+        "Assists": 5,
         "TeamKills": 0,
         "TradeKills": 4,
         "TimesTraded": 3,
@@ -3521,9 +3521,9 @@
         "ArmorDamage": 227,
         "Rounds": 27,
         "RoundWins": 11,
-        "KASTRounds": 12,
+        "KASTRounds": 13,
         "MVPRounds": 0,
-        "HltvRating": 0.229,
+        "HltvRating": 0.39,
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
@@ -3875,9 +3875,9 @@
       {
         "Title": "The Kendoll",
         "Description": "Lowest number of KAST Rounds",
-        "Name": "Screamcry",
-        "UID": "76561198079742537",
-        "Value": 12.0
+        "Name": "♕ Solo Q ღ",
+        "UID": "76561198042795726",
+        "Value": 13.0
       },
       {
         "Title": "The Terminator",
@@ -3964,7 +3964,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_cache_2018-01-19_21",
     "Hour": 21,
     "Day": 19,
@@ -4769,9 +4769,9 @@
         "UID": "76561198079742537",
         "Name": "Catnip",
         "SteamID": 76561198079742537,
-        "Kills": 0,
+        "Kills": 15,
         "Deaths": 22,
-        "Assists": 0,
+        "Assists": 2,
         "TeamKills": 2,
         "TradeKills": 4,
         "TimesTraded": 2,
@@ -4784,9 +4784,9 @@
         "ArmorDamage": 315,
         "Rounds": 30,
         "RoundWins": 14,
-        "KASTRounds": 17,
-        "MVPRounds": 0,
-        "HltvRating": 0.46,
+        "KASTRounds": 19,
+        "MVPRounds": 1,
+        "HltvRating": 0.733,
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
@@ -5251,8 +5251,8 @@
         ],
         "ClutchRounds": {
           "1": 1,
-          "2": 1,
-          "3": 0,
+          "2": 0,
+          "3": 1,
           "4": 0,
           "5": 0
         },
@@ -5420,7 +5420,7 @@
           "pug_de_cache_2018-01-19_21"
         ],
         "ClutchRounds": {
-          "1": 1,
+          "1": 0,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -5560,7 +5560,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutches": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -6088,7 +6088,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_oldnuke_2018-01-18_20",
     "Hour": 20,
     "Day": 18,
@@ -8232,7 +8232,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_inferno_old_2018-01-13_23",
     "Hour": 23,
     "Day": 13,
@@ -9382,7 +9382,7 @@
           "pug_de_inferno_old_2018-01-13_23"
         ],
         "ClutchRounds": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -9524,7 +9524,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutches": 1
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -9708,8 +9708,8 @@
         "ArmorDamage": 230,
         "Rounds": 27,
         "RoundWins": 11,
-        "KASTRounds": 24,
-        "MVPRounds": 0,
+        "KASTRounds": 15,
+        "MVPRounds": 3,
         "HltvRating": 0.779,
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
@@ -10128,7 +10128,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_train_2018-01-13_22",
     "Hour": 22,
     "Day": 13,
@@ -10198,7 +10198,7 @@
           "pug_de_train_2018-01-13_22"
         ],
         "ClutchRounds": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -10367,7 +10367,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutches": 1
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -10622,9 +10622,9 @@
         ],
         "ClutchRounds": {
           "1": 1,
-          "2": 0,
-          "3": 0,
-          "4": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
           "5": 0
         },
         "MultiKillRounds": {
@@ -10777,7 +10777,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutches": 3
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -11159,7 +11159,7 @@
           "pug_de_train_2018-01-13_22"
         ],
         "ClutchRounds": {
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0,
@@ -11308,15 +11308,15 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutches": 1
       },
       "76561198081203263": {
         "UID": "Zaggle",
         "Name": "Zaggle",
         "SteamID": 76561198081203263,
-        "Kills": 7,
+        "Kills": 16,
         "Deaths": 25,
-        "Assists": 0,
+        "Assists": 1,
         "TeamKills": 0,
         "TradeKills": 4,
         "TimesTraded": 3,
@@ -11329,9 +11329,9 @@
         "ArmorDamage": 255,
         "Rounds": 29,
         "RoundWins": 13,
-        "KASTRounds": 27,
-        "MVPRounds": 0,
-        "HltvRating": 0.464,
+        "KASTRounds": 16,
+        "MVPRounds": 1,
+        "HltvRating": 0.634,
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
@@ -11917,7 +11917,7 @@
         ],
         "ClutchRounds": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -12086,7 +12086,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutches": 1
       }
     },
     "Awards": [
@@ -12137,7 +12137,7 @@
         "Description": "Most Clutch Rounds",
         "Name": "89iup34reawfdjcx",
         "UID": "76561198344040839",
-        "Value": 2.0
+        "Value": 3.0
       },
       {
         "Title": "Trade Craft",
@@ -12189,7 +12189,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_mirage_2018-01-12_20",
     "Hour": 20,
     "Day": 12,
@@ -14139,7 +14139,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_nuke_2018-01-11_21",
     "Hour": 21,
     "Day": 11,
@@ -16165,7 +16165,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -18092,7 +18092,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -19978,7 +19978,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -22047,7 +22047,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -24031,7 +24031,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -26127,7 +26127,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -28023,7 +28023,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -29898,7 +29898,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -31918,7 +31918,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -33926,7 +33926,7 @@
     }
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -35765,7 +35765,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -37807,7 +37807,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -39923,7 +39923,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -42176,7 +42176,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -44077,7 +44077,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -46210,7 +46210,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -48663,7 +48663,7 @@
     }
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -50719,7 +50719,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -50967,7 +50967,7 @@
         ],
         "ClutchRounds": {
           "1": 0,
-          "2": 0,
+          "2": 1,
           "3": 0,
           "4": 0,
           "5": 0
@@ -51143,7 +51143,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutches": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -51553,9 +51553,9 @@
           "pug_de_overpass_2017-08-08_22"
         ],
         "ClutchRounds": {
-          "1": 0,
+          "1": 2,
           "2": 0,
-          "3": 1,
+          "3": 0,
           "4": 0,
           "5": 0
         },
@@ -51722,7 +51722,7 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutches": 2
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -51940,8 +51940,8 @@
           "pug_de_overpass_2017-08-08_22"
         ],
         "ClutchRounds": {
-          "1": 0,
-          "2": 1,
+          "1": 1,
+          "2": 0,
           "3": 0,
           "4": 0,
           "5": 0
@@ -52126,8 +52126,8 @@
         "ClutchRounds": {
           "1": 1,
           "2": 0,
-          "3": 0,
-          "4": 1,
+          "3": 1,
+          "4": 0,
           "5": 0
         },
         "MultiKillRounds": {
@@ -52476,9 +52476,9 @@
         "UID": "marxy",
         "Name": "Marxy",
         "SteamID": 76561198104649119,
-        "Kills": 0,
+        "Kills": 25,
         "Deaths": 13,
-        "Assists": 0,
+        "Assists": 7,
         "TeamKills": 0,
         "TradeKills": 4,
         "TimesTraded": 1,
@@ -52491,9 +52491,9 @@
         "ArmorDamage": 384,
         "Rounds": 23,
         "RoundWins": 16,
-        "KASTRounds": 30,
-        "MVPRounds": 0,
-        "HltvRating": 1.024,
+        "KASTRounds": 20,
+        "MVPRounds": 4,
+        "HltvRating": 1.617,
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
@@ -52696,9 +52696,9 @@
       {
         "Title": "Lending Hand",
         "Description": "Most Assists",
-        "Name": "Devyn",
-        "UID": "Devyn",
-        "Value": 6.0
+        "Name": "Marxy",
+        "UID": "marxy",
+        "Value": 7.0
       },
       {
         "Title": "The Professional",
@@ -52717,8 +52717,8 @@
       {
         "Title": "Clutchmaster",
         "Description": "Most Clutch Rounds",
-        "Name": "Mike Nolan",
-        "UID": "76561198256748178",
+        "Name": "alt-CJ",
+        "UID": "76561198079742537",
         "Value": 2.0
       },
       {
@@ -52765,7 +52765,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -54687,7 +54687,7 @@
     "RingerClients": {}
   },
   {
-    "Version": 10,
+    "Version": 11,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
