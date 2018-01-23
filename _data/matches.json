@@ -1,6 +1,6 @@
 [
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_mirage_2018-01-21_20",
     "Hour": 20,
     "Day": 21,
@@ -71,7 +71,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -221,7 +228,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -248,7 +256,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -419,7 +434,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -446,7 +462,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -609,7 +632,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -636,7 +660,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -806,7 +837,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -833,7 +865,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -955,7 +994,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -982,7 +1022,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -1160,7 +1207,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -1187,7 +1235,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -1337,7 +1392,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -1364,7 +1420,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -1492,7 +1555,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -1519,7 +1583,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -1690,7 +1761,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -1717,7 +1789,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-21_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -1888,7 +1967,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -2004,7 +2084,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_inferno_2018-01-19_23",
     "Hour": 23,
     "Day": 19,
@@ -2075,7 +2155,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -2231,7 +2318,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -2258,7 +2346,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -2379,7 +2474,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -2406,7 +2502,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -2577,7 +2680,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -2604,7 +2708,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -2761,7 +2872,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198055445808": {
         "UID": "76561198055445808",
@@ -2788,7 +2900,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -2938,7 +3057,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 2
       },
       "76561198042795726": {
         "UID": "76561198042795726",
@@ -2965,7 +3085,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -3143,7 +3270,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -3170,7 +3298,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -3327,7 +3462,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198260779558": {
         "UID": "76561198260779558",
@@ -3354,7 +3490,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -3532,7 +3675,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -3559,7 +3703,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -3716,7 +3867,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -3743,7 +3895,14 @@
         "Matches": [
           "pug_de_inferno_2018-01-19_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -3900,7 +4059,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -4032,7 +4192,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_cache_2018-01-19_21",
     "Hour": 21,
     "Day": 19,
@@ -4103,7 +4263,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -4253,7 +4420,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -4280,7 +4448,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -4444,7 +4619,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -4471,7 +4647,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -4642,7 +4825,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -4669,7 +4853,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -4833,7 +5024,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -4860,7 +5052,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -5066,7 +5265,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -5093,7 +5293,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -5292,7 +5499,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -5319,7 +5527,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -5462,7 +5677,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 2
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -5489,7 +5705,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -5630,7 +5853,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -5657,7 +5881,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -5835,7 +6066,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -5862,7 +6094,14 @@
         "Matches": [
           "pug_de_cache_2018-01-19_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -6054,7 +6293,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -6194,7 +6434,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_oldnuke_2018-01-18_20",
     "Hour": 20,
     "Day": 18,
@@ -6265,7 +6505,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -6415,7 +6662,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -6442,7 +6690,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 3,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 2,
@@ -6620,7 +6875,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 3
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 3
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -6647,7 +6903,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -6825,7 +7088,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -6852,7 +7116,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -7044,7 +7315,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -7071,7 +7343,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -7228,7 +7507,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 1
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -7255,7 +7535,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -7405,7 +7692,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -7432,7 +7720,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -7617,7 +7912,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -7644,7 +7940,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -7843,7 +8146,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       },
       "76561198257100849": {
         "UID": "76561198257100849",
@@ -7870,7 +8174,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -8041,7 +8352,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -8068,7 +8380,14 @@
         "Matches": [
           "pug_de_oldnuke_2018-01-18_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -8232,7 +8551,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       }
     },
     "Awards": [
@@ -8376,7 +8696,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_inferno_old_2018-01-13_23",
     "Hour": 23,
     "Day": 13,
@@ -8447,7 +8767,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -8597,7 +8924,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -8624,7 +8952,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -8802,7 +9137,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198344040839": {
         "UID": "76561198344040839",
@@ -8829,7 +9165,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -8978,7 +9321,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -9005,7 +9349,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -9154,7 +9505,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198145195904": {
         "UID": "76561198145195904",
@@ -9181,7 +9533,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -9330,7 +9689,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -9357,7 +9717,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -9500,7 +9867,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -9527,7 +9895,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -9670,7 +10045,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -9697,7 +10073,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -9833,7 +10216,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -9860,7 +10244,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -10017,7 +10408,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -10044,7 +10436,14 @@
         "Matches": [
           "pug_de_inferno_old_2018-01-13_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -10173,7 +10572,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -10310,7 +10710,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_train_2018-01-13_22",
     "Hour": 22,
     "Day": 13,
@@ -10381,7 +10781,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -10551,7 +10958,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -10578,7 +10986,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -10777,7 +11192,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198344040839": {
         "UID": "76561198344040839",
@@ -10804,7 +11220,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 1,
@@ -10961,7 +11384,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 3
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 3
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -10988,7 +11412,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -11152,7 +11583,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198145195904": {
         "UID": "76561198145195904",
@@ -11179,7 +11611,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -11315,7 +11754,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -11342,7 +11782,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -11492,7 +11939,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -11519,7 +11967,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -11655,7 +12110,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -11682,7 +12138,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -11881,7 +12344,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -11908,7 +12372,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -12072,7 +12543,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -12099,7 +12571,14 @@
         "Matches": [
           "pug_de_train_2018-01-13_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -12270,7 +12749,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       }
     },
     "Awards": [
@@ -12409,7 +12889,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_mirage_2018-01-12_20",
     "Hour": 20,
     "Day": 12,
@@ -12480,7 +12960,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -12637,7 +13124,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -12664,7 +13152,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -12806,7 +13301,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198037413384": {
         "UID": "76561198037413384",
@@ -12833,7 +13329,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -12990,7 +13493,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -13017,7 +13521,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -13167,7 +13678,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -13194,7 +13706,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -13365,7 +13884,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -13392,7 +13912,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -13556,7 +14083,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 1
       },
       "76561198344040839": {
         "UID": "76561198344040839",
@@ -13583,7 +14111,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -13740,7 +14275,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -13767,7 +14303,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -13910,7 +14453,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055445808": {
         "UID": "76561198055445808",
@@ -13937,7 +14481,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -14087,7 +14638,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -14114,7 +14666,14 @@
         "Matches": [
           "pug_de_mirage_2018-01-12_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -14264,7 +14823,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       }
     },
     "Awards": [
@@ -14389,7 +14949,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_nuke_2018-01-11_21",
     "Hour": 21,
     "Day": 11,
@@ -14460,7 +15020,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -14631,7 +15198,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -14658,7 +15226,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -14801,7 +15376,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -14828,7 +15404,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -14977,7 +15560,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198257100849": {
         "UID": "76561198257100849",
@@ -15004,7 +15588,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 4,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -15161,7 +15752,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -15188,7 +15780,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -15345,7 +15944,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198001808454": {
         "UID": "ism",
@@ -15372,7 +15972,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -15550,7 +16157,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -15577,7 +16185,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -15762,7 +16377,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -15789,7 +16405,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -15960,7 +16583,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -15987,7 +16611,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -16144,7 +16775,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -16171,7 +16803,14 @@
         "Matches": [
           "pug_de_nuke_2018-01-11_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -16314,7 +16953,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -16453,7 +17093,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -16524,7 +17164,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -16688,7 +17335,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -16715,7 +17363,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -16858,7 +17513,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -16885,7 +17541,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 3,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -17035,7 +17698,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -17062,7 +17726,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -17191,7 +17862,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198045198932": {
         "UID": "76561198045198932",
@@ -17218,7 +17890,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -17361,7 +18040,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -17388,7 +18068,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -17552,7 +18239,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 10,
+        "TotalClutchesWon": 1
       },
       "76561198156421630": {
         "UID": "76561198156421630",
@@ -17579,7 +18267,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -17715,7 +18410,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198038653688": {
         "UID": "skyline",
@@ -17742,7 +18438,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -17899,7 +18602,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -17926,7 +18630,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -18081,7 +18792,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -18108,7 +18820,14 @@
         "Matches": [
           "pug_de_dust2_2018-01-05_20"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -18286,7 +19005,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -18414,7 +19134,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -18485,7 +19205,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 3,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -18607,7 +19334,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -18634,7 +19362,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -18798,7 +19533,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 2
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -18825,7 +19561,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -18967,7 +19710,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -18994,7 +19738,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -19151,7 +19902,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -19178,7 +19930,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -19314,7 +20073,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -19341,7 +20101,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -19491,7 +20258,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198453342067": {
         "UID": "76561198453342067",
@@ -19518,7 +20286,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -19652,7 +20427,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -19679,7 +20455,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -19843,7 +20626,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -19870,7 +20654,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -20020,7 +20811,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -20047,7 +20839,14 @@
         "Matches": [
           "pug_de_cache_2018-01-03_19"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -20211,7 +21010,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 2
       }
     },
     "Awards": [
@@ -20338,7 +21138,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -20409,7 +21209,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -20573,7 +21380,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 1
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -20600,7 +21408,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -20743,7 +21558,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -20770,7 +21586,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -20906,7 +21729,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -20933,7 +21757,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -21097,7 +21928,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -21124,7 +21956,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -21295,7 +22134,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -21322,7 +22162,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -21493,7 +22340,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -21520,7 +22368,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -21696,7 +22551,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -21723,7 +22579,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -21908,7 +22771,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -21935,7 +22799,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -22106,7 +22977,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198042795726": {
         "UID": "76561198042795726",
@@ -22133,7 +23005,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-25_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -22309,7 +23188,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -22445,7 +23325,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -22516,7 +23396,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -22673,7 +23560,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -22700,7 +23588,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -22843,7 +23738,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -22870,7 +23766,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -23020,7 +23923,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -23047,7 +23951,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -23204,7 +24115,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -23231,7 +24143,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -23409,7 +24328,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 8,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -23436,7 +24356,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -23572,7 +24499,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198042795726": {
         "UID": "76561198042795726",
@@ -23599,7 +24527,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -23769,7 +24704,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -23796,7 +24732,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -23960,7 +24903,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198001808454": {
         "UID": "ism",
@@ -23987,7 +24931,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -24151,7 +25102,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -24178,7 +25130,14 @@
         "Matches": [
           "pug_de_dust2_2017-12-23_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -24334,7 +25293,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -24467,7 +25427,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -24538,7 +25498,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -24688,7 +25655,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -24715,7 +25683,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -24893,7 +25868,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -24920,7 +25896,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -25112,7 +26095,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198020273020": {
         "UID": "76561198020273020",
@@ -25139,7 +26123,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -25317,7 +26308,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -25344,7 +26336,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -25501,7 +26500,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -25528,7 +26528,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -25678,7 +26685,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198042795726": {
         "UID": "76561198042795726",
@@ -25705,7 +26713,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -25876,7 +26891,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -25903,7 +26919,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -26060,7 +27083,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -26087,7 +27111,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -26249,7 +27280,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -26276,7 +27308,14 @@
         "Matches": [
           "pug_cs_office_2017-12-23_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -26468,7 +27507,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -26601,7 +27641,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -26672,7 +27712,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -26822,7 +27869,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -26849,7 +27897,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -26992,7 +28047,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -27019,7 +28075,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -27155,7 +28218,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -27182,7 +28246,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -27325,7 +28396,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -27352,7 +28424,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -27502,7 +28581,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -27529,7 +28609,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -27679,7 +28766,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -27706,7 +28794,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -27863,7 +28958,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198156421630": {
         "UID": "76561198156421630",
@@ -27890,7 +28986,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -28053,7 +29156,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198037413384": {
         "UID": "76561198037413384",
@@ -28080,7 +29184,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -28244,7 +29355,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -28271,7 +29383,14 @@
         "Matches": [
           "pug_de_train_2017-12-22_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -28406,7 +29525,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -28535,7 +29655,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -28606,7 +29726,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -28742,7 +29869,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -28769,7 +29897,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -28926,7 +30061,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -28953,7 +30089,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -29117,7 +30260,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -29144,7 +30288,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -29294,7 +30445,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 2
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -29321,7 +30473,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -29457,7 +30616,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198192766006": {
         "UID": "Glaci3r",
@@ -29484,7 +30644,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -29634,7 +30801,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -29661,7 +30829,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -29824,7 +30999,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -29851,7 +31027,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -29994,7 +31177,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198132137627": {
         "UID": "76561198132137627",
@@ -30021,7 +31205,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 3,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -30143,7 +31334,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 1
       },
       "76561198037413384": {
         "UID": "76561198037413384",
@@ -30170,7 +31362,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-21_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -30313,7 +31512,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -30448,7 +31648,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -30519,7 +31719,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 3
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -30697,7 +31904,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       },
       "76561198257100849": {
         "UID": "76561198257100849",
@@ -30724,7 +31932,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -30881,7 +32096,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -30908,7 +32124,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -31051,7 +32274,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -31078,7 +32302,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -31242,7 +32473,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 2
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -31269,7 +32501,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -31433,7 +32672,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198001808454": {
         "UID": "ism",
@@ -31460,7 +32700,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -31645,7 +32892,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198061644533": {
         "UID": "76561198061644533",
@@ -31672,7 +32920,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -31814,7 +33069,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198073777991": {
         "UID": "76561198073777991",
@@ -31841,7 +33097,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -32012,7 +33275,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -32039,7 +33303,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -32196,7 +33467,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198132137627": {
         "UID": "76561198132137627",
@@ -32223,7 +33495,14 @@
         "Matches": [
           "pug_de_overpass_2017-12-21_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 2,
           "3": 0,
@@ -32373,7 +33652,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 3
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 3
       }
     },
     "Awards": [
@@ -32506,7 +33786,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -32579,7 +33859,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -32736,7 +34023,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 2
       },
       "76561198001808454": {
         "UID": "ism",
@@ -32763,7 +34051,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -32920,7 +34215,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -32947,7 +34243,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -33074,7 +34377,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -33101,7 +34405,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 3,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -33244,7 +34555,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 8,
+        "TotalClutchesWon": 1
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -33271,7 +34583,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -33435,7 +34754,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -33462,7 +34782,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -33606,7 +34933,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -33633,7 +34961,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -33783,7 +35118,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198118562612": {
         "UID": "76561198118562612",
@@ -33810,7 +35146,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -33950,7 +35293,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -33977,7 +35321,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -34121,7 +35472,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -34148,7 +35500,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -34313,7 +35672,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -34340,7 +35700,14 @@
         "Matches": [
           "pug_de_mirage_2017-12-20_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -34417,7 +35784,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -34552,7 +35920,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -34623,7 +35991,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -34766,7 +36141,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -34793,7 +36169,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -34957,7 +36340,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -34984,7 +36368,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -35127,7 +36518,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -35154,7 +36546,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -35297,7 +36696,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -35324,7 +36724,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 4,
+          "3": 3,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -35439,7 +36846,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 9,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -35466,7 +36874,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -35623,7 +37038,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198257100849": {
         "UID": "76561198257100849",
@@ -35650,7 +37066,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -35785,7 +37208,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198100421553": {
         "UID": "76561198100421553",
@@ -35812,7 +37236,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -35948,7 +37379,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -35975,7 +37407,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -36118,7 +37557,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -36145,7 +37585,14 @@
         "Matches": [
           "pug_de_cache_2017-12-18_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -36295,7 +37742,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -36429,7 +37877,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -36500,7 +37948,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -36650,7 +38105,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -36677,7 +38133,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -36848,7 +38311,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -36875,7 +38339,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -37046,7 +38517,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -37073,7 +38545,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -37251,7 +38730,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -37278,7 +38758,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -37414,7 +38901,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -37441,7 +38929,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -37612,7 +39107,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -37639,7 +39135,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -37803,7 +39306,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 2
       },
       "76561198100421553": {
         "UID": "76561198100421553",
@@ -37830,7 +39334,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -37994,7 +39505,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -38021,7 +39533,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -38192,7 +39711,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       },
       "76561198137565812": {
         "UID": "76561198137565812",
@@ -38219,7 +39739,14 @@
         "Matches": [
           "pug_de_train_2017-12-18_21"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -38376,7 +39903,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -38509,7 +40037,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -38580,7 +40108,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -38730,7 +40265,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -38757,7 +40293,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 2,
           "3": 0,
@@ -38935,7 +40478,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 8,
+        "TotalClutchesWon": 2
       },
       "76561198001808454": {
         "UID": "ism",
@@ -38962,7 +40506,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -39133,7 +40684,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198038963123": {
         "UID": "76561198038963123",
@@ -39160,7 +40712,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -39310,7 +40869,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -39337,7 +40897,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 3,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -39508,7 +41075,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198010989621": {
         "UID": "76561198010989621",
@@ -39535,7 +41103,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 3,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -39727,7 +41302,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -39754,7 +41330,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -39939,7 +41522,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -39966,7 +41550,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -40130,7 +41721,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -40157,7 +41749,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 3,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -40314,7 +41913,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 1
       },
       "76561198118562612": {
         "UID": "76561198118562612",
@@ -40341,7 +41941,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-17_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 5,
+          "3": 0,
+          "4": 3,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -40512,7 +42119,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 8,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -40663,7 +42271,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -40734,7 +42342,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 3,
+          "4": 4,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -40912,7 +42527,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 9,
+        "TotalClutchesWon": 2
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -40939,7 +42555,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 3,
+          "2": 2,
+          "3": 3,
+          "4": 7,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 3,
           "2": 2,
           "3": 0,
@@ -41096,7 +42719,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 5
+        "TotalClutchesEntered": 15,
+        "TotalClutchesWon": 5
       },
       "76561198038963123": {
         "UID": "76561198038963123",
@@ -41123,7 +42747,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -41294,7 +42925,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 1
       },
       "76561198257100849": {
         "UID": "76561198257100849",
@@ -41321,7 +42953,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 3,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -41471,7 +43110,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       },
       "76561198055295222": {
         "UID": "76561198055295222",
@@ -41498,7 +43138,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 1,
@@ -41669,7 +43316,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 2
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -41696,7 +43344,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -41916,7 +43571,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198083383351": {
         "UID": "76561198083383351",
@@ -41943,7 +43599,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -42128,7 +43791,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -42155,7 +43819,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -42340,7 +44011,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -42367,7 +44039,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -42552,7 +44231,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198109854748": {
         "UID": "76561198109854748",
@@ -42579,7 +44259,14 @@
         "Matches": [
           "pug_de_inferno_old_2017-12-16_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -42785,7 +44472,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 9,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -42954,7 +44642,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -43025,7 +44713,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -43182,7 +44877,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198165409571": {
         "UID": "ism",
@@ -43209,7 +44905,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -43345,7 +45048,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -43372,7 +45076,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -43529,7 +45240,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 10,
+        "TotalClutchesWon": 2
       },
       "76561198067076932": {
         "UID": "76561198067076932",
@@ -43556,7 +45268,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -43720,7 +45439,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -43747,7 +45467,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -43890,7 +45617,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198055445808": {
         "UID": "76561198055445808",
@@ -43917,7 +45645,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -44039,7 +45774,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561197964022127": {
         "UID": "76561197964022127",
@@ -44066,7 +45802,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -44199,7 +45942,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198038653688": {
         "UID": "skyline",
@@ -44226,7 +45970,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -44376,7 +46127,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -44403,7 +46155,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -44567,7 +46326,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561197972321876": {
         "UID": "76561197972321876",
@@ -44594,7 +46354,14 @@
         "Matches": [
           "pug_de_season_2017-12-15_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -44758,7 +46525,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       }
     },
     "Awards": [
@@ -44893,7 +46661,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -44964,7 +46732,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -45135,7 +46910,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -45162,7 +46938,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -45305,7 +47088,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 1
       },
       "76561198001808454": {
         "UID": "ism",
@@ -45332,7 +47116,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -45510,7 +47301,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -45537,7 +47329,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -45729,7 +47528,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 2
       },
       "76561198010989621": {
         "UID": "76561198010989621",
@@ -45756,7 +47556,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -45955,7 +47762,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -45982,7 +47790,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -46139,7 +47954,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -46166,7 +47982,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -46350,7 +48173,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -46377,7 +48201,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -46562,7 +48393,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561197972321876": {
         "UID": "76561197972321876",
@@ -46589,7 +48421,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -46745,7 +48584,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -46772,7 +48612,14 @@
         "Matches": [
           "pug_de_inferno_2017-12-10_23"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 1,
           "3": 0,
@@ -46922,7 +48769,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 3
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 3
       }
     },
     "Awards": [
@@ -47064,7 +48912,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -47137,7 +48985,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -47364,7 +49219,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -47391,7 +49247,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -47541,7 +49404,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198393693567": {
         "UID": "marxy",
@@ -47568,7 +49432,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -47754,7 +49625,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198083383351": {
         "UID": "76561198083383351",
@@ -47781,7 +49653,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -48007,7 +49886,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -48034,7 +49914,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -48204,7 +50091,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -48231,7 +50119,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 3,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -48451,7 +50346,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -48478,7 +50374,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 1,
           "3": 0,
@@ -48677,7 +50580,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198065111042": {
         "UID": "76561198065111042",
@@ -48704,7 +50608,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 2,
           "3": 1,
@@ -48875,7 +50786,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 4
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 4
       },
       "76561198420472547": {
         "UID": "76561198420472547",
@@ -48902,7 +50814,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -49045,7 +50964,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 0
       },
       "76561198055445808": {
         "UID": "76561198055445808",
@@ -49072,7 +50992,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -49265,7 +51192,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -49292,7 +51220,14 @@
         "Matches": [
           "pug_cs_office_2017-12-03_18"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 4,
+          "3": 1,
+          "4": 2,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -49414,7 +51349,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -49555,7 +51491,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -49626,7 +51562,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -49797,7 +51740,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -49824,7 +51768,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -50008,7 +51959,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198235994884": {
         "UID": "76561198235994884",
@@ -50035,7 +51987,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -50227,7 +52186,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -50254,7 +52214,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -50418,7 +52385,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -50445,7 +52413,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -50602,7 +52577,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -50629,7 +52605,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -50779,7 +52762,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 7,
+        "TotalClutchesWon": 0
       },
       "76561198030424730": {
         "UID": "76561198030424730",
@@ -50806,7 +52790,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -50956,7 +52947,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 2
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -50983,7 +52975,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -51126,7 +53125,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198104649119": {
         "UID": "marxy",
@@ -51153,7 +53153,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -51345,7 +53352,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198271442417": {
         "UID": "flipndipp",
@@ -51372,7 +53380,14 @@
         "Matches": [
           "pug_de_cache_2017-08-19_00"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -51522,7 +53537,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -51649,7 +53665,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -51720,7 +53736,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -51870,7 +53893,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -51897,7 +53921,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -52075,7 +54106,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 4,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -52102,7 +54134,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -52273,7 +54312,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -52300,7 +54340,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -52457,7 +54504,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -52484,7 +54532,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -52654,7 +54709,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 2
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -52681,7 +54737,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -52844,7 +54907,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198038963123": {
         "UID": "76561198038963123",
@@ -52871,7 +54935,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -53028,7 +55099,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -53055,7 +55127,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 1,
@@ -53212,7 +55291,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 2
       },
       "76561198070596192": {
         "UID": "76561198070596192",
@@ -53239,7 +55319,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -53402,7 +55489,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198104649119": {
         "UID": "marxy",
@@ -53429,7 +55517,14 @@
         "Matches": [
           "pug_de_overpass_2017-08-08_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -53600,7 +55695,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [
@@ -53713,7 +55809,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -53784,7 +55880,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -53955,7 +56058,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 0,
+        "TotalClutchesWon": 0
       },
       "76561198001808454": {
         "UID": "ism",
@@ -53982,7 +56086,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -54146,7 +56257,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -54173,7 +56285,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -54316,7 +56435,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -54343,7 +56463,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -54500,7 +56627,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -54527,7 +56655,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -54670,7 +56805,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198148070517": {
         "UID": "Devyn",
@@ -54697,7 +56833,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -54847,7 +56990,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198002599946": {
         "UID": "76561198002599946",
@@ -54874,7 +57018,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -55024,7 +57175,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 1
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -55051,7 +57203,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -55208,7 +57367,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 0
       },
       "76561198079742537": {
         "UID": "76561198079742537",
@@ -55235,7 +57395,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -55376,7 +57543,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -55403,7 +57571,14 @@
         "Matches": [
           "pug_de_cache_2017-08-08_01"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -55539,7 +57714,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 1
       }
     },
     "Awards": [
@@ -55649,7 +57825,7 @@
     ]
   },
   {
-    "Version": 14,
+    "Version": 16,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
@@ -55720,7 +57896,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 1,
           "3": 0,
@@ -55870,7 +58053,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 1
       },
       "76561198117966816": {
         "UID": "76561198117966816",
@@ -55897,7 +58081,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 2,
           "2": 0,
           "3": 0,
@@ -56054,7 +58245,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 2
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 2
       },
       "76561198001808454": {
         "UID": "ism",
@@ -56081,7 +58273,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -56231,7 +58430,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198072042202": {
         "UID": "Ant-iwnl-",
@@ -56258,7 +58458,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -56443,7 +58650,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       },
       "76561198104649119": {
         "UID": "marxy",
@@ -56470,7 +58678,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -56634,7 +58849,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 0
       },
       "76561198084911409": {
         "UID": "76561198084911409",
@@ -56661,7 +58877,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -56818,7 +59041,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 1,
+        "TotalClutchesWon": 0
       },
       "76561198235994884": {
         "UID": "76561198235994884",
@@ -56845,7 +59069,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 0,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 1,
@@ -56995,7 +59226,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 5,
+        "TotalClutchesWon": 1
       },
       "76561198256748178": {
         "UID": "76561198256748178",
@@ -57022,7 +59254,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -57165,7 +59404,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 3,
+        "TotalClutchesWon": 0
       },
       "76561198081203263": {
         "UID": "Zaggle",
@@ -57192,7 +59432,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 0,
+          "5": 1
+        },
+        "ClutchRoundsWon": {
           "1": 1,
           "2": 0,
           "3": 0,
@@ -57349,7 +59596,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 1
+        "TotalClutchesEntered": 6,
+        "TotalClutchesWon": 1
       },
       "76561198071477737": {
         "UID": "76561198071477737",
@@ -57376,7 +59624,14 @@
         "Matches": [
           "pug_de_mirage_2017-08-07_22"
         ],
-        "ClutchRounds": {
+        "ClutchRoundsEntered": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "ClutchRoundsWon": {
           "1": 0,
           "2": 0,
           "3": 0,
@@ -57545,7 +59800,8 @@
           }
         },
         "FlashAssists": 0,
-        "TotalClutches": 0
+        "TotalClutchesEntered": 2,
+        "TotalClutchesWon": 0
       }
     },
     "Awards": [

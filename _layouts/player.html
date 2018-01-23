@@ -18,11 +18,11 @@ type: Player
   border-radius: 8px;
 }
 
-.ot1 tr th, .ot2 tr th {
+.otPad1 tr th, .otPad2 tr th {
   padding-left: 20px;
 }
 
-.ot1 tr td, .ot2 tr td {
+.otPad1 tr td, .otPad2 tr td {
   padding-right: 20px;
 }
 
@@ -76,6 +76,9 @@ canvas {
   {% assign HSPercentage = page.Headshots | divided_by: Kills | times: 100 | round: 2 %}
 {% endif %}
 
+{% assign totalClutchesEntered = page.ClutchRoundsEntered["1"] | plus: page.ClutchRoundsEntered["2"] | plus: page.ClutchRoundsEntered["3"] | plus: page.ClutchRoundsEntered["4"] | plus: page.ClutchRoundsEntered["5"] %}
+{% assign totalClutchesWon = page.ClutchRoundsWon["1"] | plus: page.ClutchRoundsWon["2"] | plus: page.ClutchRoundsWon["3"] | plus: page.ClutchRoundsWon["4"] | plus: page.ClutchRoundsWon["5"] %}
+
 <div class="container">
 <div class="row">
   <div class="center-align">
@@ -90,12 +93,12 @@ canvas {
       <li class="tab col s2"><a href="#matches">Matches</a></li>
       <li class="tab col s2"><a href="#stats">Statistics</a></li>
       <li class="tab col s3"><a href="#weapons" onclick="drawCharts()">Weapon Charts</a></li>
-      <li class="tab col"><a href="#clutches">Clutches</a></li>
+      <li class="tab col"><a href="#clutches" onclick="drawClutches()">Clutches</a></li>
     </ul>
   </div>
   <!-- Overview -->
   <div id="overview" class="col s12 tabContent">
-    <table class="col s6 highlight ot1">
+    <table class="col s6 highlight ot1 otPad1">
       <tr>
         <th>Kills:</th>
         <td class="right-align">{{page.Kills}}</td>
@@ -125,7 +128,7 @@ canvas {
         <td class="right-align">{{page.Rounds}}</td>
       </tr>
     </table>
-    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
+    <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2 otPad2">
       <tr>
         <th>Hltv Rating:</th>
         <td class="right-align">{{page.HltvRating}}</td>
@@ -305,27 +308,27 @@ canvas {
     <table class="col s6 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
       <tr>
         <th>1v1 Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["1"]}}</td>
+        <td class="right-align">{{page.ClutchRoundsWon["1"]}}</td>
       </tr>
       <tr>
         <th>1v2 Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["2"]}}</td>
+        <td class="right-align">{{page.ClutchRoundsWon["2"]}}</td>
       </tr>
       <tr>
         <th>1v3 Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["3"]}}</td>
+        <td class="right-align">{{page.ClutchRoundsWon["3"]}}</td>
       </tr>
       <tr>
         <th>1v4 Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["4"]}}</td>
+        <td class="right-align">{{page.ClutchRoundsWon["4"]}}</td>
       </tr>
       <tr>
         <th>1v5 Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["5"]}}</td>
+        <td class="right-align">{{page.ClutchRoundsWon["5"]}}</td>
       </tr>
       <tr>
         <th>Total Clutches:</th>
-        <td class="right-align">{{page.ClutchRounds["1"] | plus: page.ClutchRounds["2"] | plus: page.ClutchRounds["3"] | plus: page.ClutchRounds["4"] | plus: page.ClutchRounds["5"]}}</td>
+        <td class="right-align">{{totalClutchesWon}}</td>
       </tr>
     </table>
     {% assign length = site.data.players | size | minus: 1 %}
@@ -372,8 +375,38 @@ canvas {
   </div>
   <!-- Clutches -->
   <div id="clutches" class="col s12 tabContent">
-    <div style="height: 900px;" align="center">
-      <h1 style="font-size:46px;">WIP</h1>
+    <div class="grey lighten-3 black-text text-darken-2">
+      <div class="row">
+      <div class="col s6">
+      <canvas id="enteredChart" class="hoberable"></canvas>
+      </div>
+      <div class="col s6">
+      <canvas id="wonChart" class="hoberable "></canvas>
+      </div>
+      </div>
+      <table class="col s12 bordered highlight grey lighten-3 black-text text-darken-2 ot2">
+        <tr>
+          <th></th>
+          <th class="center-align">Entered</th>
+          <th class="center-align">Won</th>
+          <th class="center-align">Percentage</th>
+        </tr>
+        {% for i in (1..5) %}
+          {% assign num = i | downcase %}
+          <tr>
+            <th>1v{{i}}s</th>
+            <td class="center-align">{{page.ClutchRoundsEntered[num]}}</td>
+            <td class="center-align">{{page.ClutchRoundsWon[num]}}</td>
+            {% assign dividend = page.ClutchRoundsEntered[num] | times: 1.0 %}
+            {% if dividend <= 0 %}
+              {% assign ttl = 0.0 %}
+            {% else %}
+              {% assign ttl = page.ClutchRoundsWon[num] | divided_by: dividend | times: 100 | round: 2 %}
+            {% endif %}
+            <td class="center-align">{{ttl}}%</td>
+          </tr>
+        {% endfor %}
+      </table>
     </div>
   </div>
 </div>
@@ -388,10 +421,97 @@ $(document).ready(function()
 
     if (id == "#weapons")
       drawCharts();
+    else if (id == "#clutches")
+      drawClutches();
   }
   else
     $('.tab:first').addClass('active');
 });
+
+var clutchesLoaded = false;
+
+var chartColors = {
+	red: 'rgb(255, 99, 132)',
+	orange: 'rgb(255, 159, 64)',
+	yellow: 'rgb(255, 205, 86)',
+	green: 'rgb(75, 192, 192)',
+	blue: 'rgb(54, 162, 235)',
+	purple: 'rgb(153, 102, 255)',
+	grey: 'rgb(201, 203, 207)'
+};
+
+function drawClutches()
+{
+  if (clutchesLoaded)
+    return;
+
+  clutchesLoaded = true;
+
+  var cStart = {{page.ClutchRoundsEntered | jsonify}};
+  var cWon = {{page.ClutchRoundsWon | jsonify}};
+  var titles = [ "1v1", "1v2", "1v3", "1v4", "1v5" ];
+  var startData = [];
+  var wonData = [];
+
+  for (i = 1; i <= 5; i++)
+  {
+    startData.push(cStart[i]);
+    wonData.push(cWon[i]);
+  }
+
+  var datasets = [];
+
+  datasets.push({
+    label: "dataSet",
+    backgroundColor: [
+        window.chartColors.red,
+        window.chartColors.orange,
+        window.chartColors.yellow,
+        window.chartColors.green,
+        window.chartColors.blue,
+    ],
+    data: startData
+  });
+  
+  datasets.push({
+    label: "dataSet",
+    backgroundColor: [
+        window.chartColors.red,
+        window.chartColors.orange,
+        window.chartColors.yellow,
+        window.chartColors.green,
+        window.chartColors.blue,
+    ],
+    data: wonData
+  });
+
+  generatePieChart("enteredChart", "Clutches Entered", datasets[0], titles);
+  generatePieChart("wonChart", "Clutches Won", datasets[1], titles);
+}
+
+function generatePieChart(canvasID, title, dataset, labels)
+{
+  var canvas = document.getElementById(canvasID);
+  var ctx = canvas.getContext('2d');
+
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: labels,
+      datasets: [dataset]
+    },
+    options: {
+      title: {
+        display: true,
+        text: title,
+        fontSize: 24
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  });
+}
 
 var names = {{site.data.strings.demoweapons | jsonify}};
 var chartsLoaded = false;
@@ -400,8 +520,6 @@ function drawCharts()
 {
   if (chartsLoaded)
     return;
-
-  console.log("Test");
 
   chartsLoaded = true;
 
