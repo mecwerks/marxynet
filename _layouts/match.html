@@ -67,7 +67,10 @@ type: Match
           {% when "3" or "23" %}{{ d }}rd
           {% else %}{{ d }}th
         {% endcase %} 
-        {{monthString | date: ", %Y"}}
+        {{monthString | date: ", %Y"}}</br></br>
+        {% if page.Valid == false %}
+          <img src="/assets/images/invalid.png" width="15" height="15"/> <strong>This match is not counted towards players' global stats.</strong>
+        {% endif %}
     </div>
     <div id="teamBHeader">
       <h3>{{ page.TeamB.Name | default: "Team B" }}</h3>
@@ -86,7 +89,7 @@ type: Match
     <caption><h2>Awards</h2></caption>
     {% for award in page.Awards %}
     <tr>
-        <th style="text-align: center" class="tooltip">{{award.Title}}<span class="tooltiptext">{{award.Description}}</span></th>
+        <th style="text-align: center" class="tooltipped" data-position="top" data-delay="50" data-tooltip="{{award.Description}}">{{award.Title}}</th>
         {% if award.UID == empty %}
           <td style="text-align: center">N/A</td>
         {% else %}

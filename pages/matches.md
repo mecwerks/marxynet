@@ -77,7 +77,14 @@ table.highlight>tbody>tr:hover {
             <td style="text-align: right;width: 25%">{{match.TeamA.Name}}</td>
             <td style="text-align: center;width: 8%"><span class="{{scoreAClass}}">{{match.TeamA.RoundWins}}</span> - <span class="{{scoreBClass}}">{{match.TeamB.RoundWins}}</span></td>
             <td style="width: 25%">{{match.TeamB.Name}}</td>
-            <td style="width: 15%" class="infoFont">{{match.Map}}</td>
+            <td style="width: 15%" class="infoFont">
+                {{match.Map}}
+                {% if match.Valid == false %}
+                    <span class="tooltip">
+                        <img src="/assets/images/invalid.png" width="15" height="15" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="This match is not counted towards players' global stats."/>
+                    </span>
+                {% endif %}
+            </td>
         </tr>
         {% if newMatch == true %}
             {% assign newMonth = true %}
