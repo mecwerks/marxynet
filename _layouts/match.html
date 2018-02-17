@@ -85,7 +85,12 @@ type: Match
 {% include teamstattable.html FirstPick=fp Captain=page.TeamB.Captain totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
 
   <div class="row">
-  <table class="col highlight s6 ot1">
+  {% if page.HasPicks == true %}
+    {% assign extraClass = "s6 ot1" %}
+  {% else %}
+    {% assign extraClass = "s12" %}
+  {% endif %}
+  <table class="col highlight {{extraClass}}">
     <caption><h2>Awards</h2></caption>
     {% for award in page.Awards %}
     <tr>
@@ -98,29 +103,30 @@ type: Match
     </tr>
     {% endfor %}
   </table>
-  {% assign capt1 = page.Captain1 | downcase %}
-  {% assign capt2 = page.Captain2 | downcase %}
-  <table class="col highlight s6 ot2">
-    <caption><h2>Player Picks</h2></caption>
-    <tr>
-      <th style="text-align: center">#</th>
-      <th style="text-align: center">Player</th>
-      <th style="text-align: center">Captain</th>
-    </tr>
-    {% assign count = 1 %}
-    {% for pick in page.Picks %}
+  {% if page.HasPicks == true %}
+    {% assign capt1 = page.Captain1 | downcase %}
+    {% assign capt2 = page.Captain2 | downcase %}
+    <table class="col highlight s6 ot2">
+      <caption><h2>Player Picks</h2></caption>
       <tr>
-        {% assign pid = pick.Player | downcase %}
-        {% assign capt = pick.Captain | downcase %}
-        <td style="text-align: center">{{count}}</td>
-        <td style="text-align: center"><a href="/players/{{page.Players[pid].UID}}">{{page.Players[pid].Name}}</a></td>
-        <td style="text-align: center;font-weight:bold;"><a href="/players/{{page.Players[capt].UID}}">{{page.Players[capt].Name}}</a></td>
+        <th style="text-align: center">#</th>
+        <th style="text-align: center">Player</th>
+        <th style="text-align: center">Captain</th>
       </tr>
-      {% assign count = count | plus: 1 %}
-    {% endfor %}
-  </table>
-</div>
-
+      {% assign count = 1 %}
+      {% for pick in page.Picks %}
+        <tr>
+          {% assign pid = pick.Player | downcase %}
+          {% assign capt = pick.Captain | downcase %}
+          <td style="text-align: center">{{count}}</td>
+          <td style="text-align: center"><a href="/players/{{page.Players[pid].UID}}">{{page.Players[pid].Name}}</a></td>
+          <td style="text-align: center;font-weight:bold;"><a href="/players/{{page.Players[capt].UID}}">{{page.Players[capt].Name}}</a></td>
+        </tr>
+        {% assign count = count | plus: 1 %}
+      {% endfor %}
+    </table>
+  </div>
+{% endif %}
   <div class="row">
     <table id="matrix" class="col s10 offset-s1">
       <caption><h2>Kill Matrix</h2></caption>
