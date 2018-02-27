@@ -16,7 +16,7 @@
 			<th style="text-align: center">HLTV</th>
 		</tr>
 	</thead>
-	<tbody class="fullTable">
+	<tbody>
 		{% for steamID in include.teamIDs %}
 		{% assign sID = steamID | downcase %}
 		{% assign player = include.players[sID] %}

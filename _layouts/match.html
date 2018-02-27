@@ -18,7 +18,7 @@ type: Match
 }
 #teamAHeader, #teamBHeader {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 #mapName {
   margin-top: 15px;
@@ -34,6 +34,16 @@ type: Match
   float:right;
   margin-top: 3px;
   margin-bottom: -2px;
+}
+
+.seperator {
+  border-right: 1px solid #aaaaaa;
+}
+
+#winReasons img {
+      display:block; 
+      width:100%; 
+      height:auto;
 }
 </style>
 <div class="container">
@@ -82,6 +92,60 @@ type: Match
 {% assign rounds = page.Rounds %}
 {% assign fp = page.Picks[0].Player %}
 {% include teamstattable.html FirstPick=fp Captain=page.TeamA.Captain totalRounds=rounds players=page.Players teamIDs=page.TeamA.SteamIDs teamname=page.TeamA.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
+<div class="row">
+<table class="col s12" id="winReasons">
+  <tr>
+    <td class="seperator" style="width: 10%">
+      {{page.TeamA.Name}}
+    </td>
+  {% assign count = 0 %}
+  {% for reason in page.RoundWinReasons %}
+    {% assign count = count | plus: 1 %}
+
+    {% if count == 15 %}
+      <td class="seperator">
+    {% else %}
+      <td>
+    {% endif %}
+
+    {% if reason.Team == "TeamA" %}
+      <img class="tooltipped" src="/assets/images/winconditions/{{reason.ReasonString}}.png" data-position="top" data-delay="50" data-tooltip="{{reason.ReasonString}}"/>    
+    {% endif %}
+
+    </td>
+
+    {% if count == 30 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  </tr>
+  <tr>
+    <td class="seperator" style="width: 10%">
+      {{page.TeamB.Name}}
+    </td>
+  {% assign count = 0 %}
+  {% for reason in page.RoundWinReasons %}
+    {% assign count = count | plus: 1 %}
+
+    {% if count == 15 %}
+      <td class="seperator">
+    {% else %}
+      <td>
+    {% endif %}
+
+    {% if reason.Team == "TeamB" %}
+      <img class="tooltipped" src="/assets/images/winconditions/{{reason.ReasonString}}.png" data-position="bottom" data-delay="50" data-tooltip="{{reason.ReasonString}}"/>    
+    {% endif %}
+
+    </td>
+
+    {% if count == 30 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  </tr>
+</table>
+</div>
 {% include teamstattable.html FirstPick=fp Captain=page.TeamB.Captain totalRounds=rounds players=page.Players teamIDs=page.TeamB.SteamIDs teamname=page.TeamB.Name disconnects=page.DisconnectedClients ringers=page.RingerClients %}
 
   <div class="row">

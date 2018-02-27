@@ -1,7 +1,7 @@
 [
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-25_14_de_cbble_pug",
     "Hour": 14,
     "Day": 25,
@@ -142,36 +142,156 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "CTWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -2099,7 +2219,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-19_20_de_mirage_pug",
     "Hour": 20,
     "Day": 19,
@@ -2240,31 +2360,131 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -4057,7 +4277,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-18_19_de_oldnuke_pug",
     "Hour": 19,
     "Day": 18,
@@ -4198,34 +4418,146 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetSaved",
-      "TargetSaved",
-      "CTWin",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -6104,7 +6436,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-16_22_de_dust2_pug",
     "Hour": 22,
     "Day": 16,
@@ -6252,33 +6584,141 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -8197,7 +8637,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-10_00_de_overpass_pug",
     "Hour": 0,
     "Day": 10,
@@ -8345,32 +8785,136 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {
       "76561198083383351": 16
@@ -10212,7 +10756,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-06_21_de_overpass_pug",
     "Hour": 21,
     "Day": 6,
@@ -10360,31 +10904,131 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -12247,7 +12891,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "2018-02-02_22_de_inferno_old_pug",
     "Hour": 22,
     "Day": 2,
@@ -12388,26 +13032,106 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetSaved",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198078797803": 12
@@ -14211,7 +14935,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2018-01-31_22",
     "Hour": 22,
     "Day": 31,
@@ -14352,32 +15076,136 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -16226,7 +17054,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_nuke_2018-01-31_21",
     "Hour": 21,
     "Day": 31,
@@ -16369,31 +17197,131 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198271442417": 23
@@ -18403,7 +19331,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2018-01-30_20",
     "Hour": 20,
     "Day": 30,
@@ -18551,34 +19479,146 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "BombDefused",
-      "BombDefused"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -20512,7 +21552,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2018-01-29_19",
     "Hour": 19,
     "Day": 29,
@@ -20653,35 +21693,151 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -22545,7 +23701,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cbble_2018-01-28_21",
     "Hour": 21,
     "Day": 28,
@@ -22695,30 +23851,126 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198001808454": 18
@@ -24706,7 +25958,7 @@
   },
   {
     "Valid": false,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2018-01-21_22",
     "Hour": 22,
     "Day": 21,
@@ -24854,28 +26106,116 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {
       "76561198271442417": 8
@@ -26979,7 +28319,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2018-01-21_20",
     "Hour": 20,
     "Day": 21,
@@ -27120,27 +28460,111 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -29093,7 +30517,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_inferno_2018-01-19_23",
     "Hour": 23,
     "Day": 19,
@@ -29234,33 +30658,141 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198042795726": 25
@@ -31223,7 +32755,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2018-01-19_21",
     "Hour": 21,
     "Day": 19,
@@ -31371,36 +32903,156 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -33487,7 +35139,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_oldnuke_2018-01-18_20",
     "Hour": 20,
     "Day": 18,
@@ -33635,40 +35287,176 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -35771,7 +37559,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_inferno_old_2018-01-13_23",
     "Hour": 23,
     "Day": 13,
@@ -35919,33 +37707,141 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -37807,7 +39703,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_train_2018-01-13_22",
     "Hour": 22,
     "Day": 13,
@@ -37955,35 +39851,151 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -40008,7 +42020,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2018-01-12_20",
     "Hour": 20,
     "Day": 12,
@@ -40149,36 +42161,156 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetSaved",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -42098,7 +44230,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_nuke_2018-01-11_21",
     "Hour": 21,
     "Day": 11,
@@ -42246,35 +44378,151 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -44264,7 +46512,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_dust2_2018-01-05_20",
     "Hour": 20,
     "Day": 5,
@@ -44405,35 +46653,151 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "CTWin",
-      "TargetSaved",
-      "TargetBombed",
-      "TargetBombed",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -46331,7 +48695,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2018-01-03_19",
     "Hour": 19,
     "Day": 3,
@@ -46472,30 +48836,126 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TargetBombed",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "BombDefused",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -48357,7 +50817,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_overpass_2017-12-25_22",
     "Hour": 22,
     "Day": 25,
@@ -48505,32 +50965,136 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "TargetBombed",
-      "CTWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -50566,7 +53130,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_dust2_2017-12-23_23",
     "Hour": 23,
     "Day": 23,
@@ -50714,29 +53278,121 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -52690,7 +55346,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_cs_office_2017-12-23_22",
     "Hour": 22,
     "Day": 23,
@@ -52838,29 +55494,121 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "HostagesRescued",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 6,
+        "ReasonString": "HostageRescued"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -54926,7 +57674,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_train_2017-12-22_00",
     "Hour": 0,
     "Day": 22,
@@ -55067,30 +57815,126 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetSaved",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198001808454": 23
@@ -56962,7 +59806,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2017-12-21_23",
     "Hour": 23,
     "Day": 21,
@@ -57110,31 +59954,131 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -58977,7 +61921,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_overpass_2017-12-21_21",
     "Hour": 21,
     "Day": 21,
@@ -59118,36 +62062,156 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -61137,7 +64201,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2017-12-20_18",
     "Hour": 18,
     "Day": 20,
@@ -61280,34 +64344,146 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetSaved",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198118562612": 19
@@ -63295,7 +66471,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2017-12-18_22",
     "Hour": 22,
     "Day": 18,
@@ -63443,30 +66619,126 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TargetBombed",
-      "TargetBombed",
-      "TargetBombed",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -65274,7 +68546,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_train_2017-12-18_21",
     "Hour": 21,
     "Day": 18,
@@ -65415,36 +68687,156 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -67456,7 +70848,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_inferno_old_2017-12-17_22",
     "Hour": 22,
     "Day": 17,
@@ -67604,47 +70996,211 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -69712,7 +73268,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_inferno_old_2017-12-16_23",
     "Hour": 23,
     "Day": 16,
@@ -69860,65 +73416,301 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TargetBombed",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TargetSaved",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "TargetSaved",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -72105,7 +75897,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_season_2017-12-15_00",
     "Hour": 0,
     "Day": 15,
@@ -72253,29 +76045,121 @@
       }
     ],
     "RoundWinReasons": [
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TargetBombed",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "BombDefused",
-      "TargetSaved",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "BombDefused"
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      }
     ],
     "DisconnectedClients": {
       "76561198165409571": 14
@@ -74146,7 +78030,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_inferno_2017-12-10_23",
     "Hour": 23,
     "Day": 10,
@@ -74294,36 +78178,156 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TargetSaved",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198117966816": 21
@@ -76419,7 +80423,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_cs_office_2017-12-03_18",
     "Hour": 18,
     "Day": 3,
@@ -76569,33 +80573,141 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {
       "76561198001808454": 13
@@ -79022,7 +83134,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2017-08-19_00",
     "Hour": 0,
     "Day": 19,
@@ -79163,30 +83275,126 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "TargetBombed",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "CTWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -81218,7 +85426,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_overpass_2017-08-08_22",
     "Hour": 22,
     "Day": 8,
@@ -81333,29 +85541,121 @@
       }
     ],
     "RoundWinReasons": [
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TargetSaved",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TargetBombed",
-      "CTWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 5,
+        "ReasonString": "TimeExpired"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -83371,7 +87671,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_cache_2017-08-08_01",
     "Hour": 1,
     "Day": 8,
@@ -83486,30 +87786,126 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "BombDefused",
-      "TargetBombed",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "CTWin",
-      "CTWin",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "CTWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 3,
+        "ReasonString": "BombExploded"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
@@ -85400,7 +89796,7 @@
   },
   {
     "Valid": true,
-    "Version": 22,
+    "Version": 2,
     "UID": "pug_de_mirage_2017-08-07_22",
     "Hour": 22,
     "Day": 7,
@@ -85548,31 +89944,131 @@
       }
     ],
     "RoundWinReasons": [
-      "TerroristWin",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "BombDefused",
-      "TerroristWin",
-      "CTWin",
-      "BombDefused",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "CTWin",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "BombDefused",
-      "BombDefused",
-      "CTWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin",
-      "TerroristWin"
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 4,
+        "ReasonString": "BombDefused"
+      },
+      {
+        "Team": "TeamA",
+        "Reason": 2,
+        "ReasonString": "TerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      },
+      {
+        "Team": "TeamB",
+        "Reason": 1,
+        "ReasonString": "CounterTerroristsEliminated"
+      }
     ],
     "DisconnectedClients": {},
     "RingerClients": {},
